@@ -11,3 +11,104 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100px;
+}
+
+.navbar ul a {
+  color: white;
+}
+
+.navbar ul a:hover {
+  color: #ff0062;
+}
+
+/* @media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{   }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+} */
+
+.navbar-nav li:hover>ul.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+}
+
+/* rotate caret on hover */
+.dropdown-menu>li>a:hover:after {
+  text-decoration: underline;
+  transform: rotate(-90deg);
+}
+
+.nav-item ul li a {
+  color: black;
+}
+
+.bi {
+  width: 40px;
+  font-size: 25px;
+  margin-right: 5px;
+  background-color: black;
+  /* opacity: 0.6; */
+}
+
+.bi:hover {
+  cursor: pointer;
+}
+
+.bi-youtube:hover {
+  color: red;
+}
+
+.bi-instagram:hover {
+  /* color: red; */
+  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bi-facebook:hover {
+  color: rgb(11, 70, 233);
+}
+
+.bi-twitter:hover {
+  color: rgb(10, 177, 243);
+}
+
+.bi-whatsapp:hover {
+  color: rgb(12, 247, 12);
+}
+
+#socialMedia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 700px;
+  position: fixed;
+}
+.d-block{
+  height: 700px;
+  opacity: 0.8;
+}
+#carouselExampleInterval{
+  width: 1270px;
+  /* height: 300px; */
+  margin-left: 40px;
+}
+.carousel-item{
+  top: 100px;
+  height: 700px;
+}
