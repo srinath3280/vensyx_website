@@ -10,6 +10,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+    /* color: rgb(158, 206, 206); */
 }
 
 .navbar {
@@ -99,16 +100,35 @@ code {
   height: 700px;
   position: fixed;
 }
-.d-block{
+
+#makeanenquiry a {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  height: 700px;
+  position: fixed;
+  right: 0;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.d-block {
   height: 700px;
   opacity: 0.8;
 }
-#carouselExampleInterval{
-  width: 1270px;
+
+#carouselExampleInterval {
+  width: 1256px;
   /* height: 300px; */
   margin-left: 40px;
 }
-.carousel-item{
+
+.carousel-item {
   top: 100px;
+  height: 650px;
+}
+
+#content1{
+  width: auto;
   height: 700px;
+  background-image: linear-gradient(to right top, #fff9fd, #f0eaf0, #e1dce4, #d1ced7, #c0c0cb, #b9becb, #b1bcca, #a9bac8, #a8c2d0, #a6cbd5, #a6d4d8, #a9dcd9);
 }

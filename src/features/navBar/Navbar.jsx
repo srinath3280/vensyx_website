@@ -4,6 +4,9 @@ function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
+                <div>
+                    <img src="src/features/images/vensyxlogo.png" alt="" width="50px" height="50px"/>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav nav-underline navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
