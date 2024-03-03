@@ -1,7 +1,11 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import './myscript.js';
-import './myscp.js';
+import './myscriptfile/script1.js';
+import './myscriptfile/scp1.js';
+import './myscriptfile/scp2.js';
+import './myscriptfile/scp3.js';
+import './myscriptfile/scp4.js';
+import './myscriptfile/scp5.js';
 
 function HomePage() {
     return (
@@ -88,107 +92,137 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                    <h1>Big Data & Advanced Analytics</h1>
+                    <h1>SOLUTIONS</h1>
+                    <h2>Big Data & Advanced Analytics</h2>
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
                         <div style={{
                             textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px'
                         }}></div>
                         <p>Data is exploding. Individuals, corporates, websites, call centers, shopping malls, mobile and RFID
-                            devices etc. are generating data in various formats – Regular data, voice data, text data, video – and
+                            devices etc. are generating data in various formats – Regular data, voice data, text data, video  and
                             like never before. It is estimated that by 2017 there will more bytes of data than the sand grains in
-                            the world. Unstructured data is growing faster than structured data. Big data is the buzz everywhere.
-                            Big data refers to huge data sets characterized by larger volumes, greater variety and complexity,
-                            generated at a higher velocity than any organization has faced before. Information, insights and
-                            foresights have tremendous implication in every aspect of business. Organizations which are leveraging
-                            analytics to differentiate themselves at the front with standardization at the core are able to create
-                            sustainable competitive advantage. Analytics is enabling organizations to predict customer behaviour,
-                            meet their needs and cement long-term customer relationships.</p>
+                            the world.</p>
+                        <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+
                     </div>
+                    <h2>Business Intelligence Solutions</h2>
+                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <div style={{
+                            textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px'
+                        }}></div>
+                        <p>VENSYX Data Solutions Business I that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives.</p>
+                    </div>
+                    <h2>Data Management</h2>
+                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <div style={{
+                            textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px',
+                            padding: '15px'
+                        }}></div>
+                        <p>VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms
+                            of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate,
+                            consistent and transparent data content for its customers. It emphasizes usability of data for its
+                            intended purpose and audience.</p>
+                        <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button></div>
+                    <h2>Enterprise Data Warehouse</h2>
+                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <div style={{
+                            textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px'
+                        }}></div>
+                        <p>The data warehouse is the key behind a competent Business Intelligence system. </p>
+                        <h3>Key Capabilities</h3>
+                        <p> Data Modelling
+                            Data Mart Development
+                            Data Integration
+                            Information Delivery
+                            Maintenance Operations, Support & Upgrades</p></div>
+                    <h2>Application Middleware Management</h2>
+                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <div style={{
+                            textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px'
+                        }}></div>
+                        <p>Middleware is the enabling technology of enterprise application integration. It describes a piece of software that connects two or more software application, allowing them to exchange data. Middleware solutions enable to align IT Infrastructure with an organization's business objectives and create value in the process.</p></div>
                     <div>
-                        <h1>Data Management</h1>
-                        <div style={{ display: 'flex', flexDirection: 'row' }}>
-                            <div style={{
-                                textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px',
-                                padding: '15px'
-                            }}></div>
-                            <p>VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms
-                                of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate,
-                                consistent and transparent data content for its customers. It emphasizes usability of data for its
-                                intended purpose and audience. VENSYX Data Solutions provides processes, tools, and metrics to help
-                                organizations use information effectively and efficiently in order to achieve their business
-                                objectives.</p>
+                        <div>
+                            <h1>Our Services</h1>
+                            <div></div>
+                            <div></div>
+                            <p>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
+                            
+                            <div style={{ display: 'flex', flexDirection: 'row',justifyContent:'flex-end', backgroundColor: 'rgb(1, 1, 26)',paddingRight:'50px' }}>
+                                <section>
+                                    <div class='container reveal1'>
+                                        <div class='cards1'>
+                                            <div class='text-cards1'>
+                                                <h3>Enterprise Mobility Services</h3>
+                                                <p>
+                                                    In today's world, the constantly changing economy, and the boom in the global market, often poses difficult challenges for your business.
+                                                </p>
+                                                <button class='btn btn-outline-warning'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class='container reveal2'>
+                                        <div className="cards2">
+                                            <div className="text-cards2">
+                                                <h3>Mobile Apps Development</h3>
+                                                <p>
+                                                    With the increasing use of Smart phones, there is a soaring demand for mobile applications in the market.
+                                                </p>
+                                                <button class='btn btn-outline-danger'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+
+                            <div style={{ display: 'flex', flexDirection: 'row',justifyContent:'flex-end', backgroundColor: 'rgb(1, 1, 26)',paddingRight:'50px' }}>
+                                <section>
+                                    <div class='container reveal3'>
+                                        <div class='cards3'>
+                                            <div class='text-cards3'>
+                                                <h3>Business Intelligence Services</h3>
+                                                <p>
+                                                    Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
+                                                </p>
+                                                <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                                <section>
+                                    <div class='container reveal4'>
+                                        <div className="cards4">
+                                            <div className="text-cards4">
+                                                <h3>Web Application Development</h3>
+                                                <p>
+                                                    Web portal service has gained popularity in the last few decades, since the internet has become accessible to the common people.
+                                                </p>
+                                                <button class='btn btn-outline-secondary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div> 
+
+                            <div style={{display:'flex',justifyContent:'flex-end',backgroundColor: 'rgb(1, 1, 26)',paddingRight:'50px' }}>
+                                <section>
+                                    <div class='container reveal5'>
+                                        <div class='cards5'>
+                                            <div class='text-cards5'>
+                                                <h3>Business Intelligence Services</h3>
+                                                <p>
+                                                    Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
+                                                </p>
+                                                <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
                         </div>
                         <div>
-                            <h1>services</h1>
-                            <h2>Enterprise Mobility Services</h2>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <div style={{ textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px' }}></div>
-                                <p>In today's world, the constantly changing economy, and the boom in the global market, often poses
-                                    difficult challenges for your business. Therefore, if you want to keep your business moving
-                                    forward and, be ahead of the game, you have to keep up with the latest technology. Mobility has
-                                    been acknowledged as the most troublesome technology that modernization has faced today.
-                                </p>
-                            </div>
-                            <h2>Mobile Apps Development</h2>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <div style={{ textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px' }}></div>
-                                <p>With the increasing use of Smart phones, there is a soaring demand for mobile applications in
-                                    the market. Development of mobile apps to suit the endless needs and purposes of the clients
-                                    is the latest trend today. Any business that wishes to survive in the market today has to
-                                    build up an application that suits the requirements of its customers.
-                                </p>
-                            </div>
-                            <h2>Business Intelligence Services</h2>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <div style={{ textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px' }}></div>
-                                <p>Business Intelligence has transformed from being able to integrate data and create
-                                    reports and dashboards. With the changing market dynamics where we see multiple mergers
-                                    and Acquisitions, addition of new tools, Open source BI stabilizing, majority of the
-                                    workforce is on the move so mobility become critical etc. it is important that
-                                    Organizations be innovative, forward looking and nimble enough to adapt to changing
-                                    business imperatives. Quality of data is vital as the risk is high for decisions based
-                                    on inaccurate, incomplete or untimely information. Well-structured and comprehensive
-                                    Business Intelligence Solutions mitigate these risks, creating seamless information
-                                    access and provide a competitive advantage in the marketplace. We partner with our
-                                    customers to advice, build and co-manage an effective BI implementation strategy coupled
-                                    with a sustainable cost effective execution model.
-                                </p>
-                            </div>
-                            <h2>Web Application Development</h2>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <div style={{
-                                    textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px'
-                                    , padding: '15px'
-                                }}></div>
-                                <p>Web portal service has gained popularity in the last few decades, since the internet
-                                    has become accessible to the common people. It plays an essential role in every
-                                    business objectives, and aims to reach a target audience worldwide for generating
-                                    leads. A web design company providing web design services that not only concentrates
-                                    in building a remarkable and inspiring user-friendly website, but also undertakes
-                                    the mission of endorsing it on the World Wide Web successfully.</p>
-                            </div>
-                            <h2>Testing and QA Services</h2>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                <div style={{
-                                    textAlign: 'start', marginLeft: '50px', width: '50%',
-                                    fontSize: '25px', padding: '15px'
-                                }}></div>
-                                <p>VENSYX Data Solutions provides a holistic approach of testing and quality
-                                    assurance to help you build a product or service through accelerated testing
-                                    methods in order to reduce errors and defects in software that can affect your
-                                    operations. In a high edge competitive atmosphere, it is very important to bring
-                                    about a product or service with assured quality. Testing helps to assess,
-                                    validate and verify the features of the given software that keeps an eye on the
-                                    input and output functionality. In many companies the creditability, revenue
-                                    generation and growth of the business is driven by the software testing process
-                                    with incorporated quality assurance. Quality assurance is a systematic approach
-                                    to check if the product designed, meets the specific requirements of the
-                                    customer or not. Using independent leading testing and QA techniques to test the
-                                    functionality, performance and security of the service or product can eliminate
-                                    defects in the early stage of the development. Quality assurance and testing are
-                                    designed to provide better functionality of a service or product to increase
-                                    customer confidence and company creditability.</p>
-                            </div>
                             <div>
                                 <h1>Industries</h1>
                                 <h2>Telecommunications</h2>
@@ -237,7 +271,7 @@ function HomePage() {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div style={{ backgroundColor: 'rgb(1, 1, 26)' }}>
                     <section style={{ padding: '25px' }}>
                         <div class='container reveal'>
                             <div class='cards'>
@@ -293,6 +327,7 @@ function HomePage() {
                         </div>
                     </section>
                 </div>
+
             </main>
             <footer>
                 <div style={{ backgroundColor: 'black', width: 'auto', height: '400px' }}>

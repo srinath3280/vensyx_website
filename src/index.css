@@ -10,7 +10,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    /* color: rgb(230, 16, 165); */
+    color: rgb(1, 1, 26);
 }
 
 .navbar {
@@ -140,46 +140,49 @@ code {
   background-image: linear-gradient(to right top, #0a0b0b, #3e403f, #767978, #b4b8b4, #f8fbf5);
 }
 
-section .cards{
+/* First section */
+section .cards1{
   display: flex;
 }
-section .cards .text-cards{
+section .cards1 .text-cards1{
+  width: 300px;
+  height: 300px;
   background-color: rgb(7, 185, 230);
   margin: 20px;
-  padding: 10px;
+  padding: 25px;
 }
-section .cards .text-cards h3{
+section .cards1 .text-cards1 h3{
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 @media (max-width:900px){
-  section .cards{
+  section .cards1{
     flex-direction: column;
   }
 }
-.reveal{
+.reveal1{
   position: relative;
-  transform: translateY(10px);
+  transform: translateY(25px);
   opacity: 0;
   transition: all 2s ease;
 }
-.reveal.active{
+.reveal1.active{
   transform: translateY(0);
   opacity: 1;
 }
 
-
-
+/* Second section */
 section .cards2{
   display: flex;
-  width: 250px;
 }
 section .cards2 .text-cards2{
+  width: 300px;
+  height: 300px;
   background-color: rgb(132, 139, 240);
   margin: 20px;
-  padding: 10px;
+  padding: 25px;
 }
 section .cards2 .text-cards2 h3{
   font-size: 20px;
@@ -189,11 +192,160 @@ section .cards2 .text-cards2 h3{
 }
 .reveal2{
   position: relative;
-  transform: translateY(10px);
+  transform: translateY(50px);
   opacity: 0;
-  transition: all 1s ease;
+  transition: all 2s ease;
 }
 .reveal2.active{
   transform: translateY(0);
   opacity: 1;
 }
+
+/* Third section */
+section .cards3{
+  display: flex;
+}
+section .cards3 .text-cards3{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(132, 139, 240);
+  margin: 20px;
+  padding: 25px;
+}
+section .cards3 .text-cards3 h3{
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.reveal3{
+  position: relative;
+  transform: translateY(75px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal3.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Fourth section */
+section .cards4{
+  display: flex;
+}
+section .cards4 .text-cards4{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(132, 139, 240);
+  margin: 20px;
+  padding: 25px;
+}
+section .cards4 .text-cards4 h3{
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.reveal4{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal4.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Fifth section */
+section .cards5{
+  display: flex;
+}
+section .cards5 .text-cards5{
+  width: 300px;
+  height: 300px;
+  background-color: rgb(132, 139, 240);
+  margin: 20px;
+  padding: 25px;
+}
+section .cards5 .text-cards5 h3{
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.reveal5{
+  position: relative;
+  transform: translateY(100px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal5.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+/* section{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  color: white;
+}
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content{
+  position: relative;
+  width: 400px;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+.content .text-box{
+  width: 300px;
+  height: 350px;
+  background-color: #db1f2f;
+  padding: 30px;
+}
+.content .text-box h3{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.content .text-box1{
+  width: 300px;
+  height: 350px;
+  background-color: #102f85;
+  padding: 30px;
+}
+.content .text-box1 h3{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.content .text-box2{
+  width: 300px;
+  height: 350px;
+  background-color: #f188c2;
+  padding: 30px;
+}
+.content .text-box2 h3{
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.content .text-box3{
+  width: 300px;
+  height: 350px;
+  background-color: #f17006;
+  padding: 30px;
+}
+.content .text-box3 h3{
+  font-size: 2em;
+  margin-bottom: 10px;
+} */
