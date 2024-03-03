@@ -12,12 +12,12 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import HomePage from './features/dashboard/homepage';
+import Corporate from './features/Navigation/corporate/corporate.jsx';
 import AboutUs from './features/Navigation/corporate/aboutus.jsx';
 import VissionMission from './features/Navigation/corporate/vission_mission.jsx';
 import CoreValue from './features/Navigation/corporate/corevalue.jsx';
 import SocialResponsibility from './features/Navigation/corporate/social_responsibility.jsx';
 import Location from './features/Navigation/corporate/location.jsx';
-import Corporate from './features/Navigation/corporate/corporate.jsx';
 import Solutions from './features/Navigation/solutions/solutions.jsx';
 import BigData from './features/Navigation/solutions/bigData.jsx';
 import BusinessIntelligence from './features/Navigation/solutions/businessIntelligence.jsx';
@@ -59,6 +59,7 @@ import MobileAppsDevelopment from './features/Navigation/services/testing&QA/mob
 import Businessintelligenceservices from './features/Navigation/services/testing&QA/businessintelligence.jsx';
 import WebApplicationDevelopment from './features/Navigation/services/testing&QA/webApplicationDevelopment.jsx';
 import TestingAndQAServices from './features/Navigation/services/testing&QA/testingAndQA.jsx';
+import Form from './features/dashboard/form.jsx';
 
 const router = createBrowserRouter([
   {
@@ -67,7 +68,13 @@ const router = createBrowserRouter([
     children:[
       {
         path:'/',
-        element:<HomePage></HomePage>
+        element:<HomePage></HomePage>,
+        children:[
+          {
+            path:'/form',
+            element:<Form></Form>
+          },
+        ]
       },
       {
         path:'/corporate',

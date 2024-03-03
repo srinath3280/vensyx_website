@@ -5,7 +5,7 @@ function NavBar() {
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
                 <div style={{width:'550px',display:'flex',flexDirection:'row',justifyContent:'start',alignItems:'center'}}>
-                    <img src="images/vensyx logo.png" alt="" width="50px" height="50px"/>
+                    <img src="/images/vensyxlogo.png" alt="" width="50px" height="50px"/>
                     <h5 style={{marginLeft:'15px'}}>VENSYX Data Solutions Pvt. Ltd</h5>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,7 +51,7 @@ function NavBar() {
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item  dropdown-toggle" href="/services/enterprisemobility" role="button" data-bs-toggle="dropdown">Enterprise Mobility Service</a>
+                                    <a class="dropdown-item" href="/services/enterprisemobility">Enterprise Mobility Service</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="/services/enterprisemobility/businessProcess">Business Process Mobilization</a></li>
                                         <li><a class="dropdown-item" href="/services/enterprisemobility/b2bmobileapps">B2B Mobile Apps Development</a></li>
@@ -62,7 +62,7 @@ function NavBar() {
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item nav-link dropdown-toggle" href="/services/mobileapps" role="button" data-bs-toggle="dropdown">Mobile Apps Development</a>
+                                    <a class="dropdown-item nav-link" href="/services/mobileapps">Mobile Apps Development</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="/services/mobileapps/andriodapp">Android App Development</a></li>
                                         <li><a class="dropdown-item" href="/services/mobileapps/window8">Windows8 App Development</a></li>
@@ -72,7 +72,7 @@ function NavBar() {
                                 </li>
                                 <li><a class="dropdown-item" href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item nav-link dropdown-toggle" href="/services/webapplication" role="button" data-bs-toggle="dropdown">Web Application Development</a>
+                                    <a class="dropdown-item nav-link" href="/services/webapplication">Web Application Development</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="/services/webapplication/crmapplication">CRM Application Development</a></li>
                                         <li><a class="dropdown-item" href="/services/webapplication/inventory">Inventory management</a></li>
@@ -82,7 +82,7 @@ function NavBar() {
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item nav-link dropdown-toggle" href="/services/testing" role="button" data-bs-toggle="dropdown">Testing and QA Services</a>
+                                    <a class="dropdown-item nav-link" href="/services/testing">Testing and QA Services</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="/services/testing/enterprisemobilityservice">Enterprise Mobility Service</a></li>
                                         <li><a class="dropdown-item" href="/services/testing/mobileappsdevelopment">Mobile Apps Development</a></li>

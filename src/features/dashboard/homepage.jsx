@@ -19,7 +19,7 @@ function HomePage() {
                     <i class="bi bi-whatsapp"></i>
                 </div>
                 <div id="makeanenquiry">
-                    <a href="/">
+                    <a href="/form">
                         <span id="make" style={{ width: '40px', height: '100px', padding: '12px', backgroundColor: 'rgb(230, 16, 165)', color: 'white' }}>Make An Enquiry</span>
                     </a>
                 </div>
@@ -88,254 +88,290 @@ function HomePage() {
                                 </p>
                             </div>
                             <div style={{ width: '50%', marginRight: '47px' }}>
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuqmTwAhF4AeZDCS6UxyCZu9tPcHjWRqCWraWDRuWxRB0DkoMwLEyUAW0NaTk0NUTqUKs&usqp=CAU" alt="" width="100%" height="400px" />
+                                <img src="images/vission2.jpg" alt="" width="500px" height="350px" />
                             </div>
                         </div>
                     </div>
-                    <h1>SOLUTIONS</h1>
-                    <h2>Big Data & Advanced Analytics</h2>
-                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <div style={{
-                            textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px'
-                        }}></div>
-                        <p>Data is exploding. Individuals, corporates, websites, call centers, shopping malls, mobile and RFID
-                            devices etc. are generating data in various formats – Regular data, voice data, text data, video  and
-                            like never before. It is estimated that by 2017 there will more bytes of data than the sand grains in
-                            the world.</p>
-                        <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
-
-                    </div>
-                    <h2>Business Intelligence Solutions</h2>
-                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <div style={{
-                            textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px'
-                        }}></div>
-                        <p>VENSYX Data Solutions Business I that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives.</p>
-                    </div>
-                    <h2>Data Management</h2>
-                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <div style={{
-                            textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px',
-                            padding: '15px'
-                        }}></div>
-                        <p>VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms
-                            of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate,
-                            consistent and transparent data content for its customers. It emphasizes usability of data for its
-                            intended purpose and audience.</p>
-                        <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button></div>
-                    <h2>Enterprise Data Warehouse</h2>
-                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <div style={{
-                            textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px'
-                        }}></div>
-                        <p>The data warehouse is the key behind a competent Business Intelligence system. </p>
-                        <h3>Key Capabilities</h3>
-                        <p> Data Modelling
-                            Data Mart Development
-                            Data Integration
-                            Information Delivery
-                            Maintenance Operations, Support & Upgrades</p></div>
-                    <h2>Application Middleware Management</h2>
-                    <div style={{ display: 'flex', flexDirection: 'row' }}>
-                        <div style={{
-                            textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px'
-                        }}></div>
-                        <p>Middleware is the enabling technology of enterprise application integration. It describes a piece of software that connects two or more software application, allowing them to exchange data. Middleware solutions enable to align IT Infrastructure with an organization's business objectives and create value in the process.</p></div>
-                    <div>
-                        <div>
-                            <h1>Our Services</h1>
-                            <div></div>
-                            <div></div>
-                            <p>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
-                            
-                            <div style={{ display: 'flex', flexDirection: 'row',justifyContent:'flex-end', backgroundColor: 'rgb(1, 1, 26)',paddingRight:'50px' }}>
-                                <section>
-                                    <div class='container reveal1'>
-                                        <div class='cards1'>
-                                            <div class='text-cards1'>
-                                                <h3>Enterprise Mobility Services</h3>
-                                                <p>
-                                                    In today's world, the constantly changing economy, and the boom in the global market, often poses difficult challenges for your business.
-                                                </p>
-                                                <button class='btn btn-outline-warning'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class='container reveal2'>
-                                        <div className="cards2">
-                                            <div className="text-cards2">
-                                                <h3>Mobile Apps Development</h3>
-                                                <p>
-                                                    With the increasing use of Smart phones, there is a soaring demand for mobile applications in the market.
-                                                </p>
-                                                <button class='btn btn-outline-danger'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
-
-                            <div style={{ display: 'flex', flexDirection: 'row',justifyContent:'flex-end', backgroundColor: 'rgb(1, 1, 26)',paddingRight:'50px' }}>
-                                <section>
-                                    <div class='container reveal3'>
-                                        <div class='cards3'>
-                                            <div class='text-cards3'>
-                                                <h3>Business Intelligence Services</h3>
-                                                <p>
-                                                    Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
-                                                </p>
-                                                <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class='container reveal4'>
-                                        <div className="cards4">
-                                            <div className="text-cards4">
-                                                <h3>Web Application Development</h3>
-                                                <p>
-                                                    Web portal service has gained popularity in the last few decades, since the internet has become accessible to the common people.
-                                                </p>
-                                                <button class='btn btn-outline-secondary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                            </div> 
-
-                            <div style={{display:'flex',justifyContent:'flex-end',backgroundColor: 'rgb(1, 1, 26)',paddingRight:'50px' }}>
-                                <section>
-                                    <div class='container reveal5'>
-                                        <div class='cards5'>
-                                            <div class='text-cards5'>
-                                                <h3>Business Intelligence Services</h3>
-                                                <p>
-                                                    Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
-                                                </p>
-                                                <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-                            </div>
+                    <h1 style={{ marginTop: '25px' }}>SOLUTIONS</h1>
+                    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '25px' }}>
+                        <div id="bigdata" style={{ width: '50%' }}>
+                            <img src="images/bigdata2.jpg" alt="" width='500px' height='350px' style={{ borderRadius: '10px' }} />
                         </div>
-                        <div>
-                            <div>
-                                <h1>Industries</h1>
-                                <h2>Telecommunications</h2>
-                                <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                    <div style={{
-                                        textAlign: 'start', marginLeft: '50px', width: '50%',
-                                        fontSize: '25px', padding: '15px'
-                                    }}></div>
-                                    <p>The telecommunications industry has arguably evolved more than any other
-                                        market sector in the last ten years. This evolution has brought not only a
-                                        lot of benefits for telecommunication operators and their customers, but
-                                        also a lot of issues to resolve. As the telco industry has moved from a
-                                        product-centric to a customer-centric approach, the need for high-quality
-                                        customer information is now greater than ever. The biggest challenge for
-                                        telcos is how to unite fragmented pieces of information about customers
-                                        (i.e. their characteristic, products, behaviour, etc.) to create a complete,
-                                        360-degree customer view.</p>
-                                </div>
-                                <h2>Financial Services</h2>
-                                <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                    <div style={{
-                                        textAlign: 'start', marginLeft: '50px', width: '50%',
-                                        fontSize: '25px', padding: '15px'
-                                    }}></div>
-                                    <p>Banks are under more pressure now than ever before. Constantly evolving
-                                        regulatory requirements, rising costs, economic pressures, and increased
-                                        competition from non-traditional entrants in the banking industry have
-                                        created a challenging business environment for banks of all sizes. In
-                                        addition, businesses and consumers alike have come to expect a level of
-                                        service unachievable using traditional product-centric systems that many
-                                        banks still employ.</p>
-                                </div>
-                                <h2>Government</h2>
-                                <div style={{ display: 'flex', flexDirection: 'row' }}>
-                                    <div style={{
-                                        textAlign: 'start', marginLeft: '50px', width: '50%',
-                                        fontSize: '25px', padding: '15px'
-                                    }}></div>
-                                    <p>Stable societies have always been those best equipped to manage,
-                                        safeguard and circulate information. Cornerstones of government such
-                                        as technological development, legislation, justice, and yes,
-                                        taxation all hinge on the development, maintenance, and access to
-                                        effective channels of data management.</p>
+                        <div style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
+                            <h2>Big Data & Advanced Analytics</h2>
+                            <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
+                                <p>Data is exploding. Individuals, corporates, websites, call centers, shopping malls, mobile and RFID
+                                    devices etc. are generating data in various formats – Regular data, voice data, text data, video  and
+                                    like never before. It is estimated that by 2017 there will more bytes of data than the sand grains in
+                                    the world.</p>
+                            </div>
+                            <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                        </div>
+                    </div>
+
+                    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '25px' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', width: '70%', marginLeft: '50px' }}>
+                            <h2>Business Intelligence Solutions</h2>
+                            <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
+                                <p>VENSYX Data Solutions Business I that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives.</p>
+                            </div>
+                            <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                        </div>
+                        <div id="bigdata" style={{ width: '30%', marginRight: '50px' }}>
+                            <img src="images/businessintelligence.jpg" alt="" width='300px' height='300px' style={{ borderRadius: '50%' }} />
+                        </div>
+                    </div>
+
+                    <div style={{ display: 'flex', flexDirection: 'row', marginTop: '25px' }}>
+                        <div id="bigdata" style={{ width: '50%', marginLeft: '0px' }}>
+                            <img src="images/datamanagement.jpg" alt="" width='80%' height='350px' style={{ borderRadius: '10px' }} />
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
+                            <h2>Data Management</h2>
+                            <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
+                                <p>VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate,consistent and transparent data content for its customers. It emphasizes usability of data for its intended purpose and audience.</p>
+                            </div>
+                            <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                        </div>
+                    </div>
+
+                    <h1 style={{ marginTop: '25px' }}>Our Services</h1>
+                    <div style={{ width: '50px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto' }}></div>
+                    <div style={{ width: '75px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto', marginTop: '5px' }}></div>
+                    <p style={{ fontSize: '25px', fontFamily: 'cursive' }}>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
+
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', backgroundColor: 'rgb(1, 1, 26)', paddingRight: '50px' }}>
+                        <section>
+                            <div class='container reveal1'>
+                                <div class='cards1'>
+                                    <div class='text-cards1'>
+                                        <h5>Enterprise Mobility Services</h5>
+                                        <h3>Enterprise Mobility Services</h3>
+                                        <p>
+                                            In today's world, the constantly changing economy, and the boom in the global market, often poses difficult challenges for your business.
+                                        </p>
+                                        <button class='btn btn-outline-warning'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                    </div>
                                 </div>
                             </div>
+                        </section>
+                        <section>
+                            <div class='container reveal2'>
+                                <div className="cards2">
+                                    <div className="text-cards2">
+                                        <h3>Mobile Apps Development</h3>
+                                        <p>
+                                            With the increasing use of Smart phones, there is a soaring demand for mobile applications in the market.
+                                        </p>
+                                        <button class='btn btn-outline-danger'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', backgroundColor: 'rgb(1, 1, 26)', paddingRight: '50px' }}>
+                        <section>
+                            <div class='container reveal3'>
+                                <div class='cards3'>
+                                    <div class='text-cards3'>
+                                        <h3>Business Intelligence Services</h3>
+                                        <p>
+                                            Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
+                                        </p>
+                                        <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section>
+                            <div class='container reveal4'>
+                                <div className="cards4">
+                                    <div className="text-cards4">
+                                        <h3>Web Application Development</h3>
+                                        <p>
+                                            Web portal service has gained popularity in the last few decades, since the internet has become accessible to the common people.
+                                        </p>
+                                        <button class='btn btn-outline-secondary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <div style={{ display: 'flex', justifyContent: 'flex-end', backgroundColor: 'rgb(1, 1, 26)', paddingRight: '50px' }}>
+                        <section>
+                            <div class='container reveal5'>
+                                <div class='cards5'>
+                                    <div class='text-cards5'>
+                                        <h3>Business Intelligence Services</h3>
+                                        <p>
+                                            Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
+                                        </p>
+                                        <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                    <h1 style={{ marginTop: '25px' }}>Industries</h1>
+
+                    <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginTop: '25px' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', width: '50%', marginLeft: '50px' }}>
+                            <h2>Telecommunications</h2>
+                            <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
+                                <p>The telecommunications industry has arguably evolved more than any other
+                                    market sector in the last ten years. This evolution has brought not only a
+                                    lot of benefits for telecommunication operators and their customers, but
+                                    also a lot of issues to resolve. As the telco industry has moved from a
+                                    product-centric to a customer-centric approach, the need for high-quality
+                                    customer information is now greater than ever. The biggest challenge for
+                                    telcos is how to unite fragmented pieces of information about customers
+                                    (i.e. their characteristic, products, behaviour, etc.) to create a complete,
+                                    360-degree customer view.</p>
+                            </div>
+                            <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                        </div>
+                        <div id="bigdata" style={{ width: '50%', marginLeft: '0px' }}>
+                            <img src="images/telecommunication.jpg" alt="" width='80%' height='350px' style={{ borderRadius: '10px' }} />
+                        </div>
+                    </div>
+
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
+                        <div id="bigdata" style={{ width: '50%', marginLeft: '0px' }}>
+                            <img src="images/financial2.jpg" alt="" width='80%' height='350px' style={{ borderRadius: '10px' }} />
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
+                            <h2>Financial Services</h2>
+                            <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
+                                <p>Banks are under more pressure now than ever before. Constantly evolving
+                                    regulatory requirements, rising costs, economic pressures, and increased
+                                    competition from non-traditional entrants in the banking industry have
+                                    created a challenging business environment for banks of all sizes. In
+                                    addition, businesses and consumers alike have come to expect a level of
+                                    service unachievable using traditional product-centric systems that many
+                                    banks still employ.</p>
+                            </div>
+                            <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                        </div>
+                    </div>
+
+                    <div style={{ display: 'flex', flexDirection: 'column' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '50px', marginRight: '50px', marginBottom: '25px', marginTop: '25px' }}>
+                            <h2>Government</h2>
+                            <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
+                                <p>Stable societies have always been those best equipped to manage,
+                                    safeguard and circulate information. Cornerstones of government such
+                                    as technological development, legislation, justice, and yes,
+                                    taxation all hinge on the development, maintenance, and access to
+                                    effective channels of data management.</p>
+                            </div>
+                            <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
                         </div>
                     </div>
                 </div>
-                <div style={{ backgroundColor: 'rgb(1, 1, 26)' }}>
-                    <section style={{ padding: '25px' }}>
-                        <div class='container reveal'>
-                            <div class='cards'>
-                                <div class='text-cards'>
-                                    <h3>Enterprise Mobility Services</h3>
-                                    <p>
-                                        In today's world, the constantly changing economy, and the boom in the global market, often poses difficult challenges for your business.
-                                    </p>
-                                    <button class='btn btn-outline-warning'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                </div>
-                                <div class='text-cards'>
-                                    <h3>Mobile Apps Development</h3>
-                                    <p>
-                                        With the increasing use of Smart phones, there is a soaring demand for mobile applications in the market.
-                                    </p>
-                                    <button class='btn btn-outline-danger'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                </div>
-                                <div class='text-cards'>
-                                    <h3>Business Intelligence Services</h3>
-                                    <p>
-                                        Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
-                                    </p>
-                                    <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                </div>
-                                <div class='text-cards'>
-                                    <h3>Web Application Development</h3>
-                                    <p>
-                                        Web portal service has gained popularity in the last few decades, since the internet has become accessible to the common people.
-                                    </p>
-                                    <button class='btn btn-outline-secondary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                </div>
-                                <div class='text-cards'>
-                                    <h3>Testing and QA Services</h3>
-                                    <p>
-                                        VENSYX Data Solutions provides a holistic approach of testing and quality assurance to help you build a product or service.
-                                    </p>
-                                    <button class='btn btn-outline-success'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                    <section>
-                        <div class='container reveal2'>
-                            <div class='cards2'>
-                                <div class='text-cards2'>
-                                    <h3>Enterprise Mobility Services</h3>
-                                    <p>
-                                        In today's world, the constantly changing economy, and the boom in the global market, often poses difficult challenges for your business.
-                                    </p>
-                                    <button class='btn btn-outline-warning'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-
-            </main>
+            </main >
             <footer>
-                <div style={{ backgroundColor: 'black', width: 'auto', height: '400px' }}>
-
+                <div style={{ backgroundColor: 'black',display:'flex',flexDirection:'column' }}>
+                    <div style={{ backgroundColor: 'black', width: 'auto', height: 'auto', display: 'flex', flexDirection: 'row', padding: '20px' }}>
+                        <div style={{ width: '20%', height: 'auto' }}>
+                            <h3 style={{ color: 'white' }}>Solutions</h3>
+                            <div class='links'>
+                                <ul>
+                                    <li><a href="">Big Data & Advanced Analytics</a></li>
+                                    <li><a href="">Business Intelligence solutions</a></li>
+                                    <li><a href="">Data Management</a></li>
+                                    <li><a href="">Enterprise Data Warehouse</a></li>
+                                    <li><a href="">Application Middleware Management</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style={{ width: '40%', height: 'auto' }}>
+                            <h3 style={{ color: 'white' }}>Services</h3>
+                            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                                <div style={{ width: '50%', height: 'auto', }}>
+                                    <div class='links'>
+                                        <h5 style={{ color: 'orange' }}>Enterprise Mobility Service</h5>
+                                        <ul>
+                                            <li><a href="">Business Process Mobilisation</a></li>
+                                            <li><a href="">B2B Mobile Apps Development</a></li>
+                                            <li><a href="">Enterprise ANdroid App Development</a></li>
+                                            <li><a href="">Enterprise App Distribution</a></li>
+                                            <li><a href="">Enterprise IOS App Development</a></li>
+                                            <li><a href="">Mobile Business Intelligence</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class='links'>
+                                        <h5 style={{ color: 'orange' }}>Mobile Apps Development</h5>
+                                        <ul>
+                                            <li><a href="">Android App Development</a></li>
+                                            <li><a href="">Windows8 App Development</a></li>
+                                            <li><a href="">Blackberry App Development</a></li>
+                                            <li><a href="">Iphone App Development</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class='links'>
+                                        <h5 style={{ color: 'orange' }}>Business Intelligence Services</h5>
+                                        <ul>
+                                            <li><a href="">Business Intelligence Services</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div style={{ width: '50%', height: 'auto' }}>
+                                    <div class='links'>
+                                        <h5 style={{ color: 'orange' }}>Web Application Development</h5>
+                                        <ul>
+                                            <li><a href="">CRM Application Development</a></li>
+                                            <li><a href="">Inventory Management</a></li>
+                                            <li><a href="">Content Management System</a></li>
+                                            <li><a href="">Custom Web App Development</a></li>
+                                            <li><a href="">OpenSource Development</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class='links'>
+                                        <h5 style={{ color: 'orange' }}>Test & QA Services</h5>
+                                        <ul>
+                                            <li><a href="">Automated Testing</a></li>
+                                            <li><a href="">Selenium</a></li>
+                                            <li><a href="">QTP</a></li>
+                                            <li><a href="">Manual Testing</a></li>
+                                            <li><a href="">Test Complete</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class='links' style={{ width: '20%', height: 'auto' }}>
+                            <h3 style={{ color: 'white' }}>Industries</h3>
+                            <ul>
+                                <li><a href="">Telecommunications</a></li>
+                                <li><a href="">Retail</a></li>
+                                <li><a href="">Financial Services</a></li>
+                                <li><a href="">Manufacturing</a></li>
+                                <li><a href="">Utilities</a></li>
+                                <li><a href="">Government</a></li>
+                            </ul>
+                        </div>
+                        <div class='links' style={{ width: '20%', height: 'auto' }}>
+                            <h3 style={{ color: 'white' }}>Company</h3>
+                            <ul>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Vission & Mission</a></li>
+                                <li><a href="">Core Value</a></li>
+                                <li><a href="">Social Responsibility</a></li>
+                                <li><a href="">Loaction</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <p style={{fontSize:'20px',color:'white'}}>This website may store are retrive your browser information for pernalizing, digital experience.To access more about our privacy policy. <a href="">click here</a></p>
+                        <p style={{color:'white'}}>Copyright © 2014 - VENSYX Data Solutions</p>
+                    </div>
                 </div>
             </footer>
             <Outlet></Outlet>
-        </div>
+        </div >
     )
 }
 export default HomePage
