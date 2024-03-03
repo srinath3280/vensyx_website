@@ -14,12 +14,12 @@ code {
 }
 
 .navbar {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100px;
+  background-color: white;
+  /* height: 100px; */
 }
 
 .navbar ul a {
-  color: white;
+  color: blue;
 }
 
 .navbar ul a:hover {
@@ -43,7 +43,7 @@ code {
 
 .dropdown-submenu>.dropdown-menu {
   top: 0;
-  left: 100%;
+  right: 100%;
   margin-top: -6px;
 }
 
@@ -124,7 +124,7 @@ code {
 }
 
 .carousel-item {
-  top: 100px;
+  top: 90px;
   height: 650px;
 }
 
@@ -134,8 +134,66 @@ code {
   background-image: linear-gradient(to right top, #fff9fd, #f0eaf0, #e1dce4, #d1ced7, #c0c0cb, #b9becb, #b1bcca, #a9bac8, #a8c2d0, #a6cbd5, #a6d4d8, #a9dcd9);
 }
 #navbarSupportedContent{
-  margin-left: 600px;
+  margin-left: 100px;
 }
 #marque{
   background-image: linear-gradient(to right top, #0a0b0b, #3e403f, #767978, #b4b8b4, #f8fbf5);
+}
+
+section .cards{
+  display: flex;
+}
+section .cards .text-cards{
+  background-color: rgb(7, 185, 230);
+  margin: 20px;
+  padding: 10px;
+}
+section .cards .text-cards h3{
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+@media (max-width:900px){
+  section .cards{
+    flex-direction: column;
+  }
+}
+.reveal{
+  position: relative;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+
+section .cards2{
+  display: flex;
+  width: 250px;
+}
+section .cards2 .text-cards2{
+  background-color: rgb(132, 139, 240);
+  margin: 20px;
+  padding: 10px;
+}
+section .cards2 .text-cards2 h3{
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.reveal2{
+  position: relative;
+  transform: translateY(10px);
+  opacity: 0;
+  transition: all 1s ease;
+}
+.reveal2.active{
+  transform: translateY(0);
+  opacity: 1;
 }

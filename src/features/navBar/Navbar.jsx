@@ -4,11 +4,12 @@ function NavBar() {
     return (
         <nav class="navbar navbar-expand-lg fixed-top">
             <div class="container-fluid">
-                {/* <div>
-                    <img src="src/features/images/vensyxlogo.png" alt="" width="50px" height="50px"/>
-                </div> */}
+                <div style={{width:'550px',display:'flex',flexDirection:'row',justifyContent:'start',alignItems:'center'}}>
+                    <img src="images/vensyx logo.png" alt="" width="50px" height="50px"/>
+                    <h5 style={{marginLeft:'15px'}}>VENSYX Data Solutions Pvt. Ltd</h5>
+                </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav nav-underline navbar-nav me-auto mb-2 mb-lg-0">
+                    <ul class="nav nav-underline navbar-nav me-auto">
                         <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/">HOME</a>
                         </li>
