@@ -53,42 +53,42 @@ function NavBar() {
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item" href="/services/enterprisemobility">Enterprise Mobility Service</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/services/enterprisemobility/businessProcess">Business Process Mobilization</a></li>
-                                        <li><a class="dropdown-item" href="/services/enterprisemobility/b2bmobileapps">B2B Mobile Apps Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/enterprisemobility/enterpriseandroidapp">Enterprise Android App Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/enterprisemobility/enterpriseapp">Enterprise App Distribution</a></li>
-                                        <li><a class="dropdown-item" href="/services/enterprisemobility/enterpriseiosapp">Enterprise iOS App Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/enterprisemobility/mobilebusiness">Mobile Business Intelligence</a></li>
+                                        <li><a class="dropdown-item" href="/services/businessProcess">Business Process Mobilization</a></li>
+                                        <li><a class="dropdown-item" href="/services/b2bmobileapps">B2B Mobile Apps Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/enterpriseandroidapp">Enterprise Android App Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/enterpriseapp">Enterprise App Distribution</a></li>
+                                        <li><a class="dropdown-item" href="/services/enterpriseiosapp">Enterprise iOS App Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/mobilebusiness">Mobile Business Intelligence</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item nav-link" href="/services/mobileapps">Mobile Apps Development</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/services/mobileapps/andriodapp">Android App Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/mobileapps/window8">Windows8 App Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/mobileapps/blackberry">Blackberry App Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/mobileapps/iphoneapp">iPhone App Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/andriodapp">Android App Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/window8">Windows8 App Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/blackberry">Blackberry App Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/iphoneapp">iPhone App Development</a></li>
                                     </ul>
                                 </li>
                                 <li><a class="dropdown-item" href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item nav-link" href="/services/webapplication">Web Application Development</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/services/webapplication/crmapplication">CRM Application Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/webapplication/inventory">Inventory management</a></li>
-                                        <li><a class="dropdown-item" href="/services/webapplication/contentmanagement">Content Management System</a></li>
-                                        <li><a class="dropdown-item" href="/services/webapplication/customwebapp">Custom Web App Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/webapplication/opensourcedevelopment">Open Source Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/crmapplication">CRM Application Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/inventory">Inventory management</a></li>
+                                        <li><a class="dropdown-item" href="/services/contentmanagement">Content Management System</a></li>
+                                        <li><a class="dropdown-item" href="/services/customwebapp">Custom Web App Development</a></li>
+                                        <li><a class="dropdown-item" href="/services/opensourcedevelopment">Open Source Development</a></li>
                                     </ul>
                                 </li>
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item nav-link" href="/services/testing">Testing and QA Services</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="/services/testing/enterprisemobilityservice">Enterprise Mobility Service</a></li>
-                                        <li><a class="dropdown-item" href="/services/testing/mobileappsdevelopment">Mobile Apps Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/testing/businessintelligenceservices">Business Intelligence Services</a></li>
-                                        <li><a class="dropdown-item" href="/services/testing/webapplicationdevelopment">Web Application Development</a></li>
-                                        <li><a class="dropdown-item" href="/services/testing/testingandQAservices">Testing and QA Services</a></li>
+                                        <li><a class="dropdown-item" href="/services/automatedtesting">Automated Testing</a></li>
+                                        <li><a class="dropdown-item" href="/services/selenium">Selenium</a></li>
+                                        <li><a class="dropdown-item" href="/services/qtp">QTP</a></li>
+                                        <li><a class="dropdown-item" href="/services/manualtesting">Manual Testing</a></li>
+                                        <li><a class="dropdown-item" href="/services/testcomplete">Test Complete</a></li>
                                     </ul>
                                 </li>
                             </ul>

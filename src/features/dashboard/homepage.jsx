@@ -19,7 +19,7 @@ function HomePage() {
                     <i class="bi bi-whatsapp"></i>
                 </div>
                 <div id="makeanenquiry">
-                    <a href="/form">
+                    <a href="/">
                         <span id="make" style={{ width: '40px', height: '100px', padding: '12px', backgroundColor: 'rgb(230, 16, 165)', color: 'white' }}>Make An Enquiry</span>
                     </a>
                 </div>
@@ -87,8 +87,8 @@ function HomePage() {
                                     ensuring total customer satisfaction
                                 </p>
                             </div>
-                            <div style={{ width: '50%', marginRight: '47px' }}>
-                                <img src="images/vission2.jpg" alt="" width="500px" height="350px" />
+                            <div id="bigdata" style={{ width: '50%', }}>
+                                <img src="images/vission2.jpg" alt="" width="500px" height="350px" style={{boxShadow:'4px 4px 10px white,-4px -4px 10px white'}}/>
                             </div>
                         </div>
                     </div>

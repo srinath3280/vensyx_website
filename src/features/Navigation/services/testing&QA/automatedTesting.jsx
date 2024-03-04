@@ -2,9 +2,18 @@ import React from "react";
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-function LogMode(){
-    
-    return(
+function AutomatedTesting() {
+    var [automated, setAutomated] = useState()
+    useEffect(() => {
+        axios({
+            method: 'GET',
+            url: 'http://localhost:3500/automatedtesting'
+        }).then((res) => {
+            setAutomated(res.data)
+        })
+    }, [])
+    console.log(automated)
+    return (
         <>
             <div id='socialMedia'>
                 <i class="bi bi-instagram"></i>
@@ -19,7 +28,7 @@ function LogMode(){
                 </a>
             </div>
             <main>
-                <h1>Log-Mode</h1>
+                <h1>Automated Testing</h1>
             </main>
 
             <footer>
@@ -123,4 +132,4 @@ function LogMode(){
         </>
     )
 }
-export default LogMode
+export default AutomatedTesting

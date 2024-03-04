@@ -2,9 +2,18 @@ import React from "react";
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-function LogMode(){
-    
-    return(
+function ManualTesting() {
+    var [manual, setManual] = useState()
+    useEffect(() => {
+        axios({
+            method: 'GET',
+            url: 'http://localhost:3500/manualtesting'
+        }).then((res) => {
+            setManual(res.data)
+        })
+    }, [])
+    console.log(manual)
+    return (
         <>
             <div id='socialMedia'>
                 <i class="bi bi-instagram"></i>
@@ -19,7 +28,7 @@ function LogMode(){
                 </a>
             </div>
             <main>
-                <h1>Log-Mode</h1>
+                <h1>Manual Testing</h1>
             </main>
 
             <footer>
@@ -123,4 +132,4 @@ function LogMode(){
         </>
     )
 }
-export default LogMode
+export default ManualTesting

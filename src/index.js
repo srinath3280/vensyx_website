@@ -54,12 +54,11 @@ import ContentManagement from './features/Navigation/services/webapplication/con
 import CustomWebApp from './features/Navigation/services/webapplication/customWebApp.jsx';
 import OpenSource from './features/Navigation/services/webapplication/openSource.jsx';
 import TestingandQAservices from './features/Navigation/services/testingandQA.jsx';
-import EnterpriseMobilityService from './features/Navigation/services/testing&QA/enterpriseMobilityServices.jsx';
-import MobileAppsDevelopment from './features/Navigation/services/testing&QA/mobileAppDevelopment.jsx';
-import Businessintelligenceservices from './features/Navigation/services/testing&QA/businessintelligence.jsx';
-import WebApplicationDevelopment from './features/Navigation/services/testing&QA/webApplicationDevelopment.jsx';
-import TestingAndQAServices from './features/Navigation/services/testing&QA/testingAndQA.jsx';
-import Form from './features/dashboard/form.jsx';
+import AutomatedTesting from './features/Navigation/services/testing&QA/automatedTesting.jsx';
+import Selenium from './features/Navigation/services/testing&QA/selenium.jsx';
+import QTP from './features/Navigation/services/testing&QA/qtp.jsx';
+import ManualTesting from './features/Navigation/services/testing&QA/manualTesting.jsx';
+import TestComplete from './features/Navigation/services/testing&QA/testComplete.jsx';
 
 const router = createBrowserRouter([
   {
@@ -69,12 +68,6 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<HomePage></HomePage>,
-        children:[
-          {
-            path:'/form',
-            element:<Form></Form>
-          },
-        ]
       },
       {
         path:'/corporate',
@@ -175,55 +168,55 @@ const router = createBrowserRouter([
           {
             path:'/services/enterprisemobility',
             element:<EnterpriseMobility></EnterpriseMobility>,
-            children:[
-              {
-                path:'/services/enterprisemobility/businessProcess',
-                element:<BusinessProcess></BusinessProcess>
-              },
-              {
-                path:'/services/enterprisemobility/b2bmobileapps',
-                element:<B2BMobileApps></B2BMobileApps>
-              },
-              {
-                path:'/services/enterprisemobility/enterpriseandroidapp',
-                element:<EnterpriseAndroidApp></EnterpriseAndroidApp>
-              },
-              {
-                path:'/services/enterprisemobility/enterpriseapp',
-                element:<EnterpriseApp></EnterpriseApp>
-              },
-              {
-                path:'/services/enterprisemobility/enterpriseiosapp',
-                element:<EnterpriseIOSApp></EnterpriseIOSApp>
-              },
-              {
-                path:'/services/enterprisemobility/mobilebusiness',
-                element:<MobileBusiness></MobileBusiness>
-              }
-            ]
           },
+          {
+            path:'/services/businessProcess',
+            element:<BusinessProcess></BusinessProcess>
+          },
+          {
+            path:'/services/b2bmobileapps',
+            element:<B2BMobileApps></B2BMobileApps>
+          },
+          {
+            path:'/services/enterpriseandroidapp',
+            element:<EnterpriseAndroidApp></EnterpriseAndroidApp>
+          },
+          {
+            path:'/services/enterpriseapp',
+            element:<EnterpriseApp></EnterpriseApp>
+          },
+          {
+            path:'/services/enterpriseiosapp',
+            element:<EnterpriseIOSApp></EnterpriseIOSApp>
+          },
+          {
+            path:'/services/mobilebusiness',
+            element:<MobileBusiness></MobileBusiness>
+          },
+
+
           {
             path:'/services/mobileapps',
             element:<MobileApps></MobileApps>,
-            children:[
-              {
-                path:'/services/mobileapps/andriodapp',
-                element:<AndroidApp></AndroidApp>
-              },
-              {
-                path:'/services/mobileapps/window8',
-                element:<Windows8App></Windows8App>
-              },
-              {
-                path:'/services/mobileapps/blackberry',
-                element:<BlackberryApp></BlackberryApp>
-              },
-              {
-                path:'/services/mobileapps/iphoneapp',
-                element:<IphoneApp></IphoneApp>
-              }
-            ]
           },
+          {
+            path:'/services/andriodapp',
+            element:<AndroidApp></AndroidApp>
+          },
+          {
+            path:'/services/window8',
+            element:<Windows8App></Windows8App>
+          },
+          {
+            path:'/services/blackberry',
+            element:<BlackberryApp></BlackberryApp>
+          },
+          {
+            path:'/services/iphoneapp',
+            element:<IphoneApp></IphoneApp>
+          },
+
+
           {
             path:'/services/businessintelligenceservices',
             element:<BusinessIntelligenceService></BusinessIntelligenceService>
@@ -231,55 +224,54 @@ const router = createBrowserRouter([
           {
             path:'/services/webapplication',
             element:<WebApplication></WebApplication>,
-            children:[
-              {
-                path:'/services/webapplication/crmapplication',
-                element:<CMRApplication></CMRApplication>
-              },
-              {
-                path:'/services/webapplication/inventory',
-                element:<InventoryManagement></InventoryManagement>
-              },
-              {
-                path:'/services/webapplication/contentmanagement',
-                element:<ContentManagement></ContentManagement>
-              },
-              {
-                path:'/services/webapplication/customwebapp',
-                element:<CustomWebApp></CustomWebApp>
-              },
-              {
-                path:'/services/webapplication/opensourcedevelopment',
-                element:<OpenSource></OpenSource>
-              }
-            ]
           },
+          {
+            path:'/services/crmapplication',
+            element:<CMRApplication></CMRApplication>
+          },
+          {
+            path:'/services/inventory',
+            element:<InventoryManagement></InventoryManagement>
+          },
+          {
+            path:'/services/contentmanagement',
+            element:<ContentManagement></ContentManagement>
+          },
+          {
+            path:'/services/customwebapp',
+            element:<CustomWebApp></CustomWebApp>
+          },
+          {
+            path:'/services/opensourcedevelopment',
+            element:<OpenSource></OpenSource>
+          },
+
+
           {
             path:'/services/testing',
             element:<TestingandQAservices></TestingandQAservices>,
-            children:[
-              {
-                path:'/services/testing/enterprisemobilityservice',
-                element:<EnterpriseMobilityService></EnterpriseMobilityService>
-              },
-              {
-                path:'/services/testing/mobileappsdevelopment',
-                element:<MobileAppsDevelopment></MobileAppsDevelopment>
-              },
-              {
-                path:'/services/testing/businessintelligenceservices',
-                element:<Businessintelligenceservices></Businessintelligenceservices>
-              },
-              {
-                path:'/services/testing/webapplicationdevelopment',
-                element:<WebApplicationDevelopment></WebApplicationDevelopment>
-              },
-              {
-                path:'/services/testing/testingandQAservices',
-                element:<TestingAndQAServices></TestingAndQAServices>
-              }
-            ]
+          },
+          {
+            path:'/services/automatedtesting',
+            element:<AutomatedTesting></AutomatedTesting>
+          },
+          {
+            path:'/services/selenium',
+            element:<Selenium></Selenium>
+          },
+          {
+            path:'/services/qtp',
+            element:<QTP></QTP>
+          },
+          {
+            path:'/services/manualtesting',
+            element:<ManualTesting></ManualTesting>
+          },
+          {
+            path:'/services/testcomplete',
+            element:<TestComplete></TestComplete>
           }
+
         ]
       }
     ]
