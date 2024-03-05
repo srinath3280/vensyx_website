@@ -28,7 +28,28 @@ function CustomWebApp() {
                 </a>
             </div>
             <main>
-                <h1>Custom Web App Development</h1>
+                <div>
+                    <h3>Custom Web App Development</h3>
+                    {
+                        custom && custom.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

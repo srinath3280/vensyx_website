@@ -28,7 +28,16 @@ function OpenSource() {
                 </a>
             </div>
             <main>
-                <h1>Open Source Development</h1>
+                <div>
+                    <h3>Open Source Development</h3>
+                    {
+                        opensource && opensource.map((data) => {
+                            return (
+                                <p>{data}</p>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

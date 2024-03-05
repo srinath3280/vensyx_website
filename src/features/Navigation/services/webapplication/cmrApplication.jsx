@@ -28,7 +28,16 @@ function CMRApplication() {
                 </a>
             </div>
             <main>
-                <h1>CRM Application Development</h1>
+                <div>
+                    <h3>CRM Application Development</h3>
+                    {
+                        crm && crm.map((data) => {
+                            return (
+                                <p>{data}</p>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

@@ -29,7 +29,29 @@ function TestingandQAservices() {
                 </a>
             </div>
             <main>
-                <h1>Testing And QA Services</h1>
+                <h1></h1>
+                <div>
+                    <h3>Testing And QA Services</h3>
+                    {
+                        testing && testing.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

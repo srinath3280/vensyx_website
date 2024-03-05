@@ -28,7 +28,29 @@ function EnterpriseAndroidApp() {
                 </a>
             </div>
             <main>
-                <h1>Enterprise Android App Development</h1>
+                <div>
+                <h3>Enterprise Android App Development</h3>
+                {
+                        enterpriseandroid && enterpriseandroid.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <ul>
+                                            {data.map((subItem, subIndex) => (
+                                                <li key={subIndex}>{subItem}</li>
+                                            ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

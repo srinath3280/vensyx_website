@@ -59,6 +59,7 @@ import Selenium from './features/Navigation/services/testing&QA/selenium.jsx';
 import QTP from './features/Navigation/services/testing&QA/qtp.jsx';
 import ManualTesting from './features/Navigation/services/testing&QA/manualTesting.jsx';
 import TestComplete from './features/Navigation/services/testing&QA/testComplete.jsx';
+import Form from './features/dashboard/form.jsx';
 
 const router = createBrowserRouter([
   {
@@ -68,6 +69,10 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<HomePage></HomePage>,
+      },
+      {
+        path:'/form',
+        element:<Form></Form>
       },
       {
         path:'/corporate',

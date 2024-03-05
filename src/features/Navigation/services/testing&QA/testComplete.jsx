@@ -28,7 +28,29 @@ function TestComplete() {
                 </a>
             </div>
             <main>
-                <h1>Test Complete</h1>
+                <div>
+                    <h3>Test Complete</h3>
+                    {
+                        testcomplete && testcomplete.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <h4>Test complete services include:</h4>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,8 +11,9 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    color: rgb(1, 1, 26);
+    /* color: rgb(51, 51, 87); */
 }
+
 
 .navbar {
   background-color: white;
@@ -111,6 +113,11 @@ code {
   font-size: 25px;
 }
 
+#enquiryform{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .d-block {
   height: 700px;
   opacity: 0.8;
@@ -128,11 +135,35 @@ code {
   height: 650px;
 }
 
+.carousel-caption{
+  width: auto;
+  height: 200px;
+  /* margin-top: 20px; */
+}
+.carousel-caption p{
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+  /* margin-top: -450px; */
+  margin-left: 300px;
+}
+
 #content1{
   width: auto;
   height: auto;
-  background-image: linear-gradient(to right top, #fff9fd, #f0eaf0, #e1dce4, #d1ced7, #c0c0cb, #b9becb, #b1bcca, #a9bac8, #a8c2d0, #a6cbd5, #a6d4d8, #a9dcd9);
+  background-image: linear-gradient(to right, #2b2b4d, #364a68, #6a8496, #adc0c6, #fafdfd);
+  /* background-image: linear-gradient(to right, #020334, #214166, #5b7e94, #a5bdc4, #fafdfd); */
+  /* background-image: linear-gradient(to right top, #fff9fd, #f0eaf0, #e1dce4, #d1ced7, #c0c0cb, #b9becb, #b1bcca, #a9bac8, #a8c2d0, #a6cbd5, #a6d4d8, #a9dcd9); */
 }
+
+#ourservice{
+  height: auto;
+  background-image: url('/public/images/service2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
 #navbarSupportedContent{
   margin-left: 100px;
 }
@@ -228,7 +259,7 @@ section .cards3{
 section .cards3 .text-cards3{
   width: 300px;
   height: 300px;
-  background-color: rgb(132, 139, 240);
+  background-color: rgb(252, 4, 157);
   margin: 20px;
   padding: 25px;
 }
@@ -323,4 +354,15 @@ section .cards5 .text-cards5 h3{
 .links ul li a:hover{
   text-decoration: underline;
   color: rgb(8, 131, 247);
+}
+
+
+.hidden{
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+}
+.show{
+  opacity: 1;
+  transform: translateX(0);
 }

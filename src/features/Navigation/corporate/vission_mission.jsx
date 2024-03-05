@@ -28,7 +28,26 @@ function VissionMission() {
                 </a>
             </div>
             <main>
-                <h1>Vission & Mission</h1>
+                <div>
+                    <h3>Vision & Mission</h3>
+                    <h4>Vision</h4>
+                    {
+                        visionmission && visionmission.map((data) => {
+                            return (
+                                <p>{data.vision}</p>
+                            )
+                        })
+                    }
+                    <h4>Mission</h4>
+                    {
+                        visionmission && visionmission.map((data) => {
+                            return (
+                                <p>{data.mission}</p>
+                            )
+                        })
+                    }
+
+                </div>
             </main>
 
             <footer>

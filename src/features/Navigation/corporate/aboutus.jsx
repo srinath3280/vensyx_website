@@ -28,7 +28,16 @@ function AboutUs() {
                 </a>
             </div>
             <main>
-                <h1>AboutUs</h1>
+                <div>
+                    <h3>AboutUs</h3>
+                    {
+                        aboutus && aboutus.map((data) => {
+                            return (
+                                <p>{data}</p>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

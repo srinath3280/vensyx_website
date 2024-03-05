@@ -28,7 +28,16 @@ function Windows8App() {
                 </a>
             </div>
             <main>
-                <h1>Windows8 App Development</h1>
+                <div>
+                    <h3>Windows8 App Development</h3>
+                    {
+                        windows8app && windows8app.map((data) => {
+                            return (
+                                <p>{data}</p>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

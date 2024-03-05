@@ -28,7 +28,28 @@ function Manufacturing() {
                 </a>
             </div>
             <main>
-                <h1>Manufacturing</h1>
+                <div>
+                    <h3>Manufacturing</h3>
+                    {
+                        manufacturing && manufacturing.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

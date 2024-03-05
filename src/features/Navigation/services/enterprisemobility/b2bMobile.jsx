@@ -28,7 +28,37 @@ function B2BMobileApps() {
                 </a>
             </div>
             <main>
-                <h1>B2B Mobile Apps Development</h1>
+                <div>
+                    <h3>B2B Mobile Apps Development</h3>
+                    {b2b && b2b.map((item, index) => {
+                        if (typeof item === 'string') {
+                            return <p key={index}>{item}</p>;
+                        } else if (Array.isArray(item)) {
+                            return (
+                                <ul key={index}>
+                                    {item.map((subItem, subIndex) => (
+                                        <li key={subIndex}>{subItem}</li>
+                                    ))}
+                                </ul>
+                            );
+                        } else {
+                            return (
+                                <div key={index}>
+                                    {Object.keys(item).map((key) => (
+                                        <div key={key}>
+                                            <h3>{key}</h3>
+                                            <ul>
+                                                {item[key].map((subItem, subIndex) => (
+                                                    <p key={subIndex}>{subItem}</p>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ))}
+                                </div>
+                            );
+                        }
+                    })}
+                </div>
             </main>
 
             <footer>

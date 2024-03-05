@@ -28,7 +28,29 @@ function AutomatedTesting() {
                 </a>
             </div>
             <main>
-                <h1>Automated Testing</h1>
+                <div>
+                    <h3>Automated Testing</h3>
+                    {
+                        automated && automated.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <h4>Benefits of automated testing:</h4>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

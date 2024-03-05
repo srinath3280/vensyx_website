@@ -29,7 +29,28 @@ function EnterpriseMobility() {
                 </a>
             </div>
             <main>
-                <h1>Enterprise Mobility</h1>
+                <div>
+                    <h3>Enterprise Mobility</h3>
+                    {
+                        enterprisemobility && enterprisemobility.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

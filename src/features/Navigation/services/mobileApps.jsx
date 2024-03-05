@@ -29,7 +29,28 @@ function MobileApps() {
                 </a>
             </div>
             <main>
-                <h1>Mobile Apps Development</h1>
+                <div>
+                    <h3>Mobile Apps Development</h3>
+                    {
+                        mobileapps && mobileapps.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

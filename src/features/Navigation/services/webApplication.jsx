@@ -29,7 +29,28 @@ function WebApplication() {
                 </a>
             </div>
             <main>
-                <h1>Web Application Development</h1>
+                <div>
+                    <h3>Web Application Development</h3>
+                    {
+                        webapplication && webapplication.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

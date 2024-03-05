@@ -28,7 +28,16 @@ function AndroidApp() {
                 </a>
             </div>
             <main>
-                <h1>Andriod App Development</h1>
+                <div>
+                    <h3>Andriod App Development</h3>
+                    {
+                        androidapp && androidapp.map((data) => {
+                            return (
+                                <p>{data}</p>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

@@ -28,7 +28,29 @@ function ContentManagement() {
                 </a>
             </div>
             <main>
-                <h1>Content Management System</h1>
+                <div>
+                    <h3>Content Management System</h3>
+                    {
+                        content && content.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <h4>In addition to the Content Management System, we also offer the following services to our clients:</h4>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

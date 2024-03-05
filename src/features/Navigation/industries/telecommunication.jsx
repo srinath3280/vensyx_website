@@ -28,7 +28,29 @@ function Telecommunications() {
                 </a>
             </div>
             <main>
-                <h1>Telecommunication</h1>
+                <div>
+                    <h3>Telecommunication</h3>
+                    {
+                        telecommunication && telecommunication.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <h4>VENSYX Data Solutions Provides:</h4>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

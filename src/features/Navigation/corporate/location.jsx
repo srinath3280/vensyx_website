@@ -2,7 +2,7 @@ import React from "react";
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-function Location(){
+function Location() {
     var [location, setLocation] = useState()
     useEffect(() => {
         axios({
@@ -13,7 +13,7 @@ function Location(){
         })
     }, [])
     console.log(location)
-    return(
+    return (
         <>
             <div id='socialMedia'>
                 <i class="bi bi-instagram"></i>
@@ -28,7 +28,35 @@ function Location(){
                 </a>
             </div>
             <main>
-                <h1>Location</h1>
+                <div>
+                    <h3>Location</h3>
+                    <h4>Registered Office</h4>
+                    {
+                        location && location.map((data)=>{
+                            return (
+                                // console.log(data.RegisteredOffice)
+                                data.RegisteredOffice && data.RegisteredOffice.map((details)=>{
+                                    return (
+                                        <p>{details}</p>
+                                    )
+                                })
+                            )
+                        })
+                    }
+                    <h4>Development Centre</h4>
+                    {
+                        location && location.map((data)=>{
+                            return (
+                                // console.log(data.RegisteredOffice)
+                                data.DevelopmentCentre && data.DevelopmentCentre.map((details)=>{
+                                    return (
+                                        <p>{details}</p>
+                                    )
+                                })
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

@@ -29,6 +29,31 @@ function Selenium() {
             </div>
             <main>
                 <h1>Selenium</h1>
+                <div>
+                    {
+                        selenium && selenium.map((item, index) => (
+                            <div key={index}>
+                                {typeof item === 'string' ? (
+                                    <p>{item}</p>
+                                ) : (
+                                    <div>
+                                        {Object.entries(item).map(([title, content], idx) => (
+                                            <div key={idx}>
+                                                <h3>{title}</h3>
+                                                <ul>
+                                                    {content.map((point, i) => (
+                                                        <li key={i}>{point}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                        ))}
+                                    </div>
+                                )
+                                }
+                            </div>
+                        ))
+                    }
+                </div>
             </main>
 
             <footer>

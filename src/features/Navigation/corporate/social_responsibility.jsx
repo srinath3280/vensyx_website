@@ -2,7 +2,7 @@ import React from "react";
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-function SocialResponsibility(){
+function SocialResponsibility() {
     var [socialresponsibility, setSocialresponsibility] = useState()
     useEffect(() => {
         axios({
@@ -13,7 +13,7 @@ function SocialResponsibility(){
         })
     }, [])
     console.log(socialresponsibility)
-    return(
+    return (
         <>
             <div id='socialMedia'>
                 <i class="bi bi-instagram"></i>
@@ -28,7 +28,27 @@ function SocialResponsibility(){
                 </a>
             </div>
             <main>
-                <h1>Social Responsibility</h1>
+                <div>
+                    <h3>Social Responsibility</h3>
+                    {
+                        socialresponsibility && socialresponsibility.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <h4>Environment</h4>
+                                            {data.map((subItem, subIndex) => (
+                                                <p key={subIndex}>{subItem}</p>
+                                            ))}
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

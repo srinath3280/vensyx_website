@@ -28,7 +28,16 @@ function MobileBusiness() {
                 </a>
             </div>
             <main>
-                <h1>Mobile Business Intelligence</h1>
+                <div>
+                    <h3>Mobile Business Intelligence</h3>
+                    {
+                        mobilebusiness && mobilebusiness.map((data) => {
+                            return (
+                                <p>{data}</p>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

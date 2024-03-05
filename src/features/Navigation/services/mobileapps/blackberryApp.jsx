@@ -28,7 +28,16 @@ function BlackberryApp() {
                 </a>
             </div>
             <main>
-                <h1>Blackberry App Development</h1>
+                <div>
+                    <h3>Blackberry App Development</h3>
+                    {
+                        blackberryapp && blackberryapp.map((data) => {
+                            return (
+                                <p>{data}</p>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

@@ -2,7 +2,7 @@ import React from "react";
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-function CoreValue(){
+function CoreValue() {
     var [corevalue, setCorevalue] = useState()
     useEffect(() => {
         axios({
@@ -13,7 +13,7 @@ function CoreValue(){
         })
     }, [])
     console.log(corevalue)
-    return(
+    return (
         <>
             <div id='socialMedia'>
                 <i class="bi bi-instagram"></i>
@@ -28,7 +28,23 @@ function CoreValue(){
                 </a>
             </div>
             <main>
-                <h1>CoreValue</h1>
+                <div>
+                    <h3>Core Value</h3>
+                    <h4>VENSYX Data Solutions Core Values</h4>
+                    {
+                        corevalue && corevalue.map((data) => {
+                            return (
+                                <ul>
+                                    {
+                                        data.VENSYX.map((details)=>{
+                                            return <li>{details}</li>
+                                        })
+                                    }
+                                </ul>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

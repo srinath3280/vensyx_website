@@ -28,7 +28,43 @@ function BigData() {
                 </a>
             </div>
             <main>
-                <h1>Big Data & Advanced Analytics</h1>
+                <div>
+                    <h3>Big Data & Advanced Analytics</h3>
+                    <p>Data is exploding. Individuals, corporates, websites, call centers, shopping malls, mobile and RFID devices etc. are generating data in various formats – Regular data, voice data, text data, video – and like never before. It is estimated that by 2017 there will more bytes of data than the sand grains in the world. Unstructured data is growing faster than structured data. Big data is the buzz everywhere. Big data refers to huge data sets characterized by larger volumes, greater variety and complexity, generated at a higher velocity than any organization has faced before. Information, insights and foresights have tremendous implication in every aspect of business. Organizations which are leveraging analytics to differentiate themselves at the front with standardization at the core are able to create sustainable competitive advantage. Analytics is enabling organizations to predict customer behaviour, meet their needs and cement long-term customer relationships.</p>
+
+                    <h4>Key Services</h4>
+
+                    <p>VENSYX Data Solutions Big Data and Advanced Analytics uniquely enable your organization to apply analytics to decision-making, anytime, anywhere. Our company has a dedicated practice on High-end Analytics & Data Mining with proven expertise in Forecasting, Model Management, Optimization Services including expertise in emerging areas such as Descriptive and Text Mining.</p>
+
+                    <p>Technologies have emerged to make easy and cost effective analysis of unstructured data as unstructured data sources used for big data analysis may not fit in traditional data warehouses. Big data analytics is the application of advanced analytic techniques to very large, diverse data sets. There are advanced analytics techniques like predictive analysis, data mining, statistics, etc to study the state of business and data. NoSQL, Hadoop and Mapreduce are new methods of working with big data that offer alternatives to traditional data warehousing. These technologies form the core framework that supports the processing of large data sets across clustered systems.</p>
+
+                    <h4>Key Capabilities</h4>
+
+                    <b>Data Mining</b>
+
+                    <p>The Effectiveness of the data warehouse applications are only calculated when the data stored in them are meaningfully utilized, to get the hidden knowledge and utilize it for the competitive advantage the data mining technique comes into picture .By using analytical techniques, VENSYX Data Solutions helps to get complete process of discovering information and knowledge.</p>
+
+                    <b>Big data</b>
+
+                    <p>The rise of internet scale applications has led to an unprecedented scenario that industry cannot ignore, it's a problem but also an opportunity that business proactively address it.</p>
+
+                    <p>Big data offers you an opportunity to build a compelling competitive advantage in the marketplace by adding the whole new dimension to analytics, which aids decision making. VENSYX Data Solutions helps you to Leverage our services and solutions around big data, to address the specific problems and gives a competitive advantage.</p>
+
+                    <h4>Advance analytics:</h4>
+
+                    <p>VENSYX Data Solutions expertise in statistical and advanced data-mining techniques gives a smarter decision making.</p>
+
+                    <p>VENSYX Data Solutions Advanced Analytics Services go beyond simple off-the-shelf tools labelled as 'BI' or 'CRM' that are more often than not backward-looking. Instead, we leverage historical data, current macro factors and aid in decision-making that is forward-looking, and that your business can implement in a very actionable way across key decision-making functions: prediction, forecasting, simulations and optimization.</p>
+
+                    <h4>Business Value</h4>
+
+                    <ul>
+                        <li>Improve insights based on analytics</li>
+                        <li>Provide insights to real-time analysis</li>
+                        <li>Improve business outcomes and manage risk, now and in the future</li>
+                        <li>All types of information can be tapped</li>
+                    </ul>
+                </div>
             </main>
 
             <footer>

@@ -28,7 +28,37 @@ function EnterpriseData() {
                 </a>
             </div>
             <main>
-                <h1>Enterprise Data Warehouse</h1>
+                <div>
+                    <h3>Enterprise Data Warehouse</h3>
+                    <p>The data warehouse is the key behind a competent Business Intelligence system. This is the place to store and organize your data so business users can access and query it to help the company move in the right direction. This easy access to complicated data enables effective business analysis and business forecasting, which in turn provides great insight on various trends and supports in faster and better decision making.</p>
+                    <p>VENSYX Data Solutions BI/DW offers complete suite of data warehousing solutions encompassing data warehouse development, implementation, maintenance operations and support. We offer full life cycle design and development activities necessary to implement an end-to-end data warehouse and business intelligence solution. The service delivery begins with engaging end-users in a rigorous requirements gathering process and completes with the implementation of BI/DW solution.</p>
+                    <b>BI Data Management offerings at VENSYX Data Solutions include:</b>
+                    <ul>
+                        <li>Data Modelling</li>
+                        <li>Data Mart Development</li>
+                        <li>Data Integration</li>
+                        <li>Information Delivery</li>
+                        <li>Maintenance Operations, Support & Upgrades</li>
+                    </ul>
+                    <h4>Key Capabilities</h4>
+                    <b>Data Modelling</b>
+                    <p>VENSYX Data Solutions Data Modelling service provides organizations with customized, business-specific solutions and creates effective data models that meet their current and evolving needs. Our experts employ both tool-based and manual methodologies to customize existing models for enhanced business performance.</p>
+                    <b>Data Mart Development</b>
+                    <p>VENSYX Data Solutions is a leading provider of data warehouse and data mart design and development services, VENSYX Data Solutions helps organizations across a variety of industries collate and store discrete data on a single platform, enabling effective analyses and informed business decisions.</p>
+                    <b>Data Integration</b>
+                    <p>Build an information-enabled enterprise by speedily transforming data into a key decision driver with VENSYX Data Solutions Data Transformation service. Our engineers leverage expertise in various ETL and ETL data transformation tools and operate across a variety of sectors.</p>
+                    <b>Information Delivery</b>
+                    <p>VENSYX Data Solutions is committed to placing data in the hands of an organization's workers in a form-factor (mobile, PDF report, Excel etc.) that ensures action is taken on the information at the right time. VENSYX Data Solutions Information Delivery service provides a single access point for aggregated information via an easy-to-use Web-based interface.</p>
+                    <b>Maintenance Operations, Support & Upgrades</b>
+                    <p>VENSYX Data Solutions has extensive experience in delivering large-scale migration and upgrade services and has established methodologies specific to business intelligence projects. Our services are tailored to meet your needs, whether you want to upgrade to a newer version of your existing tools and applications or you are making a platform or re-engineering decision for your overall BI architecture.</p>
+                    <h4>Business Value</h4>
+                    <ul>
+                        <li>Easy to deploy and manage; dramatically simplifies your data warehouse and analytics infrastructure</li>
+                        <li>Fast time-to-value for important business intelligence and analytic initiatives that impact your bottom line</li>
+                        <li>Meet increasing demands for performance and capacity using cost-effective industry building blocks</li>
+                        <li>Protect your information with high availability, business continuity, and security</li>
+                    </ul>
+                </div>
             </main>
 
             <footer>

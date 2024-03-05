@@ -30,6 +30,31 @@ function ApplicationMiddleware() {
             </div>
             <main>
                 <h1>Application Middleware Management</h1>
+                <div>
+                    {
+                        application && application.map((item, index) => (
+                            <div key={index}>
+                                {typeof item === 'string' ? (
+                                    <p>{item}</p>
+                                ) : (
+                                    <div>
+                                        {Object.entries(item).map(([title, content], idx) => (
+                                            <div key={idx}>
+                                                <h3>{title}</h3>
+                                                <ul>
+                                                    {content.map((point, i) => (
+                                                        <li key={i}>{point}</li>
+                                                    ))}
+                                                </ul>
+                                            </div>
+                                        ))}
+                                    </div>
+                                )
+                                }
+                            </div>
+                        ))
+                    }
+                </div>
             </main>
 
             <footer>

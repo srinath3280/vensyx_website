@@ -2,9 +2,9 @@ import React from "react";
 import axios from 'axios';
 import { useEffect, useState } from 'react';
 
-function LogMode(){
-    
-    return(
+function LogMode() {
+
+    return (
         <>
             <div id='socialMedia'>
                 <i class="bi bi-instagram"></i>
@@ -19,7 +19,39 @@ function LogMode(){
                 </a>
             </div>
             <main>
-                <h1>Log-Mode</h1>
+                <div>
+                    <h3>Log-Mode</h3>
+                    <h5>Logistic Movement optimization Delivery Engagement (Log-MODE)</h5>
+                    <p>Log-MODE is a universal program designed to control all stages of delivery and field services operations. The service allows to perform a wide range of tasks in logistics and delivery – transportation arrangements, transport processes optimization and cost saving.</p>
+                    <p>
+                        Log-MODE comprises a web-version for dispatchers and a mobile application for driver.  Web-version ensures effective operating procedures to create trips, order placement, planning and distribution, Google Maps-based routing, delivery process monitoring and coordination. Log-MODE mobile app is designed for drivers to easily manage to deliver products to specified locations.
+                    </p>
+                    <p>
+                        Log-MODE used bigdata platform to create delivery schedule dynamic, based on the inelegancy options on urgent need basis, low fright charges, return fleet and availability of truck and driver timings.
+                    </p>
+                    <p>
+                        Log-MODE have following features.
+                    </p>
+                    <h5>Real-time tracking</h5>
+                    <h6>
+                        Driver can see his delivery location and Route map in his mobile
+                    </h6>
+                    <h6>
+                        Manager Can see all movements in his Dashboard
+                    </h6>
+                    <img src="/images/scr1.png" alt="" width="600px" height="300px" />
+                    <p>
+                        <b>Manager can change the schedule trips based on circumstances.</b>
+                    </p>
+                    <img src="/images/scr2.png" alt="" width="600px" height="300px" />
+                    <h5>
+                        Request & Approvals
+                    </h5>
+                    <p>
+                        Approval process was implemented for the requests made by drivers like fuel, delivery problems, vehicle problems.
+                    </p>
+                    <img src="/images/scr3.png" alt="" width="600px" height="300px"/>
+                </div>
             </main>
 
             <footer>

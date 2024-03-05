@@ -28,7 +28,29 @@ function InventoryManagement() {
                 </a>
             </div>
             <main>
-                <h1>Inventory Management</h1>
+                <div>
+                    <h3>Inventory Management</h3>
+                    {
+                        inventory && inventory.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <h4>Salient Features</h4>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

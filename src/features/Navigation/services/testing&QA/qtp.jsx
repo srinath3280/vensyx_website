@@ -28,7 +28,38 @@ function QTP() {
                 </a>
             </div>
             <main>
-                <h1>QTP</h1>
+                <div>
+                    <h3>QTP</h3>
+                    {
+                        qtp && qtp.map((item, index) => {
+                            if (typeof item === 'string') {
+                                return <p key={index}>{item}</p>;
+                            } else {
+                                const key = Object.keys(item)[0];
+                                const value = item[key];
+                                if (Array.isArray(value)) {
+                                    return (
+                                        <div key={index}>
+                                            <h3>{key}</h3>
+                                            <ul>
+                                                {value.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    );
+                                } else {
+                                    return (
+                                        <div key={index}>
+                                            <h3>{key}</h3>
+                                            <p>{value}</p>
+                                        </div>
+                                    );
+                                }
+                            }
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

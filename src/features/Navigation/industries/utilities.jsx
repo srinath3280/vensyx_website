@@ -28,7 +28,29 @@ function Utilities() {
                 </a>
             </div>
             <main>
-                <h1>Utilities</h1>
+                <div>
+                    <h3>Utilities</h3>
+                    {
+                        utilities && utilities.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <h4>VENSYX Data Solutions for Utilities</h4>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

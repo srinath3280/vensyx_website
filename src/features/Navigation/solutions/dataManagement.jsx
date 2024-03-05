@@ -28,7 +28,45 @@ function DataManagement() {
                 </a>
             </div>
             <main>
-                <h1>Data Management</h1>
+                <div>
+                    <h3>Data Management</h3>
+                    <p>
+                        VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate, consistent and transparent data content for its customers. It emphasizes usability of data for its intended purpose and audience. VENSYX Data Solutions provides processes, tools, and metrics to help organizations use information effectively and efficiently in order to achieve their business objectives.
+                    </p>
+                    <p>
+                        Companies today look at integrating and analyzing structured and unstructured content across the enterprise. Our service offering in Data Management enables customers to effectively manage volumes of data and help convert information to insights. Our primary focus is on helping our customers to build and maintain Master Data repositories, tackle inconsistencies within their data, and cleanse and enrich it to gain competitive benefits while simultaneously adhering to compliance requirements.
+                    </p>
+                    <b>BI Data Management offerings at VENSYX Data Solutions:</b>
+                    <ul>
+                        <li>Data Quality Management</li>
+                        <li>Master Data Management</li>
+                        <li>Meta – Data Management</li>
+                        <li>Data Migration</li>
+                        <li>Data Integration</li>
+                        <li>Data Governance</li>
+                    </ul>
+                    <h3>Key Capabilities</h3>
+                    <b>Data Quality Management</b>
+                    <p>VENSYX Data Solutions specialists implement robust governance processes and assure quality via data de-duplication, data filtering, and error treatment across Telecom, Retail, Manufacture and Finance Services sectors.</p>
+                    <b>Master Data Management</b>
+                    <p>Our comprehensive MDM offerings optimize internal and external data management, and governance to help you make better-informed business decisions.</p>
+                    <b>Meta – Data Management</b>
+                    <p>Our metadata-driven development approach assigns a high priority to master data—the static core data at the heart of an organization—which encompasses information across the various units and teams in an organization.</p>
+                    <b>Data Migration</b>
+                    <p>VENSYX Data Solutions help enterprises to consolidate their data systems or migrate to a newer, more robust platform. We offer frameworks and solutions to mitigate associated risks while accelerating deployment.</p>
+                    <b>Data Integration</b>
+                    <p>Build an information-enabled enterprise by speedily transforming data into a key decision driver with VENSYX Data Solutions Data Transformation service. Our engineers leverage expertise in various ETL and ETL data transformation tools and operate across a variety of sectors.</p>
+                    <b>Data Governance</b>
+                    <p>VENSYX Data Solutions uses a high-performance data governance framework that embraces collaboration at all levels, we partner with you to drive business alignment, specialization, stewardship, responsibility, accountability, consistency, and scalability across the enterprise.</p>
+                    <h3>Business Value</h3>
+                    <ul>
+                        <li>Achieve organizational alignment on the governance of data management issues throughout the enterprise</li>
+                        <li>Define and implement data architecture encompassing data modelling, data flow analysis, tuning, storage, visualization, and infrastructure</li>
+                        <li>Identify, implement and maintain a single, unified view of reference data across the enterprise</li>
+                        <li>Ensure data security, through security policies and processes</li>
+                        <li>Establish processes that ensure good quality data on a regular and consistent basis</li>
+                    </ul>
+                </div>
             </main>
 
             <footer>

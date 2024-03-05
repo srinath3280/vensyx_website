@@ -28,7 +28,29 @@ function ManualTesting() {
                 </a>
             </div>
             <main>
-                <h1>Manual Testing</h1>
+                <div>
+                    <h3>Manual Testing</h3>
+                    {
+                        manual && manual.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <h4>VENSYX Data Solutions provides below Manual testing services:</h4>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

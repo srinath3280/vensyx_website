@@ -28,7 +28,16 @@ function BusinessProcess() {
                 </a>
             </div>
             <main>
-                <h1>Business Process Mobilization</h1>
+                <div>
+                    <h3>Business Process Mobilization</h3>
+                    {
+                        businessprocess && businessprocess.map((data) => {
+                            return (
+                                <p>{data}</p>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

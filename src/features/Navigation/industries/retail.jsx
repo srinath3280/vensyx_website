@@ -28,7 +28,28 @@ function Retail() {
                 </a>
             </div>
             <main>
-                <h1>Retail</h1>
+                <div>
+                    <h3>Retail</h3>
+                    {
+                        retail && retail.map((data) => {
+                            return (
+                                <>
+                                    {Array.isArray(data) ? (
+                                        <div>
+                                            <ul>
+                                                {data.map((subItem, subIndex) => (
+                                                    <li key={subIndex}>{subItem}</li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    ) : (
+                                        <p>{data}</p>
+                                    )}
+                                </>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

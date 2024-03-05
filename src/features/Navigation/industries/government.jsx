@@ -28,7 +28,46 @@ function Government() {
                 </a>
             </div>
             <main>
-                <h1>Government</h1>
+                <div>
+                    <h3>Government</h3>
+                    {
+                        government && government.map((item, index) => {
+                            return (
+                                <div key={index}>
+                                    {typeof item === 'string' ? (
+                                        <p>{item}</p>
+                                    ) : (
+                                        Object.entries(item).map(([key, value]) => {
+                                            return (
+                                                <>
+                                                    {
+                                                        typeof value === 'string' ? (
+                                                            <>
+                                                                <h4>{key}</h4>
+                                                                <p>{value}</p>
+                                                            </>
+                                                        ) : (
+                                                            <>
+                                                                <h4>{key}</h4>
+                                                                {
+                                                                    value && value.map((subitem) => {
+                                                                        return (
+                                                                            <p>{subitem}</p>
+                                                                        )
+                                                                    })
+                                                                }
+                                                            </>
+                                                        )
+                                                    }
+                                                </>
+                                            )
+                                        })
+                                    )}
+                                </div>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>

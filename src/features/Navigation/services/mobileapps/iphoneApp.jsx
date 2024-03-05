@@ -28,7 +28,16 @@ function IphoneApp() {
                 </a>
             </div>
             <main>
-                <h1>Iphone App Development</h1>
+                <div>
+                    <h3>Iphone App Development</h3>
+                    {
+                        iphoneapp && iphoneapp.map((data) => {
+                            return (
+                                <p>{data}</p>
+                            )
+                        })
+                    }
+                </div>
             </main>
 
             <footer>
