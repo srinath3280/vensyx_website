@@ -29,47 +29,59 @@ function BusinessIntelligence() {
             </div>
             <main>
                 <div>
-                    <h3>Business Intelligence Solutions</h3>
-                    <p>VENSYX Data Solutions Business Intelligence Consulting Services comprise High Impact, Diagnostic and assessment studies that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives. We have in place a set of methodologies, frameworks, checklists and IP assets that help us strategize BI initiatives.</p>
-                    <p>VENSYX Data Solutions DWBI team of Consultants helps its clients convert the Strategic Business objectives and goals into BI strategy and convert these ideas into actionable results. With Hundreds of successful deployment across Technology, Products and Verticals, our BI Experts have expertise in working with some of the 'Fortune-1000'companies across the World. These highly motivated Professionals are 100% committed to customer satisfaction in all services that we deliver.</p>
-                    <b>BI Consulting Offerings at VENSYX Data Solutions include:</b>
-                    <ul>
-                        <li>Strategy & Roadmap</li>
-                        <li>BI Assessment Study</li>
-                        <li>Rationalization Services</li>
-                        <li>BI Competency Center</li>
-                        <li>Architecture Services</li>
-                        <li>Tool Evaluation Services</li>
-                    </ul>
-                    <h3>Key Capabilities</h3>
-                    <div>
-                        <b>Strategy & Roadmap</b>
-                        <p>Understand different aspects of BI requirements and work on Strategy and future state with a defined timeline to achieve the defined state</p>
+                    <h1 style={{ color: 'white' }}>Business Intelligence Solutions</h1>
+                    <div style={{ padding: '50px', textAlign: 'justify', fontSize: '25px' }}>
+                        <div style={{display:'flex',flexDirection:'row'}}>
+                            <p style={{ color: 'white',width:'50%',padding:'10px' }}>VENSYX Data Solutions Business Intelligence Consulting Services comprise High Impact, Diagnostic and assessment studies that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives. We have in place a set of methodologies, frameworks, checklists and IP assets that help us strategize BI initiatives.</p>
+                            <img src="/images/bi1.jpg" alt="" width='50%' height="450px" style={{borderRadius:'15px'}}/>
+                        </div>
+                        <p style={{ color: 'white' }}>VENSYX Data Solutions DWBI team of Consultants helps its clients convert the Strategic Business objectives and goals into BI strategy and convert these ideas into actionable results. With Hundreds of successful deployment across Technology, Products and Verticals, our BI Experts have expertise in working with some of the 'Fortune-1000'companies across the World. These highly motivated Professionals are 100% committed to customer satisfaction in all services that we deliver.</p>
+                        <b style={{ color: 'white' }}>BI Consulting Offerings at VENSYX Data Solutions include:</b>
+                        <div style={{ display: 'flex', flexDirection: 'row' }}>
+                            <div style={{ width: '50%', }}>
+                                <ul>
+                                    <li style={{ color: 'white' }}>Strategy & Roadmap</li>
+                                    <li style={{ color: 'white' }}>BI Assessment Study</li>
+                                    <li style={{ color: 'white' }}>Rationalization Services</li>
+                                    <li style={{ color: 'white' }}>BI Competency Center</li>
+                                    <li style={{ color: 'white' }}>Architecture Services</li>
+                                    <li style={{ color: 'white' }}>Tool Evaluation Services</li>
+                                </ul>
+                            </div>
+                            <div style={{ width: '50%', }}>
+                                <img src="/images/bi2.jpg" alt="" width='100%' height="250px" />
+                            </div>
+                        </div>
+                        <h3 style={{ color: 'white' }}>Key Capabilities</h3>
+                        <div>
+                            <b style={{ color: 'white' }}>Strategy & Roadmap</b>
+                            <p style={{ color: 'white' }}>Understand different aspects of BI requirements and work on Strategy and future state with a defined timeline to achieve the defined state</p>
 
-                        <b>BI Assessment Study</b>
-                        <p>Conduct study to evaluate the current landscape of technology, architecture, resources and infrastructure to provide optimal state.</p>
+                            <b style={{ color: 'white' }}>BI Assessment Study</b>
+                            <p style={{ color: 'white' }}>Conduct study to evaluate the current landscape of technology, architecture, resources and infrastructure to provide optimal state.</p>
 
-                        <b>Rationalization Services</b>
-                        <p>Assessment of current ETL and Reporting architecture and processes to recommend the right fit solution and confirming to latest best practices in the market.</p>
+                            <b style={{ color: 'white' }}>Rationalization Services</b>
+                            <p style={{ color: 'white' }}>Assessment of current ETL and Reporting architecture and processes to recommend the right fit solution and confirming to latest best practices in the market.</p>
 
-                        <b>BI Competency Center</b>
-                        <p>Consulting, Implementation and Operation of BI Competency Center or BI Center of Excellence for efficient management of BI Resources.</p>
+                            <b style={{ color: 'white' }}>BI Competency Center</b>
+                            <p style={{ color: 'white' }}>Consulting, Implementation and Operation of BI Competency Center or BI Center of Excellence for efficient management of BI Resources.</p>
 
-                        <b>Architecture Services</b>
-                        <p>Assess and recommend BI Architecture vis-à-vis organization requirement with respect to BI, Dashboard, Analytics and Scorecard.</p>
+                            <b style={{ color: 'white' }}>Architecture Services</b>
+                            <p style={{ color: 'white' }}>Assess and recommend BI Architecture vis-à-vis organization requirement with respect to BI, Dashboard, Analytics and Scorecard.</p>
 
-                        <b>Tool Evaluation Services</b>
-                        <p>Tool Evaluation and Selection based on time tested evaluation criteria categorized by Architecture and User Preference, Infrastructure footprint etc.</p>
+                            <b style={{ color: 'white' }}>Tool Evaluation Services</b>
+                            <p style={{ color: 'white' }}>Tool Evaluation and Selection based on time tested evaluation criteria categorized by Architecture and User Preference, Infrastructure footprint etc.</p>
+                        </div>
+                        <h3 style={{ color: 'white' }}>Business Value</h3>
+                        <ul>
+                            <li style={{ color: 'white' }}>Strategic BI Projects aligned to Business Strategy</li>
+                            <li style={{ color: 'white' }}>Enable faster and fact-based decision making</li>
+                            <li style={{ color: 'white' }}>Reusable frameworks and components</li>
+                            <li style={{ color: 'white' }}>Catering to users most pertinent needs and optimize the use</li>
+                            <li style={{ color: 'white' }}>Ensure that operations are aligned to Strategic and Tactical needs</li>
+                            <li style={{ color: 'white' }}>Lower costs for BI tools and processes</li>
+                        </ul>
                     </div>
-                    <h3>Business Value</h3>
-                    <ul>
-                        <li>Strategic BI Projects aligned to Business Strategy</li>
-                        <li>Enable faster and fact-based decision making</li>
-                        <li>Reusable frameworks and components</li>
-                        <li>Catering to users most pertinent needs and optimize the use</li>
-                        <li>Ensure that operations are aligned to Strategic and Tactical needs</li>
-                        <li>Lower costs for BI tools and processes</li>
-                    </ul>
                 </div>
             </main>
 
@@ -80,11 +92,11 @@ function BusinessIntelligence() {
                             <h3 style={{ color: 'white' }}>Solutions</h3>
                             <div class='links'>
                                 <ul>
-                                    <li><a href="">Big Data & Advanced Analytics</a></li>
-                                    <li><a href="">Business Intelligence solutions</a></li>
-                                    <li><a href="">Data Management</a></li>
-                                    <li><a href="">Enterprise Data Warehouse</a></li>
-                                    <li><a href="">Application Middleware Management</a></li>
+                                    <li><a href="/solutions/bigdata">Big Data & Advanced Analytics</a></li>
+                                    <li><a href="/solutions/businessIntelligence">Business Intelligence solutions</a></li>
+                                    <li><a href="/solutions/datamanagement">Data Management</a></li>
+                                    <li><a href="/solutions/enterprisedatawarehouse">Enterprise Data Warehouse</a></li>
+                                    <li><a href="/solutions/applicationmiddleware">Application Middleware Management</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -95,27 +107,27 @@ function BusinessIntelligence() {
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Enterprise Mobility Service</h5>
                                         <ul>
-                                            <li><a href="">Business Process Mobilisation</a></li>
-                                            <li><a href="">B2B Mobile Apps Development</a></li>
-                                            <li><a href="">Enterprise ANdroid App Development</a></li>
-                                            <li><a href="">Enterprise App Distribution</a></li>
-                                            <li><a href="">Enterprise IOS App Development</a></li>
-                                            <li><a href="">Mobile Business Intelligence</a></li>
+                                            <li><a href="/services/businessProcess">Business Process Mobilisation</a></li>
+                                            <li><a href="/services/b2bmobileapps">B2B Mobile Apps Development</a></li>
+                                            <li><a href="/services/enterpriseandroidapp">Enterprise ANdroid App Development</a></li>
+                                            <li><a href="/services/enterpriseapp">Enterprise App Distribution</a></li>
+                                            <li><a href="/services/enterpriseiosapp">Enterprise IOS App Development</a></li>
+                                            <li><a href="/services/mobilebusiness">Mobile Business Intelligence</a></li>
                                         </ul>
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Mobile Apps Development</h5>
                                         <ul>
-                                            <li><a href="">Android App Development</a></li>
-                                            <li><a href="">Windows8 App Development</a></li>
-                                            <li><a href="">Blackberry App Development</a></li>
-                                            <li><a href="">Iphone App Development</a></li>
+                                            <li><a href="/services/andriodapp">Android App Development</a></li>
+                                            <li><a href="/services/window8">Windows8 App Development</a></li>
+                                            <li><a href="/services/blackberry">Blackberry App Development</a></li>
+                                            <li><a href="/services/iphoneapp">Iphone App Development</a></li>
                                         </ul>
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Business Intelligence Services</h5>
                                         <ul>
-                                            <li><a href="">Business Intelligence Services</a></li>
+                                            <li><a href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -123,21 +135,21 @@ function BusinessIntelligence() {
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Web Application Development</h5>
                                         <ul>
-                                            <li><a href="">CRM Application Development</a></li>
-                                            <li><a href="">Inventory Management</a></li>
-                                            <li><a href="">Content Management System</a></li>
-                                            <li><a href="">Custom Web App Development</a></li>
-                                            <li><a href="">OpenSource Development</a></li>
+                                            <li><a href="/services/crmapplication">CRM Application Development</a></li>
+                                            <li><a href="/services/inventory">Inventory Management</a></li>
+                                            <li><a href="/services/contentmanagement">Content Management System</a></li>
+                                            <li><a href="/services/customwebapp">Custom Web App Development</a></li>
+                                            <li><a href="/services/opensourcedevelopment">OpenSource Development</a></li>
                                         </ul>
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Test & QA Services</h5>
                                         <ul>
-                                            <li><a href="">Automated Testing</a></li>
-                                            <li><a href="">Selenium</a></li>
-                                            <li><a href="">QTP</a></li>
-                                            <li><a href="">Manual Testing</a></li>
-                                            <li><a href="">Test Complete</a></li>
+                                            <li><a href="/services/automatedtesting">Automated Testing</a></li>
+                                            <li><a href="/services/selenium">Selenium</a></li>
+                                            <li><a href="/services/qtp">QTP</a></li>
+                                            <li><a href="/services/manualtesting">Manual Testing</a></li>
+                                            <li><a href="/services/testcomplete">Test Complete</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -146,22 +158,22 @@ function BusinessIntelligence() {
                         <div class='links' style={{ width: '20%', height: 'auto' }}>
                             <h3 style={{ color: 'white' }}>Industries</h3>
                             <ul>
-                                <li><a href="">Telecommunications</a></li>
-                                <li><a href="">Retail</a></li>
-                                <li><a href="">Financial Services</a></li>
-                                <li><a href="">Manufacturing</a></li>
-                                <li><a href="">Utilities</a></li>
-                                <li><a href="">Government</a></li>
+                                <li><a href="/industries/telecommunications">Telecommunications</a></li>
+                                <li><a href="/industries/retail">Retail</a></li>
+                                <li><a href="/industries/financialservices">Financial Services</a></li>
+                                <li><a href="/industries/manufacturing">Manufacturing</a></li>
+                                <li><a href="/industries/utilities">Utilities</a></li>
+                                <li><a href="/industries/government">Government</a></li>
                             </ul>
                         </div>
                         <div class='links' style={{ width: '20%', height: 'auto' }}>
                             <h3 style={{ color: 'white' }}>Company</h3>
                             <ul>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Vission & Mission</a></li>
-                                <li><a href="">Core Value</a></li>
-                                <li><a href="">Social Responsibility</a></li>
-                                <li><a href="">Loaction</a></li>
+                                <li><a href="/corporate/aboutus">About Us</a></li>
+                                <li><a href="/corporate/vissionmission">Vission & Mission</a></li>
+                                <li><a href="/corporate/corevalue">Core Value</a></li>
+                                <li><a href="/corporate/socialresponsibility">Social Responsibility</a></li>
+                                <li><a href="/corporate/location">Loaction</a></li>
                             </ul>
                         </div>
                     </div>

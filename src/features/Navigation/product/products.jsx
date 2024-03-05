@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 function Products(){
     return(
-        <div style={{marginTop:'75px',backgroundColor:'gray',height:'auto'}}>
+        <div style={{marginTop:'75px',backgroundColor:'rgb(1, 1, 49)',height:'auto'}}>
             <Outlet></Outlet>
         </div>
     )

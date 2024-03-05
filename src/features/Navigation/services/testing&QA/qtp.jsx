@@ -29,36 +29,40 @@ function QTP() {
             </div>
             <main>
                 <div>
-                    <h3>QTP</h3>
-                    {
-                        qtp && qtp.map((item, index) => {
-                            if (typeof item === 'string') {
-                                return <p key={index}>{item}</p>;
-                            } else {
-                                const key = Object.keys(item)[0];
-                                const value = item[key];
-                                if (Array.isArray(value)) {
-                                    return (
-                                        <div key={index}>
-                                            <h3>{key}</h3>
-                                            <ul>
-                                                {value.map((subItem, subIndex) => (
-                                                    <li key={subIndex}>{subItem}</li>
-                                                ))}
-                                            </ul>
-                                        </div>
-                                    );
-                                } else {
-                                    return (
-                                        <div key={index}>
-                                            <h3>{key}</h3>
-                                            <p>{value}</p>
-                                        </div>
-                                    );
-                                }
+                    <h1 style={{ color: 'white' }}>QTP</h1>
+                    <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <div style={{ padding: '50px', textAlign: 'justify', fontSize: '25px' }}>
+                            {
+                                qtp && qtp.map((item, index) => {
+                                    if (typeof item === 'string') {
+                                        return <p key={index} style={{ color: 'white' }}>{item}</p>;
+                                    } else {
+                                        const key = Object.keys(item)[0];
+                                        const value = item[key];
+                                        if (Array.isArray(value)) {
+                                            return (
+                                                <div key={index}>
+                                                    <h3 style={{ color: 'white' }}>{key}</h3>
+                                                    <ul>
+                                                        {value.map((subItem, subIndex) => (
+                                                            <li key={subIndex} style={{ color: 'white' }}>{subItem}</li>
+                                                        ))}
+                                                    </ul>
+                                                </div>
+                                            );
+                                        } else {
+                                            return (
+                                                <div key={index}>
+                                                    <h3 style={{ color: 'white' }}>{key}</h3>
+                                                    <p style={{ color: 'white' }}>{value}</p>
+                                                </div>
+                                            );
+                                        }
+                                    }
+                                })
                             }
-                        })
-                    }
+                        </div>
+                    </div>
                 </div>
             </main>
 
@@ -69,11 +73,11 @@ function QTP() {
                             <h3 style={{ color: 'white' }}>Solutions</h3>
                             <div class='links'>
                                 <ul>
-                                    <li><a href="">Big Data & Advanced Analytics</a></li>
-                                    <li><a href="">Business Intelligence solutions</a></li>
-                                    <li><a href="">Data Management</a></li>
-                                    <li><a href="">Enterprise Data Warehouse</a></li>
-                                    <li><a href="">Application Middleware Management</a></li>
+                                    <li><a href="/solutions/bigdata">Big Data & Advanced Analytics</a></li>
+                                    <li><a href="/solutions/businessIntelligence">Business Intelligence solutions</a></li>
+                                    <li><a href="/solutions/datamanagement">Data Management</a></li>
+                                    <li><a href="/solutions/enterprisedatawarehouse">Enterprise Data Warehouse</a></li>
+                                    <li><a href="/solutions/applicationmiddleware">Application Middleware Management</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -84,27 +88,27 @@ function QTP() {
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Enterprise Mobility Service</h5>
                                         <ul>
-                                            <li><a href="">Business Process Mobilisation</a></li>
-                                            <li><a href="">B2B Mobile Apps Development</a></li>
-                                            <li><a href="">Enterprise ANdroid App Development</a></li>
-                                            <li><a href="">Enterprise App Distribution</a></li>
-                                            <li><a href="">Enterprise IOS App Development</a></li>
-                                            <li><a href="">Mobile Business Intelligence</a></li>
+                                            <li><a href="/services/businessProcess">Business Process Mobilisation</a></li>
+                                            <li><a href="/services/b2bmobileapps">B2B Mobile Apps Development</a></li>
+                                            <li><a href="/services/enterpriseandroidapp">Enterprise ANdroid App Development</a></li>
+                                            <li><a href="/services/enterpriseapp">Enterprise App Distribution</a></li>
+                                            <li><a href="/services/enterpriseiosapp">Enterprise IOS App Development</a></li>
+                                            <li><a href="/services/mobilebusiness">Mobile Business Intelligence</a></li>
                                         </ul>
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Mobile Apps Development</h5>
                                         <ul>
-                                            <li><a href="">Android App Development</a></li>
-                                            <li><a href="">Windows8 App Development</a></li>
-                                            <li><a href="">Blackberry App Development</a></li>
-                                            <li><a href="">Iphone App Development</a></li>
+                                            <li><a href="/services/andriodapp">Android App Development</a></li>
+                                            <li><a href="/services/window8">Windows8 App Development</a></li>
+                                            <li><a href="/services/blackberry">Blackberry App Development</a></li>
+                                            <li><a href="/services/iphoneapp">Iphone App Development</a></li>
                                         </ul>
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Business Intelligence Services</h5>
                                         <ul>
-                                            <li><a href="">Business Intelligence Services</a></li>
+                                            <li><a href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -112,21 +116,21 @@ function QTP() {
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Web Application Development</h5>
                                         <ul>
-                                            <li><a href="">CRM Application Development</a></li>
-                                            <li><a href="">Inventory Management</a></li>
-                                            <li><a href="">Content Management System</a></li>
-                                            <li><a href="">Custom Web App Development</a></li>
-                                            <li><a href="">OpenSource Development</a></li>
+                                            <li><a href="/services/crmapplication">CRM Application Development</a></li>
+                                            <li><a href="/services/inventory">Inventory Management</a></li>
+                                            <li><a href="/services/contentmanagement">Content Management System</a></li>
+                                            <li><a href="/services/customwebapp">Custom Web App Development</a></li>
+                                            <li><a href="/services/opensourcedevelopment">OpenSource Development</a></li>
                                         </ul>
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Test & QA Services</h5>
                                         <ul>
-                                            <li><a href="">Automated Testing</a></li>
-                                            <li><a href="">Selenium</a></li>
-                                            <li><a href="">QTP</a></li>
-                                            <li><a href="">Manual Testing</a></li>
-                                            <li><a href="">Test Complete</a></li>
+                                            <li><a href="/services/automatedtesting">Automated Testing</a></li>
+                                            <li><a href="/services/selenium">Selenium</a></li>
+                                            <li><a href="/services/qtp">QTP</a></li>
+                                            <li><a href="/services/manualtesting">Manual Testing</a></li>
+                                            <li><a href="/services/testcomplete">Test Complete</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -135,22 +139,22 @@ function QTP() {
                         <div class='links' style={{ width: '20%', height: 'auto' }}>
                             <h3 style={{ color: 'white' }}>Industries</h3>
                             <ul>
-                                <li><a href="">Telecommunications</a></li>
-                                <li><a href="">Retail</a></li>
-                                <li><a href="">Financial Services</a></li>
-                                <li><a href="">Manufacturing</a></li>
-                                <li><a href="">Utilities</a></li>
-                                <li><a href="">Government</a></li>
+                                <li><a href="/industries/telecommunications">Telecommunications</a></li>
+                                <li><a href="/industries/retail">Retail</a></li>
+                                <li><a href="/industries/financialservices">Financial Services</a></li>
+                                <li><a href="/industries/manufacturing">Manufacturing</a></li>
+                                <li><a href="/industries/utilities">Utilities</a></li>
+                                <li><a href="/industries/government">Government</a></li>
                             </ul>
                         </div>
                         <div class='links' style={{ width: '20%', height: 'auto' }}>
                             <h3 style={{ color: 'white' }}>Company</h3>
                             <ul>
-                                <li><a href="">About Us</a></li>
-                                <li><a href="">Vission & Mission</a></li>
-                                <li><a href="">Core Value</a></li>
-                                <li><a href="">Social Responsibility</a></li>
-                                <li><a href="">Loaction</a></li>
+                                <li><a href="/corporate/aboutus">About Us</a></li>
+                                <li><a href="/corporate/vissionmission">Vission & Mission</a></li>
+                                <li><a href="/corporate/corevalue">Core Value</a></li>
+                                <li><a href="/corporate/socialresponsibility">Social Responsibility</a></li>
+                                <li><a href="/corporate/location">Loaction</a></li>
                             </ul>
                         </div>
                     </div>

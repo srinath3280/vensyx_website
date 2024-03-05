@@ -7,13 +7,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
     /* color: rgb(51, 51, 87); */
 }
-
 
 .navbar {
   background-color: white;
@@ -116,6 +114,11 @@ code {
 #enquiryform{
   margin-left: auto;
   margin-right: auto;
+}
+#form{
+  background-image: url('/public/images/enquiry.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .d-block {

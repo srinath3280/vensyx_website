@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 
 function Services(){
     return(
-        <div style={{marginTop:'75px',backgroundColor:'gray',height:'auto'}}>
+        <div style={{marginTop:'75px',backgroundColor:'rgb(1, 0, 39)',height:'auto'}}>
             <Outlet></Outlet>
         </div>
     )
