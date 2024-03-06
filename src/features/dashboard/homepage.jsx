@@ -167,13 +167,12 @@ function HomePage() {
                     <div class='reveal1' style={{ width: '75px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto', marginTop: '5px' }}></div>
                     <p class='reveal1' style={{ fontSize: '25px', fontFamily: 'cursive' }}>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
 
-                    <div  id="ourservice">
-                        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', paddingRight: '50px',backgroundColor:'rgba(0,0,0,0.3)' }}>
+                    <div id="ourservice">
+                        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal1'>
                                     <div class='cards1'>
                                         <div class='text-cards1 bg-primary'>
-                                            <h5>Enterprise Mobility Services</h5>
                                             <h3>Enterprise Mobility Services</h3>
                                             <p>
                                                 In today's world, the constantly changing economy, and the boom in the global market, often poses difficult challenges for your business.
@@ -191,14 +190,14 @@ function HomePage() {
                                             <p>
                                                 With the increasing use of Smart phones, there is a soaring demand for mobile applications in the market.
                                             </p>
-                                            <button class='btn btn-outline-danger'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-success'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
                                         </div>
                                     </div>
                                 </div>
                             </section>
                         </div>
 
-                        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', paddingRight: '50px',backgroundColor:'rgba(0,0,0,0.3)' }}>
+                        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal3'>
                                     <div class='cards3'>
@@ -227,7 +226,7 @@ function HomePage() {
                             </section>
                         </div>
 
-                        <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '50px',backgroundColor:'rgba(0,0,0,0.3)' }}>
+                        <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal5'>
                                     <div class='cards5'>
@@ -306,9 +305,9 @@ function HomePage() {
             </main >
             <footer>
                 <div style={{ backgroundColor: 'black', display: 'flex', flexDirection: 'column' }}>
-                    <div style={{ backgroundColor: 'black', width: 'auto', height: 'auto', display: 'flex', flexDirection: 'row', padding: '20px' }}>
-                        <div style={{ width: '20%', height: 'auto' }}>
-                            <h3 style={{ color: 'white' }}>Solutions</h3>
+                    <div style={{ backgroundColor: 'black', width: 'auto', height: 'auto', display: 'flex', flexDirection: 'row', padding: '20px', textAlign: 'start' }}>
+                        <div style={{ width: '20%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                            <h3 style={{ color: 'white', marginLeft: '35px' }}>Solutions</h3>
                             <div class='links'>
                                 <ul>
                                     <li><a href="/solutions/bigdata">Big Data & Advanced Analytics</a></li>
@@ -319,13 +318,14 @@ function HomePage() {
                                 </ul>
                             </div>
                         </div>
-                        <div style={{ width: '40%', height: 'auto' }}>
-                            <h3 style={{ color: 'white' }}>Services</h3>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <div style={{ width: '1px', height: '500px', border: '1px solid grey' }}></div>
+                        <div style={{ width: '40%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', margin: '5px' }}>
+                            <h3 style={{ color: 'white', }}>Services</h3>
+                            <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'start' }}>
                                 <div style={{ width: '50%', height: 'auto', }}>
-                                    <div class='links'>
+                                    <div class='links' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                                         <h5 style={{ color: 'orange' }}>Enterprise Mobility Service</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/businessProcess">Business Process Mobilisation</a></li>
                                             <li><a href="/services/b2bmobileapps">B2B Mobile Apps Development</a></li>
                                             <li><a href="/services/enterpriseandroidapp">Enterprise ANdroid App Development</a></li>
@@ -336,7 +336,7 @@ function HomePage() {
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Mobile Apps Development</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/andriodapp">Android App Development</a></li>
                                             <li><a href="/services/window8">Windows8 App Development</a></li>
                                             <li><a href="/services/blackberry">Blackberry App Development</a></li>
@@ -345,15 +345,15 @@ function HomePage() {
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Business Intelligence Services</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div style={{ width: '50%', height: 'auto' }}>
+                                <div style={{ width: '50%', height: 'auto', }}>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Web Application Development</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/crmapplication">CRM Application Development</a></li>
                                             <li><a href="/services/inventory">Inventory Management</a></li>
                                             <li><a href="/services/contentmanagement">Content Management System</a></li>
@@ -363,7 +363,7 @@ function HomePage() {
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Test & QA Services</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/automatedtesting">Automated Testing</a></li>
                                             <li><a href="/services/selenium">Selenium</a></li>
                                             <li><a href="/services/qtp">QTP</a></li>
@@ -374,8 +374,9 @@ function HomePage() {
                                 </div>
                             </div>
                         </div>
+                        <div style={{ width: '1px', height: '500px', border: '1px solid grey' }}></div>
                         <div class='links' style={{ width: '20%', height: 'auto' }}>
-                            <h3 style={{ color: 'white' }}>Industries</h3>
+                            <h3 style={{ color: 'white', marginLeft: '30px' }}>Industries</h3>
                             <ul>
                                 <li><a href="/industries/telecommunications">Telecommunications</a></li>
                                 <li><a href="/industries/retail">Retail</a></li>
@@ -385,15 +386,18 @@ function HomePage() {
                                 <li><a href="/industries/government">Government</a></li>
                             </ul>
                         </div>
-                        <div class='links' style={{ width: '20%', height: 'auto' }}>
-                            <h3 style={{ color: 'white' }}>Company</h3>
-                            <ul>
-                                <li><a href="/corporate/aboutus">About Us</a></li>
-                                <li><a href="/corporate/vissionmission">Vission & Mission</a></li>
-                                <li><a href="/corporate/corevalue">Core Value</a></li>
-                                <li><a href="/corporate/socialresponsibility">Social Responsibility</a></li>
-                                <li><a href="/corporate/location">Loaction</a></li>
-                            </ul>
+                        <div style={{ width: '1px', height: '500px', border: '1px solid grey' }}></div>
+                        <div class='links' style={{ width: '20%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                            <h3 style={{ color: 'white', marginLeft: '30px' }}>Company</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="/corporate/aboutus">About Us</a></li>
+                                    <li><a href="/corporate/vissionmission">Vission & Mission</a></li>
+                                    <li><a href="/corporate/corevalue">Core Value</a></li>
+                                    <li><a href="/corporate/socialresponsibility">Social Responsibility</a></li>
+                                    <li><a href="/corporate/location">Loaction</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div>

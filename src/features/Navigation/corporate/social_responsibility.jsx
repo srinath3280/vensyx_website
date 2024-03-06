@@ -60,9 +60,9 @@ function SocialResponsibility() {
 
             <footer>
                 <div style={{ backgroundColor: 'black', display: 'flex', flexDirection: 'column' }}>
-                    <div style={{ backgroundColor: 'black', width: 'auto', height: 'auto', display: 'flex', flexDirection: 'row', padding: '20px' }}>
-                        <div style={{ width: '20%', height: 'auto' }}>
-                            <h3 style={{ color: 'white' }}>Solutions</h3>
+                    <div style={{ backgroundColor: 'black', width: 'auto', height: 'auto', display: 'flex', flexDirection: 'row', padding: '20px', textAlign: 'start' }}>
+                        <div style={{ width: '20%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                            <h3 style={{ color: 'white', marginLeft: '35px' }}>Solutions</h3>
                             <div class='links'>
                                 <ul>
                                     <li><a href="/solutions/bigdata">Big Data & Advanced Analytics</a></li>
@@ -73,13 +73,14 @@ function SocialResponsibility() {
                                 </ul>
                             </div>
                         </div>
-                        <div style={{ width: '40%', height: 'auto' }}>
-                            <h3 style={{ color: 'white' }}>Services</h3>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                        <div style={{ width: '1px', height: '500px', border: '1px solid grey' }}></div>
+                        <div style={{ width: '40%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', margin: '5px' }}>
+                            <h3 style={{ color: 'white', }}>Services</h3>
+                            <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'start' }}>
                                 <div style={{ width: '50%', height: 'auto', }}>
-                                    <div class='links'>
+                                    <div class='links' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                                         <h5 style={{ color: 'orange' }}>Enterprise Mobility Service</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/businessProcess">Business Process Mobilisation</a></li>
                                             <li><a href="/services/b2bmobileapps">B2B Mobile Apps Development</a></li>
                                             <li><a href="/services/enterpriseandroidapp">Enterprise ANdroid App Development</a></li>
@@ -90,7 +91,7 @@ function SocialResponsibility() {
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Mobile Apps Development</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/andriodapp">Android App Development</a></li>
                                             <li><a href="/services/window8">Windows8 App Development</a></li>
                                             <li><a href="/services/blackberry">Blackberry App Development</a></li>
@@ -99,15 +100,15 @@ function SocialResponsibility() {
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Business Intelligence Services</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div style={{ width: '50%', height: 'auto' }}>
+                                <div style={{ width: '50%', height: 'auto', }}>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Web Application Development</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/crmapplication">CRM Application Development</a></li>
                                             <li><a href="/services/inventory">Inventory Management</a></li>
                                             <li><a href="/services/contentmanagement">Content Management System</a></li>
@@ -117,7 +118,7 @@ function SocialResponsibility() {
                                     </div>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Test & QA Services</h5>
-                                        <ul>
+                                        <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/automatedtesting">Automated Testing</a></li>
                                             <li><a href="/services/selenium">Selenium</a></li>
                                             <li><a href="/services/qtp">QTP</a></li>
@@ -128,8 +129,9 @@ function SocialResponsibility() {
                                 </div>
                             </div>
                         </div>
+                        <div style={{ width: '1px', height: '500px', border: '1px solid grey' }}></div>
                         <div class='links' style={{ width: '20%', height: 'auto' }}>
-                            <h3 style={{ color: 'white' }}>Industries</h3>
+                            <h3 style={{ color: 'white', marginLeft: '30px' }}>Industries</h3>
                             <ul>
                                 <li><a href="/industries/telecommunications">Telecommunications</a></li>
                                 <li><a href="/industries/retail">Retail</a></li>
@@ -139,15 +141,18 @@ function SocialResponsibility() {
                                 <li><a href="/industries/government">Government</a></li>
                             </ul>
                         </div>
-                        <div class='links' style={{ width: '20%', height: 'auto' }}>
-                            <h3 style={{ color: 'white' }}>Company</h3>
-                            <ul>
-                                <li><a href="/corporate/aboutus">About Us</a></li>
-                                <li><a href="/corporate/vissionmission">Vission & Mission</a></li>
-                                <li><a href="/corporate/corevalue">Core Value</a></li>
-                                <li><a href="/corporate/socialresponsibility">Social Responsibility</a></li>
-                                <li><a href="/corporate/location">Loaction</a></li>
-                            </ul>
+                        <div style={{ width: '1px', height: '500px', border: '1px solid grey' }}></div>
+                        <div class='links' style={{ width: '20%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                            <h3 style={{ color: 'white', marginLeft: '30px' }}>Company</h3>
+                            <div>
+                                <ul>
+                                    <li><a href="/corporate/aboutus">About Us</a></li>
+                                    <li><a href="/corporate/vissionmission">Vission & Mission</a></li>
+                                    <li><a href="/corporate/corevalue">Core Value</a></li>
+                                    <li><a href="/corporate/socialresponsibility">Social Responsibility</a></li>
+                                    <li><a href="/corporate/location">Loaction</a></li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                     <div>

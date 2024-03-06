@@ -6,7 +6,7 @@ function NavBar() {
             <div class="container-fluid">
                 <div style={{width:'550px',display:'flex',flexDirection:'row',justifyContent:'start',alignItems:'center'}}>
                     <img src="/images/vensyxlogo.png" alt="" width="50px" height="50px"/>
-                    <h5 style={{marginLeft:'15px'}}>VENSYX Data Solutions Pvt. Ltd</h5>
+                    <h5 style={{marginLeft:'35px',fontSize:'25px',color:'rgb(3, 3, 102)'}}>VENSYX Data Solutions</h5>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav nav-underline navbar-nav me-auto">

@@ -10,7 +10,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-    /* color: rgb(51, 51, 87); */
+    color: rgb(3, 3, 102);
 }
 
 .navbar {
@@ -19,7 +19,7 @@ code {
 }
 
 .navbar ul a {
-  color: blue;
+  color: rgb(3, 3, 102);
 }
 
 .navbar ul a:hover {
@@ -185,19 +185,19 @@ section .cards1{
 section .cards1 .text-cards1{
   width: 300px;
   height: 300px;
-  /* background-color: rgb(7, 185, 230); */
-  background-image: url('https://static9.depositphotos.com/1037987/1188/i/450/depositphotos_11886437-stock-photo-mixed-group-in-business-meeting.jpg');
+  background-color: rgb(7, 185, 230);
+  /* background-image: url('https://static9.depositphotos.com/1037987/1188/i/450/depositphotos_11886437-stock-photo-mixed-group-in-business-meeting.jpg'); */
   margin: 20px;
   padding: 25px;
 }
 section .cards1 .text-cards1 h3{
   font-size: 20px;
   text-align: center;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 10px;
-  display: none;
+  /* display: none; */
 }
-section .cards1 .text-cards1 p{
+/* section .cards1 .text-cards1 p{
   display: none;
 }
 section .cards1 .text-cards1 button{
@@ -215,7 +215,7 @@ section .cards1 .text-cards1 h5:hover{
   section .cards1{
     flex-direction: column;
   }
-}
+} */
 .reveal1{
   position: relative;
   transform: translateY(25px);
