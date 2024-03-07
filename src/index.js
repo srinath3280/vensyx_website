@@ -60,6 +60,7 @@ import QTP from './features/Navigation/services/testing&QA/qtp.jsx';
 import ManualTesting from './features/Navigation/services/testing&QA/manualTesting.jsx';
 import TestComplete from './features/Navigation/services/testing&QA/testComplete.jsx';
 import Form from './features/dashboard/form.jsx';
+import { EnquiryForm } from './features/dashboard/enquiryForm.jsx';
 
 const router = createBrowserRouter([
   {
@@ -72,7 +73,7 @@ const router = createBrowserRouter([
       },
       {
         path:'/form',
-        element:<Form></Form>
+        element:<EnquiryForm></EnquiryForm>
       },
       {
         path:'/corporate',

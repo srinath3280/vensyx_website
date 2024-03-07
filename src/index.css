@@ -41,6 +41,8 @@ code {
   position: relative;
 }
 
+
+
 .dropdown-submenu>.dropdown-menu {
   top: 0;
   right: 100%;
@@ -119,6 +121,15 @@ code {
   background-image: url('/public/images/enquiry.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#eqform{
+  background-image: url('/public/images/enquiry.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#eqnform{
+  margin-left: 400px;
 }
 
 .d-block {

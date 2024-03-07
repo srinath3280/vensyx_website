@@ -12,6 +12,7 @@ function Form() {
         },
         onSubmit: (values) => {
             console.log(values);
+            window.location = 'mailto:lsrinathreddy@gmail.com';
             navigate('/')
         }
     })

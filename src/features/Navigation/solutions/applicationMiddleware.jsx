@@ -69,7 +69,7 @@ function ApplicationMiddleware() {
             <footer>
                 <div style={{ backgroundColor: 'black', display: 'flex', flexDirection: 'column' }}>
                     <div style={{ backgroundColor: 'black', width: 'auto', height: 'auto', display: 'flex', flexDirection: 'row', padding: '20px', textAlign: 'start' }}>
-                        <div style={{ width: '20%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                        <div style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                             <h3 style={{ color: 'white', marginLeft: '35px' }}>Solutions</h3>
                             <div class='links'>
                                 <ul>
@@ -81,12 +81,21 @@ function ApplicationMiddleware() {
                                 </ul>
                             </div>
                         </div>
-                        <div style={{ width: '1px', height: '500px', border: '1px solid grey' }}></div>
-                        <div style={{ width: '40%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', margin: '5px' }}>
-                            <h3 style={{ color: 'white', }}>Services</h3>
-                            <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'start' }}>
-                                <div style={{ width: '50%', height: 'auto', }}>
-                                    <div class='links' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                        <div style={{ width: '1px', height: '200px', border: '1px solid grey' }}></div>
+                        <div style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
+                            <h3 style={{ color: 'white',marginLeft: '35px' }}>Services</h3>
+                            <div class='links'>
+                                <ul>
+                                    <li><a href="/services/enterprisemobility">Enterprise Mobility Service</a></li>
+                                    <li><a href="/services/mobileapps">Mobile Apps Development</a></li>
+                                    <li><a href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
+                                    <li><a href="/services/webapplication">Web Application Development</a></li>
+                                    <li><a href="/services/testing">Testing and QA Services</a></li>
+                                </ul>
+                            </div>
+                            {/* <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'start' }}> */}
+                            {/* <div style={{ width: '100%', height: 'auto', }}> */}
+                            {/* <div class='links' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                                         <h5 style={{ color: 'orange' }}>Enterprise Mobility Service</h5>
                                         <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/businessProcess">Business Process Mobilisation</a></li>
@@ -111,9 +120,9 @@ function ApplicationMiddleware() {
                                         <ul style={{ marginLeft: '-25px' }}>
                                             <li><a href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
                                         </ul>
-                                    </div>
-                                </div>
-                                <div style={{ width: '50%', height: 'auto', }}>
+                                    </div> */}
+                            {/* </div> */}
+                            {/* <div style={{ width: '50%', height: 'auto', }}>
                                     <div class='links'>
                                         <h5 style={{ color: 'orange' }}>Web Application Development</h5>
                                         <ul style={{ marginLeft: '-25px' }}>
@@ -134,11 +143,11 @@ function ApplicationMiddleware() {
                                             <li><a href="/services/testcomplete">Test Complete</a></li>
                                         </ul>
                                     </div>
-                                </div>
-                            </div>
+                                </div> */}
+                            {/* </div> */}
                         </div>
-                        <div style={{ width: '1px', height: '500px', border: '1px solid grey' }}></div>
-                        <div class='links' style={{ width: '20%', height: 'auto' }}>
+                        <div style={{ width: '1px', height: '200px', border: '1px solid grey', }}></div>
+                        <div class='links' style={{ width: '25%', height: 'auto' }}>
                             <h3 style={{ color: 'white', marginLeft: '30px' }}>Industries</h3>
                             <ul>
                                 <li><a href="/industries/telecommunications">Telecommunications</a></li>
@@ -149,8 +158,8 @@ function ApplicationMiddleware() {
                                 <li><a href="/industries/government">Government</a></li>
                             </ul>
                         </div>
-                        <div style={{ width: '1px', height: '500px', border: '1px solid grey' }}></div>
-                        <div class='links' style={{ width: '20%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                        <div style={{ width: '1px', height: '200px', border: '1px solid grey' }}></div>
+                        <div class='links' style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                             <h3 style={{ color: 'white', marginLeft: '30px' }}>Company</h3>
                             <div>
                                 <ul>
@@ -164,7 +173,7 @@ function ApplicationMiddleware() {
                         </div>
                     </div>
                     <div>
-                        <p style={{ fontSize: '20px', color: 'white' }}>This website may store are retrive your browser information for pernalizing, digital experience.To access more about our privacy policy. <a href="">click here</a></p>
+                        <p style={{ fontSize: '20px', color: 'white' }}>This website may store or retrive your browser information for personalizing, digital experience.To access more about our privacy policy. <a href="">click here</a></p>
                         <p style={{ color: 'white' }}>Copyright © 2014 - VENSYX Data Solutions</p>
                     </div>
                 </div>

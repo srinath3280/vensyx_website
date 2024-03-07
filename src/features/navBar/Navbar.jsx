@@ -53,7 +53,7 @@ function NavBar() {
                             </a>
                             <ul class="dropdown-menu">
                                 <li class="dropdown-submenu">
-                                    <a class="dropdown-item" href="/services/enterprisemobility">Enterprise Mobility Service</a>
+                                    <a class="dropdown-item nav-link" href="/services/enterprisemobility">Enterprise Mobility Service</a>
                                     <ul class="dropdown-menu">
                                         <li><a class="dropdown-item" href="/services/businessProcess">Business Process Mobilization</a></li>
                                         <li><a class="dropdown-item" href="/services/b2bmobileapps">B2B Mobile Apps Development</a></li>
@@ -72,7 +72,7 @@ function NavBar() {
                                         <li><a class="dropdown-item" href="/services/iphoneapp">iPhone App Development</a></li>
                                     </ul>
                                 </li>
-                                <li><a class="dropdown-item" href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
+                                <li><a class="dropdown-item nav-link" href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
                                 <li class="dropdown-submenu">
                                     <a class="dropdown-item nav-link" href="/services/webapplication">Web Application Development</a>
                                     <ul class="dropdown-menu">
