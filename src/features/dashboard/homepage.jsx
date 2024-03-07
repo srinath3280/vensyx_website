@@ -127,7 +127,7 @@ function HomePage() {
                                         like never before. It is estimated that by 2017 there will more bytes of data than the sand grains in
                                         the world.</p>
                                 </div>
-                                <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                                <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
                         </div>
                     </section>
@@ -139,7 +139,7 @@ function HomePage() {
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
                                     <p class='reveal1'>VENSYX Data Solutions Business I that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives.</p>
                                 </div>
-                                <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                                <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
                             <div id="bigdata" class='container reveal1' style={{ width: '30%', marginRight: '50px' }}>
                                 <img src="images/businessintelligence.jpg" alt="" width='300px' height='300px' style={{ borderRadius: '50%' }} />
@@ -157,7 +157,7 @@ function HomePage() {
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
                                     <p class='reveal1'>VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate,consistent and transparent data content for its customers. It emphasizes usability of data for its intended purpose and audience.</p>
                                 </div>
-                                <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                                <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
                         </div>
                     </section>
@@ -259,7 +259,7 @@ function HomePage() {
                                         (i.e. their characteristic, products, behaviour, etc.) to create a complete,
                                         360-degree customer view.</p>
                                 </div>
-                                <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                                <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
                             <div id="bigdata" class='container reveal1' style={{ width: '50%', marginLeft: '0px' }}>
                                 <img src="images/telecommunication.jpg" alt="" width='80%' height='350px' style={{ borderRadius: '10px' }} />
@@ -283,7 +283,7 @@ function HomePage() {
                                         service unachievable using traditional product-centric systems that many
                                         banks still employ.</p>
                                 </div>
-                                <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                                <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
                         </div>
                     </section>
@@ -298,7 +298,7 @@ function HomePage() {
                                     taxation all hinge on the development, maintenance, and access to
                                     effective channels of data management.</p>
                             </div>
-                            <button class="btn btn-outline-primary" style={{ width: '80px', height: '40px', padding: '10px' }}>EXPLORE</button>
+                            <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                         </div>
                     </div>
                 </div>
