@@ -1,5 +1,4 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
 import './myscriptfile/script1.js';
 import './myscriptfile/scp1.js';
 import './myscriptfile/scp2.js';
@@ -32,7 +31,7 @@ function HomePage() {
                         <div class="carousel-item active" data-bs-interval="2000">
                             <img src="/images/building2.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
-                                <p style={{ fontSize: '35px', marginTop: '-100px', backgroundColor: 'rgba(0,0,0,0.1)',textTransform:'uppercase' }}>
+                                <p style={{ fontSize: '35px', marginTop: '-100px', backgroundColor: 'rgba(0,0,0,0.1)', textTransform: 'uppercase' }}>
                                     We bring you powerfull advantages to navigate your digital transformtion
                                 </p>
                             </div>
@@ -40,7 +39,7 @@ function HomePage() {
                         <div class="carousel-item" data-bs-interval="2000">
                             <img src="/images/working5.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
-                                <p style={{ marginLeft: '550px', fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.3)', marginTop: '-50px',textTransform:'uppercase' }}>
+                                <p style={{ marginLeft: '550px', fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.3)', marginTop: '-50px', textTransform: 'uppercase' }}>
                                     PASSION TO INNOVATE
                                 </p>
                             </div>
@@ -48,7 +47,7 @@ function HomePage() {
                         <div class="carousel-item" data-bs-interval="2000">
                             <img src="/images/group1.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
-                                <p style={{ fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.4)', marginTop: '-400px',textTransform:'uppercase' }}>
+                                <p style={{ fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.4)', marginTop: '-400px', textTransform: 'uppercase' }}>
                                     Teamwork Makes The Dreamwork
                                 </p>
                             </div>
@@ -67,7 +66,7 @@ function HomePage() {
             <main>
                 <div id="content1">
                     <section>
-                        <div style={{ width: '1256px', display: 'flex', flexDirection: 'column', padding: '50px' }}>
+                        <div id="section1" style={{ display: 'flex', flexDirection: 'column', padding: '50px', }}>
                             <h3 class='reveal1'>Who We Are</h3>
                             <h1 class='reveal1'>About VENSYX Data Solutions</h1>
                             <p class='reveal1' style={{ textAlign: 'justify', fontSize: '25px' }}>
@@ -91,7 +90,7 @@ function HomePage() {
                         </div>
                     </section>
                     <div>
-                        <section>
+                        <section id="section2">
                             <h1 class='reveal1'>VENSYX  Vision & Mission</h1>
                             <div class='reveal1' style={{ display: 'flex', flexDirection: 'row' }}>
                                 <div style={{ textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px' }}>
@@ -115,7 +114,7 @@ function HomePage() {
 
                     <h1 class='reveal1' style={{ marginTop: '25px' }}>SOLUTIONS</h1>
                     <section>
-                        <div style={{ display: 'flex', flexDirection: 'row', marginTop: '25px' }}>
+                        <div id="section3" style={{ display: 'flex', flexDirection: 'row', marginTop: '25px' }}>
                             <div id="bigdata" class='container reveal1' style={{ width: '50%' }}>
                                 <img src="images/bigdata2.jpg" alt="" width='500px' height='350px' style={{ borderRadius: '10px' }} />
                             </div>
@@ -133,7 +132,7 @@ function HomePage() {
                     </section>
 
                     <section>
-                        <div style={{ display: 'flex', flexDirection: 'row', marginTop: '25px' }}>
+                        <div id="section4" style={{ display: 'flex', flexDirection: 'row', marginTop: '25px' }}>
                             <div style={{ display: 'flex', flexDirection: 'column', width: '70%', marginLeft: '50px' }}>
                                 <h2 class='reveal1'>Business Intelligence Solutions</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
@@ -148,7 +147,7 @@ function HomePage() {
                     </section>
 
                     <section>
-                        <div style={{ display: 'flex', flexDirection: 'row', marginTop: '25px' }}>
+                        <div id="section5" style={{ display: 'flex', flexDirection: 'row', marginTop: '25px' }}>
                             <div id="bigdata" class='container reveal1' style={{ width: '50%', marginLeft: '0px' }}>
                                 <img src="images/datamanagement.jpg" alt="" width='80%' height='350px' style={{ borderRadius: '10px' }} />
                             </div>
@@ -162,13 +161,15 @@ function HomePage() {
                         </div>
                     </section>
 
-                    <h1 class='reveal1' style={{ marginTop: '25px' }}>Our Services</h1>
-                    <div class='reveal1' style={{ width: '50px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto' }}></div>
-                    <div class='reveal1' style={{ width: '75px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto', marginTop: '5px' }}></div>
-                    <p class='reveal1' style={{ fontSize: '25px', fontFamily: 'cursive' }}>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
+                    <section id="section6">
+                        <h1 class='reveal1' style={{ marginTop: '25px' }}>Our Services</h1>
+                        <div class='reveal1' style={{ width: '50px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto' }}></div>
+                        <div class='reveal1' style={{ width: '75px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto', marginTop: '5px' }}></div>
+                        <p class='reveal1' style={{  fontFamily: 'cursive' }}>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
+                    </section>
 
                     <div id="ourservice">
-                        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
+                        <div id="section7" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal1'>
                                     <div class='cards1'>
@@ -197,7 +198,7 @@ function HomePage() {
                             </section>
                         </div>
 
-                        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
+                        <div id="section8" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-end', paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal3'>
                                     <div class='cards3'>
@@ -226,7 +227,7 @@ function HomePage() {
                             </section>
                         </div>
 
-                        <div style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
+                        <div id="section9" style={{ display: 'flex', justifyContent: 'flex-end', paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal5'>
                                     <div class='cards5'>
@@ -243,9 +244,9 @@ function HomePage() {
                         </div>
                     </div>
 
-                    <h1 class='reveal1' style={{ marginTop: '25px' }}>Industries</h1>
+                    <h1 id="section10" class='reveal1' style={{ marginTop: '25px' }}>Industries</h1>
                     <section>
-                        <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginTop: '25px' }}>
+                        <div id="section11" style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginTop: '25px' }}>
                             <div class='reveal1' style={{ display: 'flex', flexDirection: 'column', width: '50%', marginLeft: '50px' }}>
                                 <h2>Telecommunications</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
@@ -268,7 +269,7 @@ function HomePage() {
                     </section>
 
                     <section>
-                        <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
+                        <div id="section12" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center' }}>
                             <div id="bigdata" class='container reveal1' style={{ width: '50%', marginLeft: '0px' }}>
                                 <img src="images/financial2.jpg" alt="" width='80%' height='350px' style={{ borderRadius: '10px' }} />
                             </div>
@@ -289,7 +290,7 @@ function HomePage() {
                     </section>
 
                     <div style={{ display: 'flex', flexDirection: 'column' }}>
-                        <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '50px', marginRight: '50px', marginBottom: '25px', marginTop: '25px' }}>
+                        <div id="section13" style={{ display: 'flex', flexDirection: 'column', marginLeft: '50px', marginRight: '50px', marginBottom: '25px', marginTop: '25px' }}>
                             <h2 class='reveal1'>Government</h2>
                             <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
                                 <p class='reveal1'>Stable societies have always been those best equipped to manage,
@@ -307,7 +308,7 @@ function HomePage() {
             <footer>
                 <div style={{ backgroundColor: 'black', display: 'flex', flexDirection: 'column' }}>
                     <div style={{ backgroundColor: 'black', width: 'auto', height: 'auto', display: 'flex', flexDirection: 'row', padding: '20px', textAlign: 'start' }}>
-                        <div style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                        <div id="footer1" style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                             <h3 style={{ color: 'white', marginLeft: '35px' }}>Solutions</h3>
                             <div class='links'>
                                 <ul>
@@ -320,8 +321,8 @@ function HomePage() {
                             </div>
                         </div>
                         <div style={{ width: '1px', height: '200px', border: '1px solid grey' }}></div>
-                        <div style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
-                            <h3 style={{ color: 'white',marginLeft: '35px' }}>Services</h3>
+                        <div id="footer2" style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                            <h3 style={{ color: 'white', marginLeft: '35px' }}>Services</h3>
                             <div class='links'>
                                 <ul>
                                     <li><a href="/services/enterprisemobility">Enterprise Mobility Service</a></li>
@@ -331,75 +332,25 @@ function HomePage() {
                                     <li><a href="/services/testing">Testing and QA Services</a></li>
                                 </ul>
                             </div>
-                            {/* <div style={{ display: 'flex', flexDirection: 'row', textAlign: 'start' }}> */}
-                            {/* <div style={{ width: '100%', height: 'auto', }}> */}
-                            {/* <div class='links' style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
-                                        <h5 style={{ color: 'orange' }}>Enterprise Mobility Service</h5>
-                                        <ul style={{ marginLeft: '-25px' }}>
-                                            <li><a href="/services/businessProcess">Business Process Mobilisation</a></li>
-                                            <li><a href="/services/b2bmobileapps">B2B Mobile Apps Development</a></li>
-                                            <li><a href="/services/enterpriseandroidapp">Enterprise ANdroid App Development</a></li>
-                                            <li><a href="/services/enterpriseapp">Enterprise App Distribution</a></li>
-                                            <li><a href="/services/enterpriseiosapp">Enterprise IOS App Development</a></li>
-                                            <li><a href="/services/mobilebusiness">Mobile Business Intelligence</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class='links'>
-                                        <h5 style={{ color: 'orange' }}>Mobile Apps Development</h5>
-                                        <ul style={{ marginLeft: '-25px' }}>
-                                            <li><a href="/services/andriodapp">Android App Development</a></li>
-                                            <li><a href="/services/window8">Windows8 App Development</a></li>
-                                            <li><a href="/services/blackberry">Blackberry App Development</a></li>
-                                            <li><a href="/services/iphoneapp">Iphone App Development</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class='links'>
-                                        <h5 style={{ color: 'orange' }}>Business Intelligence Services</h5>
-                                        <ul style={{ marginLeft: '-25px' }}>
-                                            <li><a href="/services/businessintelligenceservices">Business Intelligence Services</a></li>
-                                        </ul>
-                                    </div> */}
-                            {/* </div> */}
-                            {/* <div style={{ width: '50%', height: 'auto', }}>
-                                    <div class='links'>
-                                        <h5 style={{ color: 'orange' }}>Web Application Development</h5>
-                                        <ul style={{ marginLeft: '-25px' }}>
-                                            <li><a href="/services/crmapplication">CRM Application Development</a></li>
-                                            <li><a href="/services/inventory">Inventory Management</a></li>
-                                            <li><a href="/services/contentmanagement">Content Management System</a></li>
-                                            <li><a href="/services/customwebapp">Custom Web App Development</a></li>
-                                            <li><a href="/services/opensourcedevelopment">OpenSource Development</a></li>
-                                        </ul>
-                                    </div>
-                                    <div class='links'>
-                                        <h5 style={{ color: 'orange' }}>Test & QA Services</h5>
-                                        <ul style={{ marginLeft: '-25px' }}>
-                                            <li><a href="/services/automatedtesting">Automated Testing</a></li>
-                                            <li><a href="/services/selenium">Selenium</a></li>
-                                            <li><a href="/services/qtp">QTP</a></li>
-                                            <li><a href="/services/manualtesting">Manual Testing</a></li>
-                                            <li><a href="/services/testcomplete">Test Complete</a></li>
-                                        </ul>
-                                    </div>
-                                </div> */}
-                            {/* </div> */}
                         </div>
                         <div style={{ width: '1px', height: '200px', border: '1px solid grey', }}></div>
-                        <div class='links' style={{ width: '25%', height: 'auto' }}>
+                        <div id="footer3" class='links' style={{ width: '25%', height: 'auto' }}>
                             <h3 style={{ color: 'white', marginLeft: '30px' }}>Industries</h3>
-                            <ul>
-                                <li><a href="/industries/telecommunications">Telecommunications</a></li>
-                                <li><a href="/industries/retail">Retail</a></li>
-                                <li><a href="/industries/financialservices">Financial Services</a></li>
-                                <li><a href="/industries/manufacturing">Manufacturing</a></li>
-                                <li><a href="/industries/utilities">Utilities</a></li>
-                                <li><a href="/industries/government">Government</a></li>
-                            </ul>
+                            <div class='links'>
+                                <ul>
+                                    <li><a href="/industries/telecommunications">Telecommunications</a></li>
+                                    <li><a href="/industries/retail">Retail</a></li>
+                                    <li><a href="/industries/financialservices">Financial Services</a></li>
+                                    <li><a href="/industries/manufacturing">Manufacturing</a></li>
+                                    <li><a href="/industries/utilities">Utilities</a></li>
+                                    <li><a href="/industries/government">Government</a></li>
+                                </ul>
+                            </div>
                         </div>
                         <div style={{ width: '1px', height: '200px', border: '1px solid grey' }}></div>
-                        <div class='links' style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                        <div id="footer4" class='links' style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                             <h3 style={{ color: 'white', marginLeft: '30px' }}>Company</h3>
-                            <div>
+                            <div class='links'>
                                 <ul>
                                     <li><a href="/corporate/aboutus">About Us</a></li>
                                     <li><a href="/corporate/vissionmission">Vission & Mission</a></li>
@@ -410,13 +361,12 @@ function HomePage() {
                             </div>
                         </div>
                     </div>
-                    <div>
-                        <p style={{ fontSize: '20px', color: 'white' }}>This website may store or retrive your browser information for personalizing, digital experience.To access more about our privacy policy. <a href="">click here</a></p>
+                    <div id="footertext">
+                        <p style={{ color: 'white' }}>This website may store or retrive your browser information for personalizing, digital experience.To access more about our privacy policy. <a href="">click here</a></p>
                         <p style={{ color: 'white' }}>Copyright © 2014 - VENSYX Data Solutions</p>
                     </div>
                 </div>
             </footer>
-            <Outlet></Outlet>
         </div >
     )
 }
