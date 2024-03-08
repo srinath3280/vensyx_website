@@ -29,31 +29,49 @@ function Location() {
             </div>
             <main>
                 <div>
-                    <h1 style={{color:'white'}}>Location</h1>
-                    <div style={{display:'flex',flexDirection:'column',alignItems:'flex-start',marginLeft:'100px',padding:'25px'}}>
-                        <h3 style={{color:'white',marginBottom:'20px'}}>Vishakapatnam</h3>
-                        {
-                            location && location.map((data) => {
-                                return (
-                                    // console.log(data.RegisteredOffice)
-                                    data.RegisteredOffice && data.RegisteredOffice.map((details) => {
-                                        return (
-                                            <p style={{color:'white',lineHeight:'10px'}}>{details}</p>
-                                        )
-                                    })
-                                )
-                            })
-                        }
+                    <h1 style={{ color: 'white' }}>Location</h1>
+                    <div>
+                        <h2 style={{ textAlign: 'start', marginLeft: '125px', color: 'white' }}>India Office</h2>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '100px', padding: '25px', paddingTop: '5px' }}>
+                            <h3 style={{ color: 'white', marginBottom: '20px' }}>Vishakapatnam</h3>
+                            {
+                                location && location.map((data) => {
+                                    return (
+                                        // console.log(data.RegisteredOffice)
+                                        data.RegisteredOffice && data.RegisteredOffice.map((details) => {
+                                            return (
+                                                <p style={{ color: 'white', lineHeight: '10px' }}>{details}</p>
+                                            )
+                                        })
+                                    )
+                                })
+                            }
+                        </div>
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '100px', padding: '25px', paddingTop: '0px' }}>
+                            <h3 style={{ color: 'white', marginBottom: '20px' }}>Hyderabad</h3>
+                            {
+                                location && location.map((data) => {
+                                    return (
+                                        // console.log(data.RegisteredOffice)
+                                        data.DevelopmentCentre && data.DevelopmentCentre.map((details) => {
+                                            return (
+                                                <p style={{ color: 'white', lineHeight: '10px' }}>{details}</p>
+                                            )
+                                        })
+                                    )
+                                })
+                            }
+                        </div>
                     </div>
-                    <div style={{display:'flex',flexDirection:'column',alignItems:'flex-start',marginLeft:'100px',padding:'25px',paddingTop:'0px'}}>
-                        <h3 style={{color:'white',marginBottom:'20px'}}>Hyderabad</h3>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '100px', padding: '25px', paddingTop: '0px' }}>
+                        <h2 style={{ textAlign: 'start', color: 'white',marginBottom:'20px' }}>Malaysia Office</h2>
                         {
                             location && location.map((data) => {
                                 return (
                                     // console.log(data.RegisteredOffice)
-                                    data.DevelopmentCentre && data.DevelopmentCentre.map((details) => {
+                                    data.Malaysia && data.Malaysia.map((details) => {
                                         return (
-                                            <p style={{color:'white',lineHeight:'10px'}}>{details}</p>
+                                            <p style={{ color: 'white', lineHeight: '10px' }}>{details}</p>
                                         )
                                     })
                                 )
@@ -79,8 +97,8 @@ function Location() {
                             </div>
                         </div>
                         <div style={{ width: '1px', height: '200px', border: '1px solid grey' }}></div>
-                        <div style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start'}}>
-                            <h3 style={{ color: 'white',marginLeft: '35px' }}>Services</h3>
+                        <div style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
+                            <h3 style={{ color: 'white', marginLeft: '35px' }}>Services</h3>
                             <div class='links'>
                                 <ul>
                                     <li><a href="/services/enterprisemobility">Enterprise Mobility Service</a></li>

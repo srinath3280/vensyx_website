@@ -19,8 +19,8 @@ export const EnquiryForm = () => {
                     document.getElementById('input2').value = "";
                     document.getElementById('input3').value = "";
                     document.getElementById('input4').value = "";
-                    alert('Successfull Send Mail!');
-                    // navigate('/');
+                    alert('Your data submitted successfully!');
+                    navigate('/');
                 },
                 (error) => {
                     alert('Please Fill Mandatory Fields', error.text);

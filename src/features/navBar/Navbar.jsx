@@ -13,7 +13,7 @@ function NavBar() {
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="nav nav-underline navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="/">HOME</a>
+                            <a class="nav-link" aria-current="page" href="/">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="/corporate" role="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -32,7 +32,7 @@ function HomePage() {
                         <div class="carousel-item active" data-bs-interval="2000">
                             <img src="/images/building2.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
-                                <p style={{ fontSize: '40px', marginTop: '-100px', backgroundColor: 'rgba(0,0,0,0.1)' }}>
+                                <p style={{ fontSize: '35px', marginTop: '-100px', backgroundColor: 'rgba(0,0,0,0.1)',textTransform:'uppercase' }}>
                                     We bring you powerfull advantages to navigate your digital transformtion
                                 </p>
                             </div>
@@ -40,7 +40,7 @@ function HomePage() {
                         <div class="carousel-item" data-bs-interval="2000">
                             <img src="/images/working5.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
-                                <p style={{ marginLeft: '550px', fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.3)', marginTop: '-50px' }}>
+                                <p style={{ marginLeft: '550px', fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.3)', marginTop: '-50px',textTransform:'uppercase' }}>
                                     PASSION TO INNOVATE
                                 </p>
                             </div>
@@ -48,7 +48,7 @@ function HomePage() {
                         <div class="carousel-item" data-bs-interval="2000">
                             <img src="/images/group1.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
-                                <p style={{ fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.4)', marginTop: '-400px' }}>
+                                <p style={{ fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.4)', marginTop: '-400px',textTransform:'uppercase' }}>
                                     Teamwork Makes The Dreamwork
                                 </p>
                             </div>
@@ -93,15 +93,15 @@ function HomePage() {
                     <div>
                         <section>
                             <h1 class='reveal1'>VENSYX  Vision & Mission</h1>
-                            <div style={{ display: 'flex', flexDirection: 'row' }}>
+                            <div class='reveal1' style={{ display: 'flex', flexDirection: 'row' }}>
                                 <div style={{ textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px' }}>
-                                    <h2 class='reveal1'>Vision:</h2>
-                                    <p class='reveal1'>
+                                    <h2>Vision:</h2>
+                                    <p>
                                         To be a world class organization admired for
                                         consistently delivering superior Business value
                                     </p>
-                                    <h2 class='reveal1'>Mission:</h2>
-                                    <p class='reveal1'>
+                                    <h2>Mission:</h2>
+                                    <p>
                                         We will win by excelling in execution and by
                                         ensuring total customer satisfaction
                                     </p>
@@ -119,10 +119,10 @@ function HomePage() {
                             <div id="bigdata" class='container reveal1' style={{ width: '50%' }}>
                                 <img src="images/bigdata2.jpg" alt="" width='500px' height='350px' style={{ borderRadius: '10px' }} />
                             </div>
-                            <div style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
-                                <h2 class='reveal1'>Big Data & Advanced Analytics</h2>
+                            <div class='reveal1' style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
+                                <h2>Big Data & Advanced Analytics</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
-                                    <p class='reveal1'>Data is exploding. Individuals, corporates, websites, call centers, shopping malls, mobile and RFID
+                                    <p>Data is exploding. Individuals, corporates, websites, call centers, shopping malls, mobile and RFID
                                         devices etc. are generating data in various formats – Regular data, voice data, text data, video  and
                                         like never before. It is estimated that by 2017 there will more bytes of data than the sand grains in
                                         the world.</p>
@@ -246,10 +246,10 @@ function HomePage() {
                     <h1 class='reveal1' style={{ marginTop: '25px' }}>Industries</h1>
                     <section>
                         <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'center', marginTop: '25px' }}>
-                            <div style={{ display: 'flex', flexDirection: 'column', width: '50%', marginLeft: '50px' }}>
-                                <h2 class='reveal1'>Telecommunications</h2>
+                            <div class='reveal1' style={{ display: 'flex', flexDirection: 'column', width: '50%', marginLeft: '50px' }}>
+                                <h2>Telecommunications</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
-                                    <p class='reveal1'>The telecommunications industry has arguably evolved more than any other
+                                    <p>The telecommunications industry has arguably evolved more than any other
                                         market sector in the last ten years. This evolution has brought not only a
                                         lot of benefits for telecommunication operators and their customers, but
                                         also a lot of issues to resolve. As the telco industry has moved from a
@@ -272,10 +272,10 @@ function HomePage() {
                             <div id="bigdata" class='container reveal1' style={{ width: '50%', marginLeft: '0px' }}>
                                 <img src="images/financial2.jpg" alt="" width='80%' height='350px' style={{ borderRadius: '10px' }} />
                             </div>
-                            <div style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
-                                <h2 class='reveal1'>Financial Services</h2>
+                            <div class='reveal1' style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
+                                <h2>Financial Services</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
-                                    <p class='reveal1'>Banks are under more pressure now than ever before. Constantly evolving
+                                    <p>Banks are under more pressure now than ever before. Constantly evolving
                                         regulatory requirements, rising costs, economic pressures, and increased
                                         competition from non-traditional entrants in the banking industry have
                                         created a challenging business environment for banks of all sizes. In
