@@ -680,6 +680,549 @@ section .cards5 .text-cards5 h3 {
   #aboutusimage img {
     width: 100%;
   }
+
+  /* Vision & Mission */
+  #visionandmission h1{
+    font-size: 40px;
+  }
+  #visionandmission h4{
+    font-size: 35px;
+  }
+  #visionandmission p{
+    font-size: 30px;
+  }
+  #visionandmission img{
+    width: 100%;
+    height: 300px;
+  }
+
+  /* Core value */
+  #corevalue h1{
+    font-size: 40px;
+  }
+  #corevalue h3{
+    font-size: 35px;
+  }
+  #corevalue ul li{
+    font-size: 30px;
+  }
+
+  /* Social Responsibility */
+  #socialresponsibility h1{
+    font-size: 40px;
+  }
+  #socialresponsibility img{
+    width: 100%;
+    height: 500px;
+  }
+  #socialresponsibility h2{
+    font-size: 30px;
+  }
+  #socialresponsibility p{
+    font-size: 25px;
+  }
+
+  /* Location */
+  #location h1{
+    font-size: 40px;
+  }
+  #location h2{
+    font-size: 35px;
+  }
+  #location h3{
+    font-size: 30px;
+  }
+  #location p{
+    font-size: 25px;
+  }
+
+  /* Industries */
+  /* Financial Services */
+  #financialservice h1{
+    font-size: 40px;
+  }
+  #financialservice h4{
+    font-size: 35px;
+  }
+  #financialservice p{
+    font-size: 30px;
+  }
+  #financialservice img{
+    width: 100%;
+    height: 500px;
+  }
+
+  /* Government */
+  #government h1{
+    font-size: 40px;
+  }
+  #government h3{
+    font-size: 35px;
+  }
+  #government p{
+    font-size: 30px;
+  }
+  #government ul li{
+    font-size: 25px;
+  }
+
+  /* Manufacturing */
+  #manufacturing h1{
+    font-size: 40px;
+  }
+  #manufacturing p{
+    font-size: 30px;
+  }
+  #manufacturing ul li{
+    font-size: 25px;
+  }
+
+  /* Retail */
+  #retail h1{
+    font-size: 40px;
+  }
+  #retail img{
+    width: 100%;
+    height: 500px;
+  }
+  #retail p{
+    font-size: 30px;
+  }
+  #retail ul li{
+    font-size: 25px;
+  }
+
+  /* Telecommunication */
+  #telecommunication h1{
+    font-size: 40px;
+  }
+  #telecommunication h4{
+    font-size: 35px;
+  }
+  #telecommunication p{
+    font-size: 30px;
+  }
+  #telecommunication ul li{
+    font-size: 25px;
+  }
+  #telecommunication img{
+    width: 100%;
+    height: 500px;
+  }
+
+  /* Utilities */
+  #utilities h1{
+    font-size: 40px;
+  }
+  #utilities h3{
+    font-size: 35px;
+  }
+  #utilities p{
+    font-size: 30px;
+  }
+  #utilities ul li{
+    font-size: 25px;
+  }
+
+  /* Products */
+  /* Log-Mode */
+  #logmode h1{
+    font-size: 40px;
+  }
+  #logmode h4{
+    font-size: 35px;
+  }
+  #logmode h5{
+    font-size: 30px;
+  }
+  #logmode p{
+    font-size: 25px;
+  }
+  #logmode img{
+    width: 600px;
+    height: 300px;
+  }
+
+  /* Solutions */
+  /* Application Middleware */
+  #applicationmiddleware h1{
+    font-size: 40px;
+  }
+  #applicationmiddleware h3{
+    font-size: 35px;
+  }
+  #applicationmiddleware p{
+    font-size: 30px;
+  }
+  #applicationmiddleware ul li{
+    font-size: 25px;
+  }
+
+  /* Big Data */
+  #bigdata h1{
+    font-size: 40px;
+  }
+  #bigdata h2{
+    font-size: 35px;
+  }
+  #bigdata p,b{
+    font-size: 30px;
+  }
+  #bigdata ul li{
+    font-size: 25px;
+  }
+  #bigdata img{
+    width: 700px;
+    height: 300px;
+  }
+
+  /* Business Intelligence Solutions */
+  #businessintelligence h1{
+    font-size: 40px;
+  }
+  #businessintelligence h3{
+    font-size: 35px;
+  }
+  #businessintelligence p,b{
+    font-size: 30px;
+  }
+  #businessintelligence ul li{
+    font-size: 25px;
+  }
+  #businessintelligence #businessintelligenceblock1 img{
+    width: 50%;
+    height: 450px;
+  }
+  #businessintelligence #businessintelligenceblock2 img{
+    width: 100%;
+    height: 250px;
+  }
+
+  /* Data Management */
+  #datamanagement h1{
+    font-size: 40px;
+  }
+  #datamanagement h3{
+    font-size: 35px;
+  }
+  #datamanagement p,b{
+    font-size: 30px;
+  }
+  #datamanagement ul li{
+    font-size: 25px;
+  }
+  #datamanagement img{
+    width: 70%;
+    height: 300px;
+  }
+
+  /* Enterprise Data Warehouse */
+  #enterprisedata h1{
+    font-size: 40px;
+  }
+  #enterprisedata h2{
+    font-size: 35px;
+  }
+  #enterprisedata p,b{
+    font-size: 30px;
+  }
+  #enterprisedata ul li{
+    font-size: 25px;
+  }
+  #enterprisedata img{
+    width: 100%;
+    height: 300px;
+  }
+
+
+  /* Services */
+  /* Business Intelligence Services */
+  #businessIntelligence h1{
+    font-size: 40px;
+  }
+  #businessIntelligence h2{
+    font-size: 35px;
+  }
+  #businessIntelligence h4{
+    font-size: 30px;
+  }
+  #businessIntelligence p,b{
+    font-size: 25px;
+  }
+  #businessIntelligence ul li{
+    font-size: 20px;
+  }
+
+  /* Enterprise Mobility Service */
+  #enterprisemobility h1{
+    font-size: 40px;
+  }
+  #enterprisemobility p{
+    font-size: 30px;
+  }
+  #enterprisemobility ul li{
+    font-size: 25px;
+  }
+
+  /* Mobile Apps */
+  #mobileapps h1{
+    font-size: 40px;
+  }
+  #mobileapps p{
+    font-size: 30px;
+  }
+  #mobileapps ul li{
+    font-size: 25px;
+  }
+
+  /* Testing And QA Services */
+  #testingandqa h1{
+    font-size: 40px;
+  }
+  #testingandqa p{
+    font-size: 30px;
+  }
+  #testingandqa ul li{
+    font-size: 25px;
+  }
+
+  /* Web Application */
+  #webapplication h1{
+    font-size: 40px;
+  }
+  #webapplication p{
+    font-size: 30px;
+  }
+  #webapplication ul li{
+    font-size: 25px;
+  }
+
+  /* Enterprise Mobility */
+  /* Business Process */
+  #businessprocess h1{
+    font-size: 40px;
+  }
+  #businessprocess p{
+    font-size: 25px;
+  }
+
+  /* B2B Mobile */
+  #b2bmobile h1{
+    font-size: 40px;
+  }
+  #b2bmobile h2{
+    font-size: 35px;
+  }
+  #b2bmobile p{
+    font-size: 30px;
+  }
+  #b2bmobile ul li{
+    font-size: 25px;
+  }
+
+  /* Android App */
+  #enterpriseandroid h1{
+    font-size: 40px;
+  }
+  #enterpriseandroid p{
+    font-size: 30px;
+  }
+  #enterpriseandroid ul li{
+    font-size: 25px;
+  }
+
+  /* Enterprise APP */
+  #enterpriseapp h1{
+    font-size: 40px;
+  }
+  #enterpriseapp h3{
+    font-size: 35px;
+  }
+  #enterpriseapp p{
+    font-size: 30px;
+  }
+
+  /* Enterprise IOS App */
+  #enterpriseiosapp h1{
+    font-size: 40px;
+  }
+  #enterpriseiosapp h3{
+    font-size: 35px;
+  }
+  #enterpriseiosapp p{
+    font-size: 30px;
+  }
+
+  /* Mobile Business */
+  #mobilebusiness h1{
+    font-size: 40px;
+  }
+  #mobilebusiness p{
+    font-size: 30px;
+  }
+
+
+  /* Mobile Apps */
+  /* Android App */
+  #androidapp h1{
+    font-size: 40px;
+  }
+  #androidapp p{
+    font-size: 30px;
+  }
+
+  /* Blackberry App */
+  #blackberryapp h1{
+    font-size: 40px;
+  }
+  #blackberryapp p{
+    font-size: 30px;
+  }
+
+  /* Iphone App */
+  #iphoneapp h1{
+    font-size: 40px;
+  }
+  #iphoneapp p{
+    font-size: 30px;
+  }
+
+  /* Windows8 App */
+  #windows8app h1{
+    font-size: 40px;
+  }
+  #windows8app p{
+    font-size: 30px;
+  }
+
+
+  /* Testing & QA Services*/
+  /* Automated Testing */
+  #automatedtesting h1{
+    font-size: 40px;
+  }
+  #automatedtesting h3{
+    font-size: 35px;
+  }
+  #automatedtesting p{
+    font-size: 30px;
+  }
+  #automatedtesting ul li{
+    font-size: 25px;
+  }
+
+  /* Manual Testing */
+  #manualtesting h1{
+    font-size: 40px;
+  }
+  #manualtesting h3{
+    font-size: 35px;
+  }
+  #manualtesting p{
+    font-size: 30px;
+  }
+  #manualtesting ul li{
+    font-size: 25px;
+  }
+
+  /* QTP */
+  #qtp h1{
+    font-size: 40px;
+  }
+  #qtp h3{
+    font-size: 35px;
+  }
+  #qtp p{
+    font-size: 30px;
+  }
+  #qtp ul li{
+    font-size: 25px;
+  }
+
+  /* Selenium */
+  #selenium h1{
+    font-size: 40px;
+  }
+  #selenium h3{
+    font-size: 35px;
+  }
+  #selenium p{
+    font-size: 30px;
+  }
+  #selenium ul li{
+    font-size: 25px;
+  }
+
+  /* Test Complete */
+  #testcomplete h1{
+    font-size: 40px;
+  }
+  #testcomplete h3{
+    font-size: 35px;
+  }
+  #testcomplete p{
+    font-size: 30px;
+  }
+  #testcomplete ul li{
+    font-size: 25px;
+  }
+
+
+  /* Web Application */
+  /* CRM Application */
+  #cmrapplication h1{
+    font-size: 40px;
+  }
+  #cmrapplication p{
+    font-size: 30px;
+  }
+
+  /* Content Management */
+  #contentmanagement h1{
+    font-size: 40px;
+  }
+  #contentmanagement h3{
+    font-size: 35px;
+  }
+  #contentmanagement p{
+    font-size: 30px;
+  }
+  #contentmanagement ul li{
+    font-size: 25px;
+  }
+
+  /* Custom Web App */
+  #customwebapp h1{
+    font-size: 40px;
+  }
+  #customwebapp p{
+    font-size: 30px;
+  }
+  #customwebapp ul li{
+    font-size: 25px;
+  }
+
+  /* Inventory Management */
+  #inventorymanagement h1{
+    font-size: 40px;
+  }
+  #inventorymanagement h3{
+    font-size: 35px;
+  }
+  #inventorymanagement p{
+    font-size: 30px;
+  }
+  #inventorymanagement ul li{
+    font-size: 25px;
+  }
+
+  /* Open Source */
+  #opensource h1{
+    font-size: 40px;
+  }
+  #opensource p{
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -974,10 +1517,553 @@ section .cards5 .text-cards5 h3 {
     width: 100%;
     font-size: medium;
   }
-
   #aboutusimage img {
     width: 95%;
     height: 400px;
+  }
+
+  /* Vision & Mission */
+  #visionandmission h1{
+    font-size: 35px;
+  }
+  #visionandmission h4{
+    font-size: 30px;
+  }
+  #visionandmission p{
+    font-size: 25px;
+  }
+  #visionandmission img{
+    width: 75%;
+    height: 250px;
+  }
+
+  /* Core value */
+  #corevalue h1{
+    font-size: 35px;
+  }
+  #corevalue h3{
+    font-size: 30px;
+  }
+  #corevalue ul li{
+    font-size: 25px;
+  }
+
+  /* Social Responsibility */
+  #socialresponsibility h1{
+    font-size: 35px;
+  }
+  #socialresponsibility img{
+    width: 85%;
+    height: 350px;
+  }
+  #socialresponsibility h2{
+    font-size: 30px;
+  }
+  #socialresponsibility p{
+    font-size: 25px;
+  }
+
+  /* Location */
+  #location h1{
+    font-size: 35px;
+  }
+  #location h2{
+    font-size: 30px;
+  }
+  #location h3{
+    font-size: 25px;
+  }
+  #location p{
+    font-size: 20px;
+  }
+
+  /* Industries */
+  /* Financial Services */
+  #financialservice h1{
+    font-size: 35px;
+  }
+  #financialservice h4{
+    font-size: 30px;
+  }
+  #financialservice p{
+    font-size: 25px;
+  }
+  #financialservice img{
+    width: 85%;
+    height: 350px;
+  }
+
+  /* Government */
+  #government h1{
+    font-size: 35px;
+  }
+  #government h3{
+    font-size: 30px;
+  }
+  #government p{
+    font-size: 25px;
+  }
+  #government ul li{
+    font-size: 20px;
+  }
+
+  /* Manufacturing */
+  #manufacturing h1{
+    font-size: 35px;
+  }
+  #manufacturing p{
+    font-size: 25px;
+  }
+  #manufacturing ul li{
+    font-size: 20px;
+  }
+
+  /* Retail */
+  #retail h1{
+    font-size: 35px;
+  }
+  #retail img{
+    width:85%;
+    height: 350px;
+  }
+  #retail p{
+    font-size: 25px;
+  }
+  #retail ul li{
+    font-size: 20px;
+  }
+
+  /* Telecommunication */
+  #telecommunication h1{
+    font-size: 35px;
+  }
+  #telecommunication h4{
+    font-size: 30px;
+  }
+  #telecommunication p{
+    font-size: 25px;
+  }
+  #telecommunication ul li{
+    font-size: 20px;
+  }
+  #telecommunication img{
+    width: 85%;
+    height: 350px;
+  }
+
+  /* Utilities */
+  #utilities h1{
+    font-size: 35px;
+  }
+  #utilities h3{
+    font-size: 30px;
+  }
+  #utilities p{
+    font-size: 25px;
+  }
+  #utilities ul li{
+    font-size: 20px;
+  }
+
+  /* Products */
+  /* Log-Mode */
+  #logmode h1{
+    font-size: 35px;
+  }
+  #logmode h4{
+    font-size: 30px;
+  }
+  #logmode h5{
+    font-size: 25px;
+  }
+  #logmode p{
+    font-size: 20px;
+  }
+  #logmode img{
+    width: 500px;
+    height: 250px;
+  }
+
+  /* Solutions */
+  /* Application Middleware */
+  #applicationmiddleware h1{
+    font-size: 35px;
+  }
+  #applicationmiddleware h3{
+    font-size: 30px;
+  }
+  #applicationmiddleware p{
+    font-size: 25px;
+  }
+  #applicationmiddleware ul li{
+    font-size: 20px;
+  }
+
+  /* Big Data */
+  #bigdata h1{
+    font-size: 35px;
+  }
+  #bigdata h2{
+    font-size: 30px;
+  }
+  #bigdata p,b{
+    font-size: 25px;
+  }
+  #bigdata ul li{
+    font-size: 20px;
+  }
+  #bigdata img{
+    width: 500px;
+    height: 250px;
+  }
+
+  /* Business Intelligence Solutions */
+  #businessintelligence h1{
+    font-size: 35px;
+  }
+  #businessintelligence h3{
+    font-size: 30px;
+  }
+  #businessintelligence p,b{
+    font-size: 25px;
+  }
+  #businessintelligence ul li{
+    font-size: 20px;
+  }
+  #businessintelligence #businessintelligenceblock1 img{
+    width: 50%;
+    height: 350px;
+  }
+  #businessintelligence #businessintelligenceblock2 img{
+    width: 100%;
+    height: 200px;
+  }
+
+  /* Data Management */
+  #datamanagement h1{
+    font-size: 35px;
+  }
+  #datamanagement h3{
+    font-size: 30px;
+  }
+  #datamanagement p,b{
+    font-size: 25px;
+  }
+  #datamanagement ul li{
+    font-size: 20px;
+  }
+  #datamanagement img{
+    width: 60%;
+    height: 250px;
+  }
+
+  /* Enterprise Data Warehouse */
+  #enterprisedata h1{
+    font-size: 35px;
+  }
+  #enterprisedata h2{
+    font-size: 30px;
+  }
+  #enterprisedata p,b{
+    font-size: 25px;
+  }
+  #enterprisedata ul li{
+    font-size: 20px;
+  }
+  #enterprisedata img{
+    width: 100%;
+    height: 250px;
+  }
+
+
+  /* Services */
+  /* Business Intelligence Services */
+  #businessIntelligence h1{
+    font-size: 35px;
+  }
+  #businessIntelligence h2{
+    font-size: 30px;
+  }
+  #businessIntelligence h4{
+    font-size: 25px;
+  }
+  #businessIntelligence p,b{
+    font-size: 20px;
+  }
+  #businessIntelligence ul li{
+    font-size: 15px;
+  }
+
+  /* Enterprise Mobility Service */
+  #enterprisemobility h1{
+    font-size: 35px;
+  }
+  #enterprisemobility p{
+    font-size: 25px;
+  }
+  #enterprisemobility ul li{
+    font-size: 20px;
+  }
+
+  /* Mobile Apps */
+  #mobileapps h1{
+    font-size: 35px;
+  }
+  #mobileapps p{
+    font-size: 25px;
+  }
+  #mobileapps ul li{
+    font-size: 20px;
+  }
+
+  /* Testing And QA Services */
+  #testingandqa h1{
+    font-size: 35px;
+  }
+  #testingandqa p{
+    font-size: 25px;
+  }
+  #testingandqa ul li{
+    font-size: 20px;
+  }
+
+  /* Web Application */
+  #webapplication h1{
+    font-size: 35px;
+  }
+  #webapplication p{
+    font-size: 25px;
+  }
+  #webapplication ul li{
+    font-size: 20px;
+  }
+
+
+  /* Enterprise Mobility */
+  /* Business Process */
+  #businessprocess h1{
+    font-size: 35px;
+  }
+  #businessprocess p{
+    font-size: 20px;
+  }
+
+  /* B2B Mobile */
+  #b2bmobile h1{
+    font-size: 35px;
+  }
+  #b2bmobile h2{
+    font-size: 30px;
+  }
+  #b2bmobile p{
+    font-size: 25px;
+  }
+  #b2bmobile ul li{
+    font-size: 20px;
+  }
+
+  /* Android App */
+  #enterpriseandroid h1{
+    font-size: 35px;
+  }
+  #enterpriseandroid p{
+    font-size: 25px;
+  }
+  #enterpriseandroid ul li{
+    font-size: 20px;
+  }
+
+  /* Enterprise APP */
+  #enterpriseapp h1{
+    font-size: 35px;
+  }
+  #enterpriseapp h3{
+    font-size: 30px;
+  }
+  #enterpriseapp p{
+    font-size: 25px;
+  }
+
+  /* Enterprise IOS App */
+  #enterpriseiosapp h1{
+    font-size: 35px;
+  }
+  #enterpriseiosapp h3{
+    font-size: 30px;
+  }
+  #enterpriseiosapp p{
+    font-size: 25px;
+  }
+
+  /* Mobile Business */
+  #mobilebusiness h1{
+    font-size: 35px;
+  }
+  #mobilebusiness p{
+    font-size: 25px;
+  }
+
+
+  /* Mobile Apps */
+  /* Android App */
+  #androidapp h1{
+    font-size: 35px;
+  }
+  #androidapp p{
+    font-size: 25px;
+  }
+
+  /* Blackberry App */
+  #blackberryapp h1{
+    font-size: 35px;
+  }
+  #blackberryapp p{
+    font-size: 25px;
+  }
+
+  /* Iphone App */
+  #iphoneapp h1{
+    font-size: 35px;
+  }
+  #iphoneapp p{
+    font-size: 25px;
+  }
+
+  /* Windows8 App */
+  #windows8app h1{
+    font-size: 35px;
+  }
+  #windows8app p{
+    font-size: 25px;
+  }
+
+
+  /* Testing & QA Services*/
+  /* Automated Testing */
+  #automatedtesting h1{
+    font-size: 35px;
+  }
+  #automatedtesting h3{
+    font-size: 30px;
+  }
+  #automatedtesting p{
+    font-size: 25px;
+  }
+  #automatedtesting ul li{
+    font-size: 20px;
+  }
+
+  /* Manual Testing */
+  #manualtesting h1{
+    font-size: 35px;
+  }
+  #manualtesting h3{
+    font-size: 30px;
+  }
+  #manualtesting p{
+    font-size: 25px;
+  }
+  #manualtesting ul li{
+    font-size: 20px;
+  }
+
+  /* QTP */
+  #qtp h1{
+    font-size: 35px;
+  }
+  #qtp h3{
+    font-size: 30px;
+  }
+  #qtp p{
+    font-size: 25px;
+  }
+  #qtp ul li{
+    font-size: 20px;
+  }
+
+  /* Selenium */
+  #selenium h1{
+    font-size: 35px;
+  }
+  #selenium h3{
+    font-size: 30px;
+  }
+  #selenium p{
+    font-size: 25px;
+  }
+  #selenium ul li{
+    font-size: 20px;
+  }
+
+  /* Test Complete */
+  #testcomplete h1{
+    font-size: 35px;
+  }
+  #testcomplete h3{
+    font-size: 30px;
+  }
+  #testcomplete p{
+    font-size: 25px;
+  }
+  #testcomplete ul li{
+    font-size: 20px;
+  }
+
+
+  /* Web Application */
+  /* CRM Application */
+  #cmrapplication h1{
+    font-size: 35px;
+  }
+  #cmrapplication p{
+    font-size: 25px;
+  }
+
+  /* Content Management */
+  #contentmanagement h1{
+    font-size: 35px;
+  }
+  #contentmanagement h3{
+    font-size: 30px;
+  }
+  #contentmanagement p{
+    font-size: 25px;
+  }
+  #contentmanagement ul li{
+    font-size: 20px;
+  }
+
+  /* Custom Web App */
+  #customwebapp h1{
+    font-size: 35px;
+  }
+  #customwebapp p{
+    font-size: 25px;
+  }
+  #customwebapp ul li{
+    font-size: 20px;
+  }
+
+  /* Inventory Management */
+  #inventorymanagement h1{
+    font-size: 35px;
+  }
+  #inventorymanagement h3{
+    font-size: 30px;
+  }
+  #inventorymanagement p{
+    font-size: 25px;
+  }
+  #inventorymanagement ul li{
+    font-size: 20px;
+  }
+
+  /* Open Source */
+  #opensource h1{
+    font-size: 35px;
+  }
+  #opensource p{
+    font-size: 25px;
   }
 }
 
@@ -1268,9 +2354,550 @@ section .cards5 .text-cards5 h3 {
     width: 100%;
     font-size: small;
   }
-
   #aboutusimage img {
     width: 100%;
     height: 300px;
+  }
+
+  /* Vision & Mission */
+  #visionandmission h1{
+    font-size: 30px;
+  }
+  #visionandmission h4{
+    font-size: 25px;
+  }
+  #visionandmission p{
+    font-size: 20px;
+  }
+  #visionandmission img{
+    width: 50%;
+    height: 200px;
+  }
+
+  /* Core value */
+  #corevalue h1{
+    font-size: 30px;
+  }
+  #corevalue h3{
+    font-size: 25px;
+  }
+  #corevalue ul li{
+    font-size: 20px;
+  }
+
+  /* Social Responsibility */
+  #socialresponsibility h1{
+    font-size: 30px;
+  }
+  #socialresponsibility img{
+    width: 80%;
+    height: 250px;
+  }
+  #socialresponsibility h2{
+    font-size: 25px;
+  }
+  #socialresponsibility p{
+    font-size: 20px;
+  }
+
+  /* Location */
+  #location h1{
+    font-size: 30px;
+  }
+  #location h2{
+    font-size: 25px;
+  }
+  #location h3{
+    font-size: 20px;
+  }
+  #location p{
+    font-size: 15px;
+  }
+
+  /* Industries */
+  /* Financial Services */
+  #financialservice h1{
+    font-size: 30px;
+  }
+  #financialservice h4{
+    font-size: 25px;
+  }
+  #financialservice p{
+    font-size: 20px;
+  }
+  #financialservice img{
+    width: 75%;
+    height: 250px;
+  }
+
+  /* Government */
+  #government h1{
+    font-size: 30px;
+  }
+  #government h3{
+    font-size: 25px;
+  }
+  #government p{
+    font-size: 20px;
+  }
+  #government ul li{
+    font-size: 15px;
+  }
+
+  /* Manufacturing */
+  #manufacturing h1{
+    font-size: 30px;
+  }
+  #manufacturing p{
+    font-size: 20px;
+  }
+  #manufacturing ul li{
+    font-size: 15px;
+  }
+
+  /* Retail */
+  #retail h1{
+    font-size: 30px;
+  }
+  #retail img{
+    width:75%;
+    height: 250px;
+  }
+  #retail p{
+    font-size: 20px;
+  }
+  #retail ul li{
+    font-size: 15px;
+  }
+
+  /* Telecommunication */
+  #telecommunication h1{
+    font-size: 30px;
+  }
+  #telecommunication h4{
+    font-size: 25px;
+  }
+  #telecommunication p{
+    font-size: 20px;
+  }
+  #telecommunication ul li{
+    font-size: 15px;
+  }
+  #telecommunication img{
+    width: 75%;
+    height: 250px;
+  }
+
+  /* Utilities */
+  #utilities h1{
+    font-size: 30px;
+  }
+  #utilities h3{
+    font-size: 25px;
+  }
+  #utilities p{
+    font-size: 20px;
+  }
+  #utilities ul li{
+    font-size: 15px;
+  }
+
+  /* Products */
+  /* Log-Mode */
+  #logmode h1{
+    font-size: 30px;
+  }
+  #logmode h4{
+    font-size: 25px;
+  }
+  #logmode h5{
+    font-size: 20px;
+  }
+  #logmode p{
+    font-size: 15px;
+  }
+  #logmode img{
+    width: 400px;
+    height: 200px;
+  }
+
+  /* Solutions */
+  /* Application Middleware */
+  #applicationmiddleware h1{
+    font-size: 30px;
+  }
+  #applicationmiddleware h3{
+    font-size: 25px;
+  }
+  #applicationmiddleware p{
+    font-size: 20px;
+  }
+  #applicationmiddleware ul li{
+    font-size: 15px;
+  }
+
+  /* Big Data */
+  #bigdata h1{
+    font-size: 30px;
+  }
+  #bigdata h2{
+    font-size: 25px;
+  }
+  #bigdata p,b{
+    font-size: 20px;
+  }
+  #bigdata ul li{
+    font-size: 15px;
+  }
+  #bigdata img{
+    width: 300px;
+    height: 200px;
+  }
+
+  /* Business Intelligence Solutions */
+  #businessintelligence h1{
+    font-size: 30px;
+  }
+  #businessintelligence h3{
+    font-size: 25px;
+  }
+  #businessintelligence p,b{
+    font-size: 20px;
+  }
+  #businessintelligence ul li{
+    font-size: 15px;
+  }
+  #businessintelligence #businessintelligenceblock1 img{
+    width: 50%;
+    height: 250px;
+  }
+  #businessintelligence #businessintelligenceblock2 img{
+    width: 100%;
+    height: 150px;
+  }
+
+  /* Data Management */
+  #datamanagement h1{
+    font-size: 30px;
+  }
+  #datamanagement h3{
+    font-size: 25px;
+  }
+  #datamanagement p,b{
+    font-size: 20px;
+  }
+  #datamanagement ul li{
+    font-size: 15px;
+  }
+  #datamanagement img{
+    width: 50%;
+    height: 200px;
+  }
+
+  /* Enterprise Data Warehouse */
+  #enterprisedata h1{
+    font-size: 30px;
+  }
+  #enterprisedata h2{
+    font-size: 25px;
+  }
+  #enterprisedata p,b{
+    font-size: 20px;
+  }
+  #enterprisedata ul li{
+    font-size: 15px;
+  }
+  #enterprisedata img{
+    width: 100%;
+    height: 200px;
+  }
+
+
+  /* Services */
+  /* Business Intelligence Services */
+  #businessIntelligence h1{
+    font-size: 30px;
+  }
+  #businessIntelligence h2{
+    font-size: 25px;
+  }
+  #businessIntelligence h4{
+    font-size: 20px;
+  }
+  #businessIntelligence p,b{
+    font-size: 15px;
+  }
+  #businessIntelligence ul li{
+    font-size: 10px;
+  }
+
+  /* Enterprise Mobility Service */
+  #enterprisemobility h1{
+    font-size: 30px;
+  }
+  #enterprisemobility p{
+    font-size: 20px;
+  }
+  #enterprisemobility ul li{
+    font-size: 15px;
+  }
+
+  /* Mobile Apps */
+  #mobileapps h1{
+    font-size: 30px;
+  }
+  #mobileapps p{
+    font-size: 20px;
+  }
+  #mobileapps ul li{
+    font-size: 15px;
+  }
+
+  /* Testing And QA Services */
+  #testingandqa h1{
+    font-size: 30px;
+  }
+  #testingandqa p{
+    font-size: 20px;
+  }
+  #testingandqa ul li{
+    font-size: 15px;
+  }
+
+  /* Web Application */
+  #webapplication h1{
+    font-size: 30px;
+  }
+  #webapplication p{
+    font-size: 20px;
+  }
+  #webapplication ul li{
+    font-size: 15px;
+  }
+
+
+  /* Enterprise Mobility */
+  /* Business Process */
+  #businessprocess h1{
+    font-size: 30px;
+  }
+  #businessprocess p{
+    font-size: 15px;
+  }
+
+  /* B2B Mobile */
+  #b2bmobile h1{
+    font-size: 30px;
+  }
+  #b2bmobile h2{
+    font-size: 25px;
+  }
+  #b2bmobile p{
+    font-size: 20px;
+  }
+  #b2bmobile ul li{
+    font-size: 15px;
+  }
+
+  /* Android App */
+  #enterpriseandroid h1{
+    font-size: 30px;
+  }
+  #enterpriseandroid p{
+    font-size: 20px;
+  }
+  #enterpriseandroid ul li{
+    font-size: 15px;
+  }
+
+  /* Enterprise APP */
+  #enterpriseapp h1{
+    font-size: 30px;
+  }
+  #enterpriseapp h3{
+    font-size: 25px;
+  }
+  #enterpriseapp p{
+    font-size: 20px;
+  }
+
+  /* Enterprise IOS App */
+  #enterpriseiosapp h1{
+    font-size: 30px;
+  }
+  #enterpriseiosapp h3{
+    font-size: 25px;
+  }
+  #enterpriseiosapp p{
+    font-size: 20px;
+  }
+
+  /* Mobile Business */
+  #mobilebusiness h1{
+    font-size: 30px;
+  }
+  #mobilebusiness p{
+    font-size: 20px;
+  }
+
+  /* Mobile Apps */
+  /* Android App */
+  #androidapp h1{
+    font-size: 30px;
+  }
+  #androidapp p{
+    font-size: 20px;
+  }
+
+  /* Blackberry App */
+  #blackberryapp h1{
+    font-size: 30px;
+  }
+  #blackberryapp p{
+    font-size: 20px;
+  }
+
+  /* Iphone App */
+  #iphoneapp h1{
+    font-size: 30px;
+  }
+  #iphoneapp p{
+    font-size: 20px;
+  }
+
+  /* Windows8 App */
+  #windows8app h1{
+    font-size: 30px;
+  }
+  #windows8app p{
+    font-size: 20px;
+  }
+
+
+  /* Testing & QA Services*/
+  /* Automated Testing */
+  #automatedtesting h1{
+    font-size: 30px;
+  }
+  #automatedtesting h3{
+    font-size: 25px;
+  }
+  #automatedtesting p{
+    font-size: 20px;
+  }
+  #automatedtesting ul li{
+    font-size: 15px;
+  }
+
+  /* Manual Testing */
+  #manualtesting h1{
+    font-size: 30px;
+  }
+  #manualtesting h3{
+    font-size: 25px;
+  }
+  #manualtesting p{
+    font-size: 20px;
+  }
+  #manualtesting ul li{
+    font-size: 15px;
+  }
+
+  /* QTP */
+  #qtp h1{
+    font-size: 30px;
+  }
+  #qtp h3{
+    font-size: 25px;
+  }
+  #qtp p{
+    font-size: 20px;
+  }
+  #qtp ul li{
+    font-size: 15px;
+  }
+
+  /* Selenium */
+  #selenium h1{
+    font-size: 30px;
+  }
+  #selenium h3{
+    font-size: 25px;
+  }
+  #selenium p{
+    font-size: 20px;
+  }
+  #selenium ul li{
+    font-size: 15px;
+  }
+
+  /* Test Complete */
+  #testcomplete h1{
+    font-size: 30px;
+  }
+  #testcomplete h3{
+    font-size: 25px;
+  }
+  #testcomplete p{
+    font-size: 20px;
+  }
+  #testcomplete ul li{
+    font-size: 15px;
+  }
+
+  /* Web Application */
+  /* CRM Application */
+  #cmrapplication h1{
+    font-size: 30px;
+  }
+  #cmrapplication p{
+    font-size: 20px;
+  }
+
+  /* Content Management */
+  #contentmanagement h1{
+    font-size: 30px;
+  }
+  #contentmanagement h3{
+    font-size: 25px;
+  }
+  #contentmanagement p{
+    font-size: 20px;
+  }
+  #contentmanagement ul li{
+    font-size: 15px;
+  }
+
+  /* Custom Web App */
+  #customwebapp h1{
+    font-size: 30px;
+  }
+  #customwebapp p{
+    font-size: 20px;
+  }
+  #customwebapp ul li{
+    font-size: 15px;
+  }
+
+  /* Inventory Management */
+  #inventorymanagement h1{
+    font-size: 30px;
+  }
+  #inventorymanagement h3{
+    font-size: 25px;
+  }
+  #inventorymanagement p{
+    font-size: 20px;
+  }
+  #inventorymanagement ul li{
+    font-size: 15px;
+  }
+
+  /* Open Source */
+  #opensource h1{
+    font-size: 30px;
+  }
+  #opensource p{
+    font-size: 20px;
   }
 }
