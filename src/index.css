@@ -12,7 +12,7 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-  color: rgb(3, 3, 102);
+  /* color: rgb(3, 3, 102); */
 }
 
 .navbar {
@@ -484,12 +484,12 @@ section .cards5 .text-cards5 h3 {
     font-size: 30px;
   }
 
-  #section2 img {
+  #section2 #bigdata img {
     width: 500px;
     height: 350px;
   }
 
-  #section3 img {
+  #section3 #bigdata img {
     width: 500px;
     height: 350px;
   }
@@ -514,12 +514,12 @@ section .cards5 .text-cards5 h3 {
     font-size: 30px;
   }
 
-  #section4 img {
+  #section4 #bigdata img {
     width: 300px;
     height: 300px;
   }
 
-  #section5 img {
+  #section5 #bigdata img {
     width: 80%;
     height: 350px;
   }
@@ -637,7 +637,7 @@ section .cards5 .text-cards5 h3 {
     font-size: 40px;
   }
 
-  #section11 img {
+  #section11 #bigdata img {
     width: 80%;
     height: 350px;
   }
@@ -650,7 +650,7 @@ section .cards5 .text-cards5 h3 {
     font-size: 30px;
   }
 
-  #section12 img {
+  #section12 #bigdata img {
     width: 80%;
     height: 350px;
   }
@@ -1323,12 +1323,12 @@ section .cards5 .text-cards5 h3 {
     font-size: 25px;
   }
 
-  #section2 img {
+  #section2 #bigdata img {
     width: 400px;
     height: 300px;
   }
 
-  #section3 img {
+  #section3 #bigdata img {
     width: 400px;
     height: 300px;
   }
@@ -1353,12 +1353,12 @@ section .cards5 .text-cards5 h3 {
     font-size: 25px;
   }
 
-  #section4 img {
+  #section4 #bigdata img {
     width: 250px;
     height: 250px;
   }
 
-  #section5 img {
+  #section5 #bigdata img {
     width: 400px;
     height: 300px;
   }
@@ -1476,7 +1476,7 @@ section .cards5 .text-cards5 h3 {
     font-size: 35px;
   }
 
-  #section11 img {
+  #section11 #bigdata img {
     width: 300px;
     height: 300px;
   }
@@ -1489,7 +1489,7 @@ section .cards5 .text-cards5 h3 {
     font-size: 25px;
   }
 
-  #section12 img {
+  #section12 #bigdata img {
     width: 300px;
     height: 300px;
   }
@@ -2160,12 +2160,12 @@ section .cards5 .text-cards5 h3 {
     font-size: 20px;
   }
 
-  #section2 img {
+  #section2 #bigdata img {
     width: 250px;
     height: 250px;
   }
 
-  #section3 img {
+  #section3 #bigdata img {
     width: 250px;
     height: 250px;
   }
@@ -2190,12 +2190,12 @@ section .cards5 .text-cards5 h3 {
     font-size: 20px;
   }
 
-  #section4 img {
+  #section4 #bigdata img {
     width: 200px;
     height: 200px;
   }
 
-  #section5 img {
+  #section5 #bigdata img {
     width: 250px;
     height: 250px;
   }
@@ -2313,7 +2313,7 @@ section .cards5 .text-cards5 h3 {
     font-size: 30px;
   }
 
-  #section11 img {
+  #section11 #bigdata img {
     width: 250px;
     height: 250px;
   }
@@ -2326,7 +2326,7 @@ section .cards5 .text-cards5 h3 {
     font-size: 20px;
   }
 
-  #section12 img {
+  #section12 #bigdata img {
     width: 250px;
     height: 250px;
   }
