@@ -441,6 +441,18 @@ section .cards5 .text-cards5 h3 {
   }
 
   /* Home Page */
+  /* NavBar */
+  .navbar{
+    width: 100%;
+  }
+  .navbar #navbarSupportedContent{
+    width: auto;
+  }
+  .navbar #logo h5{
+    font-size: 25px;
+    margin-left: 35px;
+  }
+
   /* carousel */
   #carouselExampleInterval {
     width: auto;
@@ -494,7 +506,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards1 .text-cards1 {
     width: 300px;
     height: 300px;
-    /* background-color: rgb(7, 185, 230); */
+    background-color: rgb(7, 230, 7);
     margin: 20px;
     padding: 25px;
   }
@@ -511,7 +523,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards2 .text-cards2 {
     width: 300px;
     height: 300px;
-    /* background-color: rgb(7, 185, 230); */
+    background-color: rgb(245, 10, 233);
     margin: 20px;
     padding: 25px;
   }
@@ -528,7 +540,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards3 .text-cards3 {
     width: 300px;
     height: 300px;
-    /* background-color: rgb(7, 185, 230); */
+    background-color: rgb(230, 178, 7);
     margin: 20px;
     padding: 25px;
   }
@@ -1336,6 +1348,23 @@ section .cards5 .text-cards5 h3 {
   }
 
   /* Home Page */
+  /* NavBar */
+  .navbar{
+    width: auto;
+  }
+  .navbar #navbarSupportedContent{
+    width: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .navbar #navbarSupportedContent ul li a{
+    font-size: 15px;
+  }
+  .navbar #logo h5{
+    font-size: 20px;
+    margin-left: 25px;
+  }
+
   /* carousel */
   #carouselExampleInterval {
     width: auto;
@@ -1369,21 +1398,21 @@ section .cards5 .text-cards5 h3 {
     font-size: 35px;
   }
 
-  #section1 h3 {
-    width: auto;
-    font-size: 25px;
-  }
-
   #section1 p {
     width: auto;
-    font-size: medium;
+    font-size: 20px;
+  }
+  #section1 #bigdata img {
+    width: 400px;
+    height: 350px;
   }
 
   /* Corporate */
   #section21{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    padding-left: 50px;
   }
   #corporateblock .cards1 {
     display: flex;
@@ -1391,7 +1420,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards1 .text-cards1 {
     width: 300px;
     height: 300px;
-    /* background-color: rgb(7, 185, 230); */
+    background-color: rgb(7, 230, 7);
     margin: 10px;
     padding: 15px;
   }
@@ -1408,7 +1437,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards2 .text-cards2 {
     width: 300px;
     height: 300px;
-    /* background-color: rgb(7, 185, 230); */
+    background-color: rgb(245, 10, 233);
     margin: 10px;
     padding: 15px;
   }
@@ -1425,7 +1454,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards3 .text-cards3 {
     width: 300px;
     height: 300px;
-    /* background-color: rgb(7, 185, 230); */
+    background-color: rgb(230, 178, 7);
     margin: 10px;
     padding: 15px;
   }
@@ -2273,6 +2302,10 @@ section .cards5 .text-cards5 h3 {
     width: auto;
     font-size: small;
   }
+  #section1 #bigdata img {
+    width: 300px;
+    height: 300px;
+  }
 
   /* Corporate */
   #section21{
@@ -2287,7 +2320,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards1 .text-cards1 {
     width: 300px;
     height: 300px;
-    /* background-color: rgb(7, 185, 230); */
+    background-color: rgb(7, 230, 7);
     margin: 10px;
     padding: 15px;
   }
@@ -2304,7 +2337,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards2 .text-cards2 {
     width: 300px;
     height: 300px;
-    /* background-color: rgb(7, 185, 230); */
+    background-color: rgb(245, 10, 233);
     margin: 10px;
     padding: 15px;
   }
@@ -2321,7 +2354,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards3 .text-cards3 {
     width: 300px;
     height: 300px;
-    /* background-color: rgb(7, 185, 230); */
+    background-color: rgb(230, 178, 7);
     margin: 10px;
     padding: 15px;
   }

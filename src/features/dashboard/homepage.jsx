@@ -67,9 +67,9 @@ function HomePage() {
                 <div id="content1">
                     <section>
                         <div id="section1" style={{ display: 'flex', flexDirection: 'column', padding: '50px', }}>
-                            <h1 class='reveal1'>About VENSYX Data Solutions</h1>
+                            <h1 class='reveal1' style={{ textAlign: 'center', fontSize: '45px' }}>About VENSYX</h1>
                             <div class='reveal1' style={{ display: 'flex', flexDirection: 'row' }}>
-                                <div style={{ textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', }}>
+                                <div style={{ textAlign: 'start', width: '50%', fontSize: '25px', }}>
                                     <p class='reveal1' style={{ textAlign: 'justify', fontSize: '25px', fontFamily: 'Raleway, sans-serif' }}>
                                         VENSYX Data Solutions is your Innovation to provide
                                         world-class Big Data, Business Intelligence, Data
@@ -90,7 +90,7 @@ function HomePage() {
                                     <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                                 </div>
                                 <div id="bigdata" class='container reveal1' style={{ width: '50%', }}>
-                                    <img src="images/about1.jpg" alt="" width="100%" height="350px" style={{ boxShadow: '4px 4px 10px white,-4px -4px 10px white' }} />
+                                    <img src="images/about1.jpg" alt="" width="100%" height="350px" />
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ function HomePage() {
                             <section>
                                 <div class='container reveal3'>
                                     <div class='cards3'>
-                                        <div class='text-cards3 bg-success'>
+                                        <div class='text-cards3'>
                                             <h3>Social Responsibility</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 VENSYX Data Solutions integrates social responsibility with business objectives to make these initiatives an integral part of the company's profitable growth.
