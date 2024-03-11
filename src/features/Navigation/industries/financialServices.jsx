@@ -37,7 +37,7 @@ function FinancialServices() {
                                     return (
                                         <div key={index}>
                                             {typeof item === 'string' ? (
-                                                <p style={{ color: 'white' }}>{item}</p>
+                                                <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{item}</p>
                                             ) : (
                                                 Object.entries(item).map(([key, value]) => {
                                                     return (
@@ -46,7 +46,7 @@ function FinancialServices() {
                                                                 typeof value === 'string' ? (
                                                                     <>
                                                                         <h4 style={{ color: 'white' }}>{key}</h4>
-                                                                        <p style={{ color: 'white' }}>{value}</p>
+                                                                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{value}</p>
                                                                     </>
                                                                 ) : (
                                                                     <>
@@ -54,7 +54,7 @@ function FinancialServices() {
                                                                         {
                                                                             value && value.map((subitem) => {
                                                                                 return (
-                                                                                    <p style={{ color: 'white' }}>{subitem}</p>
+                                                                                    <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subitem}</p>
                                                                                 )
                                                                             })
                                                                         }

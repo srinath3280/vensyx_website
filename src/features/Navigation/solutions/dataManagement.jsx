@@ -31,22 +31,22 @@ function DataManagement() {
                 <div id="datamanagement">
                     <h1 style={{ color: 'white' }}>Data Management</h1>
                     <div style={{ padding: '50px', textAlign: 'justify', fontSize: '25px' }}>
-                        <p style={{ color: 'white' }}>
+                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>
                             VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate, consistent and transparent data content for its customers. It emphasizes usability of data for its intended purpose and audience. VENSYX Data Solutions provides processes, tools, and metrics to help organizations use information effectively and efficiently in order to achieve their business objectives.
                         </p>
-                        <p style={{ color: 'white' }}>
+                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>
                             Companies today look at integrating and analyzing structured and unstructured content across the enterprise. Our service offering in Data Management enables customers to effectively manage volumes of data and help convert information to insights. Our primary focus is on helping our customers to build and maintain Master Data repositories, tackle inconsistencies within their data, and cleanse and enrich it to gain competitive benefits while simultaneously adhering to compliance requirements.
                         </p>
-                        <b style={{ color: 'white' }}>BI Data Management offerings at VENSYX Data Solutions:</b>
+                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>BI Data Management offerings at VENSYX Data Solutions:</b>
                         <div style={{display:'flex',flexDirection:'row'}}>
                             <div style={{ width: '50%', }}>
                                 <ul>
-                                    <li style={{ color: 'white' }}>Data Quality Management</li>
-                                    <li style={{ color: 'white' }}>Master Data Management</li>
-                                    <li style={{ color: 'white' }}>Meta – Data Management</li>
-                                    <li style={{ color: 'white' }}>Data Migration</li>
-                                    <li style={{ color: 'white' }}>Data Integration</li>
-                                    <li style={{ color: 'white' }}>Data Governance</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Quality Management</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Master Data Management</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Meta – Data Management</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Migration</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Integration</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Governance</li>
                                 </ul>
                             </div>
                             <div style={{ width: '50%', }}>
@@ -54,25 +54,25 @@ function DataManagement() {
                             </div>
                         </div>
                         <h3 style={{ color: 'white' }}>Key Capabilities</h3>
-                        <b style={{ color: 'white' }}>Data Quality Management</b>
-                        <p style={{ color: 'white' }}>VENSYX Data Solutions specialists implement robust governance processes and assure quality via data de-duplication, data filtering, and error treatment across Telecom, Retail, Manufacture and Finance Services sectors.</p>
-                        <b style={{ color: 'white' }}>Master Data Management</b>
-                        <p style={{ color: 'white' }}>Our comprehensive MDM offerings optimize internal and external data management, and governance to help you make better-informed business decisions.</p>
-                        <b style={{ color: 'white' }}>Meta – Data Management</b>
-                        <p style={{ color: 'white' }}>Our metadata-driven development approach assigns a high priority to master data—the static core data at the heart of an organization—which encompasses information across the various units and teams in an organization.</p>
-                        <b style={{ color: 'white' }}>Data Migration</b>
-                        <p style={{ color: 'white' }}>VENSYX Data Solutions help enterprises to consolidate their data systems or migrate to a newer, more robust platform. We offer frameworks and solutions to mitigate associated risks while accelerating deployment.</p>
-                        <b style={{ color: 'white' }}>Data Integration</b>
-                        <p style={{ color: 'white' }}>Build an information-enabled enterprise by speedily transforming data into a key decision driver with VENSYX Data Solutions Data Transformation service. Our engineers leverage expertise in various ETL and ETL data transformation tools and operate across a variety of sectors.</p>
-                        <b style={{ color: 'white' }}>Data Governance</b>
-                        <p style={{ color: 'white' }}>VENSYX Data Solutions uses a high-performance data governance framework that embraces collaboration at all levels, we partner with you to drive business alignment, specialization, stewardship, responsibility, accountability, consistency, and scalability across the enterprise.</p>
+                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Quality Management</b>
+                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions specialists implement robust governance processes and assure quality via data de-duplication, data filtering, and error treatment across Telecom, Retail, Manufacture and Finance Services sectors.</p>
+                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Master Data Management</b>
+                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Our comprehensive MDM offerings optimize internal and external data management, and governance to help you make better-informed business decisions.</p>
+                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Meta – Data Management</b>
+                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Our metadata-driven development approach assigns a high priority to master data—the static core data at the heart of an organization—which encompasses information across the various units and teams in an organization.</p>
+                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Migration</b>
+                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions help enterprises to consolidate their data systems or migrate to a newer, more robust platform. We offer frameworks and solutions to mitigate associated risks while accelerating deployment.</p>
+                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Integration</b>
+                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Build an information-enabled enterprise by speedily transforming data into a key decision driver with VENSYX Data Solutions Data Transformation service. Our engineers leverage expertise in various ETL and ETL data transformation tools and operate across a variety of sectors.</p>
+                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Governance</b>
+                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions uses a high-performance data governance framework that embraces collaboration at all levels, we partner with you to drive business alignment, specialization, stewardship, responsibility, accountability, consistency, and scalability across the enterprise.</p>
                         <h3 style={{ color: 'white' }}>Business Value</h3>
                         <ul>
-                            <li style={{ color: 'white' }}>Achieve organizational alignment on the governance of data management issues throughout the enterprise</li>
-                            <li style={{ color: 'white' }}>Define and implement data architecture encompassing data modelling, data flow analysis, tuning, storage, visualization, and infrastructure</li>
-                            <li style={{ color: 'white' }}>Identify, implement and maintain a single, unified view of reference data across the enterprise</li>
-                            <li style={{ color: 'white' }}>Ensure data security, through security policies and processes</li>
-                            <li style={{ color: 'white' }}>Establish processes that ensure good quality data on a regular and consistent basis</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Achieve organizational alignment on the governance of data management issues throughout the enterprise</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Define and implement data architecture encompassing data modelling, data flow analysis, tuning, storage, visualization, and infrastructure</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Identify, implement and maintain a single, unified view of reference data across the enterprise</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Ensure data security, through security policies and processes</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Establish processes that ensure good quality data on a regular and consistent basis</li>
                         </ul>
                     </div>
                 </div>

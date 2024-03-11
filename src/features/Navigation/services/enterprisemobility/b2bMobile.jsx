@@ -35,12 +35,12 @@ function B2BMobileApps() {
                             {
                                 b2b && b2b.map((item, index) => {
                                     if (typeof item === 'string') {
-                                        return <p key={index} style={{ color: 'white' }}>{item}</p>;
+                                        return <p key={index} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{item}</p>;
                                     } else if (Array.isArray(item)) {
                                         return (
                                             <ul key={index}>
                                                 {item.map((subItem, subIndex) => (
-                                                    <li key={subIndex} style={{ color: 'white' }}>{subItem}</li>
+                                                    <li key={subIndex} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subItem}</li>
                                                 ))}
                                             </ul>
                                         );
@@ -52,7 +52,7 @@ function B2BMobileApps() {
                                                         <h2 style={{ color: 'white' }}>{key}</h2>
                                                         <ul>
                                                             {item[key].map((subItem, subIndex) => (
-                                                                <p key={subIndex} style={{ color: 'white' }}>{subItem}</p>
+                                                                <p key={subIndex} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subItem}</p>
                                                             ))}
                                                         </ul>
                                                     </div>

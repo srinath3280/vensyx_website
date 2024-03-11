@@ -32,20 +32,20 @@ function BusinessIntelligence() {
                     <h1 style={{ color: 'white' }}>Business Intelligence Solutions</h1>
                     <div style={{ padding: '50px', textAlign: 'justify', fontSize: '25px' }}>
                         <div id="businessintelligenceblock1" style={{display:'flex',flexDirection:'row'}}>
-                            <p style={{ color: 'white',width:'50%',padding:'10px' }}>VENSYX Data Solutions Business Intelligence Consulting Services comprise High Impact, Diagnostic and assessment studies that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives. We have in place a set of methodologies, frameworks, checklists and IP assets that help us strategize BI initiatives.</p>
+                            <p style={{ color: 'white',width:'50%',padding:'10px',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions Business Intelligence Consulting Services comprise High Impact, Diagnostic and assessment studies that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives. We have in place a set of methodologies, frameworks, checklists and IP assets that help us strategize BI initiatives.</p>
                             <img src="/images/bi1.jpg" alt="" width='50%' height="450px" style={{borderRadius:'15px'}}/>
                         </div>
-                        <p style={{ color: 'white' }}>VENSYX Data Solutions DWBI team of Consultants helps its clients convert the Strategic Business objectives and goals into BI strategy and convert these ideas into actionable results. With Hundreds of successful deployment across Technology, Products and Verticals, our BI Experts have expertise in working with some of the 'Fortune-1000'companies across the World. These highly motivated Professionals are 100% committed to customer satisfaction in all services that we deliver.</p>
-                        <b style={{ color: 'white' }}>BI Consulting Offerings at VENSYX Data Solutions include:</b>
+                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions DWBI team of Consultants helps its clients convert the Strategic Business objectives and goals into BI strategy and convert these ideas into actionable results. With Hundreds of successful deployment across Technology, Products and Verticals, our BI Experts have expertise in working with some of the 'Fortune-1000'companies across the World. These highly motivated Professionals are 100% committed to customer satisfaction in all services that we deliver.</p>
+                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>BI Consulting Offerings at VENSYX Data Solutions include:</b>
                         <div style={{ display: 'flex', flexDirection: 'row' }}>
                             <div style={{ width: '50%', }}>
                                 <ul>
-                                    <li style={{ color: 'white' }}>Strategy & Roadmap</li>
-                                    <li style={{ color: 'white' }}>BI Assessment Study</li>
-                                    <li style={{ color: 'white' }}>Rationalization Services</li>
-                                    <li style={{ color: 'white' }}>BI Competency Center</li>
-                                    <li style={{ color: 'white' }}>Architecture Services</li>
-                                    <li style={{ color: 'white' }}>Tool Evaluation Services</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Strategy & Roadmap</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>BI Assessment Study</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Rationalization Services</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>BI Competency Center</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Architecture Services</li>
+                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Tool Evaluation Services</li>
                                 </ul>
                             </div>
                             <div id="businessintelligenceblock2" style={{ width: '50%', }}>
@@ -54,32 +54,32 @@ function BusinessIntelligence() {
                         </div>
                         <h3 style={{ color: 'white' }}>Key Capabilities</h3>
                         <div>
-                            <b style={{ color: 'white' }}>Strategy & Roadmap</b>
-                            <p style={{ color: 'white' }}>Understand different aspects of BI requirements and work on Strategy and future state with a defined timeline to achieve the defined state</p>
+                            <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Strategy & Roadmap</b>
+                            <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Understand different aspects of BI requirements and work on Strategy and future state with a defined timeline to achieve the defined state</p>
 
-                            <b style={{ color: 'white' }}>BI Assessment Study</b>
-                            <p style={{ color: 'white' }}>Conduct study to evaluate the current landscape of technology, architecture, resources and infrastructure to provide optimal state.</p>
+                            <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>BI Assessment Study</b>
+                            <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Conduct study to evaluate the current landscape of technology, architecture, resources and infrastructure to provide optimal state.</p>
 
-                            <b style={{ color: 'white' }}>Rationalization Services</b>
-                            <p style={{ color: 'white' }}>Assessment of current ETL and Reporting architecture and processes to recommend the right fit solution and confirming to latest best practices in the market.</p>
+                            <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Rationalization Services</b>
+                            <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Assessment of current ETL and Reporting architecture and processes to recommend the right fit solution and confirming to latest best practices in the market.</p>
 
-                            <b style={{ color: 'white' }}>BI Competency Center</b>
-                            <p style={{ color: 'white' }}>Consulting, Implementation and Operation of BI Competency Center or BI Center of Excellence for efficient management of BI Resources.</p>
+                            <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>BI Competency Center</b>
+                            <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Consulting, Implementation and Operation of BI Competency Center or BI Center of Excellence for efficient management of BI Resources.</p>
 
-                            <b style={{ color: 'white' }}>Architecture Services</b>
-                            <p style={{ color: 'white' }}>Assess and recommend BI Architecture vis-à-vis organization requirement with respect to BI, Dashboard, Analytics and Scorecard.</p>
+                            <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Architecture Services</b>
+                            <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Assess and recommend BI Architecture vis-à-vis organization requirement with respect to BI, Dashboard, Analytics and Scorecard.</p>
 
-                            <b style={{ color: 'white' }}>Tool Evaluation Services</b>
-                            <p style={{ color: 'white' }}>Tool Evaluation and Selection based on time tested evaluation criteria categorized by Architecture and User Preference, Infrastructure footprint etc.</p>
+                            <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Tool Evaluation Services</b>
+                            <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Tool Evaluation and Selection based on time tested evaluation criteria categorized by Architecture and User Preference, Infrastructure footprint etc.</p>
                         </div>
                         <h3 style={{ color: 'white' }}>Business Value</h3>
                         <ul>
-                            <li style={{ color: 'white' }}>Strategic BI Projects aligned to Business Strategy</li>
-                            <li style={{ color: 'white' }}>Enable faster and fact-based decision making</li>
-                            <li style={{ color: 'white' }}>Reusable frameworks and components</li>
-                            <li style={{ color: 'white' }}>Catering to users most pertinent needs and optimize the use</li>
-                            <li style={{ color: 'white' }}>Ensure that operations are aligned to Strategic and Tactical needs</li>
-                            <li style={{ color: 'white' }}>Lower costs for BI tools and processes</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Strategic BI Projects aligned to Business Strategy</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Enable faster and fact-based decision making</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Reusable frameworks and components</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Catering to users most pertinent needs and optimize the use</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Ensure that operations are aligned to Strategic and Tactical needs</li>
+                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Lower costs for BI tools and processes</li>
                         </ul>
                     </div>
                 </div>

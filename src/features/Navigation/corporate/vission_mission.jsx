@@ -36,7 +36,7 @@ function VissionMission() {
                             {
                                 visionmission && visionmission.map((data) => {
                                     return (
-                                        <p style={{color:'white'}}>{data.vision}</p>
+                                        <p style={{color:'white',fontFamily:'Raleway, sans-serif'}}>{data.vision}</p>
                                     )
                                 })
                             }
@@ -51,7 +51,7 @@ function VissionMission() {
                             {
                                 visionmission && visionmission.map((data) => {
                                     return (
-                                        <p style={{color:'white'}}>{data.mission}</p>
+                                        <p style={{color:'white',fontFamily:'Raleway, sans-serif'}}>{data.mission}</p>
                                     )
                                 })
                             }

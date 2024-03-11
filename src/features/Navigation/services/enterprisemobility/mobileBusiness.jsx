@@ -35,7 +35,7 @@ function MobileBusiness() {
                             {
                                 mobilebusiness && mobilebusiness.map((data) => {
                                     return (
-                                        <p style={{ color: 'white' }}>{data}</p>
+                                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{data}</p>
                                     )
                                 })
                             }

@@ -35,22 +35,23 @@ function Selenium() {
                             {
                                 selenium && selenium.map((item, index) => (
                                     <div key={index}>
-                                        {typeof item === 'string' ? (
-                                            <p style={{ color: 'white' }}>{item}</p>
-                                        ) : (
-                                            <div>
-                                                {Object.entries(item).map(([title, content], idx) => (
-                                                    <div key={idx}>
-                                                        <h3 style={{ color: 'white' }}>{title}</h3>
-                                                        <ul>
-                                                            {content.map((point, i) => (
-                                                                <li key={i} style={{ color: 'white' }}>{point}</li>
-                                                            ))}
-                                                        </ul>
-                                                    </div>
-                                                ))}
-                                            </div>
-                                        )
+                                        {
+                                            typeof item === 'string' ? (
+                                                <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{item}</p>
+                                            ) : (
+                                                <div>
+                                                    {Object.entries(item).map(([title, content], idx) => (
+                                                        <div key={idx}>
+                                                            <h3 style={{ color: 'white' }}>{title}</h3>
+                                                            <ul>
+                                                                {content.map((point, i) => (
+                                                                    <li key={i} style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{point}</li>
+                                                                ))}
+                                                            </ul>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            )
                                         }
                                     </div>
                                 ))

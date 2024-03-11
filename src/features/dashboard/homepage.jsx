@@ -28,15 +28,15 @@ function HomePage() {
                 </div>
                 <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
-                        <div class="carousel-item active" data-bs-interval="2000">
+                        <div class="carousel-item active" data-bs-interval="3000">
                             <img src="/images/building2.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
-                                <p style={{ fontSize: '35px', marginTop: '-100px', backgroundColor: 'rgba(0,0,0,0.1)', textTransform: 'uppercase' }}>
-                                    We bring you powerfull advantages to navigate your digital transformtion
+                                <p style={{ fontSize: '40px', marginTop: '-100px', backgroundColor: 'rgba(0,0,0,0.1)', textTransform: 'uppercase', marginLeft: '-200px', fontFamily: 'Josefin Sans,sans-serif' }}>
+                                    We bring you powerfull <br /> advantages to navigate <br /> your digital transformtion
                                 </p>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="3000">
                             <img src="/images/working5.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
                                 <p style={{ marginLeft: '550px', fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.3)', marginTop: '-50px', textTransform: 'uppercase' }}>
@@ -44,7 +44,7 @@ function HomePage() {
                                 </p>
                             </div>
                         </div>
-                        <div class="carousel-item" data-bs-interval="2000">
+                        <div class="carousel-item" data-bs-interval="3000">
                             <img src="/images/group1.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
                                 <p style={{ fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.4)', marginTop: '-400px', textTransform: 'uppercase' }}>
@@ -67,40 +67,96 @@ function HomePage() {
                 <div id="content1">
                     <section>
                         <div id="section1" style={{ display: 'flex', flexDirection: 'column', padding: '50px', }}>
-                            <h3 class='reveal1'>Who We Are</h3>
                             <h1 class='reveal1'>About VENSYX Data Solutions</h1>
-                            <p class='reveal1' style={{ textAlign: 'justify', fontSize: '25px' }}>
-                                VENSYX Data Solutions is your Innovation to provide
-                                world-class Big Data, Business Intelligence, Data
-                                Integration, Data Quality, Data Warehousing, Data
-                                Governance, and Master Data Management services
-                                and solutions to companies around the globe and
-                                across industries. VENSYX Data Solutions has been
-                                helping business and technology work together to
-                                protect existing data investments and unlock their
-                                business value using the most advanced tools,
-                                technologies, methodologies available and Intelligent
-                                solutions for superior performance., we put emphasis
-                                on long-term commitment and combine global reach
-                                and local intimacy to provide premier professional
-                                services from consulting, system development to
-                                business IT outsourcing.
-                            </p>
-                            <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
+                            <div class='reveal1' style={{ display: 'flex', flexDirection: 'row' }}>
+                                <div style={{ textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', }}>
+                                    <p class='reveal1' style={{ textAlign: 'justify', fontSize: '25px', fontFamily: 'Raleway, sans-serif' }}>
+                                        VENSYX Data Solutions is your Innovation to provide
+                                        world-class Big Data, Business Intelligence, Data
+                                        Integration, Data Quality, Data Warehousing, Data
+                                        Governance, and Master Data Management services
+                                        and solutions to companies around the globe and
+                                        across industries. VENSYX Data Solutions has been
+                                        helping business and technology work together to
+                                        protect existing data investments and unlock their
+                                        business value using the most advanced tools,
+                                        technologies, methodologies available and Intelligent
+                                        solutions for superior performance., we put emphasis
+                                        on long-term commitment and combine global reach
+                                        and local intimacy to provide premier professional
+                                        services from consulting, system development to
+                                        business IT outsourcing.
+                                    </p>
+                                    <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
+                                </div>
+                                <div id="bigdata" class='container reveal1' style={{ width: '50%', }}>
+                                    <img src="images/about1.jpg" alt="" width="100%" height="350px" style={{ boxShadow: '4px 4px 10px white,-4px -4px 10px white' }} />
+                                </div>
+                            </div>
                         </div>
                     </section>
-                    <div>
+
+                    <div id="corporateblock">
+                        <div id="section21" style={{ paddingRight: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
+                            <section>
+                                <div class='container reveal1'>
+                                    <div class='cards1'>
+                                        <div class='text-cards1 bg-primary-bg-subtle'>
+                                            <h3>Vision & Mission</h3>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
+                                                * To be a world class organization admired for consistently delivering superior Business value.
+                                            </p>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
+                                                * We will win by excelling in execution and by ensuring total customer satisfaction.
+                                            </p>
+                                            <button class='btn btn-outline-warning'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class='container reveal2'>
+                                    <div className="cards2">
+                                        <div className="text-cards2 bg-warning-bg-subtle">
+                                            <h3>Core Value</h3>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
+                                                * We ensure customer satisfaction by adding value and honouring commitments at all times.
+                                            </p>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
+                                                * We build transparent lasting relationships and stand for integrity and mutual trust.
+                                            </p>
+                                            <button class='btn btn-outline-success'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section>
+                                <div class='container reveal3'>
+                                    <div class='cards3'>
+                                        <div class='text-cards3 bg-success'>
+                                            <h3>Social Responsibility</h3>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
+                                                VENSYX Data Solutions integrates social responsibility with business objectives to make these initiatives an integral part of the company's profitable growth.
+                                            </p>
+                                            <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    {/* <div>
                         <section id="section2">
                             <h1 class='reveal1'>VENSYX  Vision & Mission</h1>
                             <div class='reveal1' style={{ display: 'flex', flexDirection: 'row' }}>
                                 <div style={{ textAlign: 'start', marginLeft: '50px', width: '50%', fontSize: '25px', padding: '15px' }}>
                                     <h2>Vision:</h2>
-                                    <p>
+                                    <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                         To be a world class organization admired for
                                         consistently delivering superior Business value
                                     </p>
                                     <h2>Mission:</h2>
-                                    <p>
+                                    <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                         We will win by excelling in execution and by
                                         ensuring total customer satisfaction
                                     </p>
@@ -110,7 +166,7 @@ function HomePage() {
                                 </div>
                             </div>
                         </section>
-                    </div>
+                    </div> */}
 
                     <h1 class='reveal1' style={{ marginTop: '25px' }}>SOLUTIONS</h1>
                     <section>
@@ -121,7 +177,7 @@ function HomePage() {
                             <div class='reveal1' style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
                                 <h2>Big Data & Advanced Analytics</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
-                                    <p>Data is exploding. Individuals, corporates, websites, call centers, shopping malls, mobile and RFID
+                                    <p style={{ fontFamily: 'Raleway, sans-serif' }}>Data is exploding. Individuals, corporates, websites, call centers, shopping malls, mobile and RFID
                                         devices etc. are generating data in various formats – Regular data, voice data, text data, video  and
                                         like never before. It is estimated that by 2017 there will more bytes of data than the sand grains in
                                         the world.</p>
@@ -136,7 +192,7 @@ function HomePage() {
                             <div style={{ display: 'flex', flexDirection: 'column', width: '70%', marginLeft: '50px' }}>
                                 <h2 class='reveal1'>Business Intelligence Solutions</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
-                                    <p class='reveal1'>VENSYX Data Solutions Business I that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives.</p>
+                                    <p class='reveal1' style={{ fontFamily: 'Raleway, sans-serif' }}>VENSYX Data Solutions Business I that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives.</p>
                                 </div>
                                 <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
@@ -154,7 +210,7 @@ function HomePage() {
                             <div style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
                                 <h2 class='reveal1'>Data Management</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
-                                    <p class='reveal1'>VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate,consistent and transparent data content for its customers. It emphasizes usability of data for its intended purpose and audience.</p>
+                                    <p class='reveal1' style={{ fontFamily: 'Raleway, sans-serif' }}>VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate,consistent and transparent data content for its customers. It emphasizes usability of data for its intended purpose and audience.</p>
                                 </div>
                                 <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
@@ -165,7 +221,7 @@ function HomePage() {
                         <h1 class='reveal1' style={{ marginTop: '25px' }}>Our Services</h1>
                         <div class='reveal1' style={{ width: '50px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto' }}></div>
                         <div class='reveal1' style={{ width: '75px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto', marginTop: '5px' }}></div>
-                        <p class='reveal1' style={{  fontFamily: 'cursive' }}>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
+                        <p class='reveal1' style={{ fontFamily: 'cursive' }}>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
                     </section>
 
                     <div id="ourservice">
@@ -175,7 +231,7 @@ function HomePage() {
                                     <div class='cards1'>
                                         <div class='text-cards1 bg-primary'>
                                             <h3>Enterprise Mobility Services</h3>
-                                            <p>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 In today's world, the constantly changing economy, and the boom in the global market, often poses difficult challenges for your business.
                                             </p>
                                             <button class='btn btn-outline-warning'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
@@ -188,7 +244,7 @@ function HomePage() {
                                     <div className="cards2">
                                         <div className="text-cards2 bg-danger">
                                             <h3>Mobile Apps Development</h3>
-                                            <p>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 With the increasing use of Smart phones, there is a soaring demand for mobile applications in the market.
                                             </p>
                                             <button class='btn btn-outline-success'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
@@ -204,7 +260,7 @@ function HomePage() {
                                     <div class='cards3'>
                                         <div class='text-cards3 bs-danger-bg-subtle'>
                                             <h3>Business Intelligence Services</h3>
-                                            <p>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
                                             </p>
                                             <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
@@ -217,7 +273,7 @@ function HomePage() {
                                     <div className="cards4">
                                         <div className="text-cards4 bg-info">
                                             <h3>Web Application Development</h3>
-                                            <p>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Web portal service has gained popularity in the last few decades, since the internet has become accessible to the common people.
                                             </p>
                                             <button class='btn btn-outline-secondary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
@@ -233,7 +289,7 @@ function HomePage() {
                                     <div class='cards5'>
                                         <div class='text-cards5 bg-warning'>
                                             <h3>Business Intelligence Services</h3>
-                                            <p>
+                                            <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
                                             </p>
                                             <button class='btn btn-outline-primary'><a href="" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
@@ -250,7 +306,7 @@ function HomePage() {
                             <div class='reveal1' style={{ display: 'flex', flexDirection: 'column', width: '50%', marginLeft: '50px' }}>
                                 <h2>Telecommunications</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
-                                    <p>The telecommunications industry has arguably evolved more than any other
+                                    <p style={{ fontFamily: 'Raleway, sans-serif' }}>The telecommunications industry has arguably evolved more than any other
                                         market sector in the last ten years. This evolution has brought not only a
                                         lot of benefits for telecommunication operators and their customers, but
                                         also a lot of issues to resolve. As the telco industry has moved from a
@@ -276,7 +332,7 @@ function HomePage() {
                             <div class='reveal1' style={{ display: 'flex', flexDirection: 'column', width: '50%', marginRight: '50px' }}>
                                 <h2>Financial Services</h2>
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
-                                    <p>Banks are under more pressure now than ever before. Constantly evolving
+                                    <p style={{ fontFamily: 'Raleway, sans-serif' }}>Banks are under more pressure now than ever before. Constantly evolving
                                         regulatory requirements, rising costs, economic pressures, and increased
                                         competition from non-traditional entrants in the banking industry have
                                         created a challenging business environment for banks of all sizes. In
@@ -293,7 +349,7 @@ function HomePage() {
                         <div id="section13" style={{ display: 'flex', flexDirection: 'column', marginLeft: '50px', marginRight: '50px', marginBottom: '25px', marginTop: '25px' }}>
                             <h2 class='reveal1'>Government</h2>
                             <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
-                                <p class='reveal1'>Stable societies have always been those best equipped to manage,
+                                <p class='reveal1' style={{ fontFamily: 'Raleway, sans-serif' }}>Stable societies have always been those best equipped to manage,
                                     safeguard and circulate information. Cornerstones of government such
                                     as technological development, legislation, justice, and yes,
                                     taxation all hinge on the development, maintenance, and access to

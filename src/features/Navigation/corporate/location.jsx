@@ -55,7 +55,7 @@ function Location() {
                                         // console.log(data.RegisteredOffice)
                                         data.RegisteredOffice && data.RegisteredOffice.map((details) => {
                                             return (
-                                                <p style={{ color: 'white', lineHeight: '10px' }}>{details}</p>
+                                                <p style={{ color: 'white', lineHeight: '10px',fontFamily:'Raleway, sans-serif' }}>{details}</p>
                                             )
                                         })
                                     )

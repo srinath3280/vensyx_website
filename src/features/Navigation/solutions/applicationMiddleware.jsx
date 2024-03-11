@@ -38,7 +38,7 @@ function ApplicationMiddleware() {
                                     <div key={index}>
                                         {
                                             typeof item === 'string' ? (
-                                                <p style={{ color: 'white' }}>{item}</p>
+                                                <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{item}</p>
                                             ) : (
                                                 <div>
                                                     {
@@ -48,7 +48,7 @@ function ApplicationMiddleware() {
                                                                 <ul>
                                                                     {
                                                                         content.map((point, i) => (
-                                                                            <li key={i} style={{ color: 'white' }}>{point}</li>
+                                                                            <li key={i} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{point}</li>
                                                                         ))
                                                                     }
                                                                 </ul>

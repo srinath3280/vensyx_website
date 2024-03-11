@@ -38,7 +38,7 @@ function CoreValue() {
                                     <ul>
                                         {
                                             data.VENSYX.map((details) => {
-                                                return <li style={{ color: 'white', textAlign: 'justify' }}>{details}</li>
+                                                return <li style={{ color: 'white', textAlign: 'justify',fontFamily:'Raleway, sans-serif' }}>{details}</li>
                                             })
                                         }
                                     </ul>

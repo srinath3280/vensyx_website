@@ -35,7 +35,7 @@ function QTP() {
                             {
                                 qtp && qtp.map((item, index) => {
                                     if (typeof item === 'string') {
-                                        return <p key={index} style={{ color: 'white' }}>{item}</p>;
+                                        return <p key={index} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{item}</p>;
                                     } else {
                                         const key = Object.keys(item)[0];
                                         const value = item[key];
@@ -45,7 +45,7 @@ function QTP() {
                                                     <h3 style={{ color: 'white' }}>{key}</h3>
                                                     <ul>
                                                         {value.map((subItem, subIndex) => (
-                                                            <li key={subIndex} style={{ color: 'white' }}>{subItem}</li>
+                                                            <li key={subIndex} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subItem}</li>
                                                         ))}
                                                     </ul>
                                                 </div>
@@ -54,7 +54,7 @@ function QTP() {
                                             return (
                                                 <div key={index}>
                                                     <h3 style={{ color: 'white' }}>{key}</h3>
-                                                    <p style={{ color: 'white' }}>{value}</p>
+                                                    <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{value}</p>
                                                 </div>
                                             );
                                         }

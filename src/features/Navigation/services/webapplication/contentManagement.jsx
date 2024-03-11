@@ -41,12 +41,12 @@ function ContentManagement() {
                                                     <h3 style={{ color: 'white' }}>In addition to the Content Management System, we also offer the following services to our clients:</h3>
                                                     <ul>
                                                         {data.map((subItem, subIndex) => (
-                                                            <li key={subIndex} style={{ color: 'white' }}>{subItem}</li>
+                                                            <li key={subIndex} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subItem}</li>
                                                         ))}
                                                     </ul>
                                                 </div>
                                             ) : (
-                                                <p style={{ color: 'white' }}>{data}</p>
+                                                <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{data}</p>
                                             )}
                                         </>
                                     )

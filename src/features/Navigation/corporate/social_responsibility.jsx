@@ -43,11 +43,11 @@ function SocialResponsibility() {
                                                 <div>
                                                     <h2 style={{color:'white'}}>Environment</h2>
                                                     {data.map((subItem, subIndex) => (
-                                                        <p key={subIndex} style={{color:'white'}}>{subItem}</p>
+                                                        <p key={subIndex} style={{color:'white',fontFamily:'Raleway, sans-serif'}}>{subItem}</p>
                                                     ))}
                                                 </div>
                                             ) : (
-                                                <p style={{color:'white'}}>{data}</p>
+                                                <p style={{color:'white',fontFamily:'Raleway, sans-serif'}}>{data}</p>
                                             )}
                                         </>
                                     )

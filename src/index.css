@@ -43,7 +43,10 @@ code {
   position: relative;
 }
 
-
+/* .dropdown .dropdown-menu{
+  width: 500px;
+  height: 500px;
+} */
 
 .dropdown-submenu>.dropdown-menu {
   top: 0;
@@ -182,6 +185,13 @@ code {
   background-size: cover;
   background-repeat: no-repeat;
 
+}
+
+#corporateblock{
+  height: auto;
+  background-image: url('/public/images/service2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #navbarSupportedContent {
@@ -463,16 +473,72 @@ section .cards5 .text-cards5 h3 {
     width: auto;
     font-size: 40px;
   }
-
-  #section1 h3 {
+  #section1 p {
     width: auto;
     font-size: 30px;
   }
-
-  #section1 p {
-    width: auto;
-    font-size: large;
+  #section1 #bigdata img {
+    width: 500px;
+    height: 400px;
   }
+
+  /* Corporate */
+  #section21{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  #corporateblock .cards1 {
+    display: flex;
+  }
+  #corporateblock .cards1 .text-cards1 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(7, 185, 230); */
+    margin: 20px;
+    padding: 25px;
+  }
+  #corporateblock .cards1 .text-cards1 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  #corporateblock .cards2 {
+    display: flex;
+  }
+  #corporateblock .cards2 .text-cards2 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(7, 185, 230); */
+    margin: 20px;
+    padding: 25px;
+  }
+  #corporateblock .cards2 .text-cards2 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  #corporateblock .cards3 {
+    display: flex;
+  }
+  #corporateblock .cards3 .text-cards3 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(7, 185, 230); */
+    margin: 20px;
+    padding: 25px;
+  }
+  #corporateblock .cards3 .text-cards3 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
 
   #section2 h2 {
     width: auto;
@@ -1313,6 +1379,64 @@ section .cards5 .text-cards5 h3 {
     font-size: medium;
   }
 
+  /* Corporate */
+  #section21{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #corporateblock .cards1 {
+    display: flex;
+  }
+  #corporateblock .cards1 .text-cards1 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(7, 185, 230); */
+    margin: 10px;
+    padding: 15px;
+  }
+  #corporateblock .cards1 .text-cards1 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  #corporateblock .cards2 {
+    display: flex;
+  }
+  #corporateblock .cards2 .text-cards2 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(7, 185, 230); */
+    margin: 10px;
+    padding: 15px;
+  }
+  #corporateblock .cards2 .text-cards2 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  #corporateblock .cards3 {
+    display: flex;
+  }
+  #corporateblock .cards3 .text-cards3 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(7, 185, 230); */
+    margin: 10px;
+    padding: 15px;
+  }
+  #corporateblock .cards3 .text-cards3 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+
   #section2 h2 {
     width: 100%;
     font-size: 35px;
@@ -2148,6 +2272,64 @@ section .cards5 .text-cards5 h3 {
   #section1 p {
     width: auto;
     font-size: small;
+  }
+
+  /* Corporate */
+  #section21{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #corporateblock .cards1 {
+    display: flex;
+  }
+  #corporateblock .cards1 .text-cards1 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(7, 185, 230); */
+    margin: 10px;
+    padding: 15px;
+  }
+  #corporateblock .cards1 .text-cards1 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  #corporateblock .cards2 {
+    display: flex;
+  }
+  #corporateblock .cards2 .text-cards2 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(7, 185, 230); */
+    margin: 10px;
+    padding: 15px;
+  }
+  #corporateblock .cards2 .text-cards2 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+  }
+
+  #corporateblock .cards3 {
+    display: flex;
+  }
+  #corporateblock .cards3 .text-cards3 {
+    width: 300px;
+    height: 300px;
+    /* background-color: rgb(7, 185, 230); */
+    margin: 10px;
+    padding: 15px;
+  }
+  #corporateblock .cards3 .text-cards3 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
   }
 
   #section2 h2 {

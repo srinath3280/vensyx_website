@@ -37,7 +37,7 @@ function Government() {
                                     return (
                                         <div key={index}>
                                             {typeof item === 'string' ? (
-                                                <p style={{ color: 'white' }}>{item}</p>
+                                                <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{item}</p>
                                             ) : (
                                                 Object.entries(item).map(([key, value]) => {
                                                     return (
@@ -46,7 +46,7 @@ function Government() {
                                                                 typeof value === 'string' ? (
                                                                     <>
                                                                         <h3 style={{ color: 'white' }}>{key}</h3>
-                                                                        <p style={{ color: 'white' }}>{value}</p>
+                                                                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{value}</p>
                                                                     </>
                                                                 ) : (
                                                                     <>
@@ -55,7 +55,7 @@ function Government() {
                                                                             value && value.map((subitem) => {
                                                                                 return (
                                                                                     <ul>
-                                                                                        <li style={{ color: 'white' }}>{subitem}</li>
+                                                                                        <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subitem}</li>
                                                                                     </ul>
                                                                                 )
                                                                             })
