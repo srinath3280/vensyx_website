@@ -11,20 +11,44 @@ function NavBar() {
                     <h5 style={{ color: 'rgb(3, 3, 102)' }}>VENSYX Data Solutions</h5>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="nav nav-underline navbar-nav me-auto">
+                    <ul class="nav nav-underline navbar-nav me-auto upper-come-nav-part">
                         {/* <li class="nav-item">
                             <a class="nav-link" aria-current="page" href="/">Home</a>
                         </li> */}
-                        <li class="nav-item dropdown">
+                        <li class="nav-item dropdown upper-come-nav-part-content">
                             <a class="nav-link dropdown-toggle" href="/corporate" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Corporate
                             </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/corporate/aboutus">About Us</a></li>
-                                <li><a class="dropdown-item" href="/corporate/vissionmission">Vision & Mission</a></li>
-                                <li><a class="dropdown-item" href="/corporate/corevalue">Core Value</a></li>
-                                <li><a class="dropdown-item" href="/corporate/socialresponsibility">Social Responsibility</a></li>
-                                <li><a class="dropdown-item" href="/corporate/location">Location</a></li>
+                            <ul class="dropdown-menu " style={{ width: '100%', height: '520px', position: 'fixed', zIndex: '999999', top: '75px', marginLeft: '0px', left: '0px', padding: '40px',backgroundColor:'black',opacity:'0.8' }}>
+                                <span style={{ fontSize: '35px', color: 'orange'}}>CORPORATE</span>
+                                <p style={{ fontSize: '20px',marginBottom:'25px',color:'white',marginTop:'25px' }}>
+                                    VENSYX Data Solutions is your Innovation to provide world-class Big Data, Business Intelligence, Data Integration, Data Quality, Data Warehousing, Data Governance, and Master Data Management services and solutions to companies around the globe and across industries.
+                                </p>
+                                <button class="btn btn-outline-danger" style={{ width: '150px', height: '50px',marginBottom:'50px' }}>Explore</button>
+                                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start',marginBottom:'25px' }}>
+                                    <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
+                                        <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px',color:'white' }}></i>
+                                        <a class="dropdown-item" href="/corporate/aboutus" style={{ marginLeft: '-25px',color:'white' }}>About Us</a>
+                                    </li>
+                                    <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '200px' }}>
+                                        <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px',color:'white' }}></i>
+                                        <a class="dropdown-item" href="/corporate/vissionmission" style={{ marginLeft: '-25px',color:'white' }}>Vision & Mission</a>
+                                    </li>
+                                    <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '200px' }}>
+                                        <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px',color:'white' }}></i>
+                                        <a class="dropdown-item" href="/corporate/corevalue" style={{ marginLeft: '-25px',color:'white' }}>Core Value</a>
+                                    </li>
+                                </div>
+                                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
+                                    <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
+                                        <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px',color:'white' }}></i>
+                                        <a class="dropdown-item" href="/corporate/socialresponsibility" style={{ marginLeft: '-25px',color:'white' }}>Social Responsibility</a>
+                                    </li>
+                                    <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', marginLeft: '120px' }}>
+                                        <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px',color:'white' }}></i>
+                                        <a class="dropdown-item" href="/corporate/location" style={{ marginLeft: '-25px',color:'white' }}>Location</a>
+                                    </li>
+                                </div>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -110,7 +134,7 @@ function NavBar() {
                         </li>
                     </ul>
                     <a href="/">
-                        <i class="bi bi-house-door" style={{backgroundColor:'transparent',fontSize:'20px'}}></i>
+                        <i class="bi bi-house-door" style={{ backgroundColor: 'transparent', fontSize: '20px' }}></i>
                     </a>
                 </div>
             </div>
