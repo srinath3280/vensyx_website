@@ -8,7 +8,7 @@ function WebApplication() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/webapplication'
+            url: '/files/services/webApplication.txt'
         }).then((res) => {
             setWebapplication(res.data)
         })

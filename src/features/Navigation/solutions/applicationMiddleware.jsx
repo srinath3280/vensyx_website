@@ -8,7 +8,7 @@ function ApplicationMiddleware() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/applicationmiddleware'
+            url: '/files/solutions/application_middleware.txt'
         }).then((res) => {
             setApplication(res.data)
         })

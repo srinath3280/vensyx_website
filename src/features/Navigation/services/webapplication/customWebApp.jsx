@@ -7,7 +7,7 @@ function CustomWebApp() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/customwebapp'
+            url: '/files/webApplication/custom_webApp.txt'
         }).then((res) => {
             setCustom(res.data)
         })

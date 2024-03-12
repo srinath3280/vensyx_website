@@ -7,7 +7,7 @@ function Utilities() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/utilities'
+            url: '/files/industries/utilities.txt'
         }).then((res) => {
             setUtilities(res.data)
         })

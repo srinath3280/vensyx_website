@@ -7,7 +7,7 @@ function CMRApplication() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/crmapplication'
+            url: '/files/webApplication/crm_application.txt'
         }).then((res) => {
             setCrm(res.data)
         })

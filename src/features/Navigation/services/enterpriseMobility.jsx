@@ -7,7 +7,7 @@ function EnterpriseMobility() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/enterprisemobility'
+            url: '/files/services/enterprise_mobility.txt'
         }).then((res) => {
             setEnterprisemobility(res.data)
         })

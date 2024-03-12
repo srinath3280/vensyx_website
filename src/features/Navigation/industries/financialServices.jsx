@@ -7,7 +7,7 @@ function FinancialServices() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/financialservices'
+            url: '/files/industries/financial_services.txt'
         }).then((res) => {
             setFinancial(res.data)
         })

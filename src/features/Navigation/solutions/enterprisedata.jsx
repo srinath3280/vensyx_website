@@ -7,7 +7,7 @@ function EnterpriseData() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/enterprisedatawarehouse'
+            url: '/files/solutions/enterpriseDataWarehouse.txt'
         }).then((res) => {
             setEnterprise(res.data)
         })

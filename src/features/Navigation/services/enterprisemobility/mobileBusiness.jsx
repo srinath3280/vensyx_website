@@ -7,7 +7,7 @@ function MobileBusiness() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/mobilebusiness'
+            url: '/files/enterpriseMobility/mobileBusiness.txt'
         }).then((res) => {
             setMobilebusiness(res.data)
         })

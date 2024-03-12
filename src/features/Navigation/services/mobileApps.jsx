@@ -8,7 +8,7 @@ function MobileApps() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/mobileapps'
+            url: '/files/services/mobileApps.txt'
         }).then((res) => {
             setMobileapps(res.data)
         })

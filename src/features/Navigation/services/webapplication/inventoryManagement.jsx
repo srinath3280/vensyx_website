@@ -7,7 +7,7 @@ function InventoryManagement() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/inventory'
+            url: '/files/webApplication/inventory.txt'
         }).then((res) => {
             setInventory(res.data)
         })

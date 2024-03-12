@@ -7,7 +7,7 @@ function BigData() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/bigdata'
+            url: '/files/solutions/bigData.txt'
         }).then((res) => {
             setBigdata(res.data)
         })

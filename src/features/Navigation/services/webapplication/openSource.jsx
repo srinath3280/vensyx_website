@@ -7,7 +7,7 @@ function OpenSource() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/opensource'
+            url: '/files/webApplication/open_source.txt'
         }).then((res) => {
             setOpensource(res.data)
         })

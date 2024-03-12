@@ -7,7 +7,7 @@ function BusinessIntelligenceService() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/businessintelligence'
+            url: '/files/services/business_intelligence.txt'
         }).then((res) => {
             setBusinessintelligence(res.data)
         })

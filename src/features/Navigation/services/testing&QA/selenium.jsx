@@ -7,7 +7,7 @@ function Selenium() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/selenium'
+            url: '/files/testing/selenium.txt'
         }).then((res) => {
             setSelenium(res.data)
         })

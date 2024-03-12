@@ -7,7 +7,7 @@ function DataManagement() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/datamanagement'
+            url: '/files/solutions/dataManagement.txt'
         }).then((res) => {
             setDatamanagement(res.data)
         })

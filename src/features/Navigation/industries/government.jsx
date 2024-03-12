@@ -7,7 +7,7 @@ function Government() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/government'
+            url: '/files/industries/government.txt'
         }).then((res) => {
             setGovernment(res.data)
         })

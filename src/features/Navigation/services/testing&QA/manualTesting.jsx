@@ -7,7 +7,7 @@ function ManualTesting() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/manualtesting'
+            url: '/files/testing/manual_testing.txt'
         }).then((res) => {
             setManual(res.data)
         })

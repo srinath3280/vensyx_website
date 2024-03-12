@@ -7,7 +7,7 @@ function AboutUs() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/aboutus'
+            url: '/files/corporate/about.txt'
         }).then((res) => {
             setAboutus(res.data)
         })

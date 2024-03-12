@@ -7,7 +7,7 @@ function EnterpriseIOSApp() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/enterpriseiosapp'
+            url: '/files/enterpriseMobility/enterprise_iosApp.txt'
         }).then((res) => {
             setEnterpriseios(res.data)
         })

@@ -7,7 +7,7 @@ function Telecommunications() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/telecommunication'
+            url: '/files/industries/telecommunication.txt'
         }).then((res) => {
             setTelecommunication(res.data)
         })

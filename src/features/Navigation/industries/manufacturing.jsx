@@ -7,7 +7,7 @@ function Manufacturing() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/manufacturing'
+            url: '/files/industries/manufacturing.txt'
         }).then((res) => {
             setManufacturing(res.data)
         })

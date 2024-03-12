@@ -7,7 +7,7 @@ function BusinessProcess() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/businessprocess'
+            url: '/files/enterpriseMobility/business_process.txt'
         }).then((res) => {
             setBusinessprocess(res.data)
         })

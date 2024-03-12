@@ -7,7 +7,7 @@ function B2BMobileApps() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/b2bmobilwapps'
+            url: '/files/enterpriseMobility/b2b_mobileApps.txt'
         }).then((res) => {
             setB2b(res.data)
         })

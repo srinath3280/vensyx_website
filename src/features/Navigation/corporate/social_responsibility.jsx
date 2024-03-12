@@ -7,7 +7,7 @@ function SocialResponsibility() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/socialresponsibility'
+            url: '/files/corporate/socialResponsibility.txt'
         }).then((res) => {
             setSocialresponsibility(res.data)
         })

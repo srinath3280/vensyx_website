@@ -7,7 +7,7 @@ function BlackberryApp() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/blackberryapp'
+            url: '/files/mobileApps/blackberry_app.txt'
         }).then((res) => {
             setBlackberryapp(res.data)
         })

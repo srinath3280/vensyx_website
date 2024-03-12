@@ -7,7 +7,7 @@ function TestComplete() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/testcomplete'
+            url: '/files/testing/test_complete.txt'
         }).then((res) => {
             setTestcomplete(res.data)
         })

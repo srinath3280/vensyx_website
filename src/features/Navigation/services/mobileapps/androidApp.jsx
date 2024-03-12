@@ -7,7 +7,7 @@ function AndroidApp() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/andriodapp'
+            url: '/files/mobileApps/androidApp.txt'
         }).then((res) => {
             setAndroidapp(res.data)
         })

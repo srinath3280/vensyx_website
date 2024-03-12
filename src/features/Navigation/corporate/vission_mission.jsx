@@ -7,7 +7,7 @@ function VissionMission() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/vissionmission'
+            url: '/files/corporate/vision_mission.txt'
         }).then((res) => {
             setVisionmission(res.data)
         })

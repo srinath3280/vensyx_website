@@ -7,7 +7,7 @@ function Windows8App() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/windows8app'
+            url: '/files/mobileApps/windows8_app.txt'
         }).then((res) => {
             setWindows8app(res.data)
         })

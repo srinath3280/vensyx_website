@@ -7,7 +7,7 @@ function Location() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/location'
+            url: '/files/corporate/location.txt'
         }).then((res) => {
             setLocation(res.data)
         })

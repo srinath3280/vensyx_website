@@ -7,7 +7,7 @@ function CoreValue() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/corevalue'
+            url: '/files/corporate/corevalue.txt'
         }).then((res) => {
             setCorevalue(res.data)
         })

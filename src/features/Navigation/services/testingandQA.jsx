@@ -8,7 +8,7 @@ function TestingandQAservices() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/testingqa'
+            url: '/files/services/testing_QA.txt'
         }).then((res) => {
             setTesting(res.data)
         })

@@ -7,7 +7,7 @@ function AutomatedTesting() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/automatedtesting'
+            url: '/files/testing/automated_testing.txt'
         }).then((res) => {
             setAutomated(res.data)
         })

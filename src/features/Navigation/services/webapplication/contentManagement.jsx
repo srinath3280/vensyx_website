@@ -7,7 +7,7 @@ function ContentManagement() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/contentmanagement'
+            url: '/files/webApplication/content_management.txt'
         }).then((res) => {
             setContent(res.data)
         })

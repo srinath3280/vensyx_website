@@ -7,7 +7,7 @@ function IphoneApp() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/iphoneapp'
+            url: '/files/mobileApps/iphone_app.txt'
         }).then((res) => {
             setIphoneapp(res.data)
         })

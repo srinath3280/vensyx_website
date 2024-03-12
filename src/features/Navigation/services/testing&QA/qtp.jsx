@@ -7,7 +7,7 @@ function QTP() {
     useEffect(() => {
         axios({
             method: 'GET',
-            url: 'http://localhost:3500/qtp'
+            url: '/files/testing/qtp.txt'
         }).then((res) => {
             setQtp(res.data)
         })
