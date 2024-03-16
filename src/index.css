@@ -188,8 +188,15 @@ code {
 }
 
 #corporateblock{
+  height: 500px;
+  background-image: url('/public/images/corporatebg.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#industries{
   height: auto;
-  background-image: url('/public/images/service2.jpg');
+  background-image: url('/public/images/industriesbg.avif');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -498,7 +505,8 @@ section .cards5 .text-cards5 h3 {
   #section21{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
   }
   #corporateblock .cards1 {
     display: flex;

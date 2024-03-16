@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 
 function AboutUs() {
-    var [aboutus, setAboutus] = useState()
+    var [aboutus, setAboutus] = useState();
     useEffect(() => {
         axios({
             method: 'GET',

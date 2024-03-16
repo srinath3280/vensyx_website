@@ -227,6 +227,7 @@ const router = createBrowserRouter([
             path:'/services/businessintelligenceservices',
             element:<BusinessIntelligenceService></BusinessIntelligenceService>
           },
+          
           {
             path:'/services/webapplication',
             element:<WebApplication></WebApplication>,
