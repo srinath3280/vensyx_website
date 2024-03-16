@@ -6,8 +6,65 @@ import './myscriptfile/scp3.js';
 import './myscriptfile/scp4.js';
 import './myscriptfile/scp5.js';
 import './myscriptfile/scp7.js';
+import { useNavigate } from "react-router-dom";
 
 function HomePage() {
+    var navigate = useNavigate();
+    function aboutusbtn(){
+        navigate('/corporate/aboutus');
+    }
+    function visionmissionbtn(){
+        navigate('/corporate/vissionmission');
+    }
+    function corevaluebtn(){
+        navigate('/corporate/corevalue');
+    }
+    function socialbtn(){
+        navigate('/corporate/socialresponsibility');
+    }
+    function bigdatabtn(){
+        navigate('/solutions/bigdata');
+    }
+    function businessintelligencesolutionsbtn(){
+        navigate('/solutions/businessIntelligence');
+    }
+    function datamanagementbtn(){
+        navigate('/solutions/datamanagement');
+    }
+    function enterprisemobilitybtn(){
+        navigate('/services/enterprisemobility');
+    }
+    function mobileappsbtn(){
+        navigate('/services/mobileapps');
+    }
+    function businessintelligenceservicebtn(){
+        navigate('/services/businessintelligenceservices');
+    }
+    function webapplicationbtn(){
+        navigate('/services/webapplication');
+    }
+    function testingandqabtn(){
+        navigate('/services/testing');
+    }
+    function telecommunicationsbtn(){
+        navigate('/industries/telecommunications');
+    }
+    function retailbtn(){
+        navigate('/industries/retail');
+    }
+    function financialservicesbtn(){
+        navigate('/industries/financialservices');
+    }
+    function manufacturingbtn(){
+        navigate('/industries/manufacturing');
+    }
+    function utilitiesbtn(){
+        navigate('/industries/utilities');
+    }
+    function governmentbtn(){
+        navigate('/industries/government');
+    }
+
     return (
         <div>
             <div className="container1" style={{ width: 'auto', backgroundImage: "linear-gradient(to right, #2b2b4d, #364a68, #6a8496, #adc0c6, #fafdfd)", marginTop: '75px' }}>
@@ -87,7 +144,7 @@ function HomePage() {
                                         services from consulting, system development to
                                         business IT outsourcing.
                                     </p>
-                                    <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}><a href="/corporate/aboutus">EXPLORE</a></button>
+                                    <button class="btn btn-outline-primary" onClick={()=>aboutusbtn()} style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                                 </div>
                                 <div id="bigdata" class='container reveal1' style={{ width: '50%', }}>
                                     <img src="images/about1.jpg" alt="" width="100%" height="350px" />
@@ -109,7 +166,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 * We will win by excelling in execution and by ensuring total customer satisfaction.
                                             </p>
-                                            <button class='btn btn-outline-warning'><a href="/corporate/vissionmission" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-warning' onClick={()=>visionmissionbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -125,7 +182,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 * We build transparent lasting relationships and stand for integrity and mutual trust.
                                             </p>
-                                            <button class='btn btn-outline-success'><a href="/corporate/corevalue" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-success' onClick={()=>corevaluebtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -138,7 +195,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 VENSYX Data Solutions integrates social responsibility with business objectives to make these initiatives an integral part of the company's profitable growth.
                                             </p>
-                                            <button class='btn btn-outline-primary'><a href="/corporate/socialresponsibility" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-primary' onClick={()=>socialbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -160,7 +217,7 @@ function HomePage() {
                                         like never before. It is estimated that by 2017 there will more bytes of data than the sand grains in
                                         the world.</p>
                                 </div>
-                                <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}><a href="/solutions/bigdata">EXPLORE</a></button>
+                                <button class="btn btn-outline-primary" onClick={()=>bigdatabtn()} style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
                         </div>
                     </section>
@@ -172,7 +229,7 @@ function HomePage() {
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
                                     <p class='reveal1' style={{ fontFamily: 'Raleway, sans-serif' }}>VENSYX Data Solutions Business I that facilitate BIDW initiative of Many High Performing 'Fortune-1000' Companies across the Globe. We help Organizations across multiple verticals analyze the business problems and then propose innovative business intelligence and analytical solutions which link strategy with actions and create synergy between organizations Short-term, Medium term and long term priorities and Business Objectives.</p>
                                 </div>
-                                <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}><a href="/solutions/businessIntelligence">EXPLORE</a></button>
+                                <button class="btn btn-outline-primary" onClick={()=>businessintelligencesolutionsbtn()} style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
                             <div id="bigdata" class='container reveal1' style={{ width: '30%', marginRight: '50px' }}>
                                 <img src="images/businessintelligence.jpg" alt="" width='300px' height='300px' style={{ borderRadius: '50%' }} />
@@ -190,7 +247,7 @@ function HomePage() {
                                 <div style={{ textAlign: 'justify', width: '100%', fontSize: '25px', padding: '10px' }}>
                                     <p class='reveal1' style={{ fontFamily: 'Raleway, sans-serif' }}>VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms of security, quality and accessibility. VENSYX Data Solutions is focused on creation of accurate,consistent and transparent data content for its customers. It emphasizes usability of data for its intended purpose and audience.</p>
                                 </div>
-                                <button class="btn btn-outline-primary" style={{ width: '150px', padding: '10px' }}><a href="/solutions/datamanagement">EXPLORE</a></button>
+                                <button class="btn btn-outline-primary" onClick={()=>datamanagementbtn()} style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                             </div>
                         </div>
                     </section>
@@ -212,7 +269,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 In today's world, the constantly changing economy, and the boom in the global market, often poses difficult challenges for your business.
                                             </p>
-                                            <button class='btn btn-outline-warning'><a href="/services/enterprisemobility" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-warning' onClick={()=>enterprisemobilitybtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -225,7 +282,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 With the increasing use of Smart phones, there is a soaring demand for mobile applications in the market.
                                             </p>
-                                            <button class='btn btn-outline-success'><a href="/services/mobileapps" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-success' onClick={()=>mobileappsbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -241,7 +298,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
                                             </p>
-                                            <button class='btn btn-outline-primary'><a href="/services/businessintelligenceservices" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-primary' onClick={()=>businessintelligenceservicebtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -254,7 +311,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Web portal service has gained popularity in the last few decades, since the internet has become accessible to the common people.
                                             </p>
-                                            <button class='btn btn-outline-secondary'><a href="/services/webapplication" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-secondary' onClick={()=>webapplicationbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -270,7 +327,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 VENSYX Data Solutions provides a holistic approach of testing and quality assurance to help you build a product or service through accelerated testing methods.
                                             </p>
-                                            <button class='btn btn-outline-primary'><a href="/services/testing" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-primary' onClick={()=>testingandqabtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -292,7 +349,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 The telecommunications industry has arguably evolved more than any other market sector in the last ten years.
                                             </p>
-                                            <button class='btn btn-outline-warning'><a href="/industries/telecommunications" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-warning' onClick={()=>telecommunicationsbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -305,7 +362,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Driven by a highly competitive marketplace, today's retailer requires cutting-edge Information Management.
                                             </p>
-                                            <button class='btn btn-outline-success'><a href="/industries/retail" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-success' onClick={()=>retailbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -321,7 +378,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Banks are under more pressure now than ever before. Constantly evolving regulatory requirements, rising costs, economic pressures, and increased competition.
                                             </p>
-                                            <button class='btn btn-outline-primary'><a href="/industries/financialservices" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-primary' onClick={()=>financialservicesbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -334,7 +391,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Driven by a highly competitive marketplace, today's manufacturing organization requires cutting-edge Information Management.
                                             </p>
-                                            <button class='btn btn-outline-secondary'><a href="/industries/manufacturing" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-secondary' onClick={()=>manufacturingbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -349,7 +406,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 As they pursue a more competitive, market-oriented business model, utilities organizations are making increasing demands on their information systems
                                             </p>
-                                            <button class='btn btn-outline-warning'><a href="/industries/utilities" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-warning' onClick={()=>utilitiesbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -362,7 +419,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Stable societies have always been those best equipped to manage, safeguard and circulate information.
                                             </p>
-                                            <button class='btn btn-outline-secondary'><a href="/industries/government" style={{ textDecoration: 'none', color: 'black' }}>Read more</a></button>
+                                            <button class='btn btn-outline-secondary' onClick={()=>governmentbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
