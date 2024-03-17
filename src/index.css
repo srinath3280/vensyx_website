@@ -76,16 +76,31 @@ code {
   cursor: pointer;
 }
 
-.bi-youtube:hover {
+#socialMedia a{
+  color: #0a0b0b;
+  width: 40px;
+  font-size: 25px;
+  margin-right: 5px;
+  background-color: grey;
+}
+
+/* .bi-youtube:hover {
   color: red;
 }
 
 .bi-instagram:hover {
-  /* color: red; */
   background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
   background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+} */
+
+.bi-telephone:hover{
+  color: #08f37d;
+}
+
+.bi-linkedin:hover{
+  color: #0a66c2;
 }
 
 .bi-facebook:hover {
@@ -98,6 +113,118 @@ code {
 
 .bi-whatsapp:hover {
   color: rgb(12, 247, 12);
+}
+
+.bi-envelope-at:hover{
+  color: rgb(201, 5, 5);
+}
+
+.bi-telephone{
+  position: relative;
+}
+.bi-telephone .tooltiptext {
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid white;
+  text-align: start;
+  visibility: hidden;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+.bi-telephone:hover .tooltiptext {
+  visibility: visible;
+}
+
+.bi-envelope-at{
+  position: relative;
+}
+.bi-envelope-at .tooltiptext {
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid white;
+  text-align: start;
+  visibility: hidden;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+.bi-envelope-at:hover .tooltiptext {
+  visibility: visible;
+}
+
+.bi-linkedin{
+  position: relative;
+}
+.bi-linkedin .tooltiptext {
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid white;
+  text-align: start;
+  visibility: hidden;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+.bi-linkedin:hover .tooltiptext {
+  visibility: visible;
+}
+
+.bi-facebook{
+  position: relative;
+}
+.bi-facebook .tooltiptext {
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid white;
+  text-align: start;
+  visibility: hidden;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+.bi-facebook:hover .tooltiptext {
+  visibility: visible;
+}
+
+.bi-twitter{
+  position: relative;
+}
+.bi-twitter .tooltiptext {
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid white;
+  text-align: start;
+  visibility: hidden;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+.bi-twitter:hover .tooltiptext {
+  visibility: visible;
+}
+
+.bi-whatsapp{
+  position: relative;
+}
+.bi-whatsapp .tooltiptext {
+  font-size: 12px;
+  background-color: black;
+  border: 1px solid white;
+  text-align: start;
+  visibility: hidden;
+  color: #fff;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+}
+.bi-whatsapp:hover .tooltiptext {
+  visibility: visible;
 }
 
 #socialMedia {
@@ -366,6 +493,17 @@ section .cards5 .text-cards5 h3 {
 
 .reveal5.active {
   transform: translateY(0);
+  opacity: 1;
+}
+
+.reveal6{
+  position: relative;
+  transform: translateX(-100px);
+  opacity: 0;
+  transition: all 2s ease;
+}
+.reveal6.active{
+  transform: translateX(0);
   opacity: 1;
 }
 
