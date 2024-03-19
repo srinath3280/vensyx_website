@@ -16,7 +16,7 @@ function NavBar() {
                             <a class="nav-link dropdown-toggle" href="/corporate" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Corporate
                             </a>
-                            <ul class="dropdown-menu " style={{ width: '100%', height: '520px', position: 'fixed', zIndex: '999999', top: '75px', marginLeft: '0px', left: '0px', padding: '40px', backgroundColor: 'black' }}>
+                            <ul class="dropdown-menu" style={{ width: '100%', height: '520px', position: 'fixed', zIndex: '999999', top: '75px', marginLeft: '0px', left: '0px', padding: '40px', backgroundColor: 'black' }}>
                                 <span style={{ fontSize: '35px', color: 'orange' }}>CORPORATE</span>
                                 <p style={{ fontSize: '20px', marginBottom: '25px', color: 'white', marginTop: '25px' }}>
                                     VENSYX Data Solutions is your Innovation to provide world-class Big Data, Business Intelligence, Data Integration, Data Quality, Data Warehousing, Data Governance, and Master Data Management services and solutions to companies around the globe and across industries.
