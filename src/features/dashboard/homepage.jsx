@@ -71,7 +71,7 @@ function HomePage() {
                 <div id='socialMedia'>
                     <a href="tel: +91 9000316721">
                         <i class="bi bi-telephone">
-                            <span class="tooltiptext">1234567890</span>
+                            <span class="tooltiptext">+91-9000316721</span>
                         </i>
                     </a>
                     <a href="mailto:info@vensyx.com?subject=subject text">
@@ -96,7 +96,7 @@ function HomePage() {
                     </a>
                     <a href="https://wa.me/+919000316721">
                         <i class="bi bi-whatsapp">
-                            <span class="tooltiptext">https://www.whatsapp.com/vensyx</span>
+                            <span class="tooltiptext">+91-9000316721</span>
                         </i>
                     </a>
                 </div>
@@ -184,14 +184,14 @@ function HomePage() {
                                 <div class='container reveal1'>
                                     <div class='cards1'>
                                         <div class='text-cards1 bg-primary-bg-subtle'>
-                                            <h3>Vision & Mission</h3>
+                                            <h3 style={{fontWeight:'bolder',fontSize:'25px'}}>Vision & Mission</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 * To be a world class organization admired for consistently delivering superior Business value.
                                             </p>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 * We will win by excelling in execution and by ensuring total customer satisfaction.
                                             </p>
-                                            <button class='btn btn-outline-warning' onClick={() => visionmissionbtn()}>Read more</button>
+                                            <button class='btn btn-outline-primary' onClick={() => visionmissionbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -200,14 +200,14 @@ function HomePage() {
                                 <div class='container reveal2'>
                                     <div className="cards2">
                                         <div className="text-cards2 bg-warning-bg-subtle">
-                                            <h3>Core Value</h3>
+                                            <h3 style={{fontWeight:'bolder',fontSize:'25px'}}>Core Value</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 * We ensure customer satisfaction by adding value and honouring commitments at all times.
                                             </p>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 * We build transparent lasting relationships and stand for integrity and mutual trust.
                                             </p>
-                                            <button class='btn btn-outline-success' onClick={() => corevaluebtn()}>Read more</button>
+                                            <button class='btn btn-outline-warning' onClick={() => corevaluebtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -216,11 +216,11 @@ function HomePage() {
                                 <div class='container reveal3'>
                                     <div class='cards3'>
                                         <div class='text-cards3'>
-                                            <h3>Social Responsibility</h3>
+                                            <h3 style={{fontWeight:'bolder',fontSize:'25px'}}>Social Responsibility</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 VENSYX Data Solutions integrates social responsibility with business objectives to make these initiatives an integral part of the company's profitable growth.
                                             </p>
-                                            <button class='btn btn-outline-primary' onClick={() => socialbtn()}>Read more</button>
+                                            <button class='btn btn-outline-danger' onClick={() => socialbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -307,7 +307,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 With the increasing use of Smart phones, there is a soaring demand for mobile applications in the market.
                                             </p>
-                                            <button class='btn btn-outline-success' onClick={() => mobileappsbtn()}>Read more</button>
+                                            <button class='btn btn-outline-warning' onClick={() => mobileappsbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -323,7 +323,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Business Intelligence has transformed from being able to integrate data and create reports and dashboards.
                                             </p>
-                                            <button class='btn btn-outline-primary' onClick={() => businessintelligenceservicebtn()}>Read more</button>
+                                            <button class='btn btn-outline-warning' onClick={() => businessintelligenceservicebtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -336,7 +336,7 @@ function HomePage() {
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Web portal service has gained popularity in the last few decades, since the internet has become accessible to the common people.
                                             </p>
-                                            <button class='btn btn-outline-secondary' onClick={() => webapplicationbtn()}>Read more</button>
+                                            <button class='btn btn-outline-danger' onClick={() => webapplicationbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -368,8 +368,8 @@ function HomePage() {
                         <div id="section7" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', paddingLeft: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal1'>
-                                    <div class='cards1'>
-                                        <div class='text-cards1 bg-primary'>
+                                    <div class='cards6'>
+                                        <div class='text-cards6 bg-primary'>
                                             <h3>Telecommunications</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 The telecommunications industry has arguably evolved more than any other market sector in the last ten years.
@@ -381,13 +381,13 @@ function HomePage() {
                             </section>
                             <section>
                                 <div class='container reveal2'>
-                                    <div className="cards2">
-                                        <div className="text-cards2 bg-danger">
+                                    <div className="cards7">
+                                        <div className="text-cards7 bg-danger">
                                             <h3>Retail</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Driven by a highly competitive marketplace, today's retailer requires cutting-edge Information Management.
                                             </p>
-                                            <button class='btn btn-outline-success' onClick={() => retailbtn()}>Read more</button>
+                                            <button class='btn btn-outline-warning' onClick={() => retailbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -397,26 +397,26 @@ function HomePage() {
                         <div id="section8" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', paddingLeft: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal3'>
-                                    <div class='cards3'>
-                                        <div class='text-cards3 bs-danger-bg-subtle'>
+                                    <div class='cards8'>
+                                        <div class='text-cards8 bs-danger-bg-subtle'>
                                             <h3>Financial Services</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Banks are under more pressure now than ever before. Constantly evolving regulatory requirements, rising costs, economic pressures, and increased competition.
                                             </p>
-                                            <button class='btn btn-outline-primary' onClick={() => financialservicesbtn()}>Read more</button>
+                                            <button class='btn btn-outline-warning' onClick={() => financialservicesbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
                             </section>
                             <section>
                                 <div class='container reveal4'>
-                                    <div className="cards4">
-                                        <div className="text-cards4 bg-info">
+                                    <div className="cards9">
+                                        <div className="text-cards9 bg-info">
                                             <h3>Manufacturing</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Driven by a highly competitive marketplace, today's manufacturing organization requires cutting-edge Information Management.
                                             </p>
-                                            <button class='btn btn-outline-secondary' onClick={() => manufacturingbtn()}>Read more</button>
+                                            <button class='btn btn-outline-danger' onClick={() => manufacturingbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -425,8 +425,8 @@ function HomePage() {
                         <div id="section8" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', paddingLeft: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal5'>
-                                    <div class='cards5'>
-                                        <div class='text-cards5 bg-primary'>
+                                    <div class='cards10'>
+                                        <div class='text-cards10 bg-primary'>
                                             <h3>Utilities</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 As they pursue a more competitive, market-oriented business model, utilities organizations are making increasing demands on their information systems
@@ -438,13 +438,13 @@ function HomePage() {
                             </section>
                             <section>
                                 <div class='container reveal1'>
-                                    <div className="cards1">
-                                        <div className="text-cards1 bg-warning">
+                                    <div className="cards11">
+                                        <div className="text-cards11 bg-warning">
                                             <h3>Government</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Stable societies have always been those best equipped to manage, safeguard and circulate information.
                                             </p>
-                                            <button class='btn btn-outline-secondary' onClick={() => governmentbtn()}>Read more</button>
+                                            <button class='btn btn-outline-primary' onClick={() => governmentbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>

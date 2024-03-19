@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 
-body {
+*{
+  font-family: 'Raleway, sans-serif';
+}
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -12,8 +15,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-  /* color: rgb(3, 3, 102); */
-}
+  color: rgb(3, 3, 102);
+} */
 
 .navbar {
   background-color: white;
@@ -62,6 +65,10 @@ code {
 
 .nav-item ul li a {
   color: black;
+}
+
+.upper-come-nav-part{
+  font-size: 20px;
 }
 
 .bi {
@@ -123,6 +130,7 @@ code {
   position: relative;
 }
 .bi-telephone .tooltiptext {
+  width: 110px;
   font-size: 12px;
   background-color: black;
   border: 1px solid white;
@@ -213,6 +221,7 @@ code {
   position: relative;
 }
 .bi-whatsapp .tooltiptext {
+  width: 110px;
   font-size: 12px;
   background-color: black;
   border: 1px solid white;
@@ -352,8 +361,9 @@ section .cards1 .text-cards1 {
 
 section .cards1 .text-cards1 h3 {
   font-size: 20px;
-  text-align: center;
+  text-align: start;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 
 .reveal1 {
@@ -383,9 +393,10 @@ section .cards2 .text-cards2 {
 
 section .cards2 .text-cards2 h3 {
   font-size: 20px;
-  text-align: center;
+  text-align: start;
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 
 .reveal2 {
@@ -415,9 +426,10 @@ section .cards3 .text-cards3 {
 
 section .cards3 .text-cards3 h3 {
   font-size: 20px;
-  text-align: center;
+  text-align: start;
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 
 .reveal3 {
@@ -781,9 +793,10 @@ section .cards5 .text-cards5 h3 {
   }
   section .cards1 .text-cards1 h3 {
     font-size: 20px;
-    text-align: center;
+    text-align: start;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-weight: bold;
   }
 
   section .cards2 {
@@ -798,9 +811,10 @@ section .cards5 .text-cards5 h3 {
   }
   section .cards2 .text-cards2 h3 {
     font-size: 20px;
-    text-align: center;
+    text-align: start;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-weight: bold;
   }
 
   /* Third section */
@@ -812,13 +826,14 @@ section .cards5 .text-cards5 h3 {
     height: 300px;
     background-color: rgb(252, 4, 157);
     margin: 20px;
-    padding: 25px;
+    padding: 20px;
   }
   section .cards3 .text-cards3 h3 {
     font-size: 20px;
-    text-align: center;
+    text-align: start;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-weight: bold;
   }
 
   /* Fourth section */
@@ -834,9 +849,10 @@ section .cards5 .text-cards5 h3 {
   }
   section .cards4 .text-cards4 h3 {
     font-size: 20px;
-    text-align: center;
+    text-align: start;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-weight: bold;
   }
 
   /* Fifth section */
@@ -852,9 +868,123 @@ section .cards5 .text-cards5 h3 {
   }
   section .cards5 .text-cards5 h3 {
     font-size: 20px;
+    text-align: start;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /* Industries */
+  section .cards6 {
+    display: flex;
+  }
+  section .cards6 .text-cards6 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(7, 185, 230);
+    margin: 20px;
+    padding: 25px;
+  }
+  section .cards6 .text-cards6 h3 {
+    font-size: 20px;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  section .cards7 {
+    display: flex;
+  }
+  section .cards7 .text-cards7 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(132, 139, 240);
+    margin: 20px;
+    padding: 25px;
+  }
+  section .cards7 .text-cards7 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /* Third section */
+  section .cards8 {
+    display: flex;
+  }
+  section .cards8 .text-cards8 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(252, 4, 157);
+    margin: 20px;
+    padding: 20px;
+  }
+  section .cards8 .text-cards8 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /* Fourth section */
+  section .cards9 {
+    display: flex;
+  }
+  section .cards9 .text-cards9 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(132, 139, 240);
+    margin: 20px;
+    padding: 25px;
+  }
+  section .cards9 .text-cards9 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /* Fifth section */
+  section .cards10 {
+    display: flex;
+  }
+  section .cards10 .text-cards10 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(132, 139, 240);
+    margin: 20px;
+    padding: 25px;
+  }
+  section .cards10 .text-cards10 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /* Sixth section */
+  section .cards11 {
+    display: flex;
+  }
+  section .cards11 .text-cards11 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(132, 139, 240);
+    margin: 20px;
+    padding: 25px;
+  }
+  section .cards11 .text-cards11 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
   }
 
   #section10 h1{
