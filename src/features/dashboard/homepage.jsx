@@ -182,7 +182,8 @@ function HomePage() {
                                     <button class="btn btn-outline-primary" onClick={() => aboutusbtn()} style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                                 </div>
                                 <div id="bigdata" class='container reveal1' style={{ width: '50%', }}>
-                                    <img src="images/about1.jpg" alt="" width="100%" height="350px" />
+                                    {/* <img src="images/about1.jpg" alt="" width="100%" height="350px" /> */}
+                                    <video src="video/aboutvideo.mp4" type="video/mp4" controls></video>
                                 </div>
                             </div>
                         </div>

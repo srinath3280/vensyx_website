@@ -633,6 +633,10 @@ section .cards5 .text-cards5 h3 {
     width: 500px;
     height: 400px;
   }
+  #section1 #bigdata video{
+    width: 100%;
+    height: 450px;
+  }
 
   /* Corporate */
   #section21 {
@@ -1813,6 +1817,10 @@ section .cards5 .text-cards5 h3 {
     width: 400px;
     height: 350px;
   }
+  #section1 #bigdata video{
+    width: 90%;
+    height: 350px;
+  }
 
   /* Corporate */
   #section21 {
@@ -2974,6 +2982,10 @@ section .cards5 .text-cards5 h3 {
   #section1 #bigdata img {
     width: 300px;
     height: 300px;
+  }
+  #section1 #bigdata video{
+    width: 90%;
+    height: 350px;
   }
 
   /* Corporate */
