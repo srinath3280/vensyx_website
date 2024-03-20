@@ -1,22 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
 
-*{
+* {
   font-family: 'Raleway, sans-serif';
 }
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-  color: rgb(3, 3, 102);
-} */
 
 .navbar {
   background-color: white;
@@ -31,13 +17,6 @@ code {
   color: #ff0062;
 }
 
-/* @media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{   }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-} */
-
 .navbar-nav li:hover>ul.dropdown-menu {
   display: block;
 }
@@ -45,11 +24,6 @@ code {
 .dropdown-submenu {
   position: relative;
 }
-
-/* .dropdown .dropdown-menu{
-  width: 500px;
-  height: 500px;
-} */
 
 .dropdown-submenu>.dropdown-menu {
   top: 0;
@@ -67,7 +41,7 @@ code {
   color: black;
 }
 
-.upper-come-nav-part{
+.upper-come-nav-part {
   font-size: 20px;
 }
 
@@ -83,7 +57,7 @@ code {
   cursor: pointer;
 }
 
-#socialMedia a{
+#socialMedia a {
   color: #0a0b0b;
   width: 40px;
   font-size: 25px;
@@ -91,22 +65,11 @@ code {
   background-color: grey;
 }
 
-/* .bi-youtube:hover {
-  color: red;
-}
-
-.bi-instagram:hover {
-  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
-  background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-} */
-
-.bi-telephone:hover{
+.bi-telephone:hover {
   color: #08f37d;
 }
 
-.bi-linkedin:hover{
+.bi-linkedin:hover {
   color: #0a66c2;
 }
 
@@ -122,13 +85,14 @@ code {
   color: rgb(12, 247, 12);
 }
 
-.bi-envelope-at:hover{
+.bi-envelope-at:hover {
   color: rgb(201, 5, 5);
 }
 
-.bi-telephone{
+.bi-telephone {
   position: relative;
 }
+
 .bi-telephone .tooltiptext {
   width: 110px;
   font-size: 12px;
@@ -141,13 +105,15 @@ code {
   position: absolute;
   z-index: 1;
 }
+
 .bi-telephone:hover .tooltiptext {
   visibility: visible;
 }
 
-.bi-envelope-at{
+.bi-envelope-at {
   position: relative;
 }
+
 .bi-envelope-at .tooltiptext {
   font-size: 12px;
   background-color: black;
@@ -159,13 +125,15 @@ code {
   position: absolute;
   z-index: 1;
 }
+
 .bi-envelope-at:hover .tooltiptext {
   visibility: visible;
 }
 
-.bi-linkedin{
+.bi-linkedin {
   position: relative;
 }
+
 .bi-linkedin .tooltiptext {
   font-size: 12px;
   background-color: black;
@@ -177,13 +145,15 @@ code {
   position: absolute;
   z-index: 1;
 }
+
 .bi-linkedin:hover .tooltiptext {
   visibility: visible;
 }
 
-.bi-facebook{
+.bi-facebook {
   position: relative;
 }
+
 .bi-facebook .tooltiptext {
   font-size: 12px;
   background-color: black;
@@ -195,13 +165,15 @@ code {
   position: absolute;
   z-index: 1;
 }
+
 .bi-facebook:hover .tooltiptext {
   visibility: visible;
 }
 
-.bi-twitter{
+.bi-twitter {
   position: relative;
 }
+
 .bi-twitter .tooltiptext {
   font-size: 12px;
   background-color: black;
@@ -213,13 +185,15 @@ code {
   position: absolute;
   z-index: 1;
 }
+
 .bi-twitter:hover .tooltiptext {
   visibility: visible;
 }
 
-.bi-whatsapp{
+.bi-whatsapp {
   position: relative;
 }
+
 .bi-whatsapp .tooltiptext {
   width: 110px;
   font-size: 12px;
@@ -232,6 +206,7 @@ code {
   position: absolute;
   z-index: 1;
 }
+
 .bi-whatsapp:hover .tooltiptext {
   visibility: visible;
 }
@@ -266,6 +241,7 @@ code {
 }
 
 #eqform {
+  height: 614px;
   background-image: url('/public/images/enquiry.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -296,14 +272,12 @@ code {
 .carousel-caption {
   width: auto;
   height: 200px;
-  /* margin-top: 20px; */
 }
 
 .carousel-caption p {
   font-size: 25px;
   font-weight: bold;
   color: white;
-  /* margin-top: -450px; */
   margin-left: 300px;
 }
 
@@ -311,8 +285,6 @@ code {
   width: auto;
   height: auto;
   background-image: linear-gradient(to right, #2b2b4d, #364a68, #6a8496, #adc0c6, #fafdfd);
-  /* background-image: linear-gradient(to right, #020334, #214166, #5b7e94, #a5bdc4, #fafdfd); */
-  /* background-image: linear-gradient(to right top, #fff9fd, #f0eaf0, #e1dce4, #d1ced7, #c0c0cb, #b9becb, #b1bcca, #a9bac8, #a8c2d0, #a6cbd5, #a6d4d8, #a9dcd9); */
 }
 
 #ourservice {
@@ -323,14 +295,21 @@ code {
 
 }
 
-#corporateblock{
+#corporateblock {
   height: 500px;
   background-image: url('/public/images/corporatebg.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-#industries{
+#industries {
+  height: auto;
+  background-image: url('/public/images/industriesbg.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#solutions {
   height: auto;
   background-image: url('/public/images/industriesbg.avif');
   background-size: cover;
@@ -462,6 +441,7 @@ section .cards4 .text-cards4 h3 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 
 .reveal4 {
@@ -494,6 +474,7 @@ section .cards5 .text-cards5 h3 {
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 10px;
+  font-weight: bolder;
 }
 
 .reveal5 {
@@ -508,13 +489,14 @@ section .cards5 .text-cards5 h3 {
   opacity: 1;
 }
 
-.reveal6{
+.reveal6 {
   position: relative;
   transform: translateX(-100px);
   opacity: 0;
   transition: all 2s ease;
 }
-.reveal6.active{
+
+.reveal6.active {
   transform: translateX(0);
   opacity: 1;
 }
@@ -566,7 +548,7 @@ section .cards5 .text-cards5 h3 {
   }
 
   #footer1 .links {
-    font-size: large;
+    font-size: 20px;
   }
 
   #footer2 {
@@ -574,7 +556,7 @@ section .cards5 .text-cards5 h3 {
   }
 
   #footer2 .links {
-    font-size: large;
+    font-size: 20px;
   }
 
   #footer3 {
@@ -582,7 +564,7 @@ section .cards5 .text-cards5 h3 {
   }
 
   #footer3 .links {
-    font-size: large;
+    font-size: 20px;
   }
 
   #footer4 {
@@ -590,22 +572,24 @@ section .cards5 .text-cards5 h3 {
   }
 
   #footer4 .links {
-    font-size: large;
+    font-size: 20px;
   }
 
   #footertext p {
-    font-size: large;
+    font-size: 20px;
   }
 
   /* Home Page */
   /* NavBar */
-  .navbar{
+  .navbar {
     width: 100%;
   }
-  .navbar #navbarSupportedContent{
+
+  .navbar #navbarSupportedContent {
     width: auto;
   }
-  .navbar #logo h5{
+
+  .navbar #logo h5 {
     font-size: 25px;
     margin-left: 35px;
   }
@@ -613,10 +597,9 @@ section .cards5 .text-cards5 h3 {
   /* carousel */
   #carouselExampleInterval {
     width: auto;
-    /* height: 300px; */
     margin-left: 40px;
     margin-top: -75px;
-    margin-right: 47px;
+    margin-right: 45px;
   }
 
   .carousel-item {
@@ -627,14 +610,12 @@ section .cards5 .text-cards5 h3 {
   .carousel-caption {
     width: auto;
     height: 200px;
-    /* margin-top: 20px; */
   }
 
   .carousel-caption p {
     font-size: 25px;
     font-weight: bold;
     color: white;
-    /* margin-top: -450px; */
     margin-left: 300px;
   }
 
@@ -642,25 +623,29 @@ section .cards5 .text-cards5 h3 {
     width: auto;
     font-size: 40px;
   }
+
   #section1 p {
     width: auto;
     font-size: 30px;
   }
+
   #section1 #bigdata img {
     width: 500px;
     height: 400px;
   }
 
   /* Corporate */
-  #section21{
+  #section21 {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+
   #corporateblock .cards1 {
     display: flex;
   }
+
   #corporateblock .cards1 .text-cards1 {
     width: 300px;
     height: 300px;
@@ -668,6 +653,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   #corporateblock .cards1 .text-cards1 h3 {
     font-size: 20px;
     text-align: center;
@@ -678,6 +664,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards2 {
     display: flex;
   }
+
   #corporateblock .cards2 .text-cards2 {
     width: 300px;
     height: 300px;
@@ -685,6 +672,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   #corporateblock .cards2 .text-cards2 h3 {
     font-size: 20px;
     text-align: center;
@@ -695,6 +683,7 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards3 {
     display: flex;
   }
+
   #corporateblock .cards3 .text-cards3 {
     width: 300px;
     height: 300px;
@@ -702,6 +691,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   #corporateblock .cards3 .text-cards3 h3 {
     font-size: 20px;
     text-align: center;
@@ -784,6 +774,7 @@ section .cards5 .text-cards5 h3 {
   section .cards1 {
     display: flex;
   }
+
   section .cards1 .text-cards1 {
     width: 300px;
     height: 300px;
@@ -791,6 +782,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   section .cards1 .text-cards1 h3 {
     font-size: 20px;
     text-align: start;
@@ -802,6 +794,7 @@ section .cards5 .text-cards5 h3 {
   section .cards2 {
     display: flex;
   }
+
   section .cards2 .text-cards2 {
     width: 300px;
     height: 300px;
@@ -809,6 +802,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   section .cards2 .text-cards2 h3 {
     font-size: 20px;
     text-align: start;
@@ -821,6 +815,7 @@ section .cards5 .text-cards5 h3 {
   section .cards3 {
     display: flex;
   }
+
   section .cards3 .text-cards3 {
     width: 300px;
     height: 300px;
@@ -828,6 +823,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 20px;
   }
+
   section .cards3 .text-cards3 h3 {
     font-size: 20px;
     text-align: start;
@@ -840,6 +836,7 @@ section .cards5 .text-cards5 h3 {
   section .cards4 {
     display: flex;
   }
+
   section .cards4 .text-cards4 {
     width: 300px;
     height: 300px;
@@ -847,6 +844,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   section .cards4 .text-cards4 h3 {
     font-size: 20px;
     text-align: start;
@@ -859,6 +857,7 @@ section .cards5 .text-cards5 h3 {
   section .cards5 {
     display: flex;
   }
+
   section .cards5 .text-cards5 {
     width: 300px;
     height: 300px;
@@ -866,6 +865,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   section .cards5 .text-cards5 h3 {
     font-size: 20px;
     text-align: start;
@@ -878,6 +878,7 @@ section .cards5 .text-cards5 h3 {
   section .cards6 {
     display: flex;
   }
+
   section .cards6 .text-cards6 {
     width: 300px;
     height: 300px;
@@ -885,6 +886,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   section .cards6 .text-cards6 h3 {
     font-size: 20px;
     text-align: center;
@@ -896,6 +898,7 @@ section .cards5 .text-cards5 h3 {
   section .cards7 {
     display: flex;
   }
+
   section .cards7 .text-cards7 {
     width: 300px;
     height: 300px;
@@ -903,6 +906,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   section .cards7 .text-cards7 h3 {
     font-size: 20px;
     text-align: center;
@@ -915,6 +919,7 @@ section .cards5 .text-cards5 h3 {
   section .cards8 {
     display: flex;
   }
+
   section .cards8 .text-cards8 {
     width: 300px;
     height: 300px;
@@ -922,6 +927,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 20px;
   }
+
   section .cards8 .text-cards8 h3 {
     font-size: 20px;
     text-align: center;
@@ -934,6 +940,7 @@ section .cards5 .text-cards5 h3 {
   section .cards9 {
     display: flex;
   }
+
   section .cards9 .text-cards9 {
     width: 300px;
     height: 300px;
@@ -941,6 +948,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   section .cards9 .text-cards9 h3 {
     font-size: 20px;
     text-align: center;
@@ -953,6 +961,7 @@ section .cards5 .text-cards5 h3 {
   section .cards10 {
     display: flex;
   }
+
   section .cards10 .text-cards10 {
     width: 300px;
     height: 300px;
@@ -960,6 +969,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   section .cards10 .text-cards10 h3 {
     font-size: 20px;
     text-align: center;
@@ -972,6 +982,7 @@ section .cards5 .text-cards5 h3 {
   section .cards11 {
     display: flex;
   }
+
   section .cards11 .text-cards11 {
     width: 300px;
     height: 300px;
@@ -979,6 +990,7 @@ section .cards5 .text-cards5 h3 {
     margin: 20px;
     padding: 25px;
   }
+
   section .cards11 .text-cards11 h3 {
     font-size: 20px;
     text-align: center;
@@ -987,7 +999,7 @@ section .cards5 .text-cards5 h3 {
     font-weight: bold;
   }
 
-  #section10 h1{
+  #section10 h1 {
     font-size: 40px;
   }
 
@@ -995,10 +1007,12 @@ section .cards5 .text-cards5 h3 {
     width: 80%;
     height: 350px;
   }
+
   #section11 h2 {
     width: 100%;
     font-size: 40px;
   }
+
   #section11 p {
     width: 100%;
     font-size: 30px;
@@ -1008,10 +1022,12 @@ section .cards5 .text-cards5 h3 {
     width: 80%;
     height: 350px;
   }
+
   #section12 h2 {
     width: 100%;
     font-size: 40px;
   }
+
   #section12 p {
     width: 100%;
     font-size: 30px;
@@ -1021,6 +1037,7 @@ section .cards5 .text-cards5 h3 {
     width: auto;
     font-size: 40px;
   }
+
   #section13 p {
     width: auto;
     font-size: 30px;
@@ -1036,254 +1053,311 @@ section .cards5 .text-cards5 h3 {
   }
 
   /* Vision & Mission */
-  #visionandmission h1{
+  #visionandmission h1 {
     font-size: 40px;
   }
-  #visionandmission h4{
+
+  #visionandmission h4 {
     font-size: 35px;
   }
-  #visionandmission p{
+
+  #visionandmission p {
     font-size: 30px;
   }
-  #visionandmission img{
+
+  #visionandmission img {
     width: 100%;
     height: 300px;
   }
 
   /* Core value */
-  #corevalue h1{
+  #corevalue h1 {
     font-size: 40px;
   }
-  #corevalue h3{
+
+  #corevalue h3 {
     font-size: 35px;
   }
-  #corevalue ul li{
+
+  #corevalue ul li {
     font-size: 30px;
   }
 
   /* Social Responsibility */
-  #socialresponsibility h1{
+  #socialresponsibility h1 {
     font-size: 40px;
   }
-  #socialresponsibility img{
+
+  #socialresponsibility img {
     width: 100%;
     height: 500px;
   }
-  #socialresponsibility h2{
+
+  #socialresponsibility h2 {
     font-size: 30px;
   }
-  #socialresponsibility p{
+
+  #socialresponsibility p {
     font-size: 25px;
   }
 
   /* Location */
-  #location h1{
+  #location h1 {
     font-size: 40px;
   }
-  #location h2{
+
+  #location h2 {
     font-size: 35px;
   }
-  #location h3{
+
+  #location h3 {
     font-size: 30px;
   }
-  #location p{
+
+  #location p {
     font-size: 25px;
   }
 
   /* Industries */
   /* Financial Services */
-  #financialservice h1{
+  #financialservice h1 {
     font-size: 40px;
   }
-  #financialservice h4{
+
+  #financialservice h4 {
     font-size: 35px;
   }
-  #financialservice p{
+
+  #financialservice p {
     font-size: 30px;
   }
-  #financialservice img{
+
+  #financialservice img {
     width: 100%;
     height: 500px;
   }
 
   /* Government */
-  #government h1{
+  #government h1 {
     font-size: 40px;
   }
-  #government h3{
+
+  #government h3 {
     font-size: 35px;
   }
-  #government p{
+
+  #government p {
     font-size: 30px;
   }
-  #government ul li{
+
+  #government ul li {
     font-size: 25px;
   }
 
   /* Manufacturing */
-  #manufacturing h1{
+  #manufacturing h1 {
     font-size: 40px;
   }
-  #manufacturing p{
+
+  #manufacturing p {
     font-size: 30px;
   }
-  #manufacturing ul li{
+
+  #manufacturing ul li {
     font-size: 25px;
   }
 
   /* Retail */
-  #retail h1{
+  #retail h1 {
     font-size: 40px;
   }
-  #retail img{
+
+  #retail img {
     width: 100%;
     height: 500px;
   }
-  #retail p{
+
+  #retail p {
     font-size: 30px;
   }
-  #retail ul li{
+
+  #retail ul li {
     font-size: 25px;
   }
 
   /* Telecommunication */
-  #telecommunication h1{
+  #telecommunication h1 {
     font-size: 40px;
   }
-  #telecommunication h4{
+
+  #telecommunication h4 {
     font-size: 35px;
   }
-  #telecommunication p{
+
+  #telecommunication p {
     font-size: 30px;
   }
-  #telecommunication ul li{
+
+  #telecommunication ul li {
     font-size: 25px;
   }
-  #telecommunication img{
+
+  #telecommunication img {
     width: 100%;
     height: 500px;
   }
 
   /* Utilities */
-  #utilities h1{
+  #utilities h1 {
     font-size: 40px;
   }
-  #utilities h3{
+
+  #utilities h3 {
     font-size: 35px;
   }
-  #utilities p{
+
+  #utilities p {
     font-size: 30px;
   }
-  #utilities ul li{
+
+  #utilities ul li {
     font-size: 25px;
   }
 
   /* Products */
   /* Log-Mode */
-  #logmode h1{
+  #logmode h1 {
     font-size: 40px;
   }
-  #logmode h4{
+
+  #logmode h4 {
     font-size: 35px;
   }
-  #logmode h5{
+
+  #logmode h5 {
     font-size: 30px;
   }
-  #logmode p{
+
+  #logmode p {
     font-size: 25px;
   }
-  #logmode img{
+
+  #logmode img {
     width: 600px;
     height: 300px;
   }
 
   /* Solutions */
   /* Application Middleware */
-  #applicationmiddleware h1{
+  #applicationmiddleware h1 {
     font-size: 40px;
   }
-  #applicationmiddleware h3{
+
+  #applicationmiddleware h3 {
     font-size: 35px;
   }
-  #applicationmiddleware p{
+
+  #applicationmiddleware p {
     font-size: 30px;
   }
-  #applicationmiddleware ul li{
+
+  #applicationmiddleware ul li {
     font-size: 25px;
   }
 
   /* Big Data */
-  #bigdata h1{
+  #bigdata h1 {
     font-size: 40px;
   }
-  #bigdata h2{
+
+  #bigdata h2 {
     font-size: 35px;
   }
-  #bigdata p,b{
+
+  #bigdata p,
+  b {
     font-size: 30px;
   }
-  #bigdata ul li{
+
+  #bigdata ul li {
     font-size: 25px;
   }
-  #bigdata img{
+
+  #bigdata img {
     width: 700px;
     height: 300px;
   }
 
   /* Business Intelligence Solutions */
-  #businessintelligence h1{
+  #businessintelligence h1 {
     font-size: 40px;
   }
-  #businessintelligence h3{
+
+  #businessintelligence h3 {
     font-size: 35px;
   }
-  #businessintelligence p,b{
+
+  #businessintelligence p,
+  b {
     font-size: 30px;
   }
-  #businessintelligence ul li{
+
+  #businessintelligence ul li {
     font-size: 25px;
   }
-  #businessintelligence #businessintelligenceblock1 img{
+
+  #businessintelligence #businessintelligenceblock1 img {
     width: 50%;
     height: 450px;
   }
-  #businessintelligence #businessintelligenceblock2 img{
+
+  #businessintelligence #businessintelligenceblock2 img {
     width: 100%;
     height: 250px;
   }
 
   /* Data Management */
-  #datamanagement h1{
+  #datamanagement h1 {
     font-size: 40px;
   }
-  #datamanagement h3{
+
+  #datamanagement h3 {
     font-size: 35px;
   }
-  #datamanagement p,b{
+
+  #datamanagement p,
+  b {
     font-size: 30px;
   }
-  #datamanagement ul li{
+
+  #datamanagement ul li {
     font-size: 25px;
   }
-  #datamanagement img{
+
+  #datamanagement img {
     width: 70%;
     height: 300px;
   }
 
   /* Enterprise Data Warehouse */
-  #enterprisedata h1{
+  #enterprisedata h1 {
     font-size: 40px;
   }
-  #enterprisedata h2{
+
+  #enterprisedata h2 {
     font-size: 35px;
   }
-  #enterprisedata p,b{
+
+  #enterprisedata p,
+  b {
     font-size: 30px;
   }
-  #enterprisedata ul li{
+
+  #enterprisedata ul li {
     font-size: 25px;
   }
-  #enterprisedata img{
+
+  #enterprisedata img {
     width: 100%;
     height: 300px;
   }
@@ -1291,290 +1365,343 @@ section .cards5 .text-cards5 h3 {
 
   /* Services */
   /* Business Intelligence Services */
-  #businessIntelligence h1{
+  #businessIntelligence h1 {
     font-size: 40px;
   }
-  #businessIntelligence h2{
+
+  #businessIntelligence h2 {
     font-size: 35px;
   }
-  #businessIntelligence h4{
+
+  #businessIntelligence h4 {
     font-size: 30px;
   }
-  #businessIntelligence p,b{
+
+  #businessIntelligence p,
+  b {
     font-size: 25px;
   }
-  #businessIntelligence ul li{
+
+  #businessIntelligence ul li {
     font-size: 20px;
   }
 
   /* Enterprise Mobility Service */
-  #enterprisemobility h1{
+  #enterprisemobility h1 {
     font-size: 40px;
   }
-  #enterprisemobility p{
+
+  #enterprisemobility p {
     font-size: 30px;
   }
-  #enterprisemobility ul li{
+
+  #enterprisemobility ul li {
     font-size: 25px;
   }
 
   /* Mobile Apps */
-  #mobileapps h1{
+  #mobileapps h1 {
     font-size: 40px;
   }
-  #mobileapps p{
+
+  #mobileapps p {
     font-size: 30px;
   }
-  #mobileapps ul li{
+
+  #mobileapps ul li {
     font-size: 25px;
   }
 
   /* Testing And QA Services */
-  #testingandqa h1{
+  #testingandqa h1 {
     font-size: 40px;
   }
-  #testingandqa p{
+
+  #testingandqa p {
     font-size: 30px;
   }
-  #testingandqa ul li{
+
+  #testingandqa ul li {
     font-size: 25px;
   }
 
   /* Web Application */
-  #webapplication h1{
+  #webapplication h1 {
     font-size: 40px;
   }
-  #webapplication p{
+
+  #webapplication p {
     font-size: 30px;
   }
-  #webapplication ul li{
+
+  #webapplication ul li {
     font-size: 25px;
   }
 
   /* Enterprise Mobility */
   /* Business Process */
-  #businessprocess h1{
+  #businessprocess h1 {
     font-size: 40px;
   }
-  #businessprocess p{
+
+  #businessprocess p {
     font-size: 25px;
   }
 
   /* B2B Mobile */
-  #b2bmobile h1{
+  #b2bmobile h1 {
     font-size: 40px;
   }
-  #b2bmobile h2{
+
+  #b2bmobile h2 {
     font-size: 35px;
   }
-  #b2bmobile p{
+
+  #b2bmobile p {
     font-size: 30px;
   }
-  #b2bmobile ul li{
+
+  #b2bmobile ul li {
     font-size: 25px;
   }
 
   /* Android App */
-  #enterpriseandroid h1{
+  #enterpriseandroid h1 {
     font-size: 40px;
   }
-  #enterpriseandroid p{
+
+  #enterpriseandroid p {
     font-size: 30px;
   }
-  #enterpriseandroid ul li{
+
+  #enterpriseandroid ul li {
     font-size: 25px;
   }
 
   /* Enterprise APP */
-  #enterpriseapp h1{
+  #enterpriseapp h1 {
     font-size: 40px;
   }
-  #enterpriseapp h3{
+
+  #enterpriseapp h3 {
     font-size: 35px;
   }
-  #enterpriseapp p{
+
+  #enterpriseapp p {
     font-size: 30px;
   }
 
   /* Enterprise IOS App */
-  #enterpriseiosapp h1{
+  #enterpriseiosapp h1 {
     font-size: 40px;
   }
-  #enterpriseiosapp h3{
+
+  #enterpriseiosapp h3 {
     font-size: 35px;
   }
-  #enterpriseiosapp p{
+
+  #enterpriseiosapp p {
     font-size: 30px;
   }
 
   /* Mobile Business */
-  #mobilebusiness h1{
+  #mobilebusiness h1 {
     font-size: 40px;
   }
-  #mobilebusiness p{
+
+  #mobilebusiness p {
     font-size: 30px;
   }
 
 
   /* Mobile Apps */
   /* Android App */
-  #androidapp h1{
+  #androidapp h1 {
     font-size: 40px;
   }
-  #androidapp p{
+
+  #androidapp p {
     font-size: 30px;
   }
 
   /* Blackberry App */
-  #blackberryapp h1{
+  #blackberryapp h1 {
     font-size: 40px;
   }
-  #blackberryapp p{
+
+  #blackberryapp p {
     font-size: 30px;
   }
 
   /* Iphone App */
-  #iphoneapp h1{
+  #iphoneapp h1 {
     font-size: 40px;
   }
-  #iphoneapp p{
+
+  #iphoneapp p {
     font-size: 30px;
   }
 
   /* Windows8 App */
-  #windows8app h1{
+  #windows8app h1 {
     font-size: 40px;
   }
-  #windows8app p{
+
+  #windows8app p {
     font-size: 30px;
   }
 
 
   /* Testing & QA Services*/
   /* Automated Testing */
-  #automatedtesting h1{
+  #automatedtesting h1 {
     font-size: 40px;
   }
-  #automatedtesting h3{
+
+  #automatedtesting h3 {
     font-size: 35px;
   }
-  #automatedtesting p{
+
+  #automatedtesting p {
     font-size: 30px;
   }
-  #automatedtesting ul li{
+
+  #automatedtesting ul li {
     font-size: 25px;
   }
 
   /* Manual Testing */
-  #manualtesting h1{
+  #manualtesting h1 {
     font-size: 40px;
   }
-  #manualtesting h3{
+
+  #manualtesting h3 {
     font-size: 35px;
   }
-  #manualtesting p{
+
+  #manualtesting p {
     font-size: 30px;
   }
-  #manualtesting ul li{
+
+  #manualtesting ul li {
     font-size: 25px;
   }
 
   /* QTP */
-  #qtp h1{
+  #qtp h1 {
     font-size: 40px;
   }
-  #qtp h3{
+
+  #qtp h3 {
     font-size: 35px;
   }
-  #qtp p{
+
+  #qtp p {
     font-size: 30px;
   }
-  #qtp ul li{
+
+  #qtp ul li {
     font-size: 25px;
   }
 
   /* Selenium */
-  #selenium h1{
+  #selenium h1 {
     font-size: 40px;
   }
-  #selenium h3{
+
+  #selenium h3 {
     font-size: 35px;
   }
-  #selenium p{
+
+  #selenium p {
     font-size: 30px;
   }
-  #selenium ul li{
+
+  #selenium ul li {
     font-size: 25px;
   }
 
   /* Test Complete */
-  #testcomplete h1{
+  #testcomplete h1 {
     font-size: 40px;
   }
-  #testcomplete h3{
+
+  #testcomplete h3 {
     font-size: 35px;
   }
-  #testcomplete p{
+
+  #testcomplete p {
     font-size: 30px;
   }
-  #testcomplete ul li{
+
+  #testcomplete ul li {
     font-size: 25px;
   }
 
 
   /* Web Application */
   /* CRM Application */
-  #cmrapplication h1{
+  #cmrapplication h1 {
     font-size: 40px;
   }
-  #cmrapplication p{
+
+  #cmrapplication p {
     font-size: 30px;
   }
 
   /* Content Management */
-  #contentmanagement h1{
+  #contentmanagement h1 {
     font-size: 40px;
   }
-  #contentmanagement h3{
+
+  #contentmanagement h3 {
     font-size: 35px;
   }
-  #contentmanagement p{
+
+  #contentmanagement p {
     font-size: 30px;
   }
-  #contentmanagement ul li{
+
+  #contentmanagement ul li {
     font-size: 25px;
   }
 
   /* Custom Web App */
-  #customwebapp h1{
+  #customwebapp h1 {
     font-size: 40px;
   }
-  #customwebapp p{
+
+  #customwebapp p {
     font-size: 30px;
   }
-  #customwebapp ul li{
+
+  #customwebapp ul li {
     font-size: 25px;
   }
 
   /* Inventory Management */
-  #inventorymanagement h1{
+  #inventorymanagement h1 {
     font-size: 40px;
   }
-  #inventorymanagement h3{
+
+  #inventorymanagement h3 {
     font-size: 35px;
   }
-  #inventorymanagement p{
+
+  #inventorymanagement p {
     font-size: 30px;
   }
-  #inventorymanagement ul li{
+
+  #inventorymanagement ul li {
     font-size: 25px;
   }
 
   /* Open Source */
-  #opensource h1{
+  #opensource h1 {
     font-size: 40px;
   }
-  #opensource p{
+
+  #opensource p {
     font-size: 30px;
   }
 }
@@ -1625,18 +1752,21 @@ section .cards5 .text-cards5 h3 {
 
   /* Home Page */
   /* NavBar */
-  .navbar{
+  .navbar {
     width: auto;
   }
-  .navbar #navbarSupportedContent{
+
+  .navbar #navbarSupportedContent {
     width: auto;
     margin-right: auto;
     margin-left: auto;
   }
-  .navbar #navbarSupportedContent ul li a{
+
+  .navbar #navbarSupportedContent ul li a {
     font-size: 15px;
   }
-  .navbar #logo h5{
+
+  .navbar #logo h5 {
     font-size: 20px;
     margin-left: 25px;
   }
@@ -1647,7 +1777,7 @@ section .cards5 .text-cards5 h3 {
     /* height: 250px; */
     margin-left: 40px;
     margin-top: -75px;
-    margin-right: 47px;
+    margin-right: 45px;
   }
 
   .carousel-item {
@@ -1678,28 +1808,33 @@ section .cards5 .text-cards5 h3 {
     width: auto;
     font-size: 20px;
   }
+
   #section1 #bigdata img {
     width: 400px;
     height: 350px;
   }
 
   /* Corporate */
-  #section21{
+  #section21 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-items: center;
     padding-left: 50px;
   }
+
   #corporateblock .cards1 {
     display: flex;
   }
+
   #corporateblock .cards1 .text-cards1 {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     background-color: rgb(7, 230, 7);
     margin: 10px;
     padding: 15px;
   }
+
   #corporateblock .cards1 .text-cards1 h3 {
     font-size: 15px;
     text-align: center;
@@ -1710,13 +1845,15 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards2 {
     display: flex;
   }
+
   #corporateblock .cards2 .text-cards2 {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     background-color: rgb(245, 10, 233);
     margin: 10px;
     padding: 15px;
   }
+
   #corporateblock .cards2 .text-cards2 h3 {
     font-size: 15px;
     text-align: center;
@@ -1727,13 +1864,15 @@ section .cards5 .text-cards5 h3 {
   #corporateblock .cards3 {
     display: flex;
   }
+
   #corporateblock .cards3 .text-cards3 {
-    width: 300px;
-    height: 300px;
+    width: 275px;
+    height: 275px;
     background-color: rgb(230, 178, 7);
     margin: 10px;
     padding: 15px;
   }
+
   #corporateblock .cards3 .text-cards3 h3 {
     font-size: 15px;
     text-align: center;
@@ -1816,6 +1955,7 @@ section .cards5 .text-cards5 h3 {
   section .cards1 {
     display: flex;
   }
+
   section .cards1 .text-cards1 {
     width: 250px;
     height: 250px;
@@ -1823,6 +1963,7 @@ section .cards5 .text-cards5 h3 {
     margin: 15px;
     padding: 15px;
   }
+
   section .cards1 .text-cards1 h3 {
     font-size: 15px;
     text-align: center;
@@ -1833,6 +1974,7 @@ section .cards5 .text-cards5 h3 {
   section .cards2 {
     display: flex;
   }
+
   section .cards2 .text-cards2 {
     width: 250px;
     height: 250px;
@@ -1840,6 +1982,7 @@ section .cards5 .text-cards5 h3 {
     margin: 15px;
     padding: 15px;
   }
+
   section .cards2 .text-cards2 h3 {
     font-size: 15px;
     text-align: center;
@@ -1851,6 +1994,7 @@ section .cards5 .text-cards5 h3 {
   section .cards3 {
     display: flex;
   }
+
   section .cards3 .text-cards3 {
     width: 250px;
     height: 250px;
@@ -1858,6 +2002,7 @@ section .cards5 .text-cards5 h3 {
     margin: 15px;
     padding: 15px;
   }
+
   section .cards3 .text-cards3 h3 {
     font-size: 15px;
     text-align: center;
@@ -1869,6 +2014,7 @@ section .cards5 .text-cards5 h3 {
   section .cards4 {
     display: flex;
   }
+
   section .cards4 .text-cards4 {
     width: 250px;
     height: 250px;
@@ -1876,6 +2022,7 @@ section .cards5 .text-cards5 h3 {
     margin: 15px;
     padding: 15px;
   }
+
   section .cards4 .text-cards4 h3 {
     font-size: 15px;
     text-align: center;
@@ -1887,6 +2034,7 @@ section .cards5 .text-cards5 h3 {
   section .cards5 {
     display: flex;
   }
+
   section .cards5 .text-cards5 {
     width: 250px;
     height: 250px;
@@ -1894,6 +2042,7 @@ section .cards5 .text-cards5 h3 {
     margin: 15px;
     padding: 15px;
   }
+
   section .cards5 .text-cards5 h3 {
     font-size: 15px;
     text-align: center;
@@ -1901,7 +2050,134 @@ section .cards5 .text-cards5 h3 {
     margin-bottom: 5px;
   }
 
-  #section10 h1{
+
+  /* Industries */
+  section .cards6 {
+    display: flex;
+  }
+
+  section .cards6 .text-cards6 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(7, 185, 230);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  section .cards6 .text-cards6 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  section .cards7 {
+    display: flex;
+  }
+
+  section .cards7 .text-cards7 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 139, 240);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  section .cards7 .text-cards7 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Third section */
+  section .cards8 {
+    display: flex;
+  }
+
+  section .cards8 .text-cards8 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(252, 4, 157);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  section .cards8 .text-cards8 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Fourth section */
+  section .cards9 {
+    display: flex;
+  }
+
+  section .cards9 .text-cards9 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 139, 240);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  section .cards9 .text-cards9 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Fifth section */
+  section .cards10 {
+    display: flex;
+  }
+
+  section .cards10 .text-cards10 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 139, 240);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  section .cards10 .text-cards10 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Sixth section */
+  section .cards11 {
+    display: flex;
+  }
+
+  section .cards11 .text-cards11 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 139, 240);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  section .cards11 .text-cards11 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+
+  #section10 h1 {
     font-size: 35px;
   }
 
@@ -1909,10 +2185,12 @@ section .cards5 .text-cards5 h3 {
     width: 300px;
     height: 300px;
   }
+
   #section11 h2 {
     width: 100%;
     font-size: 35px;
   }
+
   #section11 p {
     width: 100%;
     font-size: 25px;
@@ -1922,10 +2200,12 @@ section .cards5 .text-cards5 h3 {
     width: 300px;
     height: 300px;
   }
+
   #section12 h2 {
     width: 100%;
     font-size: 35px;
   }
+
   #section12 p {
     width: 100%;
     font-size: 25px;
@@ -1935,6 +2215,7 @@ section .cards5 .text-cards5 h3 {
     width: auto;
     font-size: 35px;
   }
+
   #section13 p {
     width: auto;
     font-size: 25px;
@@ -1946,260 +2227,318 @@ section .cards5 .text-cards5 h3 {
     width: 100%;
     font-size: medium;
   }
+
   #aboutusimage img {
     width: 95%;
     height: 400px;
   }
 
   /* Vision & Mission */
-  #visionandmission h1{
+  #visionandmission h1 {
     font-size: 35px;
   }
-  #visionandmission h4{
+
+  #visionandmission h4 {
     font-size: 30px;
   }
-  #visionandmission p{
+
+  #visionandmission p {
     font-size: 25px;
   }
-  #visionandmission img{
+
+  #visionandmission img {
     width: 75%;
     height: 250px;
   }
 
   /* Core value */
-  #corevalue h1{
+  #corevalue h1 {
     font-size: 35px;
   }
-  #corevalue h3{
+
+  #corevalue h3 {
     font-size: 30px;
   }
-  #corevalue ul li{
+
+  #corevalue ul li {
     font-size: 25px;
   }
 
   /* Social Responsibility */
-  #socialresponsibility h1{
+  #socialresponsibility h1 {
     font-size: 35px;
   }
-  #socialresponsibility img{
+
+  #socialresponsibility img {
     width: 85%;
     height: 350px;
   }
-  #socialresponsibility h2{
+
+  #socialresponsibility h2 {
     font-size: 30px;
   }
-  #socialresponsibility p{
+
+  #socialresponsibility p {
     font-size: 25px;
   }
 
   /* Location */
-  #location h1{
+  #location h1 {
     font-size: 35px;
   }
-  #location h2{
+
+  #location h2 {
     font-size: 30px;
   }
-  #location h3{
+
+  #location h3 {
     font-size: 25px;
   }
-  #location p{
+
+  #location p {
     font-size: 20px;
   }
 
   /* Industries */
   /* Financial Services */
-  #financialservice h1{
+  #financialservice h1 {
     font-size: 35px;
   }
-  #financialservice h4{
+
+  #financialservice h4 {
     font-size: 30px;
   }
-  #financialservice p{
+
+  #financialservice p {
     font-size: 25px;
   }
-  #financialservice img{
+
+  #financialservice img {
     width: 85%;
     height: 350px;
   }
 
   /* Government */
-  #government h1{
+  #government h1 {
     font-size: 35px;
   }
-  #government h3{
+
+  #government h3 {
     font-size: 30px;
   }
-  #government p{
+
+  #government p {
     font-size: 25px;
   }
-  #government ul li{
+
+  #government ul li {
     font-size: 20px;
   }
 
   /* Manufacturing */
-  #manufacturing h1{
+  #manufacturing h1 {
     font-size: 35px;
   }
-  #manufacturing p{
+
+  #manufacturing p {
     font-size: 25px;
   }
-  #manufacturing ul li{
+
+  #manufacturing ul li {
     font-size: 20px;
   }
 
   /* Retail */
-  #retail h1{
+  #retail h1 {
     font-size: 35px;
   }
-  #retail img{
-    width:85%;
+
+  #retail img {
+    width: 85%;
     height: 350px;
   }
-  #retail p{
+
+  #retail p {
     font-size: 25px;
   }
-  #retail ul li{
+
+  #retail ul li {
     font-size: 20px;
   }
 
   /* Telecommunication */
-  #telecommunication h1{
+  #telecommunication h1 {
     font-size: 35px;
   }
-  #telecommunication h4{
+
+  #telecommunication h4 {
     font-size: 30px;
   }
-  #telecommunication p{
+
+  #telecommunication p {
     font-size: 25px;
   }
-  #telecommunication ul li{
+
+  #telecommunication ul li {
     font-size: 20px;
   }
-  #telecommunication img{
+
+  #telecommunication img {
     width: 85%;
     height: 350px;
   }
 
   /* Utilities */
-  #utilities h1{
+  #utilities h1 {
     font-size: 35px;
   }
-  #utilities h3{
+
+  #utilities h3 {
     font-size: 30px;
   }
-  #utilities p{
+
+  #utilities p {
     font-size: 25px;
   }
-  #utilities ul li{
+
+  #utilities ul li {
     font-size: 20px;
   }
 
   /* Products */
   /* Log-Mode */
-  #logmode h1{
+  #logmode h1 {
     font-size: 35px;
   }
-  #logmode h4{
+
+  #logmode h4 {
     font-size: 30px;
   }
-  #logmode h5{
+
+  #logmode h5 {
     font-size: 25px;
   }
-  #logmode p{
+
+  #logmode p {
     font-size: 20px;
   }
-  #logmode img{
+
+  #logmode img {
     width: 500px;
     height: 250px;
   }
 
   /* Solutions */
   /* Application Middleware */
-  #applicationmiddleware h1{
+  #applicationmiddleware h1 {
     font-size: 35px;
   }
-  #applicationmiddleware h3{
+
+  #applicationmiddleware h3 {
     font-size: 30px;
   }
-  #applicationmiddleware p{
+
+  #applicationmiddleware p {
     font-size: 25px;
   }
-  #applicationmiddleware ul li{
+
+  #applicationmiddleware ul li {
     font-size: 20px;
   }
 
   /* Big Data */
-  #bigdata h1{
+  #bigdata h1 {
     font-size: 35px;
   }
-  #bigdata h2{
+
+  #bigdata h2 {
     font-size: 30px;
   }
-  #bigdata p,b{
+
+  #bigdata p,
+  b {
     font-size: 25px;
   }
-  #bigdata ul li{
+
+  #bigdata ul li {
     font-size: 20px;
   }
-  #bigdata img{
+
+  #bigdata img {
     width: 500px;
     height: 250px;
   }
 
   /* Business Intelligence Solutions */
-  #businessintelligence h1{
+  #businessintelligence h1 {
     font-size: 35px;
   }
-  #businessintelligence h3{
+
+  #businessintelligence h3 {
     font-size: 30px;
   }
-  #businessintelligence p,b{
+
+  #businessintelligence p,
+  b {
     font-size: 25px;
   }
-  #businessintelligence ul li{
+
+  #businessintelligence ul li {
     font-size: 20px;
   }
-  #businessintelligence #businessintelligenceblock1 img{
+
+  #businessintelligence #businessintelligenceblock1 img {
     width: 50%;
     height: 350px;
   }
-  #businessintelligence #businessintelligenceblock2 img{
+
+  #businessintelligence #businessintelligenceblock2 img {
     width: 100%;
     height: 200px;
   }
 
   /* Data Management */
-  #datamanagement h1{
+  #datamanagement h1 {
     font-size: 35px;
   }
-  #datamanagement h3{
+
+  #datamanagement h3 {
     font-size: 30px;
   }
-  #datamanagement p,b{
+
+  #datamanagement p,
+  b {
     font-size: 25px;
   }
-  #datamanagement ul li{
+
+  #datamanagement ul li {
     font-size: 20px;
   }
-  #datamanagement img{
+
+  #datamanagement img {
     width: 60%;
     height: 250px;
   }
 
   /* Enterprise Data Warehouse */
-  #enterprisedata h1{
+  #enterprisedata h1 {
     font-size: 35px;
   }
-  #enterprisedata h2{
+
+  #enterprisedata h2 {
     font-size: 30px;
   }
-  #enterprisedata p,b{
+
+  #enterprisedata p,
+  b {
     font-size: 25px;
   }
-  #enterprisedata ul li{
+
+  #enterprisedata ul li {
     font-size: 20px;
   }
-  #enterprisedata img{
+
+  #enterprisedata img {
     width: 100%;
     height: 250px;
   }
@@ -2207,291 +2546,344 @@ section .cards5 .text-cards5 h3 {
 
   /* Services */
   /* Business Intelligence Services */
-  #businessIntelligence h1{
+  #businessIntelligence h1 {
     font-size: 35px;
   }
-  #businessIntelligence h2{
+
+  #businessIntelligence h2 {
     font-size: 30px;
   }
-  #businessIntelligence h4{
+
+  #businessIntelligence h4 {
     font-size: 25px;
   }
-  #businessIntelligence p,b{
+
+  #businessIntelligence p,
+  b {
     font-size: 20px;
   }
-  #businessIntelligence ul li{
+
+  #businessIntelligence ul li {
     font-size: 15px;
   }
 
   /* Enterprise Mobility Service */
-  #enterprisemobility h1{
+  #enterprisemobility h1 {
     font-size: 35px;
   }
-  #enterprisemobility p{
+
+  #enterprisemobility p {
     font-size: 25px;
   }
-  #enterprisemobility ul li{
+
+  #enterprisemobility ul li {
     font-size: 20px;
   }
 
   /* Mobile Apps */
-  #mobileapps h1{
+  #mobileapps h1 {
     font-size: 35px;
   }
-  #mobileapps p{
+
+  #mobileapps p {
     font-size: 25px;
   }
-  #mobileapps ul li{
+
+  #mobileapps ul li {
     font-size: 20px;
   }
 
   /* Testing And QA Services */
-  #testingandqa h1{
+  #testingandqa h1 {
     font-size: 35px;
   }
-  #testingandqa p{
+
+  #testingandqa p {
     font-size: 25px;
   }
-  #testingandqa ul li{
+
+  #testingandqa ul li {
     font-size: 20px;
   }
 
   /* Web Application */
-  #webapplication h1{
+  #webapplication h1 {
     font-size: 35px;
   }
-  #webapplication p{
+
+  #webapplication p {
     font-size: 25px;
   }
-  #webapplication ul li{
+
+  #webapplication ul li {
     font-size: 20px;
   }
 
 
   /* Enterprise Mobility */
   /* Business Process */
-  #businessprocess h1{
+  #businessprocess h1 {
     font-size: 35px;
   }
-  #businessprocess p{
+
+  #businessprocess p {
     font-size: 20px;
   }
 
   /* B2B Mobile */
-  #b2bmobile h1{
+  #b2bmobile h1 {
     font-size: 35px;
   }
-  #b2bmobile h2{
+
+  #b2bmobile h2 {
     font-size: 30px;
   }
-  #b2bmobile p{
+
+  #b2bmobile p {
     font-size: 25px;
   }
-  #b2bmobile ul li{
+
+  #b2bmobile ul li {
     font-size: 20px;
   }
 
   /* Android App */
-  #enterpriseandroid h1{
+  #enterpriseandroid h1 {
     font-size: 35px;
   }
-  #enterpriseandroid p{
+
+  #enterpriseandroid p {
     font-size: 25px;
   }
-  #enterpriseandroid ul li{
+
+  #enterpriseandroid ul li {
     font-size: 20px;
   }
 
   /* Enterprise APP */
-  #enterpriseapp h1{
+  #enterpriseapp h1 {
     font-size: 35px;
   }
-  #enterpriseapp h3{
+
+  #enterpriseapp h3 {
     font-size: 30px;
   }
-  #enterpriseapp p{
+
+  #enterpriseapp p {
     font-size: 25px;
   }
 
   /* Enterprise IOS App */
-  #enterpriseiosapp h1{
+  #enterpriseiosapp h1 {
     font-size: 35px;
   }
-  #enterpriseiosapp h3{
+
+  #enterpriseiosapp h3 {
     font-size: 30px;
   }
-  #enterpriseiosapp p{
+
+  #enterpriseiosapp p {
     font-size: 25px;
   }
 
   /* Mobile Business */
-  #mobilebusiness h1{
+  #mobilebusiness h1 {
     font-size: 35px;
   }
-  #mobilebusiness p{
+
+  #mobilebusiness p {
     font-size: 25px;
   }
 
 
   /* Mobile Apps */
   /* Android App */
-  #androidapp h1{
+  #androidapp h1 {
     font-size: 35px;
   }
-  #androidapp p{
+
+  #androidapp p {
     font-size: 25px;
   }
 
   /* Blackberry App */
-  #blackberryapp h1{
+  #blackberryapp h1 {
     font-size: 35px;
   }
-  #blackberryapp p{
+
+  #blackberryapp p {
     font-size: 25px;
   }
 
   /* Iphone App */
-  #iphoneapp h1{
+  #iphoneapp h1 {
     font-size: 35px;
   }
-  #iphoneapp p{
+
+  #iphoneapp p {
     font-size: 25px;
   }
 
   /* Windows8 App */
-  #windows8app h1{
+  #windows8app h1 {
     font-size: 35px;
   }
-  #windows8app p{
+
+  #windows8app p {
     font-size: 25px;
   }
 
 
   /* Testing & QA Services*/
   /* Automated Testing */
-  #automatedtesting h1{
+  #automatedtesting h1 {
     font-size: 35px;
   }
-  #automatedtesting h3{
+
+  #automatedtesting h3 {
     font-size: 30px;
   }
-  #automatedtesting p{
+
+  #automatedtesting p {
     font-size: 25px;
   }
-  #automatedtesting ul li{
+
+  #automatedtesting ul li {
     font-size: 20px;
   }
 
   /* Manual Testing */
-  #manualtesting h1{
+  #manualtesting h1 {
     font-size: 35px;
   }
-  #manualtesting h3{
+
+  #manualtesting h3 {
     font-size: 30px;
   }
-  #manualtesting p{
+
+  #manualtesting p {
     font-size: 25px;
   }
-  #manualtesting ul li{
+
+  #manualtesting ul li {
     font-size: 20px;
   }
 
   /* QTP */
-  #qtp h1{
+  #qtp h1 {
     font-size: 35px;
   }
-  #qtp h3{
+
+  #qtp h3 {
     font-size: 30px;
   }
-  #qtp p{
+
+  #qtp p {
     font-size: 25px;
   }
-  #qtp ul li{
+
+  #qtp ul li {
     font-size: 20px;
   }
 
   /* Selenium */
-  #selenium h1{
+  #selenium h1 {
     font-size: 35px;
   }
-  #selenium h3{
+
+  #selenium h3 {
     font-size: 30px;
   }
-  #selenium p{
+
+  #selenium p {
     font-size: 25px;
   }
-  #selenium ul li{
+
+  #selenium ul li {
     font-size: 20px;
   }
 
   /* Test Complete */
-  #testcomplete h1{
+  #testcomplete h1 {
     font-size: 35px;
   }
-  #testcomplete h3{
+
+  #testcomplete h3 {
     font-size: 30px;
   }
-  #testcomplete p{
+
+  #testcomplete p {
     font-size: 25px;
   }
-  #testcomplete ul li{
+
+  #testcomplete ul li {
     font-size: 20px;
   }
 
 
   /* Web Application */
   /* CRM Application */
-  #cmrapplication h1{
+  #cmrapplication h1 {
     font-size: 35px;
   }
-  #cmrapplication p{
+
+  #cmrapplication p {
     font-size: 25px;
   }
 
   /* Content Management */
-  #contentmanagement h1{
+  #contentmanagement h1 {
     font-size: 35px;
   }
-  #contentmanagement h3{
+
+  #contentmanagement h3 {
     font-size: 30px;
   }
-  #contentmanagement p{
+
+  #contentmanagement p {
     font-size: 25px;
   }
-  #contentmanagement ul li{
+
+  #contentmanagement ul li {
     font-size: 20px;
   }
 
   /* Custom Web App */
-  #customwebapp h1{
+  #customwebapp h1 {
     font-size: 35px;
   }
-  #customwebapp p{
+
+  #customwebapp p {
     font-size: 25px;
   }
-  #customwebapp ul li{
+
+  #customwebapp ul li {
     font-size: 20px;
   }
 
   /* Inventory Management */
-  #inventorymanagement h1{
+  #inventorymanagement h1 {
     font-size: 35px;
   }
-  #inventorymanagement h3{
+
+  #inventorymanagement h3 {
     font-size: 30px;
   }
-  #inventorymanagement p{
+
+  #inventorymanagement p {
     font-size: 25px;
   }
-  #inventorymanagement ul li{
+
+  #inventorymanagement ul li {
     font-size: 20px;
   }
 
   /* Open Source */
-  #opensource h1{
+  #opensource h1 {
     font-size: 35px;
   }
-  #opensource p{
+
+  #opensource p {
     font-size: 25px;
   }
 }
@@ -2542,7 +2934,7 @@ section .cards5 .text-cards5 h3 {
     /* height: 300px; */
     margin-left: 40px;
     margin-top: -75px;
-    margin-right: 47px;
+    margin-right: 45px;
   }
 
   .carousel-item {
@@ -2578,23 +2970,25 @@ section .cards5 .text-cards5 h3 {
     width: auto;
     font-size: small;
   }
+
   #section1 #bigdata img {
     width: 300px;
     height: 300px;
   }
 
   /* Corporate */
-  #section21{
+  #section21 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
+
   #corporateblock .cards1 {
     display: flex;
   }
   #corporateblock .cards1 .text-cards1 {
-    width: 300px;
+    width: 250px;
     height: 300px;
     background-color: rgb(7, 230, 7);
     margin: 10px;
@@ -2611,7 +3005,7 @@ section .cards5 .text-cards5 h3 {
     display: flex;
   }
   #corporateblock .cards2 .text-cards2 {
-    width: 300px;
+    width: 250px;
     height: 300px;
     background-color: rgb(245, 10, 233);
     margin: 10px;
@@ -2628,7 +3022,7 @@ section .cards5 .text-cards5 h3 {
     display: flex;
   }
   #corporateblock .cards3 .text-cards3 {
-    width: 300px;
+    width: 250px;
     height: 300px;
     background-color: rgb(230, 178, 7);
     margin: 10px;
@@ -2715,6 +3109,7 @@ section .cards5 .text-cards5 h3 {
   section .cards1 {
     display: flex;
   }
+
   section .cards1 .text-cards1 {
     width: 250px;
     height: 250px;
@@ -2722,6 +3117,7 @@ section .cards5 .text-cards5 h3 {
     margin: 10px;
     padding: 15px;
   }
+
   section .cards1 .text-cards1 h3 {
     font-size: 15px;
     text-align: center;
@@ -2732,6 +3128,7 @@ section .cards5 .text-cards5 h3 {
   section .cards2 {
     display: flex;
   }
+
   section .cards2 .text-cards2 {
     width: 250px;
     height: 250px;
@@ -2739,6 +3136,7 @@ section .cards5 .text-cards5 h3 {
     margin: 10px;
     padding: 15px;
   }
+
   section .cards2 .text-cards2 h3 {
     font-size: 15px;
     text-align: center;
@@ -2750,6 +3148,7 @@ section .cards5 .text-cards5 h3 {
   section .cards3 {
     display: flex;
   }
+
   section .cards3 .text-cards3 {
     width: 250px;
     height: 250px;
@@ -2757,6 +3156,7 @@ section .cards5 .text-cards5 h3 {
     margin: 10px;
     padding: 15px;
   }
+
   section .cards3 .text-cards3 h3 {
     font-size: 15px;
     text-align: center;
@@ -2768,6 +3168,7 @@ section .cards5 .text-cards5 h3 {
   section .cards4 {
     display: flex;
   }
+
   section .cards4 .text-cards4 {
     width: 250px;
     height: 250px;
@@ -2775,6 +3176,7 @@ section .cards5 .text-cards5 h3 {
     margin: 10px;
     padding: 15px;
   }
+
   section .cards4 .text-cards4 h3 {
     font-size: 15px;
     text-align: center;
@@ -2800,7 +3202,134 @@ section .cards5 .text-cards5 h3 {
     margin-bottom: 5px;
   }
 
-  #section10 h1{
+
+  /* Industries */
+  section .cards6 {
+    display: flex;
+  }
+
+  section .cards6 .text-cards6 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(7, 185, 230);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  section .cards6 .text-cards6 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  section .cards7 {
+    display: flex;
+  }
+
+  section .cards7 .text-cards7 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 139, 240);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  section .cards7 .text-cards7 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Third section */
+  section .cards8 {
+    display: flex;
+  }
+
+  section .cards8 .text-cards8 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(252, 4, 157);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  section .cards8 .text-cards8 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Fourth section */
+  section .cards9 {
+    display: flex;
+  }
+
+  section .cards9 .text-cards9 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 139, 240);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  section .cards9 .text-cards9 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Fifth section */
+  section .cards10 {
+    display: flex;
+  }
+
+  section .cards10 .text-cards10 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 139, 240);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  section .cards10 .text-cards10 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Sixth section */
+  section .cards11 {
+    display: flex;
+  }
+
+  section .cards11 .text-cards11 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(132, 139, 240);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  section .cards11 .text-cards11 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+
+  #section10 h1 {
     font-size: 30px;
   }
 
@@ -2808,10 +3337,12 @@ section .cards5 .text-cards5 h3 {
     width: 250px;
     height: 250px;
   }
+
   #section11 h2 {
     width: 100%;
     font-size: 30px;
   }
+
   #section11 p {
     width: 100%;
     font-size: 20px;
@@ -2821,10 +3352,12 @@ section .cards5 .text-cards5 h3 {
     width: 250px;
     height: 250px;
   }
+
   #section12 h2 {
     width: 100%;
     font-size: 30px;
   }
+
   #section12 p {
     width: 100%;
     font-size: 20px;
@@ -2834,6 +3367,7 @@ section .cards5 .text-cards5 h3 {
     width: auto;
     font-size: 30px;
   }
+
   #section13 p {
     width: auto;
     font-size: 20px;
@@ -2845,260 +3379,318 @@ section .cards5 .text-cards5 h3 {
     width: 100%;
     font-size: small;
   }
+
   #aboutusimage img {
     width: 100%;
     height: 300px;
   }
 
   /* Vision & Mission */
-  #visionandmission h1{
+  #visionandmission h1 {
     font-size: 30px;
   }
-  #visionandmission h4{
+
+  #visionandmission h4 {
     font-size: 25px;
   }
-  #visionandmission p{
+
+  #visionandmission p {
     font-size: 20px;
   }
-  #visionandmission img{
+
+  #visionandmission img {
     width: 50%;
     height: 200px;
   }
 
   /* Core value */
-  #corevalue h1{
+  #corevalue h1 {
     font-size: 30px;
   }
-  #corevalue h3{
+
+  #corevalue h3 {
     font-size: 25px;
   }
-  #corevalue ul li{
+
+  #corevalue ul li {
     font-size: 20px;
   }
 
   /* Social Responsibility */
-  #socialresponsibility h1{
+  #socialresponsibility h1 {
     font-size: 30px;
   }
-  #socialresponsibility img{
+
+  #socialresponsibility img {
     width: 80%;
     height: 250px;
   }
-  #socialresponsibility h2{
+
+  #socialresponsibility h2 {
     font-size: 25px;
   }
-  #socialresponsibility p{
+
+  #socialresponsibility p {
     font-size: 20px;
   }
 
   /* Location */
-  #location h1{
+  #location h1 {
     font-size: 30px;
   }
-  #location h2{
+
+  #location h2 {
     font-size: 25px;
   }
-  #location h3{
+
+  #location h3 {
     font-size: 20px;
   }
-  #location p{
+
+  #location p {
     font-size: 15px;
   }
 
   /* Industries */
   /* Financial Services */
-  #financialservice h1{
+  #financialservice h1 {
     font-size: 30px;
   }
-  #financialservice h4{
+
+  #financialservice h4 {
     font-size: 25px;
   }
-  #financialservice p{
+
+  #financialservice p {
     font-size: 20px;
   }
-  #financialservice img{
+
+  #financialservice img {
     width: 75%;
     height: 250px;
   }
 
   /* Government */
-  #government h1{
+  #government h1 {
     font-size: 30px;
   }
-  #government h3{
+
+  #government h3 {
     font-size: 25px;
   }
-  #government p{
+
+  #government p {
     font-size: 20px;
   }
-  #government ul li{
+
+  #government ul li {
     font-size: 15px;
   }
 
   /* Manufacturing */
-  #manufacturing h1{
+  #manufacturing h1 {
     font-size: 30px;
   }
-  #manufacturing p{
+
+  #manufacturing p {
     font-size: 20px;
   }
-  #manufacturing ul li{
+
+  #manufacturing ul li {
     font-size: 15px;
   }
 
   /* Retail */
-  #retail h1{
+  #retail h1 {
     font-size: 30px;
   }
-  #retail img{
-    width:75%;
+
+  #retail img {
+    width: 75%;
     height: 250px;
   }
-  #retail p{
+
+  #retail p {
     font-size: 20px;
   }
-  #retail ul li{
+
+  #retail ul li {
     font-size: 15px;
   }
 
   /* Telecommunication */
-  #telecommunication h1{
+  #telecommunication h1 {
     font-size: 30px;
   }
-  #telecommunication h4{
+
+  #telecommunication h4 {
     font-size: 25px;
   }
-  #telecommunication p{
+
+  #telecommunication p {
     font-size: 20px;
   }
-  #telecommunication ul li{
+
+  #telecommunication ul li {
     font-size: 15px;
   }
-  #telecommunication img{
+
+  #telecommunication img {
     width: 75%;
     height: 250px;
   }
 
   /* Utilities */
-  #utilities h1{
+  #utilities h1 {
     font-size: 30px;
   }
-  #utilities h3{
+
+  #utilities h3 {
     font-size: 25px;
   }
-  #utilities p{
+
+  #utilities p {
     font-size: 20px;
   }
-  #utilities ul li{
+
+  #utilities ul li {
     font-size: 15px;
   }
 
   /* Products */
   /* Log-Mode */
-  #logmode h1{
+  #logmode h1 {
     font-size: 30px;
   }
-  #logmode h4{
+
+  #logmode h4 {
     font-size: 25px;
   }
-  #logmode h5{
+
+  #logmode h5 {
     font-size: 20px;
   }
-  #logmode p{
+
+  #logmode p {
     font-size: 15px;
   }
-  #logmode img{
+
+  #logmode img {
     width: 400px;
     height: 200px;
   }
 
   /* Solutions */
   /* Application Middleware */
-  #applicationmiddleware h1{
+  #applicationmiddleware h1 {
     font-size: 30px;
   }
-  #applicationmiddleware h3{
+
+  #applicationmiddleware h3 {
     font-size: 25px;
   }
-  #applicationmiddleware p{
+
+  #applicationmiddleware p {
     font-size: 20px;
   }
-  #applicationmiddleware ul li{
+
+  #applicationmiddleware ul li {
     font-size: 15px;
   }
 
   /* Big Data */
-  #bigdata h1{
+  #bigdata h1 {
     font-size: 30px;
   }
-  #bigdata h2{
+
+  #bigdata h2 {
     font-size: 25px;
   }
-  #bigdata p,b{
+
+  #bigdata p,
+  b {
     font-size: 20px;
   }
-  #bigdata ul li{
+
+  #bigdata ul li {
     font-size: 15px;
   }
-  #bigdata img{
+
+  #bigdata img {
     width: 300px;
     height: 200px;
   }
 
   /* Business Intelligence Solutions */
-  #businessintelligence h1{
+  #businessintelligence h1 {
     font-size: 30px;
   }
-  #businessintelligence h3{
+
+  #businessintelligence h3 {
     font-size: 25px;
   }
-  #businessintelligence p,b{
+
+  #businessintelligence p,
+  b {
     font-size: 20px;
   }
-  #businessintelligence ul li{
+
+  #businessintelligence ul li {
     font-size: 15px;
   }
-  #businessintelligence #businessintelligenceblock1 img{
+
+  #businessintelligence #businessintelligenceblock1 img {
     width: 50%;
     height: 250px;
   }
-  #businessintelligence #businessintelligenceblock2 img{
+
+  #businessintelligence #businessintelligenceblock2 img {
     width: 100%;
     height: 150px;
   }
 
   /* Data Management */
-  #datamanagement h1{
+  #datamanagement h1 {
     font-size: 30px;
   }
-  #datamanagement h3{
+
+  #datamanagement h3 {
     font-size: 25px;
   }
-  #datamanagement p,b{
+
+  #datamanagement p,
+  b {
     font-size: 20px;
   }
-  #datamanagement ul li{
+
+  #datamanagement ul li {
     font-size: 15px;
   }
-  #datamanagement img{
+
+  #datamanagement img {
     width: 50%;
     height: 200px;
   }
 
   /* Enterprise Data Warehouse */
-  #enterprisedata h1{
+  #enterprisedata h1 {
     font-size: 30px;
   }
-  #enterprisedata h2{
+
+  #enterprisedata h2 {
     font-size: 25px;
   }
-  #enterprisedata p,b{
+
+  #enterprisedata p,
+  b {
     font-size: 20px;
   }
-  #enterprisedata ul li{
+
+  #enterprisedata ul li {
     font-size: 15px;
   }
-  #enterprisedata img{
+
+  #enterprisedata img {
     width: 100%;
     height: 200px;
   }
@@ -3106,289 +3698,342 @@ section .cards5 .text-cards5 h3 {
 
   /* Services */
   /* Business Intelligence Services */
-  #businessIntelligence h1{
+  #businessIntelligence h1 {
     font-size: 30px;
   }
-  #businessIntelligence h2{
+
+  #businessIntelligence h2 {
     font-size: 25px;
   }
-  #businessIntelligence h4{
+
+  #businessIntelligence h4 {
     font-size: 20px;
   }
-  #businessIntelligence p,b{
+
+  #businessIntelligence p,
+  b {
     font-size: 15px;
   }
-  #businessIntelligence ul li{
+
+  #businessIntelligence ul li {
     font-size: 10px;
   }
 
   /* Enterprise Mobility Service */
-  #enterprisemobility h1{
+  #enterprisemobility h1 {
     font-size: 30px;
   }
-  #enterprisemobility p{
+
+  #enterprisemobility p {
     font-size: 20px;
   }
-  #enterprisemobility ul li{
+
+  #enterprisemobility ul li {
     font-size: 15px;
   }
 
   /* Mobile Apps */
-  #mobileapps h1{
+  #mobileapps h1 {
     font-size: 30px;
   }
-  #mobileapps p{
+
+  #mobileapps p {
     font-size: 20px;
   }
-  #mobileapps ul li{
+
+  #mobileapps ul li {
     font-size: 15px;
   }
 
   /* Testing And QA Services */
-  #testingandqa h1{
+  #testingandqa h1 {
     font-size: 30px;
   }
-  #testingandqa p{
+
+  #testingandqa p {
     font-size: 20px;
   }
-  #testingandqa ul li{
+
+  #testingandqa ul li {
     font-size: 15px;
   }
 
   /* Web Application */
-  #webapplication h1{
+  #webapplication h1 {
     font-size: 30px;
   }
-  #webapplication p{
+
+  #webapplication p {
     font-size: 20px;
   }
-  #webapplication ul li{
+
+  #webapplication ul li {
     font-size: 15px;
   }
 
 
   /* Enterprise Mobility */
   /* Business Process */
-  #businessprocess h1{
+  #businessprocess h1 {
     font-size: 30px;
   }
-  #businessprocess p{
+
+  #businessprocess p {
     font-size: 15px;
   }
 
   /* B2B Mobile */
-  #b2bmobile h1{
+  #b2bmobile h1 {
     font-size: 30px;
   }
-  #b2bmobile h2{
+
+  #b2bmobile h2 {
     font-size: 25px;
   }
-  #b2bmobile p{
+
+  #b2bmobile p {
     font-size: 20px;
   }
-  #b2bmobile ul li{
+
+  #b2bmobile ul li {
     font-size: 15px;
   }
 
   /* Android App */
-  #enterpriseandroid h1{
+  #enterpriseandroid h1 {
     font-size: 30px;
   }
-  #enterpriseandroid p{
+
+  #enterpriseandroid p {
     font-size: 20px;
   }
-  #enterpriseandroid ul li{
+
+  #enterpriseandroid ul li {
     font-size: 15px;
   }
 
   /* Enterprise APP */
-  #enterpriseapp h1{
+  #enterpriseapp h1 {
     font-size: 30px;
   }
-  #enterpriseapp h3{
+
+  #enterpriseapp h3 {
     font-size: 25px;
   }
-  #enterpriseapp p{
+
+  #enterpriseapp p {
     font-size: 20px;
   }
 
   /* Enterprise IOS App */
-  #enterpriseiosapp h1{
+  #enterpriseiosapp h1 {
     font-size: 30px;
   }
-  #enterpriseiosapp h3{
+
+  #enterpriseiosapp h3 {
     font-size: 25px;
   }
-  #enterpriseiosapp p{
+
+  #enterpriseiosapp p {
     font-size: 20px;
   }
 
   /* Mobile Business */
-  #mobilebusiness h1{
+  #mobilebusiness h1 {
     font-size: 30px;
   }
-  #mobilebusiness p{
+
+  #mobilebusiness p {
     font-size: 20px;
   }
 
   /* Mobile Apps */
   /* Android App */
-  #androidapp h1{
+  #androidapp h1 {
     font-size: 30px;
   }
-  #androidapp p{
+
+  #androidapp p {
     font-size: 20px;
   }
 
   /* Blackberry App */
-  #blackberryapp h1{
+  #blackberryapp h1 {
     font-size: 30px;
   }
-  #blackberryapp p{
+
+  #blackberryapp p {
     font-size: 20px;
   }
 
   /* Iphone App */
-  #iphoneapp h1{
+  #iphoneapp h1 {
     font-size: 30px;
   }
-  #iphoneapp p{
+
+  #iphoneapp p {
     font-size: 20px;
   }
 
   /* Windows8 App */
-  #windows8app h1{
+  #windows8app h1 {
     font-size: 30px;
   }
-  #windows8app p{
+
+  #windows8app p {
     font-size: 20px;
   }
 
 
   /* Testing & QA Services*/
   /* Automated Testing */
-  #automatedtesting h1{
+  #automatedtesting h1 {
     font-size: 30px;
   }
-  #automatedtesting h3{
+
+  #automatedtesting h3 {
     font-size: 25px;
   }
-  #automatedtesting p{
+
+  #automatedtesting p {
     font-size: 20px;
   }
-  #automatedtesting ul li{
+
+  #automatedtesting ul li {
     font-size: 15px;
   }
 
   /* Manual Testing */
-  #manualtesting h1{
+  #manualtesting h1 {
     font-size: 30px;
   }
-  #manualtesting h3{
+
+  #manualtesting h3 {
     font-size: 25px;
   }
-  #manualtesting p{
+
+  #manualtesting p {
     font-size: 20px;
   }
-  #manualtesting ul li{
+
+  #manualtesting ul li {
     font-size: 15px;
   }
 
   /* QTP */
-  #qtp h1{
+  #qtp h1 {
     font-size: 30px;
   }
-  #qtp h3{
+
+  #qtp h3 {
     font-size: 25px;
   }
-  #qtp p{
+
+  #qtp p {
     font-size: 20px;
   }
-  #qtp ul li{
+
+  #qtp ul li {
     font-size: 15px;
   }
 
   /* Selenium */
-  #selenium h1{
+  #selenium h1 {
     font-size: 30px;
   }
-  #selenium h3{
+
+  #selenium h3 {
     font-size: 25px;
   }
-  #selenium p{
+
+  #selenium p {
     font-size: 20px;
   }
-  #selenium ul li{
+
+  #selenium ul li {
     font-size: 15px;
   }
 
   /* Test Complete */
-  #testcomplete h1{
+  #testcomplete h1 {
     font-size: 30px;
   }
-  #testcomplete h3{
+
+  #testcomplete h3 {
     font-size: 25px;
   }
-  #testcomplete p{
+
+  #testcomplete p {
     font-size: 20px;
   }
-  #testcomplete ul li{
+
+  #testcomplete ul li {
     font-size: 15px;
   }
 
   /* Web Application */
   /* CRM Application */
-  #cmrapplication h1{
+  #cmrapplication h1 {
     font-size: 30px;
   }
-  #cmrapplication p{
+
+  #cmrapplication p {
     font-size: 20px;
   }
 
   /* Content Management */
-  #contentmanagement h1{
+  #contentmanagement h1 {
     font-size: 30px;
   }
-  #contentmanagement h3{
+
+  #contentmanagement h3 {
     font-size: 25px;
   }
-  #contentmanagement p{
+
+  #contentmanagement p {
     font-size: 20px;
   }
-  #contentmanagement ul li{
+
+  #contentmanagement ul li {
     font-size: 15px;
   }
 
   /* Custom Web App */
-  #customwebapp h1{
+  #customwebapp h1 {
     font-size: 30px;
   }
-  #customwebapp p{
+
+  #customwebapp p {
     font-size: 20px;
   }
-  #customwebapp ul li{
+
+  #customwebapp ul li {
     font-size: 15px;
   }
 
   /* Inventory Management */
-  #inventorymanagement h1{
+  #inventorymanagement h1 {
     font-size: 30px;
   }
-  #inventorymanagement h3{
+
+  #inventorymanagement h3 {
     font-size: 25px;
   }
-  #inventorymanagement p{
+
+  #inventorymanagement p {
     font-size: 20px;
   }
-  #inventorymanagement ul li{
+
+  #inventorymanagement ul li {
     font-size: 15px;
   }
 
   /* Open Source */
-  #opensource h1{
+  #opensource h1 {
     font-size: 30px;
   }
-  #opensource p{
+
+  #opensource p {
     font-size: 20px;
   }
 }
