@@ -61,6 +61,7 @@ import ManualTesting from './features/Navigation/services/testing&QA/manualTesti
 import TestComplete from './features/Navigation/services/testing&QA/testComplete.jsx';
 import Form from './features/dashboard/form.jsx';
 import { EnquiryForm } from './features/dashboard/enquiryForm.jsx';
+import Teams from './features/Navigation/corporate/teams.jsx';
 
 const router = createBrowserRouter([
   {
@@ -98,6 +99,10 @@ const router = createBrowserRouter([
           {
             path:'/corporate/location',
             element:<Location></Location>
+          },
+          {
+            path:'/corporate/teams',
+            element:<Teams></Teams>
           }
         ]
       },

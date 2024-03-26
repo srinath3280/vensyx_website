@@ -31,6 +31,10 @@
   margin-top: -6px;
 }
 
+.dropdown-menu div li a{
+  font-size: 20px;
+}
+
 /* rotate caret on hover */
 .dropdown-menu>li>a:hover:after {
   text-decoration: underline;
@@ -211,6 +215,17 @@
   visibility: visible;
 }
 
+
+.btn1 {
+  padding: 20px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #d41b97;
+  color: #fff;
+  font-size: 18px;
+}
+
+
 #socialMedia {
   display: flex;
   flex-direction: column;
@@ -297,21 +312,21 @@
 
 #corporateblock {
   height: 500px;
-  background-image: url('/public/images/corporatebg.webp');
+  background-image: url('/public/images/corporatebg1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #industries {
   height: auto;
-  background-image: url('/public/images/industriesbg.avif');
+  background-image: url('/public/images/industriesbg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 #solutions {
   height: auto;
-  background-image: url('/public/images/industriesbg.avif');
+  background-image: url('/public/images/solutionbg1.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -774,6 +789,112 @@ section .cards5 .text-cards5 h3 {
     font-size: 25px;
   }
 
+
+  /* Solutions */
+  #solutions section .cards12 {
+    display: flex;
+  }
+
+  #solutions section .cards12 .text-cards12 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(5, 122, 255);
+    margin: 20px;
+    padding: 25px;
+  }
+
+  #solutions section .cards12 .text-cards12 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  #solutions section .cards13 {
+    display: flex;
+  }
+
+  #solutions section .cards13 .text-cards13 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(247, 151, 8);
+    margin: 20px;
+    padding: 25px;
+  }
+
+  #solutions section .cards13 .text-cards13 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /* Third section */
+  #solutions section .cards14 {
+    display: flex;
+  }
+
+  #solutions section .cards14 .text-cards14 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(196, 11, 165);
+    margin: 20px;
+    padding: 20px;
+  }
+
+  #solutions section .cards14 .text-cards14 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /* Fourth section */
+  #solutions section .cards15 {
+    display: flex;
+  }
+
+  #solutions section .cards15 .text-cards15 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(10, 238, 181);
+    margin: 20px;
+    padding: 25px;
+  }
+
+  #solutions section .cards15 .text-cards15 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  /* Fifth section */
+  #solutions section .cards16 {
+    display: flex;
+  }
+
+  #solutions section .cards16 .text-cards16 {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(248, 244, 7);
+    margin: 20px;
+    padding: 25px;
+  }
+
+  #solutions section .cards16 .text-cards16 h3 {
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+
   /* Our services */
   section .cards1 {
     display: flex;
@@ -886,7 +1007,7 @@ section .cards5 .text-cards5 h3 {
   section .cards6 .text-cards6 {
     width: 300px;
     height: 300px;
-    background-color: rgb(7, 185, 230);
+    background-color: rgb(250, 7, 68);
     margin: 20px;
     padding: 25px;
   }
@@ -906,7 +1027,7 @@ section .cards5 .text-cards5 h3 {
   section .cards7 .text-cards7 {
     width: 300px;
     height: 300px;
-    background-color: rgb(132, 139, 240);
+    background-color: rgb(46, 245, 7);
     margin: 20px;
     padding: 25px;
   }
@@ -927,7 +1048,7 @@ section .cards5 .text-cards5 h3 {
   section .cards8 .text-cards8 {
     width: 300px;
     height: 300px;
-    background-color: rgb(252, 4, 157);
+    background-color: rgb(173, 4, 252);
     margin: 20px;
     padding: 20px;
   }
@@ -948,7 +1069,7 @@ section .cards5 .text-cards5 h3 {
   section .cards9 .text-cards9 {
     width: 300px;
     height: 300px;
-    background-color: rgb(132, 139, 240);
+    background-color: rgb(248, 5, 187);
     margin: 20px;
     padding: 25px;
   }
@@ -969,7 +1090,7 @@ section .cards5 .text-cards5 h3 {
   section .cards10 .text-cards10 {
     width: 300px;
     height: 300px;
-    background-color: rgb(132, 139, 240);
+    background-color: rgb(238, 118, 5);
     margin: 20px;
     padding: 25px;
   }
@@ -990,7 +1111,7 @@ section .cards5 .text-cards5 h3 {
   section .cards11 .text-cards11 {
     width: 300px;
     height: 300px;
-    background-color: rgb(132, 139, 240);
+    background-color: rgb(11, 193, 238);
     margin: 20px;
     padding: 25px;
   }
@@ -1958,6 +2079,112 @@ section .cards5 .text-cards5 h3 {
     width: 100%;
     font-size: 20px;
   }
+
+
+  /* Solutions */
+  #solutions section .cards12 {
+    display: flex;
+  }
+
+  #solutions section .cards12 .text-cards12 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(5, 122, 255);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #solutions section .cards12 .text-cards12 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  #solutions section .cards13 {
+    display: flex;
+  }
+
+  #solutions section .cards13 .text-cards13 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(247, 151, 8);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #solutions section .cards13 .text-cards13 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Third section */
+  #solutions section .cards14 {
+    display: flex;
+  }
+
+  #solutions section .cards14 .text-cards14 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(196, 11, 165);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #solutions section .cards14 .text-cards14 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Fourth section */
+  #solutions section .cards15 {
+    display: flex;
+  }
+
+  #solutions section .cards15 .text-cards15 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(10, 238, 181);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #solutions section .cards15 .text-cards15 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Fifth section */
+  #solutions section .cards16 {
+    display: flex;
+  }
+
+  #solutions section .cards16 .text-cards16 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(248, 244, 7);
+    margin: 15px;
+    padding: 15px;
+  }
+
+  #solutions section .cards16 .text-cards16 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
 
   /* Our services */
   section .cards1 {
@@ -3116,6 +3343,112 @@ section .cards5 .text-cards5 h3 {
     width: 100%;
     font-size: 15px;
   }
+
+
+  /* Solutions */
+  #solutions section .cards12 {
+    display: flex;
+  }
+
+  #solutions section .cards12 .text-cards12 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(5, 122, 255);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  #solutions section .cards12 .text-cards12 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  #solutions section .cards13 {
+    display: flex;
+  }
+
+  #solutions section .cards13 .text-cards13 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(247, 151, 8);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  #solutions section .cards13 .text-cards13 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Third section */
+  #solutions section .cards14 {
+    display: flex;
+  }
+
+  #solutions section .cards14 .text-cards14 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(196, 11, 165);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  #solutions section .cards14 .text-cards14 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Fourth section */
+  #solutions section .cards15 {
+    display: flex;
+  }
+
+  #solutions section .cards15 .text-cards15 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(10, 238, 181);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  #solutions section .cards15 .text-cards15 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+  /* Fifth section */
+  #solutions section .cards16 {
+    display: flex;
+  }
+
+  #solutions section .cards16 .text-cards16 {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(248, 244, 7);
+    margin: 10px;
+    padding: 15px;
+  }
+
+  #solutions section .cards16 .text-cards16 h3 {
+    font-size: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
 
   /* Our services */
   section .cards1 {

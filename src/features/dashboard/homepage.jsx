@@ -133,9 +133,9 @@ function HomePage() {
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="3000">
-                            <img src="/images/group1.jpg" class="d-block w-100" alt="..." />
+                            <img src="/images/caroselimg.jpg" class="d-block w-100" alt="..." />
                             <div class="carousel-caption">
-                                <p style={{ fontSize: '40px', backgroundColor: 'rgba(0,0,0,0.4)', marginTop: '-400px', textTransform: 'uppercase' }}>
+                                <p style={{ fontSize: '40px', marginTop: '-50px',marginLeft:'300px', backgroundColor: 'rgba(0,0,0,0.3)', textTransform: 'uppercase' }}>
                                     Teamwork Makes The Dreamwork
                                 </p>
                             </div>
@@ -179,11 +179,11 @@ function HomePage() {
                                         services from consulting, system development to
                                         business IT outsourcing.
                                     </p>
-                                    <button class="btn btn-outline-primary" onClick={() => aboutusbtn()} style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
+                                    <button class='btn1' onClick={() => aboutusbtn()} style={{ width: '150px', padding: '10px' }}>EXPLORE</button>
                                 </div>
                                 <div id="bigdata" class='container reveal1' style={{ width: '50%', }}>
                                     {/* <img src="images/about1.jpg" alt="" width="100%" height="350px" /> */}
-                                    <video src="video/aboutvideo.mp4" type="video/mp4" controls></video>
+                                    <video src="video/aboutvideo1.mp4" type="video/mp4" controls></video>
                                 </div>
                             </div>
                         </div>
@@ -249,8 +249,8 @@ function HomePage() {
                         <div id="section7" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', paddingLeft: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal1'>
-                                    <div class='cards6'>
-                                        <div class='text-cards6 bg-primary'>
+                                    <div class='cards12'>
+                                        <div class='text-cards12'>
                                             <h3>Big Data & Advanced Analytics</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Data is exploding. Individuals, corporates, websites, call centers, shopping malls, mobile and RFID devices etc.
@@ -262,13 +262,13 @@ function HomePage() {
                             </section>
                             <section>
                                 <div class='container reveal2'>
-                                    <div className="cards7">
-                                        <div className="text-cards7 bg-danger">
+                                    <div className="cards13">
+                                        <div className="text-cards13">
                                             <h3>Business Intelligence Solutions</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 VENSYX Data Solutions Business Intelligence Consulting Services comprise High Impact, Diagnostic.
                                             </p>
-                                            <button class='btn btn-outline-warning' onClick={() => businessintelligencesolutionsbtn()}>Read more</button>
+                                            <button class='btn btn-outline-primary' onClick={() => businessintelligencesolutionsbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -278,8 +278,8 @@ function HomePage() {
                         <div id="section8" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', paddingLeft: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal3'>
-                                    <div class='cards8'>
-                                        <div class='text-cards8 bs-danger-bg-subtle'>
+                                    <div class='cards14'>
+                                        <div class='text-cards14'>
                                             <h3>Data Management</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 VENSYX Data Solutions helps you to meet the data management goals to provide data assurance in terms of security.
@@ -291,8 +291,8 @@ function HomePage() {
                             </section>
                             <section>
                                 <div class='container reveal4'>
-                                    <div className="cards9">
-                                        <div className="text-cards9 bg-info">
+                                    <div className="cards15">
+                                        <div className="text-cards15">
                                             <h3>Enterprise Data Warehouse</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 The data warehouse is the key behind a competent Business Intelligence system. This is the place to store.
@@ -306,13 +306,13 @@ function HomePage() {
                         <div id="section8" style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', paddingLeft: '50px', backgroundColor: 'rgba(0,0,0,0.3)' }}>
                             <section>
                                 <div class='container reveal5'>
-                                    <div class='cards10'>
-                                        <div class='text-cards10 bg-primary'>
+                                    <div class='cards16'>
+                                        <div class='text-cards16'>
                                             <h3>Application Middleware Management</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Middleware is the enabling technology of enterprise application integration.
                                             </p>
-                                            <button class='btn btn-outline-warning' onClick={() => applicationmiddlewarebtn()}>Read more</button>
+                                            <button class='btn btn-outline-primary' onClick={() => applicationmiddlewarebtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -325,7 +325,7 @@ function HomePage() {
                         <h1 class='reveal1' style={{ marginTop: '30px' }}>OUR SERVICES</h1>
                         <div class='reveal1' style={{ width: '50px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto' }}></div>
                         <div class='reveal1' style={{ width: '75px', border: '1px solid white', marginLeft: 'auto', marginRight: 'auto', marginTop: '5px' }}></div>
-                        <p class='reveal1' style={{ fontFamily: 'cursive' }}>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
+                        <p class='reveal1' style={{ fontFamily: 'Raleway, sans-serif' }}>We re-design the way you do business with future -ready innovation, knowledge discovery & transitioning technologies.</p>
                     </section>
 
                     <div id="ourservice">
@@ -414,7 +414,7 @@ function HomePage() {
                             <section>
                                 <div class='container reveal1'>
                                     <div class='cards6'>
-                                        <div class='text-cards6 bg-primary'>
+                                        <div class='text-cards6'>
                                             <h3>Telecommunications</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 The telecommunications industry has arguably evolved more than any other market sector in the last ten years.
@@ -427,12 +427,12 @@ function HomePage() {
                             <section>
                                 <div class='container reveal2'>
                                     <div className="cards7">
-                                        <div className="text-cards7 bg-danger">
+                                        <div className="text-cards7">
                                             <h3>Retail</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Driven by a highly competitive marketplace, today's retailer requires cutting-edge Information Management.
                                             </p>
-                                            <button class='btn btn-outline-warning' onClick={() => retailbtn()}>Read more</button>
+                                            <button class='btn btn-outline-primary' onClick={() => retailbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -443,7 +443,7 @@ function HomePage() {
                             <section>
                                 <div class='container reveal3'>
                                     <div class='cards8'>
-                                        <div class='text-cards8 bs-danger-bg-subtle'>
+                                        <div class='text-cards8'>
                                             <h3>Financial Services</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Banks are under more pressure now than ever before. Constantly evolving regulatory requirements, rising costs, economic pressures, and increased competition.
@@ -456,12 +456,12 @@ function HomePage() {
                             <section>
                                 <div class='container reveal4'>
                                     <div className="cards9">
-                                        <div className="text-cards9 bg-info">
+                                        <div className="text-cards9">
                                             <h3>Manufacturing</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Driven by a highly competitive marketplace, today's manufacturing organization requires cutting-edge Information Management.
                                             </p>
-                                            <button class='btn btn-outline-danger' onClick={() => manufacturingbtn()}>Read more</button>
+                                            <button class='btn btn-outline-warning' onClick={() => manufacturingbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
@@ -471,7 +471,7 @@ function HomePage() {
                             <section>
                                 <div class='container reveal5'>
                                     <div class='cards10'>
-                                        <div class='text-cards10 bg-primary'>
+                                        <div class='text-cards10'>
                                             <h3>Utilities</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 As they pursue a more competitive, market-oriented business model, utilities organizations are making increasing demands on their information systems
@@ -484,12 +484,12 @@ function HomePage() {
                             <section>
                                 <div class='container reveal1'>
                                     <div className="cards11">
-                                        <div className="text-cards11 bg-warning">
+                                        <div className="text-cards11">
                                             <h3>Government</h3>
                                             <p style={{ fontFamily: 'Raleway, sans-serif' }}>
                                                 Stable societies have always been those best equipped to manage, safeguard and circulate information.
                                             </p>
-                                            <button class='btn btn-outline-primary' onClick={() => governmentbtn()}>Read more</button>
+                                            <button class='btn btn-outline-warning' onClick={() => governmentbtn()}>Read more</button>
                                         </div>
                                     </div>
                                 </div>
