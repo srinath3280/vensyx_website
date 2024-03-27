@@ -47,7 +47,7 @@ function NavBar() {
                                     </li>
                                     <li style={{width:'25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
-                                        <a class="dropdown-item" href="/corporate/teams" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Teams</a>
+                                        <a class="dropdown-item" href="/corporate/teams" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Team</a>
                                     </li>
                                 </div>
                             </ul>

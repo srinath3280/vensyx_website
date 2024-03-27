@@ -29,35 +29,35 @@ function VissionMission() {
             </div>
             <main>
                 <div id="visionandmission">
-                    <h1 style={{color:'white'}}>Vision & Mission</h1>
+                    <h1 style={{ color: 'white' }}>Vision & Mission</h1>
                     <div style={{ display: 'flex', flexDirection: 'row' }}>
                         <div style={{ width: '60%', padding: '50px', textAlign: 'justify', fontSize: '25px' }}>
-                            <h4 style={{color:'white'}}>Vision</h4>
+                            <h4 style={{ color: 'white' }}>Vision</h4>
                             {
                                 visionmission && visionmission.map((data) => {
                                     return (
-                                        <p style={{color:'white',fontFamily:'Raleway, sans-serif'}}>{data.vision}</p>
+                                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{data.vision}</p>
                                     )
                                 })
                             }
                         </div>
-                        <div style={{width:'40%',paddingRight:'50px',paddingTop:'50px'}}>
-                            <img src="/images/vision1.jpg" alt="" width="100%" height="300px" style={{borderRadius:'10px'}}/>
+                        <div style={{ width: '40%', paddingRight: '50px', paddingTop: '50px' }}>
+                            <img src="/images/vision1.jpg" alt="" width="100%" height="300px" style={{ borderRadius: '10px' }} />
                         </div>
                     </div>
-                    <div style={{ display: 'flex', flexDirection: 'row',marginBottom:'50px' }}>
+                    <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '50px' }}>
                         <div style={{ width: '60%', padding: '50px', textAlign: 'justify', fontSize: '25px' }}>
-                            <h4 style={{color:'white'}}>Mission</h4>
+                            <h4 style={{ color: 'white' }}>Mission</h4>
                             {
                                 visionmission && visionmission.map((data) => {
                                     return (
-                                        <p style={{color:'white',fontFamily:'Raleway, sans-serif'}}>{data.mission}</p>
+                                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{data.mission}</p>
                                     )
                                 })
                             }
                         </div>
-                        <div style={{width:'40%',paddingRight:'50px',paddingTop:'50px'}}>
-                            <img src="/images/mission2.jpg" alt="" width="100%" height="300px" style={{borderRadius:'10px'}}/>
+                        <div style={{ width: '40%', paddingRight: '50px', paddingTop: '50px' }}>
+                            <img src="/images/mission2.jpg" alt="" width="100%" height="300px" style={{ borderRadius: '10px' }} />
                         </div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ function VissionMission() {
                                 </ul>
                             </div>
                         </div>
-                        <div style={{ width: '1px', height: '200px', border: '1px solid grey' }}></div>
+                        <div style={{ width: '1px', height: '225px', border: '1px solid grey' }}></div>
                         <div id="footer2" style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                             <h3 style={{ color: 'white', marginLeft: '35px' }}>Services</h3>
                             <div class='links'>
@@ -91,7 +91,7 @@ function VissionMission() {
                                 </ul>
                             </div>
                         </div>
-                        <div style={{ width: '1px', height: '200px', border: '1px solid grey', }}></div>
+                        <div style={{ width: '1px', height: '225px', border: '1px solid grey', }}></div>
                         <div id="footer3" class='links' style={{ width: '25%', height: 'auto' }}>
                             <h3 style={{ color: 'white', marginLeft: '30px' }}>Industries</h3>
                             <div class='links'>
@@ -105,7 +105,7 @@ function VissionMission() {
                                 </ul>
                             </div>
                         </div>
-                        <div style={{ width: '1px', height: '200px', border: '1px solid grey' }}></div>
+                        <div style={{ width: '1px', height: '225px', border: '1px solid grey' }}></div>
                         <div id="footer4" class='links' style={{ width: '25%', height: 'auto', display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start' }}>
                             <h3 style={{ color: 'white', marginLeft: '30px' }}>Company</h3>
                             <div class='links'>
@@ -114,7 +114,8 @@ function VissionMission() {
                                     <li><a href="/corporate/vissionmission">Vission & Mission</a></li>
                                     <li><a href="/corporate/corevalue">Core Value</a></li>
                                     <li><a href="/corporate/socialresponsibility">Social Responsibility</a></li>
-                                    <li><a href="/corporate/location">Loaction</a></li>
+                                    <li><a href="/corporate/location">Location</a></li>
+                                    <li><a href="/corporate/teams">Team</a></li>
                                 </ul>
                             </div>
                         </div>
