@@ -6,11 +6,36 @@ function Teams() {
     return (
         <div>
             <div id='socialMedia'>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-youtube"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-whatsapp"></i>
+                <a href="tel: +91 9000316721">
+                    <i class="bi bi-telephone">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
+                <a href="mailto:info@vensyx.com?subject=subject text">
+                    <i class="bi bi-envelope-at">
+                        <span class="tooltiptext">info@vensyx.com</span>
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/company/vensyx-data-solutions-pvt-ltd-/about/">
+                    <i class="bi bi-linkedin">
+                        <span class="tooltiptext">https://www.linkedin.com/vensyx</span>
+                    </i>
+                </a>
+                {/* <a href="">
+                        <i class="bi bi-facebook">
+                            <span class="tooltiptext">https://www.facebook.com/vensyx</span>
+                        </i>
+                    </a> */}
+                <a href="">
+                    <i class="bi bi-twitter">
+                        <span class="tooltiptext">https://www.twitter.com/vensyx</span>
+                    </i>
+                </a>
+                <a href="https://wa.me/+919000316721">
+                    <i class="bi bi-whatsapp">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
             </div>
             <div id="makeanenquiry">
                 <a href="/form">
@@ -20,7 +45,7 @@ function Teams() {
             <main>
                 <div id="aboutus">
                     <h1 style={{ color: 'white' }}>Team</h1>
-                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center',padding:'50px' }}>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', padding: '50px' }}>
                         <div style={{ marginRight: '50px' }}>
                             <button id="modal1" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#StaticBackDrop">
                                 <div class="card" style={{ width: "300px", height: '350px', border: 'none' }}>
@@ -28,7 +53,7 @@ function Teams() {
                                     <div class="card-body">
                                         <span style={{ fontSize: '20px', fontWeight: 'bold' }}>Venkata Subba Reddy Atluri</span>
                                         <p class="card-text" style={{ fontSize: '20px' }}>
-                                            Founder and CEO
+                                            FOUNDER AND CEO
                                         </p>
                                     </div>
                                 </div>
@@ -66,7 +91,7 @@ function Teams() {
                                     <div class="card-body">
                                         <span style={{ fontSize: '20px', fontWeight: 'bold' }}>Dr. BaskeraRao Shastri</span>
                                         <p class="card-text" style={{ fontSize: '20px' }}>
-                                            Director
+                                            DIRECTOR
                                         </p>
                                     </div>
                                 </div>

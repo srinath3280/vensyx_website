@@ -16,11 +16,36 @@ function FinancialServices() {
     return (
         <>
             <div id='socialMedia'>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-youtube"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-whatsapp"></i>
+                <a href="tel: +91 9000316721">
+                    <i class="bi bi-telephone">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
+                <a href="mailto:info@vensyx.com?subject=subject text">
+                    <i class="bi bi-envelope-at">
+                        <span class="tooltiptext">info@vensyx.com</span>
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/company/vensyx-data-solutions-pvt-ltd-/about/">
+                    <i class="bi bi-linkedin">
+                        <span class="tooltiptext">https://www.linkedin.com/vensyx</span>
+                    </i>
+                </a>
+                {/* <a href="">
+                        <i class="bi bi-facebook">
+                            <span class="tooltiptext">https://www.facebook.com/vensyx</span>
+                        </i>
+                    </a> */}
+                <a href="">
+                    <i class="bi bi-twitter">
+                        <span class="tooltiptext">https://www.twitter.com/vensyx</span>
+                    </i>
+                </a>
+                <a href="https://wa.me/+919000316721">
+                    <i class="bi bi-whatsapp">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
             </div>
             <div id="makeanenquiry">
                 <a href="/form">
@@ -37,7 +62,7 @@ function FinancialServices() {
                                     return (
                                         <div key={index}>
                                             {typeof item === 'string' ? (
-                                                <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{item}</p>
+                                                <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{item}</p>
                                             ) : (
                                                 Object.entries(item).map(([key, value]) => {
                                                     return (
@@ -46,7 +71,7 @@ function FinancialServices() {
                                                                 typeof value === 'string' ? (
                                                                     <>
                                                                         <h4 style={{ color: 'white' }}>{key}</h4>
-                                                                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{value}</p>
+                                                                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{value}</p>
                                                                     </>
                                                                 ) : (
                                                                     <>
@@ -54,7 +79,7 @@ function FinancialServices() {
                                                                         {
                                                                             value && value.map((subitem) => {
                                                                                 return (
-                                                                                    <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subitem}</p>
+                                                                                    <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{subitem}</p>
                                                                                 )
                                                                             })
                                                                         }
@@ -71,7 +96,7 @@ function FinancialServices() {
                             }
                         </div>
                         <div style={{ width: '40%', paddingRight: '50px', paddingTop: '50px', }}>
-                            <img src="/images/financial.jpg" alt="financial" width="100%" height="500px" style={{borderRadius:'10px'}}/>
+                            <img src="/images/financial.jpg" alt="financial" width="100%" height="500px" style={{ borderRadius: '10px' }} />
                         </div>
                     </div>
                 </div>

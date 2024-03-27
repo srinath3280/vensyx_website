@@ -16,11 +16,36 @@ function B2BMobileApps() {
     return (
         <>
             <div id='socialMedia'>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-youtube"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-whatsapp"></i>
+                <a href="tel: +91 9000316721">
+                    <i class="bi bi-telephone">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
+                <a href="mailto:info@vensyx.com?subject=subject text">
+                    <i class="bi bi-envelope-at">
+                        <span class="tooltiptext">info@vensyx.com</span>
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/company/vensyx-data-solutions-pvt-ltd-/about/">
+                    <i class="bi bi-linkedin">
+                        <span class="tooltiptext">https://www.linkedin.com/vensyx</span>
+                    </i>
+                </a>
+                {/* <a href="">
+                        <i class="bi bi-facebook">
+                            <span class="tooltiptext">https://www.facebook.com/vensyx</span>
+                        </i>
+                    </a> */}
+                <a href="">
+                    <i class="bi bi-twitter">
+                        <span class="tooltiptext">https://www.twitter.com/vensyx</span>
+                    </i>
+                </a>
+                <a href="https://wa.me/+919000316721">
+                    <i class="bi bi-whatsapp">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
             </div>
             <div id="makeanenquiry">
                 <a href="/form">
@@ -35,12 +60,12 @@ function B2BMobileApps() {
                             {
                                 b2b && b2b.map((item, index) => {
                                     if (typeof item === 'string') {
-                                        return <p key={index} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{item}</p>;
+                                        return <p key={index} style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{item}</p>;
                                     } else if (Array.isArray(item)) {
                                         return (
                                             <ul key={index}>
                                                 {item.map((subItem, subIndex) => (
-                                                    <li key={subIndex} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subItem}</li>
+                                                    <li key={subIndex} style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{subItem}</li>
                                                 ))}
                                             </ul>
                                         );
@@ -52,7 +77,7 @@ function B2BMobileApps() {
                                                         <h2 style={{ color: 'white' }}>{key}</h2>
                                                         <ul>
                                                             {item[key].map((subItem, subIndex) => (
-                                                                <p key={subIndex} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subItem}</p>
+                                                                <p key={subIndex} style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{subItem}</p>
                                                             ))}
                                                         </ul>
                                                     </div>

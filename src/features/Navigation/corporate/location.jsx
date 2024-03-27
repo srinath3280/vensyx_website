@@ -1,26 +1,75 @@
 import React from "react";
-import axios from 'axios';
-import { useEffect, useState } from 'react';
+import { Outlet, useNavigate } from "react-router-dom";
 
 function Location() {
-    var [location, setLocation] = useState()
-    useEffect(() => {
-        axios({
-            method: 'GET',
-            url: '/files/corporate/location.txt'
-        }).then((res) => {
-            setLocation(res.data)
-        })
-    }, [])
-    console.log(location)
+    var navigate = useNavigate();
+    function Indiabtn() {
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+        if (btn1.style.backgroundColor === "rgb(8, 131, 247)") {
+            btn1.style.backgroundColor = 'white';
+            btn1.style.color = 'black';
+            btn2.style.backgroundColor = 'rgb(8, 131, 247)';
+            btn2.style.color = 'white';
+        }
+        else {
+            btn2.style.backgroundColor = 'white';
+            btn2.style.color = 'black';
+            btn1.style.backgroundColor = 'rgb(8, 131, 247)';
+            btn1.style.color = 'white';
+        }
+        navigate('/corporate/location/india')
+    }
+    function Malaysiabtn() {
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+        if (btn1.style.backgroundColor === "rgb(8, 131, 247)") {
+            btn1.style.backgroundColor = 'white';
+            btn1.style.color = 'black';
+            btn2.style.backgroundColor = 'rgb(8, 131, 247)';
+            btn2.style.color = 'white';
+        }
+        else {
+            btn2.style.backgroundColor = 'white';
+            btn2.style.color = 'black';
+            btn1.style.backgroundColor = 'rgb(8, 131, 247)';
+            btn1.style.color = 'white';
+        }
+        navigate('/corporate/location/malaysia')
+    }
     return (
         <>
             <div id='socialMedia'>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-youtube"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-whatsapp"></i>
+                <a href="tel: +91 9000316721">
+                    <i class="bi bi-telephone">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
+                <a href="mailto:info@vensyx.com?subject=subject text">
+                    <i class="bi bi-envelope-at">
+                        <span class="tooltiptext">info@vensyx.com</span>
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/company/vensyx-data-solutions-pvt-ltd-/about/">
+                    <i class="bi bi-linkedin">
+                        <span class="tooltiptext">https://www.linkedin.com/vensyx</span>
+                    </i>
+                </a>
+                {/* <a href="">
+                        <i class="bi bi-facebook">
+                            <span class="tooltiptext">https://www.facebook.com/vensyx</span>
+                        </i>
+                    </a> */}
+                <a href="">
+                    <i class="bi bi-twitter">
+                        <span class="tooltiptext">https://www.twitter.com/vensyx</span>
+                    </i>
+                </a>
+                <a href="https://wa.me/+919000316721">
+                    <i class="bi bi-whatsapp">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
             </div>
             <div id="makeanenquiry">
                 <a href="/form">
@@ -28,56 +77,11 @@ function Location() {
                 </a>
             </div>
             <main>
-                <div id="location">
-                    <h1 style={{ color: 'white' }}>Location</h1>
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '100px', padding: '25px', paddingTop: '0px' }}>
-                        <h2 style={{ textAlign: 'start', color: 'white', marginBottom: '20px' }}>Malaysia Office</h2>
-                        {
-                            location && location.map((data) => {
-                                return (
-                                    // console.log(data.RegisteredOffice)
-                                    data.Malaysia && data.Malaysia.map((details) => {
-                                        return (
-                                            <p style={{ color: 'white', lineHeight: '10px' }}>{details}</p>
-                                        )
-                                    })
-                                )
-                            })
-                        }
-                    </div>
-                    <div>
-                        <h2 style={{ textAlign: 'start', marginLeft: '125px', color: 'white' }}>India Office</h2>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '100px', padding: '25px', paddingTop: '5px' }}>
-                            <h3 style={{ color: 'white', marginBottom: '20px' }}>Vishakapatnam</h3>
-                            {
-                                location && location.map((data) => {
-                                    return (
-                                        // console.log(data.RegisteredOffice)
-                                        data.RegisteredOffice && data.RegisteredOffice.map((details) => {
-                                            return (
-                                                <p style={{ color: 'white', lineHeight: '10px',fontFamily:'Raleway, sans-serif' }}>{details}</p>
-                                            )
-                                        })
-                                    )
-                                })
-                            }
-                        </div>
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '100px', padding: '25px', paddingTop: '0px' }}>
-                            <h3 style={{ color: 'white', marginBottom: '20px' }}>Hyderabad</h3>
-                            {
-                                location && location.map((data) => {
-                                    return (
-                                        // console.log(data.RegisteredOffice)
-                                        data.DevelopmentCentre && data.DevelopmentCentre.map((details) => {
-                                            return (
-                                                <p style={{ color: 'white', lineHeight: '10px' }}>{details}</p>
-                                            )
-                                        })
-                                    )
-                                })
-                            }
-                        </div>
-                    </div>
+                <div id="location" style={{ padding: '50px' }}>
+                    <h1 style={{ color: 'white', marginBottom: '50px' }}>Location</h1>
+                    <button id="btn1" class='btn' style={{ width: '150px', backgroundColor: 'rgb(8, 131, 247)', fontSize: '25px', color: 'white', marginRight: '25px' }} onClick={() => Indiabtn()}>India</button>
+                    <button id="btn2" class='btn' style={{ width: '150px', backgroundColor: 'rgb(8, 131, 247)', fontSize: '25px', color: 'white', }} onClick={() => Malaysiabtn()}>Malaysia</button>
+                    <Outlet></Outlet>
                 </div>
             </main>
 

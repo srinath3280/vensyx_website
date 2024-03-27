@@ -90,11 +90,11 @@ function HomePage() {
                             <span class="tooltiptext">https://www.linkedin.com/vensyx</span>
                         </i>
                     </a>
-                    <a href="">
+                    {/* <a href="">
                         <i class="bi bi-facebook">
                             <span class="tooltiptext">https://www.facebook.com/vensyx</span>
                         </i>
-                    </a>
+                    </a> */}
                     <a href="">
                         <i class="bi bi-twitter">
                             <span class="tooltiptext">https://www.twitter.com/vensyx</span>

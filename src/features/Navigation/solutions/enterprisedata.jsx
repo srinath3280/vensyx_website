@@ -16,11 +16,36 @@ function EnterpriseData() {
     return (
         <>
             <div id='socialMedia'>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-youtube"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-whatsapp"></i>
+                <a href="tel: +91 9000316721">
+                    <i class="bi bi-telephone">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
+                <a href="mailto:info@vensyx.com?subject=subject text">
+                    <i class="bi bi-envelope-at">
+                        <span class="tooltiptext">info@vensyx.com</span>
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/company/vensyx-data-solutions-pvt-ltd-/about/">
+                    <i class="bi bi-linkedin">
+                        <span class="tooltiptext">https://www.linkedin.com/vensyx</span>
+                    </i>
+                </a>
+                {/* <a href="">
+                        <i class="bi bi-facebook">
+                            <span class="tooltiptext">https://www.facebook.com/vensyx</span>
+                        </i>
+                    </a> */}
+                <a href="">
+                    <i class="bi bi-twitter">
+                        <span class="tooltiptext">https://www.twitter.com/vensyx</span>
+                    </i>
+                </a>
+                <a href="https://wa.me/+919000316721">
+                    <i class="bi bi-whatsapp">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
             </div>
             <div id="makeanenquiry">
                 <a href="/form">
@@ -31,17 +56,17 @@ function EnterpriseData() {
                 <div id="enterprisedata">
                     <h1 style={{ color: 'white' }}>Enterprise Data Warehouse</h1>
                     <div style={{ padding: '50px', textAlign: 'justify', fontSize: '25px' }}>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>The data warehouse is the key behind a competent Business Intelligence system. This is the place to store and organize your data so business users can access and query it to help the company move in the right direction. This easy access to complicated data enables effective business analysis and business forecasting, which in turn provides great insight on various trends and supports in faster and better decision making.</p>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions BI/DW offers complete suite of data warehousing solutions encompassing data warehouse development, implementation, maintenance operations and support. We offer full life cycle design and development activities necessary to implement an end-to-end data warehouse and business intelligence solution. The service delivery begins with engaging end-users in a rigorous requirements gathering process and completes with the implementation of BI/DW solution.</p>
-                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>BI Data Management offerings at VENSYX Data Solutions include:</b>
-                        <div style={{display:'flex',flexDirection:'row'}}>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>The data warehouse is the key behind a competent Business Intelligence system. This is the place to store and organize your data so business users can access and query it to help the company move in the right direction. This easy access to complicated data enables effective business analysis and business forecasting, which in turn provides great insight on various trends and supports in faster and better decision making.</p>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>VENSYX Data Solutions BI/DW offers complete suite of data warehousing solutions encompassing data warehouse development, implementation, maintenance operations and support. We offer full life cycle design and development activities necessary to implement an end-to-end data warehouse and business intelligence solution. The service delivery begins with engaging end-users in a rigorous requirements gathering process and completes with the implementation of BI/DW solution.</p>
+                        <b style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>BI Data Management offerings at VENSYX Data Solutions include:</b>
+                        <div style={{ display: 'flex', flexDirection: 'row' }}>
                             <div style={{ width: '50%', }}>
                                 <ul>
-                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Modelling</li>
-                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Mart Development</li>
-                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Integration</li>
-                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Information Delivery</li>
-                                    <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Maintenance Operations, Support & Upgrades</li>
+                                    <li style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Data Modelling</li>
+                                    <li style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Data Mart Development</li>
+                                    <li style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Data Integration</li>
+                                    <li style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Information Delivery</li>
+                                    <li style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Maintenance Operations, Support & Upgrades</li>
                                 </ul>
                             </div>
                             <div style={{ width: '50%', }}>
@@ -49,22 +74,22 @@ function EnterpriseData() {
                             </div>
                         </div>
                         <h2 style={{ color: 'white' }}>Key Capabilities</h2>
-                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Modelling</b>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions Data Modelling service provides organizations with customized, business-specific solutions and creates effective data models that meet their current and evolving needs. Our experts employ both tool-based and manual methodologies to customize existing models for enhanced business performance.</p>
-                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Mart Development</b>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions is a leading provider of data warehouse and data mart design and development services, VENSYX Data Solutions helps organizations across a variety of industries collate and store discrete data on a single platform, enabling effective analyses and informed business decisions.</p>
-                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Data Integration</b>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Build an information-enabled enterprise by speedily transforming data into a key decision driver with VENSYX Data Solutions Data Transformation service. Our engineers leverage expertise in various ETL and ETL data transformation tools and operate across a variety of sectors.</p>
-                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Information Delivery</b>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions is committed to placing data in the hands of an organization's workers in a form-factor (mobile, PDF report, Excel etc.) that ensures action is taken on the information at the right time. VENSYX Data Solutions Information Delivery service provides a single access point for aggregated information via an easy-to-use Web-based interface.</p>
-                        <b style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Maintenance Operations, Support & Upgrades</b>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>VENSYX Data Solutions has extensive experience in delivering large-scale migration and upgrade services and has established methodologies specific to business intelligence projects. Our services are tailored to meet your needs, whether you want to upgrade to a newer version of your existing tools and applications or you are making a platform or re-engineering decision for your overall BI architecture.</p>
+                        <b style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Data Modelling</b>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>VENSYX Data Solutions Data Modelling service provides organizations with customized, business-specific solutions and creates effective data models that meet their current and evolving needs. Our experts employ both tool-based and manual methodologies to customize existing models for enhanced business performance.</p>
+                        <b style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Data Mart Development</b>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>VENSYX Data Solutions is a leading provider of data warehouse and data mart design and development services, VENSYX Data Solutions helps organizations across a variety of industries collate and store discrete data on a single platform, enabling effective analyses and informed business decisions.</p>
+                        <b style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Data Integration</b>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Build an information-enabled enterprise by speedily transforming data into a key decision driver with VENSYX Data Solutions Data Transformation service. Our engineers leverage expertise in various ETL and ETL data transformation tools and operate across a variety of sectors.</p>
+                        <b style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Information Delivery</b>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>VENSYX Data Solutions is committed to placing data in the hands of an organization's workers in a form-factor (mobile, PDF report, Excel etc.) that ensures action is taken on the information at the right time. VENSYX Data Solutions Information Delivery service provides a single access point for aggregated information via an easy-to-use Web-based interface.</p>
+                        <b style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Maintenance Operations, Support & Upgrades</b>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>VENSYX Data Solutions has extensive experience in delivering large-scale migration and upgrade services and has established methodologies specific to business intelligence projects. Our services are tailored to meet your needs, whether you want to upgrade to a newer version of your existing tools and applications or you are making a platform or re-engineering decision for your overall BI architecture.</p>
                         <h2 style={{ color: 'white' }}>Business Value</h2>
                         <ul>
-                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Easy to deploy and manage; dramatically simplifies your data warehouse and analytics infrastructure</li>
-                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Fast time-to-value for important business intelligence and analytic initiatives that impact your bottom line</li>
-                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Meet increasing demands for performance and capacity using cost-effective industry building blocks</li>
-                            <li style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Protect your information with high availability, business continuity, and security</li>
+                            <li style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Easy to deploy and manage; dramatically simplifies your data warehouse and analytics infrastructure</li>
+                            <li style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Fast time-to-value for important business intelligence and analytic initiatives that impact your bottom line</li>
+                            <li style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Meet increasing demands for performance and capacity using cost-effective industry building blocks</li>
+                            <li style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Protect your information with high availability, business continuity, and security</li>
                         </ul>
                     </div>
                 </div>

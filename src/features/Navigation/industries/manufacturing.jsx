@@ -16,11 +16,36 @@ function Manufacturing() {
     return (
         <>
             <div id='socialMedia'>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-youtube"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-whatsapp"></i>
+                <a href="tel: +91 9000316721">
+                    <i class="bi bi-telephone">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
+                <a href="mailto:info@vensyx.com?subject=subject text">
+                    <i class="bi bi-envelope-at">
+                        <span class="tooltiptext">info@vensyx.com</span>
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/company/vensyx-data-solutions-pvt-ltd-/about/">
+                    <i class="bi bi-linkedin">
+                        <span class="tooltiptext">https://www.linkedin.com/vensyx</span>
+                    </i>
+                </a>
+                {/* <a href="">
+                        <i class="bi bi-facebook">
+                            <span class="tooltiptext">https://www.facebook.com/vensyx</span>
+                        </i>
+                    </a> */}
+                <a href="">
+                    <i class="bi bi-twitter">
+                        <span class="tooltiptext">https://www.twitter.com/vensyx</span>
+                    </i>
+                </a>
+                <a href="https://wa.me/+919000316721">
+                    <i class="bi bi-whatsapp">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
             </div>
             <div id="makeanenquiry">
                 <a href="/form">
@@ -31,7 +56,7 @@ function Manufacturing() {
                 <div id="manufacturing">
                     <h1 style={{ color: 'white' }}>Manufacturing</h1>
                     <div>
-                        <div style={{ display: 'flex', flexDirection: 'column',padding: '50px', textAlign: 'justify', fontSize: '25px' }}>
+                        <div style={{ display: 'flex', flexDirection: 'column', padding: '50px', textAlign: 'justify', fontSize: '25px' }}>
                             {
                                 manufacturing && manufacturing.map((data) => {
                                     return (
@@ -40,12 +65,12 @@ function Manufacturing() {
                                                 <div>
                                                     <ul>
                                                         {data.map((subItem, subIndex) => (
-                                                            <li key={subIndex} style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{subItem}</li>
+                                                            <li key={subIndex} style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{subItem}</li>
                                                         ))}
                                                     </ul>
                                                 </div>
                                             ) : (
-                                                <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>{data}</p>
+                                                <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>{data}</p>
                                             )}
                                         </>
                                     )

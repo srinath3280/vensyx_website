@@ -62,226 +62,238 @@ import TestComplete from './features/Navigation/services/testing&QA/testComplete
 import Form from './features/dashboard/form.jsx';
 import { EnquiryForm } from './features/dashboard/enquiryForm.jsx';
 import Teams from './features/Navigation/corporate/teams.jsx';
+import India from './features/Navigation/corporate/india.jsx';
+import Malaysia from './features/Navigation/corporate/malaysia.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
-    children:[
+    children: [
       {
-        path:'/',
-        element:<HomePage></HomePage>,
+        path: '/',
+        element: <HomePage></HomePage>,
       },
       {
-        path:'/form',
-        element:<EnquiryForm></EnquiryForm>
+        path: '/form',
+        element: <EnquiryForm></EnquiryForm>
       },
       {
-        path:'/corporate',
-        element:<Corporate></Corporate>,
-        children:[
+        path: '/corporate',
+        element: <Corporate></Corporate>,
+        children: [
           {
-            path:'/corporate/aboutus',
-            element:<AboutUs></AboutUs>
+            path: '/corporate/aboutus',
+            element: <AboutUs></AboutUs>
           },
           {
-            path:'/corporate/vissionmission',
-            element:<VissionMission></VissionMission>
+            path: '/corporate/vissionmission',
+            element: <VissionMission></VissionMission>
           },
           {
-            path:'/corporate/corevalue',
-            element:<CoreValue></CoreValue>
+            path: '/corporate/corevalue',
+            element: <CoreValue></CoreValue>
           },
           {
-            path:'/corporate/socialresponsibility',
-            element:<SocialResponsibility></SocialResponsibility>
+            path: '/corporate/socialresponsibility',
+            element: <SocialResponsibility></SocialResponsibility>
           },
           {
-            path:'/corporate/location',
-            element:<Location></Location>
+            path: '/corporate/location',
+            element: <Location></Location>,
+            children: [
+              {
+                path: '/corporate/location/india',
+                element:<India></India>
+              },
+              {
+                path: '/corporate/location/malaysia',
+                element:<Malaysia></Malaysia>
+              }
+            ]
           },
           {
-            path:'/corporate/teams',
-            element:<Teams></Teams>
+            path: '/corporate/teams',
+            element: <Teams></Teams>
           }
         ]
       },
       {
-        path:'/solutions',
-        element:<Solutions></Solutions>,
-        children:[
+        path: '/solutions',
+        element: <Solutions></Solutions>,
+        children: [
           {
-            path:'/solutions/bigdata',
-            element:<BigData></BigData>
+            path: '/solutions/bigdata',
+            element: <BigData></BigData>
           },
           {
-            path:'/solutions/businessIntelligence',
-            element:<BusinessIntelligence></BusinessIntelligence>
+            path: '/solutions/businessIntelligence',
+            element: <BusinessIntelligence></BusinessIntelligence>
           },
           {
-            path:'/solutions/datamanagement',
-            element:<DataMangement></DataMangement>
+            path: '/solutions/datamanagement',
+            element: <DataMangement></DataMangement>
           },
           {
-            path:'/solutions/enterprisedatawarehouse',
-            element:<EnterpriseData></EnterpriseData>
+            path: '/solutions/enterprisedatawarehouse',
+            element: <EnterpriseData></EnterpriseData>
           },
           {
-            path:'/solutions/applicationmiddleware',
-            element:<ApplicationMiddleware></ApplicationMiddleware>
+            path: '/solutions/applicationmiddleware',
+            element: <ApplicationMiddleware></ApplicationMiddleware>
           }
         ]
       },
       {
-        path:'/products',
-        element:<Products></Products>,
-        children:[
+        path: '/products',
+        element: <Products></Products>,
+        children: [
           {
-            path:'/products/logmode',
-            element:<LogMode></LogMode>
+            path: '/products/logmode',
+            element: <LogMode></LogMode>
           }
         ]
       },
       {
-        path:'/industries',
-        element:<Industries></Industries>,
-        children:[
+        path: '/industries',
+        element: <Industries></Industries>,
+        children: [
           {
-            path:'/industries/telecommunications',
-            element:<Telecommunications></Telecommunications>
+            path: '/industries/telecommunications',
+            element: <Telecommunications></Telecommunications>
           },
           {
-            path:'/industries/retail',
-            element:<Retail></Retail>
+            path: '/industries/retail',
+            element: <Retail></Retail>
           },
           {
-            path:'/industries/financialservices',
-            element:<FinancialServices></FinancialServices>
+            path: '/industries/financialservices',
+            element: <FinancialServices></FinancialServices>
           },
           {
-            path:'/industries/manufacturing',
-            element:<Manufacturing></Manufacturing>
+            path: '/industries/manufacturing',
+            element: <Manufacturing></Manufacturing>
           },
           {
-            path:'/industries/utilities',
-            element:<Utilities></Utilities>
+            path: '/industries/utilities',
+            element: <Utilities></Utilities>
           },
           {
-            path:'/industries/government',
-            element:<Government></Government>
+            path: '/industries/government',
+            element: <Government></Government>
           }
         ]
       },
       {
-        path:'/services',
-        element:<Services></Services>,
-        children:[
+        path: '/services',
+        element: <Services></Services>,
+        children: [
           {
-            path:'/services/enterprisemobility',
-            element:<EnterpriseMobility></EnterpriseMobility>,
+            path: '/services/enterprisemobility',
+            element: <EnterpriseMobility></EnterpriseMobility>,
           },
           {
-            path:'/services/businessProcess',
-            element:<BusinessProcess></BusinessProcess>
+            path: '/services/businessProcess',
+            element: <BusinessProcess></BusinessProcess>
           },
           {
-            path:'/services/b2bmobileapps',
-            element:<B2BMobileApps></B2BMobileApps>
+            path: '/services/b2bmobileapps',
+            element: <B2BMobileApps></B2BMobileApps>
           },
           {
-            path:'/services/enterpriseandroidapp',
-            element:<EnterpriseAndroidApp></EnterpriseAndroidApp>
+            path: '/services/enterpriseandroidapp',
+            element: <EnterpriseAndroidApp></EnterpriseAndroidApp>
           },
           {
-            path:'/services/enterpriseapp',
-            element:<EnterpriseApp></EnterpriseApp>
+            path: '/services/enterpriseapp',
+            element: <EnterpriseApp></EnterpriseApp>
           },
           {
-            path:'/services/enterpriseiosapp',
-            element:<EnterpriseIOSApp></EnterpriseIOSApp>
+            path: '/services/enterpriseiosapp',
+            element: <EnterpriseIOSApp></EnterpriseIOSApp>
           },
           {
-            path:'/services/mobilebusiness',
-            element:<MobileBusiness></MobileBusiness>
-          },
-
-
-          {
-            path:'/services/mobileapps',
-            element:<MobileApps></MobileApps>,
-          },
-          {
-            path:'/services/andriodapp',
-            element:<AndroidApp></AndroidApp>
-          },
-          {
-            path:'/services/window8',
-            element:<Windows8App></Windows8App>
-          },
-          {
-            path:'/services/blackberry',
-            element:<BlackberryApp></BlackberryApp>
-          },
-          {
-            path:'/services/iphoneapp',
-            element:<IphoneApp></IphoneApp>
+            path: '/services/mobilebusiness',
+            element: <MobileBusiness></MobileBusiness>
           },
 
 
           {
-            path:'/services/businessintelligenceservices',
-            element:<BusinessIntelligenceService></BusinessIntelligenceService>
-          },
-          
-          {
-            path:'/services/webapplication',
-            element:<WebApplication></WebApplication>,
+            path: '/services/mobileapps',
+            element: <MobileApps></MobileApps>,
           },
           {
-            path:'/services/crmapplication',
-            element:<CMRApplication></CMRApplication>
+            path: '/services/andriodapp',
+            element: <AndroidApp></AndroidApp>
           },
           {
-            path:'/services/inventory',
-            element:<InventoryManagement></InventoryManagement>
+            path: '/services/window8',
+            element: <Windows8App></Windows8App>
           },
           {
-            path:'/services/contentmanagement',
-            element:<ContentManagement></ContentManagement>
+            path: '/services/blackberry',
+            element: <BlackberryApp></BlackberryApp>
           },
           {
-            path:'/services/customwebapp',
-            element:<CustomWebApp></CustomWebApp>
-          },
-          {
-            path:'/services/opensourcedevelopment',
-            element:<OpenSource></OpenSource>
+            path: '/services/iphoneapp',
+            element: <IphoneApp></IphoneApp>
           },
 
 
           {
-            path:'/services/testing',
-            element:<TestingandQAservices></TestingandQAservices>,
+            path: '/services/businessintelligenceservices',
+            element: <BusinessIntelligenceService></BusinessIntelligenceService>
+          },
+
+          {
+            path: '/services/webapplication',
+            element: <WebApplication></WebApplication>,
           },
           {
-            path:'/services/automatedtesting',
-            element:<AutomatedTesting></AutomatedTesting>
+            path: '/services/crmapplication',
+            element: <CMRApplication></CMRApplication>
           },
           {
-            path:'/services/selenium',
-            element:<Selenium></Selenium>
+            path: '/services/inventory',
+            element: <InventoryManagement></InventoryManagement>
           },
           {
-            path:'/services/qtp',
-            element:<QTP></QTP>
+            path: '/services/contentmanagement',
+            element: <ContentManagement></ContentManagement>
           },
           {
-            path:'/services/manualtesting',
-            element:<ManualTesting></ManualTesting>
+            path: '/services/customwebapp',
+            element: <CustomWebApp></CustomWebApp>
           },
           {
-            path:'/services/testcomplete',
-            element:<TestComplete></TestComplete>
+            path: '/services/opensourcedevelopment',
+            element: <OpenSource></OpenSource>
+          },
+
+
+          {
+            path: '/services/testing',
+            element: <TestingandQAservices></TestingandQAservices>,
+          },
+          {
+            path: '/services/automatedtesting',
+            element: <AutomatedTesting></AutomatedTesting>
+          },
+          {
+            path: '/services/selenium',
+            element: <Selenium></Selenium>
+          },
+          {
+            path: '/services/qtp',
+            element: <QTP></QTP>
+          },
+          {
+            path: '/services/manualtesting',
+            element: <ManualTesting></ManualTesting>
+          },
+          {
+            path: '/services/testcomplete',
+            element: <TestComplete></TestComplete>
           }
 
         ]

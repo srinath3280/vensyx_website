@@ -7,11 +7,36 @@ function LogMode() {
     return (
         <>
             <div id='socialMedia'>
-                <i class="bi bi-instagram"></i>
-                <i class="bi bi-youtube"></i>
-                <i class="bi bi-facebook"></i>
-                <i class="bi bi-twitter"></i>
-                <i class="bi bi-whatsapp"></i>
+                <a href="tel: +91 9000316721">
+                    <i class="bi bi-telephone">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
+                <a href="mailto:info@vensyx.com?subject=subject text">
+                    <i class="bi bi-envelope-at">
+                        <span class="tooltiptext">info@vensyx.com</span>
+                    </i>
+                </a>
+                <a href="https://www.linkedin.com/company/vensyx-data-solutions-pvt-ltd-/about/">
+                    <i class="bi bi-linkedin">
+                        <span class="tooltiptext">https://www.linkedin.com/vensyx</span>
+                    </i>
+                </a>
+                {/* <a href="">
+                        <i class="bi bi-facebook">
+                            <span class="tooltiptext">https://www.facebook.com/vensyx</span>
+                        </i>
+                    </a> */}
+                <a href="">
+                    <i class="bi bi-twitter">
+                        <span class="tooltiptext">https://www.twitter.com/vensyx</span>
+                    </i>
+                </a>
+                <a href="https://wa.me/+919000316721">
+                    <i class="bi bi-whatsapp">
+                        <span class="tooltiptext">+91-9000316721</span>
+                    </i>
+                </a>
             </div>
             <div id="makeanenquiry">
                 <a href="/form">
@@ -23,14 +48,14 @@ function LogMode() {
                     <h1 style={{ color: 'white' }}>Log-Mode</h1>
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', marginLeft: '50px', marginRight: '50px', textAlign: 'justify', fontSize: '20px' }}>
                         <h4 style={{ color: 'white' }}>Logistic Movement optimization Delivery Engagement (Log-MODE)</h4>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>Log-MODE is a universal program designed to control all stages of delivery and field services operations. The service allows to perform a wide range of tasks in logistics and delivery – transportation arrangements, transport processes optimization and cost saving.</p>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>Log-MODE is a universal program designed to control all stages of delivery and field services operations. The service allows to perform a wide range of tasks in logistics and delivery – transportation arrangements, transport processes optimization and cost saving.</p>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>
                             Log-MODE comprises a web-version for dispatchers and a mobile application for driver.  Web-version ensures effective operating procedures to create trips, order placement, planning and distribution, Google Maps-based routing, delivery process monitoring and coordination. Log-MODE mobile app is designed for drivers to easily manage to deliver products to specified locations.
                         </p>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>
                             Log-MODE used bigdata platform to create delivery schedule dynamic, based on the inelegancy options on urgent need basis, low fright charges, return fleet and availability of truck and driver timings.
                         </p>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>
                             Log-MODE have following features.
                         </p>
                         <h4 style={{ color: 'white' }}>Real-time tracking</h4>
@@ -41,14 +66,14 @@ function LogMode() {
                             Manager Can see all movements in his Dashboard
                         </h5>
                         <img src="/images/scr1.png" alt="" width="600px" height="300px" />
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>
                             <b>Manager can change the schedule trips based on circumstances.</b>
                         </p>
                         <img src="/images/scr2.png" alt="" width="600px" height="300px" />
                         <h4 style={{ color: 'white' }}>
                             Request & Approvals
                         </h4>
-                        <p style={{ color: 'white',fontFamily:'Raleway, sans-serif' }}>
+                        <p style={{ color: 'white', fontFamily: 'Raleway, sans-serif' }}>
                             Approval process was implemented for the requests made by drivers like fuel, delivery problems, vehicle problems.
                         </p>
                         <img src="/images/scr3.png" alt="" width="600px" height="300px" />
