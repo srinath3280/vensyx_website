@@ -4,6 +4,10 @@
   font-family: 'Raleway, sans-serif';
 }
 
+.dump{
+  color: rgb(3, 150, 248);
+}
+
 .navbar {
   background-color: white;
   height: 75px;

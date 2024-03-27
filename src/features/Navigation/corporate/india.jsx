@@ -12,8 +12,9 @@ function India() {
                             <div class="card-body">
                                 <h2 class="card-title">Hyderabad</h2>
                                 <p class="card-text">
-                                    Office 301, MSR Arcade, Patrika nagar, <br />
-                                    Madhapur, Hyderabad-500081.<br />
+                                    Office 301, MSR Arcade, <br />
+                                    Patrika nagar, Madhapur, <br />
+                                    Hyderabad-500081.<br />
                                     Tel: +91 9000316721<br />
                                     Email: info@vensyx.com<br />
                                     website: www.vensyx.com

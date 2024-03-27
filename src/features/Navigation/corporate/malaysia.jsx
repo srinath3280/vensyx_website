@@ -11,7 +11,7 @@ function Malaysia() {
                         <div class="card-body" >
                             <h2 class="card-title" style={{textAlign:'center'}}>Malaysia</h2>
                             <p class="card-text">
-                                Tower 3, 03-10-03, UOA Business Park <br />
+                                Tower 3,03-10-03, UOA Business Park <br />
                                 No.1, Jalan Pengaturcar, U1/51A,<br />
                                 Section U1, 40150 Shah Alam,<br />
                                 Selangor Darul Ehsan, Malaysia.<br />

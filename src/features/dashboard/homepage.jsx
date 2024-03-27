@@ -95,9 +95,9 @@ function HomePage() {
                             <span class="tooltiptext">https://www.facebook.com/vensyx</span>
                         </i>
                     </a> */}
-                    <a href="">
+                    <a href="https://twitter.com/vensyx2014">
                         <i class="bi bi-twitter">
-                            <span class="tooltiptext">https://www.twitter.com/vensyx</span>
+                            <span class="tooltiptext">https://twitter.com/vensyx2014</span>
                         </i>
                     </a>
                     <a href="https://wa.me/+919000316721">

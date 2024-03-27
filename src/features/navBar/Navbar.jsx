@@ -23,29 +23,29 @@ function NavBar() {
                                 </p>
                                 <button class="btn btn-outline-warning" style={{ width: '150px', height: '50px', marginBottom: '50px' }}>Explore</button>
                                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', marginBottom: '25px' }}>
-                                    <li style={{width:'25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/corporate/aboutus" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>About Us</a>
                                     </li>
-                                    <li style={{width:'25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/corporate/vissionmission" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Vision & Mission</a>
                                     </li>
-                                    <li style={{width:'25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/corporate/corevalue" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Core Value</a>
                                     </li>
-                                </div>
-                                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
-                                    <li style={{width:'25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/corporate/socialresponsibility" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Social Responsibility</a>
                                     </li>
-                                    <li style={{width:'25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
+                                </div>
+                                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/corporate/location" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Location</a>
                                     </li>
-                                    <li style={{width:'25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/corporate/teams" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Team</a>
                                     </li>
@@ -64,25 +64,25 @@ function NavBar() {
                                 </p>
                                 <button class="btn btn-outline-warning" style={{ width: '150px', height: '50px', marginBottom: '50px' }}>Explore</button>
                                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', marginBottom: '25px' }}>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/solutions/bigdata" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Big Data & Advanced Analytics</a>
                                     </li>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/solutions/businessIntelligence" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Business Intelligence Solutions</a>
                                     </li>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/solutions/datamanagement" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Data Management</a>
                                     </li>
-                                </div>
-                                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/solutions/enterprisedatawarehouse" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Enterprise Data Warehouse</a>
                                     </li>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign:'start' }}>
+                                </div>
+                                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/solutions/applicationmiddleware" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Application Middleware Management</a>
                                     </li>
@@ -123,7 +123,7 @@ function NavBar() {
                                     <div>
                                         <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
                                             <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
-                                            <a class="dropdown-item" href="/services/enterprisemobility" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Enterprise Mobility Service</a>
+                                            <a class="dropdown-item" href="/services/enterprisemobility" style={{ marginLeft: '-25px', color: 'rgb(3, 150, 248)', backgroundColor: 'transparent',fontSize: '23px', }}>Enterprise Mobility Service</a>
                                         </li>
                                         <ul>
                                             <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
@@ -156,7 +156,7 @@ function NavBar() {
                                     <div>
                                         <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
                                             <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
-                                            <a class="dropdown-item" href="/services/mobileapps" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Mobile Apps Development</a>
+                                            <a class="dropdown-item" href="/services/mobileapps" style={{ marginLeft: '-25px', color: 'rgb(3, 150, 248)', backgroundColor: 'transparent',fontSize:'23px' }}>Mobile Apps Development</a>
                                         </li>
                                         <ul>
                                             <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
@@ -179,14 +179,14 @@ function NavBar() {
                                         {/* <div style={{width:'300px',border:'1px solid grey',marginLeft:'auto',marginRight:'auto'}}></div> */}
                                         <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
                                             <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
-                                            <a class="dropdown-item" href="/services/businessintelligenceservices" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Business Intelligence Services</a>
+                                            <a class="dropdown-item" href="/services/businessintelligenceservices" style={{ marginLeft: '-25px', color: 'rgb(3, 150, 248)', backgroundColor: 'transparent',fontSize:"23px" }}>Business Intelligence Services</a>
                                         </li>
                                     </div>
 
                                     <div>
                                         <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
                                             <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
-                                            <a class="dropdown-item" href="/services/webapplication" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Web Application Development</a>
+                                            <a class="dropdown-item" href="/services/webapplication" style={{ marginLeft: '-25px', color: 'rgb(3, 150, 248)', backgroundColor: 'transparent',fontSize:'23px' }}>Web Application Development</a>
                                         </li>
                                         <ul>
                                             <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
@@ -215,7 +215,7 @@ function NavBar() {
                                     <div>
                                         <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
                                             <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
-                                            <a class="dropdown-item" href="/services/testing" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Testing & QA Services</a>
+                                            <a class="dropdown-item" href="/services/testing" style={{ marginLeft: '-25px', color: 'rgb(3, 150, 248)', backgroundColor: 'transparent',fontSize:'23px' }}>Testing & QA Services</a>
                                         </li>
                                         <ul>
                                             <li style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center' }}>
@@ -257,29 +257,29 @@ function NavBar() {
                                 </p>
                                 <button class="btn btn-outline-warning" style={{ width: '150px', height: '50px', marginBottom: '50px' }}>Explore</button>
                                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', marginBottom: '25px' }}>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/industries/telecommunications" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Telecommunications</a>
                                     </li>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/industries/retail" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Retail</a>
                                     </li>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/industries/financialservices" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Financial Services</a>
-                                    </li></div>
-                                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
-
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center',textAlign:'start' }}>
+                                    </li>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/industries/manufacturing" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Manufacturing</a>
                                     </li>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign:'start' }}>
+                                </div>
+                                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'flex-start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/industries/utilities" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Utilities</a>
                                     </li>
-                                    <li style={{ width:'25%',display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign:'start' }}>
+                                    <li style={{ width: '25%', display: 'flex', flexDirection: 'row', justifyContent: 'flex-start', alignItems: 'center', textAlign: 'start' }}>
                                         <i class="bi bi-chevron-right" style={{ backgroundColor: 'transparent', fontSize: '20px', color: 'white' }}></i>
                                         <a class="dropdown-item" href="/industries/government" style={{ marginLeft: '-25px', color: 'white', backgroundColor: 'transparent' }}>Government</a></li>
                                 </div>

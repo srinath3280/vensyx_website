@@ -1,8 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Outlet, useNavigate } from "react-router-dom";
 
 function Location() {
     var navigate = useNavigate();
+
+    useEffect(() => {
+        displayIndiaContent();
+    }, []);
+
+    function displayIndiaContent() {
+        var btn1 = document.getElementById('btn1');
+        var btn2 = document.getElementById('btn2');
+        btn1.style.backgroundColor = 'white';
+        btn1.style.color = 'black';
+        btn2.style.backgroundColor = 'rgb(8, 131, 247)';
+        btn2.style.color = 'white';
+        navigate('/corporate/location/india');
+    }
+
     function Indiabtn() {
         var btn1 = document.getElementById('btn1');
         var btn2 = document.getElementById('btn2');
@@ -60,7 +75,7 @@ function Location() {
                             <span class="tooltiptext">https://www.facebook.com/vensyx</span>
                         </i>
                     </a> */}
-                <a href="">
+                <a href="https://twitter.com/vensyx2014">
                     <i class="bi bi-twitter">
                         <span class="tooltiptext">https://www.twitter.com/vensyx</span>
                     </i>
