@@ -608,8 +608,74 @@ section .cards5 .text-cards5 h3 {
     font-size: 20px;
   }
 
+  #footertext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
   #footertext p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  #footertext span a{
     font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  #footertext span a:hover{
+    color: rgb(8, 131, 247);
+    text-decoration: underline;
+  }
+
+  /* Terms and conditions */
+  #terms{
+    margin: 50px;
+    margin-bottom: -16px;
+    text-align: justify;
+  }
+  #terms h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #terms h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  #terms p{
+    font-size: 27px;
+    color: white;
+  }
+  #terms ul li{
+    font-size: 24px;
+    color: white;
+  }
+
+  /* Privacy Policy */
+  #privacy{
+    margin: 50px;
+    margin-bottom: -16px;
+    text-align: justify;
+  }
+  #privacy h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  #privacy h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #privacy p{
+    color: white;
+    font-size: 27px;
+  }
+  #privacy ul li{
+    color: white;
+    font-size: 24px;
   }
 
   /* Home Page */
@@ -626,6 +692,7 @@ section .cards5 .text-cards5 h3 {
     font-size: 25px;
     margin-left: 35px;
   }
+
 
   /* carousel */
   #carouselExampleInterval {
@@ -1892,6 +1959,77 @@ section .cards5 .text-cards5 h3 {
   #footertext p {
     font-size: medium;
   }
+
+  #footertext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #footertext p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  #footertext span a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  #footertext span a:hover{
+    color: rgb(8, 131, 247);
+    text-decoration: underline;
+  }
+
+  /* Terms and conditions */
+  #terms{
+    margin: 50px;
+    margin-bottom: -16px;
+    text-align: justify;
+  }
+  #terms h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #terms h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  #terms p{
+    font-size: 27px;
+    color: white;
+  }
+  #terms ul li{
+    font-size: 24px;
+    color: white;
+  }
+
+  /* Privacy Policy */
+  #privacy{
+    margin: 50px;
+    margin-bottom: -16px;
+    text-align: justify;
+  }
+  #privacy h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  #privacy h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #privacy p{
+    color: white;
+    font-size: 27px;
+  }
+  #privacy ul li{
+    color: white;
+    font-size: 24px;
+  }
+
 
   /* Home Page */
   /* NavBar */
@@ -3178,6 +3316,76 @@ section .cards5 .text-cards5 h3 {
 
   #footertext p {
     font-size: small;
+  }
+
+  #footertext{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #footertext p {
+    margin-top: 10px;
+    font-size: 15px;
+  }
+  #footertext span a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+  }
+  #footertext span a:hover{
+    color: rgb(8, 131, 247);
+    text-decoration: underline;
+  }
+
+  /* Terms and conditions */
+  #terms{
+    margin: 50px;
+    margin-bottom: -16px;
+    text-align: justify;
+  }
+  #terms h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #terms h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  #terms p{
+    font-size: 27px;
+    color: white;
+  }
+  #terms ul li{
+    font-size: 24px;
+    color: white;
+  }
+
+  /* Privacy Policy */
+  #privacy{
+    margin: 50px;
+    margin-bottom: -16px;
+    text-align: justify;
+  }
+  #privacy h2{
+    color: white;
+    font-size: 35px;
+    font-weight: bolder;
+  }
+  #privacy h3{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+  #privacy p{
+    color: white;
+    font-size: 27px;
+  }
+  #privacy ul li{
+    color: white;
+    font-size: 24px;
   }
 
   /* Home Page */

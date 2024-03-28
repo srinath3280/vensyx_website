@@ -126,8 +126,12 @@ function IphoneApp() {
                             </div>
                         </div>
                     </div>
+                    <div style={{width:'auto',height:'1px',border:'1px solid grey'}}></div>
                     <div id="footertext">
-                        <p style={{ color: 'white' }}>This website may store or retrive your browser information for personalizing, digital experience.To access more about our privacy policy. <a href="">click here</a></p>
+                        <span>
+                            <a href="/termsofuse" style={{marginRight:'25px'}}>Terms of Use</a>
+                            <a href="/privacypolicy">Privacy Policy</a>
+                        </span>
                         <p style={{ color: 'white' }}>Copyright © 2014 - VENSYX Data Solutions</p>
                     </div>
                 </div>

@@ -59,11 +59,12 @@ import Selenium from './features/Navigation/services/testing&QA/selenium.jsx';
 import QTP from './features/Navigation/services/testing&QA/qtp.jsx';
 import ManualTesting from './features/Navigation/services/testing&QA/manualTesting.jsx';
 import TestComplete from './features/Navigation/services/testing&QA/testComplete.jsx';
-import Form from './features/dashboard/form.jsx';
 import { EnquiryForm } from './features/dashboard/enquiryForm.jsx';
 import Teams from './features/Navigation/corporate/teams.jsx';
 import India from './features/Navigation/corporate/india.jsx';
 import Malaysia from './features/Navigation/corporate/malaysia.jsx';
+import TermsOfUse from './features/dashboard/terms.jsx';
+import PrivacyPolicy from './features/dashboard/privacypolicy.jsx';
 
 const router = createBrowserRouter([
   {
@@ -77,6 +78,14 @@ const router = createBrowserRouter([
       {
         path: '/form',
         element: <EnquiryForm></EnquiryForm>
+      },
+      {
+        path:'/termsofuse',
+        element:<TermsOfUse></TermsOfUse>
+      },
+      {
+        path:'/privacypolicy',
+        element:<PrivacyPolicy></PrivacyPolicy>
       },
       {
         path: '/corporate',
