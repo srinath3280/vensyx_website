@@ -39,7 +39,7 @@ export const EnquiryForm = () => {
                     </div>
                     <div class="form-floating mb-3 mt-3">
                         <input id='input2' type="text" class="form-control" name='from_email' placeholder="Enter Email Number" required />
-                        <label className='form-label'>Enter Email Number</label>
+                        <label className='form-label'>Enter Email ID</label>
                     </div>
                     <div class="form-floating mb-3 mt-3">
                         <input id='input3' type="number" class="form-control" name='from_mobile' placeholder="Enter Mobile Number" required />
