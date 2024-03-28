@@ -16,32 +16,32 @@ function Selenium() {
     return (
         <>
             <div id='socialMedia'>
-                <a href="tel: +91 9000316721">
+                <a href="tel: +91 9000316721" target="_blank">
                     <i class="bi bi-telephone">
                         <span class="tooltiptext">+91-9000316721</span>
                     </i>
                 </a>
-                <a href="mailto:info@vensyx.com?subject=subject text">
+                <a href="mailto:info@vensyx.com?subject=subject text" target="_blank">
                     <i class="bi bi-envelope-at">
                         <span class="tooltiptext">info@vensyx.com</span>
                     </i>
                 </a>
-                <a href="https://www.linkedin.com/company/vensyx-data-solutions-pvt-ltd-/about/">
+                <a href="https://www.linkedin.com/company/vensyx-data-solutions-pvt-ltd-/about/" target="_blank">
                     <i class="bi bi-linkedin">
                         <span class="tooltiptext">https://www.linkedin.com/vensyx</span>
                     </i>
                 </a>
-                {/* <a href="">
+                {/* <a href="" target="_blank">
                         <i class="bi bi-facebook">
                             <span class="tooltiptext">https://www.facebook.com/vensyx</span>
                         </i>
                     </a> */}
-                <a href="https://twitter.com/vensyx2014">
+                <a href="https://twitter.com/vensyx2014" target="_blank">
                     <i class="bi bi-twitter">
-                        <span class="tooltiptext">https://www.twitter.com/vensyx</span>
+                        <span class="tooltiptext">https://twitter.com/vensyx2014</span>
                     </i>
                 </a>
-                <a href="https://wa.me/+919000316721">
+                <a href="https://wa.me/+919000316721" target="_blank">
                     <i class="bi bi-whatsapp">
                         <span class="tooltiptext">+91-9000316721</span>
                     </i>

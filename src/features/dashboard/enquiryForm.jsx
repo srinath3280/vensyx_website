@@ -30,9 +30,9 @@ export const EnquiryForm = () => {
 
     return (
         <div id='eqform'>
-            <div id='eqnform' style={{ marginTop: '75px', height: '550px', padding:'50px' }}>
+            <div id='eqnform' style={{ marginTop: '75px', height: '550px', padding: '50px' }}>
                 <form class='w-50 shadow-lg p-4 bg-secondary bg-opacity-75 needs-validation' ref={form} onSubmit={sendEmail}>
-                    <h3 style={{ width: '100%',color:'white' }}>Enquiry Form</h3>
+                    <h3 style={{ width: '100%', color: 'white' }}>Enquiry Form</h3>
                     <div class="form-floating mb-3 mt-3">
                         <input id='input1' type="text" class="form-control" name='from_name' placeholder="Enter Fullname" required />
                         <label className='form-label'>Enter Fullname</label>
